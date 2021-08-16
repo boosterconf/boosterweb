@@ -1,0 +1,24 @@
+{{ define "main" }}
+<article>
+    <div class="header-join">
+      <h1>{{- .Title -}}</h1>
+    </div>
+    {{- .Content -}}
+    
+    <h2 id="who-are-we">Who are we?</h2>
+    <ul id="organizers">
+        {{ range .Site.Data.organizers }}
+        <li class="organizer">
+            <img class="organizer-image" src="{{ .profile_picture }}">
+    
+            <div class="organizer-meta">
+                <span class="name">{{ .name }}</span>
+              <a href="http://twitter.com/{{ .twitter_handle }}" title="Twitter" target="_blank">
+                  @{{ .twitter_handle }}
+              </a>
+            </div>
+        </li>
+        {{ end }}
+    </ul>
+  </article>
+{{end}}

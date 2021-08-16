@@ -1,0 +1,14 @@
+<ul id="organizers">
+    {{ range .Site.Data.organizers }}
+    <li class="organizer">
+        <img class="organizer-image" src="{{ .profile_picture }}">
+
+        <div class="organizer-meta">
+            <span class="name">{{ .name }}</span>
+          <a href="http://twitter.com/{{ .twitter_handle }}" title="Twitter" target="_blank">
+              @{{ .twitter_handle }}
+          </a>
+        </div>
+    </li>
+    {{ end }}
+</ul>

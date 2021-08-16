@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: #2E3E4D;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight:normal;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight:normal;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #36404D;
+}
+
+/* Header / Menu */
+
+header#main-header {
+    background-color: #A5ECDE;
+}
+
+#main-nav { /* flex container */
+    display: flex;
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 1rem 1.5rem;
+    align-items: center;
+}
+
+#booster-logo {
+    width: 270px;
+}
+
+.main-menu {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: baseline;
+}
+
+.main-menu .nav-item {
+
+}
+    .main-menu .nav-item.current {
+        font-weight: 500;
+        border-bottom: 3px solid #DD9B77;
+    }
+
+.main-menu .nav-item a {
+    display: block;
+    padding: 5px 8px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #2E3E4D;
+    text-decoration: none;
+}
+
+/* Desktop-menu */
+@media all and (max-width: 720px) {
+    #main-nav {
+        flex-direction: column;
+    }
+    .main-menu {
+        flex-direction: column;
+        background-color: white;
+    }
+    #booster-logo {
+        width: 170px;
+    }
+}
+
+/* Footer with partners */
+#sponsor-area {
+    background-color: #F2F2F2;
+    margin-top: 10px;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+    #sponsor-area .sponsorlogos {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1rem;
+        
+    }
+        #sponsor-area .sponsorlogos li {
+            flex-basis: 20%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+footer {
+    height: 350px;
+    background-color: #2E3E4D;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+    footer h2 {
+        font-size: 34px;
+        color: white;
+        text-transform: none;
+    }
+
+/* Article styles */
+
+article {
+    
+}
+
+    article > * {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 1rem;
+    }
+    article .header-join {
+        max-width: 100% !important;
+        background: #2E3E4D;
+        margin-bottom: 1rem;
+    }
+        article .header-join h1 {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem 1rem;
+            color: white;
+            font-weight: 300;
+        }
+    article h4 {
+        font-weight: 400;
+    }
+
+    /* This is done to make map have a relative height based on the width. This is done to make it responsive */
+    article .map {
+        position: relative;
+        max-width: 900px;
+        padding-bottom: 40%;
+    }
+        article .map iframe {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+/* Organizers styling */
+#organizers {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+}
+
+    #organizers .organizer {
+        flex-basis: 33%;
+        margin-bottom: 1rem;
+    }
+        #organizers .organizer img {
+            max-width: 200px;
+        }
+        #organizers .organizer .name {
+            display: block;
+            font-weight: 400;
+        }
+        #organizers .organizer .twitter-handle {
+            display: block;
+            font-weight: 400;
+        }
+/* Front styling */
+.rocket {
+    height: 80%;
+    position: relative;
+    background-color: #A5ECDE;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    overflow: hidden;
+}
+    .rocket .middle-of-image {
+        width: 70%;
+        max-width: 900px;
+        color: #2E3E4D;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+        .rocket .middle-of-image h1 {
+            font-size: 48px;
+            font-weight: 300;
+            text-align: center;
+        }
+        .rocket .middle-of-image .dates-location {
+            margin-top: 50px;
+        }
+        .rocket .middle-of-image .dates-location .font-page-conference-dates {
+        
+            font-size: 30px;
+        
+        }
+        .rocket .middle-of-image .dates-location .front-page-location {
+            font-size: 20px;
+        }
+        .rocket .middle-of-image .dates-location span {
+        
+            display: block;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+        
+        }
+        .rocket .middle-of-image .dates-location {
+            margin-top: 50px;
+        }
+    .rocket .bottom-image {
+        position: absolute;
+        bottom: 0;
+        padding: 0 10px;
+    }
+        .rocket .bottom-image .img-superfluid {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
