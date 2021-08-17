@@ -1,6 +1,7 @@
 ---
 title: "Partner with Booster"
 date: 2021-08-17T09:40:13+02:00
+type: article
 draft: false
 ---
 
