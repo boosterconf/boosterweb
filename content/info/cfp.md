@@ -80,11 +80,11 @@ Speakers benefits
 *   Admission to the **speaker's dinner** on Thursday evening.
 *   **Glory**, which may or may not be eternal
 
-##### Travel and Accommodations
+### Travel and Accommodations
 
 If financial concerns make it difficult for you to attend as a speaker, then you should apply for reimbursement of travel and/or accommodation expenses.
 
-Do so by filling out the information when submitting your proposal. Our **MONETARY POLICY** has all the details.
+Do so by filling out the information when submitting your proposal. Our [Monetary policy](/info/monetary-policy/) has all the details.
 
 Privacy
 -------
