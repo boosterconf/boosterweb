@@ -14,16 +14,16 @@ Our goal is that you come back from the conference with real knowledge you can u
 
 We focus on long breaks for networking, provide excellent coffee and good food.
 
-## Practical information for Booster 2019
+## Practical information for Booster 2022
 
 ### Where and when
-The conference takes place March 13-15 2019 at [Scandic Hotel Bergen City](http://www.scandichotels.com/en/Hotels/Countries/Norway/Bergen/Hotels/Scandic-Bergen-City/) in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). The bus stop closest to the hotel is called Festplassen.
+The conference takes place March 23-25 2022 in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). 
 
 {{< map >}}
 
 #### First registration
 
-Registration happens 08-09:00 at the Booster stand. You’ll find the registration stand close to the hotel reception. One of our great volunteers will present you with your access pass and a goodie bag.
+Registration happens 08-09:00 at the Booster stand. You’ll find the registration stand close to the hotel reception. One of our great volunteers will present you with your access pass.
 
 #### Food and breaks
 
@@ -37,7 +37,7 @@ One of the highlights of any conference is always the conference dinner and Boos
 
 #### Code of conduct
 
-The Booster team is very proud of our [Code of Conduct](/info/coc). All participants, speakers, volunteers and organizers have agreed to follow the [Code of Conduct](/info/coc).
+We want to ensure that Booster is a positive experience for all who participates. All participants, speakers, volunteers and organizers have agreed to follow the [Code of Conduct](/info/coc).
 
 #### Contact us
 
