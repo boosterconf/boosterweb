@@ -5,7 +5,7 @@ draft: false
 type: article
 menu:
     main:
-        weight: 22
+        weight: 15
         name: "Call for presentations"
 ---
 
