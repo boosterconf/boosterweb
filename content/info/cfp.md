@@ -11,6 +11,8 @@ menu:
 
 Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2022 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
 
+<a href="https://forms.gle/dN3FMUDR9DbxV3WP8">Submit your proposal here!</a>
+
 #### Submission deadline: November 1st 2021
 
 Pick your format!
@@ -94,3 +96,5 @@ Please note that if your talk gets accepted we will:
 *   Keep your e-mail address, in order to be able to contact you while working on Booster 2019.
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@booster.no](mailto:kontakt@booster.no).
+
+<a href="https://forms.gle/dN3FMUDR9DbxV3WP8">Submit your proposal here!</a>
