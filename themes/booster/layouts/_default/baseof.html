@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
-    <link rel="stylesheet" href="/css/main.css?{{ .Now.Unix }}">
+    <link rel="stylesheet" href="/css/main.css">
 
     <body>
         {{- partial "header.html" . -}}
@@ -15,5 +15,5 @@
     </body>
 
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <script src="/js/main.js?{{ .Now.Unix }}"></script>
+    <script src="/js/main.js"></script>
 </html>
