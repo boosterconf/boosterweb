@@ -7,18 +7,25 @@
     
     <h2 id="who-are-we">Who are we?</h2>
     <ul id="organizers">
-        {{ range .Site.Data.organizers }}
-        <li class="organizer">
-            <img class="organizer-image" src="{{ .profile_picture }}">
-    
-            <div class="organizer-meta">
-                <span class="name">{{ .name }}</span>
-              <a href="http://twitter.com/{{ .twitter_handle }}" title="Twitter" target="_blank">
-                  @{{ .twitter_handle }}
-              </a>
-            </div>
-        </li>
-        {{ end }}
+      {{ range  .Resources.Match "who-are-we/*"  }}  
+      <li class="organizer">
+        {{ $image := (.Fill "200x200 smart").Filter images.Grayscale }}
+        {{ $double := (.Fill "400x400 smart").Filter images.Grayscale }}
+        <img class="organizer-image"
+          srcset="{{ $double.RelPermalink }} 2x,
+          {{ $image.RelPermalink }} 1x"
+          src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        
+        <div class="organizer-meta">
+          <span class="name">{{ .Title }}</span>
+          {{ if (isset .Params "twitter_handle") }}
+          <a href="http://twitter.com/{{ .Params.twitter_handle }}" title="Twitter" target="_blank">
+              @{{ .Params.twitter_handle }}
+          </a>
+          {{end}}
+        </div>
+      </li>
+      {{ end }}
     </ul>
   </article>
 {{end}}

@@ -7,6 +7,41 @@ menu:
     main:
         weight: 21
         name: "About us"
+resources:
+    - src: who-are-we/jonas.jpg
+      title: Jonas Berdal
+      params:
+        twitter_handle: jonasberdal
+    - src: who-are-we/kristian.png
+      title: Kristian Kastet
+      params:
+        twitter_handle: kakastet
+    - src: who-are-we/andre.jpg
+      title: André Heie Vik
+      params:
+        twitter_handle: andrev
+    - src: who-are-we/david.jpg
+      title: David Mellum
+      params:
+        twitter_handle: edmellum
+    - src: who-are-we/erlend.jpg
+      title: Erlend Birkenes
+      params:
+        twitter_handle: ebirkenes
+    - src: who-are-we/hakon.jpg
+      title: Håkon Lerring
+      params:
+        twitter_handle: hakonl
+    - src: who-are-we/kjelli.jpg
+      title: Kjell Iver Breistøl
+      params:
+        twitter_handle: kjelliver
+    - src: who-are-we/marit.jpg
+      title: Marit Hellestø
+    - src: who-are-we/nina.jpg
+      title:  Nina Kaurel
+      params:
+        twitter_handle: nkaurel
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
@@ -42,4 +77,3 @@ We want to ensure that Booster is a positive experience for all who participates
 #### Contact us
 
 You can contact us on e-mail: [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no) or on Twitter: [@boosterconf](https://twitter.com/boosterconf "Twitter") .
-
