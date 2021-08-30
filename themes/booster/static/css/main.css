@@ -12,6 +12,10 @@ body {
     line-height: 1.5;
 }
 
+img {
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
@@ -86,20 +90,6 @@ header#main-header {
     font-size: 20px;
     color: #2E3E4D;
     text-decoration: none;
-}
-
-/* Desktop-menu */
-@media all and (max-width: 720px) {
-    #main-nav {
-        flex-direction: column;
-    }
-    .main-menu {
-        flex-direction: column;
-        background-color: white;
-    }
-    #booster-logo {
-        width: 170px;
-    }
 }
 
 /* Footer with partners */
@@ -262,3 +252,74 @@ article {
             height: auto;
             display: block;
         }
+
+.call-to-action {
+    padding: 57px 0 40px;
+    background: #F2F2F2;
+    text-align: center;
+}
+
+.call-to-action__link {
+    font-size: 1.5rem;
+    color: #E25554;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.call-to-action__link:hover {
+    color: #2E3E4D;
+}
+
+.imagetron-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.image-n-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+}
+
+.image-n-contents__content {
+    align-self: center;
+    padding: 40px;
+}
+
+.image-n-contents__content:nth-of-type(2n) {
+    grid-column: 2;
+}
+
+.image-n-contents__image:nth-of-type(2n) {
+    grid-column: 1;
+}
+
+@media (max-width: 720px) {
+    /* Desktop-menu */
+    #main-nav {
+        flex-direction: column;
+    }
+    .main-menu {
+        flex-direction: column;
+        background-color: white;
+    }
+    #booster-logo {
+        width: 170px;
+    }
+    .imagetron-2 {
+        padding: 30px;
+    }
+    .image-n-contents {
+        display: block;
+    }
+    .image-n-contents__content {
+        padding: 30px;
+    }
+}
