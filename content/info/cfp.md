@@ -36,7 +36,7 @@ Lightning talks are pretty cool too. Each speaker in a lightning session gets pr
 **Talk length:** 10 min  
 **Session length:** 3\*10 min = 30 min
 
-### #3 – Short talks
+### #3 – Experience Report
 
 Share your story with us. Stories are such an important way to learn from the experience of others. Tell us about how you, created, tested, experienced or did something – alone or with a team.
 
