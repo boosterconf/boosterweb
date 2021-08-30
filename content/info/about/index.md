@@ -54,8 +54,6 @@ We focus on long breaks for networking, provide excellent coffee and good food.
 ### Where and when
 The conference takes place March 23-25 2022 in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). 
 
-{{< map >}}
-
 #### First registration
 
 Registration happens 08-09:00 at the Booster stand. You’ll find the registration stand close to the hotel reception. One of our great volunteers will present you with your access pass.
