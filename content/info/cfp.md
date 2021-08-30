@@ -93,7 +93,7 @@ Please note that if your talk gets accepted we will:
 
 *   Film your talk and publish it to Vimeo, (keynotes, lightning talks and short-talks only)
 *   Publish your name, bio and talk abstract on our website as part of this years program. We will also keep a copy of this information as a part of the Booster history.
-*   Keep your e-mail address, in order to be able to contact you while working on Booster 2019.
+*   Keep your e-mail address, in order to be able to contact you while working on Booster 2022.
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@booster.no](mailto:kontakt@booster.no).
 
