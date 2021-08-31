@@ -7,3 +7,5 @@ The markdown files are translated to HTML using a program called [Hugo](https://
 The easiest way to contribute to the site is to, when viewing this page on github.com/boosterconf/boosterweb, pressing the '.' key. This will open an editor
 in your browser, where you can do your changes. Ctrl-S and most other shortcuts works as you would expect. When you have completed your change, commit the
 changes to git, using the graph-like icon in the side-bar. 
+
+Make a change!!
