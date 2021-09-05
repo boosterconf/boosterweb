@@ -29,7 +29,7 @@ resources:
       params:
         twitter_handle: ebirkenes
     - src: who-are-we/hakon.jpg
-      title: Håkon Lerring
+      title: Håkon Heggernes Lerring
       params:
         twitter_handle: hakonl
     - src: who-are-we/kjelli.jpg
@@ -42,6 +42,12 @@ resources:
       title:  Nina Kaurel
       params:
         twitter_handle: nkaurel
+    - src: who-are-we/elisabeth.jpg
+      title: Elisabeth Hovden
+    - src: who-are-we/KnutAnders.jpg
+      title: Knut Anders Stokke
+      params:
+        twitter_handle: knutanderss
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
