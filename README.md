@@ -8,3 +8,6 @@ The easiest way to contribute to the site is to, when viewing this page on githu
 in your browser, where you can do your changes. Ctrl-S and most other shortcuts works as you would expect. When you have completed your change, commit the
 changes to git, using the graph-like icon in the side-bar. [Here's a small demonstration of how it works.](Contributing2.gif)
 
+## Adding conference organizers to "about us"
+
+To add conference organizers to the about-us page add a photo under `content/info/about/who-are-we` and metadata about the person in `content/info/about/index.md` resources.
