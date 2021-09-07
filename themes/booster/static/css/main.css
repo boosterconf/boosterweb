@@ -142,7 +142,7 @@ footer {
 /* Article styles */
 
 article {
-    
+    padding-bottom: 3rem;
 }
 
     article > * {
@@ -154,7 +154,7 @@ article {
     article .header-join {
         max-width: 100% !important;
         background: #2E3E4D;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
     }
         article .header-join h1 {
             max-width: 900px;
@@ -262,7 +262,7 @@ article {
         }
 
 .call-to-action {
-    padding: 57px 0 40px;
+    padding: 3em 0;
     background: #F2F2F2;
     text-align: center;
 }
