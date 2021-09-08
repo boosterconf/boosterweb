@@ -22,6 +22,6 @@ In order to organize the event we need to raise money from partners. Partners ar
 * Early access to registration for Booster Kids (limited tickets available)
 
   
-The partnership package price is NOK 29 000,- plus VAT.
+The partnership package price is NOK 31 000,- plus VAT.
 
 Please send an e-mail to [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no) if you want to know more about partnering with Booster.
