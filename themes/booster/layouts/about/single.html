@@ -9,8 +9,8 @@
     <ul id="organizers">
       {{ range  .Resources.Match "who-are-we/*"  }}  
       <li class="organizer">
-        {{ $image := (.Fill "200x200 smart").Filter images.Grayscale }}
-        {{ $double := (.Fill "400x400 smart").Filter images.Grayscale }}
+        {{ $image := (.Fill "200x220 smart").Filter images.Grayscale }}
+        {{ $double := (.Fill "400x440 smart").Filter images.Grayscale }}
         <img class="organizer-image"
           srcset="{{ $double.RelPermalink }} 2x,
           {{ $image.RelPermalink }} 1x"
