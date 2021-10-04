@@ -4,6 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <meta property="og:title" content="Booster Conference - Bergen, Norway March 23-25, 2022" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://2022.boosterconf.no/" />
+    <meta property="og:image" content="https://2022.boosterconf.no/images/workshops.jpg" />
     <link rel="stylesheet" href="/css/main.css?{{ now.Unix }}">
 
     <body>
