@@ -54,6 +54,10 @@ resources:
       title: Kjersti Bjørnestad Berg
       params:
         twitter_handle: kjerstibb
+    - src: who-are-we/torjus.jpg
+      title: Torjus Eidet
+      params:
+        twitter_handle: torjue
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
