@@ -42,6 +42,8 @@ resources:
       title:  Nina Kaurel
       params:
         twitter_handle: nkaurel
+    - src: who-are-we/malin.png
+      title: Malin Jakobsen
     - src: who-are-we/elisabeth.jpg
       title: Elisabeth Hovden
     - src: who-are-we/KnutAnders.jpg
