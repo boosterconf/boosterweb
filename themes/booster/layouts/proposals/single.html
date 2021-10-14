@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article>
+    <div class="header-join">
+      <h1>{{- .Title -}}</h1>
+    </div>
+    {{- .Content -}}
+    {{ $talks := getCSV "," "https://docs.google.com/spreadsheets/d/1mkmG_9Ayr9H13wV2pr5lN2vAIMyw4AEsFMufIvNwQYM/export?format=csv" }}
+    
+    {{ range $index, $r := $talks }}
+    {{ if not (eq $index 0) }}
+    <div class="row talk">
+
+        <div class="col-8">
+          <h4>
+            {{ index $r 4 }}
+          </h4>
+      
+          <p class="muted">
+            {{ index $r 3 }} - Suggested by {{ index $r 14 }}
+          </p>
+      
+          <p>
+            {{ index $r 5 | markdownify }}
+          </p>
+      
+        </div>
+      </div>
+      {{end}}
+    {{end}}
+    {{ if .Site.Params.CfpOpen }}
+    <p>Missing anything?
+        <br/><a href="/cfp">Suggest your own talk!</a>
+      </p>
+      {{ end }}
+  </article>
+{{end}}
