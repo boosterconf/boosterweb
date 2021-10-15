@@ -41,4 +41,8 @@ resources:
       title: Frende
       params:
         url: https://www.frende.no
+    - src: logos/kraftlauget.png
+      title: Kraftlauget
+      params:
+        url: https://www.kraftlauget.no/
 ---
