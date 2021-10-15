@@ -1,99 +1,14 @@
 <div id="sponsor-area">
+    {{ $partners := .Site.GetPage "/partners" }}
     <ul class="sponsorlogos">
+        {{ range  $partners.Resources.Match "logos/*"  }}
+        {{ $image := .Fit "240x120" }}
         <li>
-            <a target="_blank" title="Kantega" href="http://www.kantega.no"><img alt="Kantega"
-                    src="/images/partners/kantega2.png"></a>
+            <a target="_blank" title="{{ .Title }}" href="{{ .Params.url }}"><img alt="{{ .Title }}"
+                    src="{{ $image.RelPermalink }}"  width="{{ $image.Width }}" height="{{ $image.Height }}"></a>
         </li>
-        <li>
-            <a target="_blank" title="Knowit" href="http://www.knowit.no"><img alt="Knowit"
-                    src="/images/partners/knowit.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Visma Real Estate AS" href="https://www.visma.no/bransjelosninger/eiendomsmegling/"><img alt="Visma Real Estate AS"
-                    src="/images/partners/visma.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Imove" href="https://imove.no/"><img alt="Imove"
-                    src="/images/partners/imove.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Eviny" href="https://www.eviny.no/"><img alt="Eviny"
-                    src="/images/partners/eviny.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Miles" href="http://www.miles.no"><img alt="Miles"
-                    src="/images/partners/miles.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Sonat Consulting" href="http://www.sonat.no"><img alt="Sonat Consulting"
-                    src="/images/partners/sonat.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Rainfall" href="http://www.rainfall.no"><img alt="Rainfall"
-                    src="/images/partners/rainfall.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Sbanken" href="https://www.sbanken.no/"><img alt="Sbanken"
-                    src="/images/partners/sbanken.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Frende" href="https://www.frende.no"><img alt="Frende"
-                    src="/images/partners/frende.png"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Kraftlauget" href="https://www.kraftlauget.no/"><img alt="Kraftlauget"
-                    src="/images/partners/kraftlauget.png"></a>
-        </li>
-        <!--
-        <li>
-            <a target="_blank" title="Experis" href="http://www.experis.no/"><img alt="Experis"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/94/EXP_BE_Logo_SS_HOR_MC_4CP_bigger.png?1543221325"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Stacc" href="http://www.stacc.com"><img alt="Stacc"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/223/stacc_logo_bright-bg_bigger.png?1547107835"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Webstep" href="http://www.webstep.no"><img alt="Webstep"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/38/webstep_bigger.png?1452612494"></a>
-        </li>
-        <li>
-            <a target="_blank" title="TV2" href="http://www.tv2.no/"><img alt="TV2"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/131/tv2_logo_resized_bigger.png?1539093574"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Ambita" href="https://www.ambita.com"><img alt="Ambita"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/114/ambita-logo-resized_bigger.png?1541580228"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Sparebanken Vest" href="http://www.spv.no/"><img alt="Sparebanken Vest"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/126/spv_240_bigger_bigger.png?1454004998"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Equinor" href="https://www.equinor.com/no.html"><img alt="Equinor"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/66/Equinor_HORIZ_logo_RGB_BLACK_bigger.png?1537442533"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Capgemini" href="https://www.capgemini.com"><img alt="Capgemini"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/77/cap_bigger.png?1508489327"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Itera" href="https://itera.no"><img alt="Itera"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/13/itera_logo_240_bigger.png?1509976599"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Tieto" href="https://www.tieto.no/"><img alt="Tieto"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/64/tieto-logo_bigger.png?1478522395"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Umoe Consulting" href="http://www.uc.no/"><img alt="Umoe Consulting"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/37/Umoe_Consulting_2_rgb_pos_bigger.png?1478616380"></a>
-        </li>
-        <li>
-            <a target="_blank" title="Bouvet" href="http://www.bouvet.no"><img alt="Bouvet"
-                    src="https://booster2013-production.s3.amazonaws.com/logos/28/bouvet_240_bigger_bigger.png?1454005245"></a>
-        </li>-->
-    </ul>
+        {{ end }}
+      </ul>
     <p><a class="nav-link" href="/info/become-a-partner/">Become one of our partners!</a></p>
 </div>
 <footer>

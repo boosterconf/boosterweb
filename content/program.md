@@ -6,5 +6,3 @@ menu:
     main:
         weight: 10
 ---
-
-fdgsdfg
