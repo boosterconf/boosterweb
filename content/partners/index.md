@@ -45,4 +45,12 @@ resources:
       title: Kraftlauget
       params:
         url: https://www.kraftlauget.no/
+    - src: logos/instech.png
+      title: Instech
+      params:
+        url: https://www.instech.no/
+    - src: logos/shortcut.png
+      title: Shortcut
+      params:
+        url: https://www.shortcut.no/
 ---
