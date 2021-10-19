@@ -53,4 +53,8 @@ resources:
       title: Shortcut
       params:
         url: https://www.shortcut.no/
+    - src: logos/helse-vest-ikt.png
+      title: Helse Vest IKT
+      params:
+        url: https://helse-vest-ikt.no/
 ---
