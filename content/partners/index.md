@@ -61,4 +61,8 @@ resources:
       title: TV2
       params:
         url: https://www.tv2.no/
+    - src: logos/tryg.png
+      title: Tryg
+      params:
+        url: https://www.tryg.no/
 ---
