@@ -14,13 +14,13 @@ In order to organize the event we need to raise money from partners. Partners ar
 * Our gratitude and heartfelt thanks, expressed through social media
 * Logo on the conference website
 * Have a roll-up banner in the plenary room
-* Show short video content on screens in common areas and in breaks between sessions
-* May supply other marketing material/giveaways that will be handed out during the conference
 * Use the Booster Conference's logo in their marketing
 * Two tickets to the conference and conference dinner
 * One single day ticket (includes conference dinner)
 * Early access to registration for Booster Kids (limited tickets available)
 
+
+To limit the environmental footprint of the conference we have decided not to hand out tote bags with marketing material this year. We are open to suggestions on how to promote your company during the conference.
   
 The partnership package price is NOK 31 000,- plus VAT.
 
