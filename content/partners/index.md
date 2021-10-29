@@ -65,4 +65,12 @@ resources:
       title: Tryg
       params:
         url: https://www.tryg.no/
+    - src: logos/soprasteria.png
+      title: Sopra Steria
+      params:
+        url: https://www.soprasteria.no/
+    - src: logos/spv.png
+      title: Sparebanken Vest
+      params:
+        url: https://www.spv.no/
 ---
