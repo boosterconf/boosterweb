@@ -73,4 +73,8 @@ resources:
       title: Sparebanken Vest
       params:
         url: https://www.spv.no/
+    - src: logos/variant.png
+      title: Variant
+      params:
+        url: https://www.variant.no/
 ---
