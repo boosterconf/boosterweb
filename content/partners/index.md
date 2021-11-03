@@ -77,4 +77,8 @@ resources:
       title: Variant
       params:
         url: https://www.variant.no/
+    - src: logos/bouvet.png
+      title: Bouvet
+      params:
+        url: https://www.bouvet.no/
 ---
