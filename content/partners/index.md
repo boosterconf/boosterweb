@@ -81,4 +81,8 @@ resources:
       title: Bouvet
       params:
         url: https://www.bouvet.no/
+    - src: logos/scaleaq.png
+      title: ScaleAQ
+      params:
+        url: https://www.scaleaq.no/
 ---
