@@ -85,4 +85,8 @@ resources:
       title: ScaleAQ
       params:
         url: https://www.scaleaq.no/
+    - src: logos/vizrt.png
+      title: Vizrt
+      params:
+        url: https://www.vizrt.com/
 ---
