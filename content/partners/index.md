@@ -21,7 +21,7 @@ resources:
       title: Eviny
       params:
         url: https://www.eviny.no/
-    - src: logos/miles.png
+    - src: logos/miles.svg
       title: Miles
       params:
         url: http://www.miles.no
