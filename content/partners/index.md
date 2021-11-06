@@ -57,7 +57,7 @@ resources:
       title: Helse Vest IKT
       params:
         url: https://helse-vest-ikt.no/
-    - src: logos/tv2.png
+    - src: logos/tv2.svg
       title: TV2
       params:
         url: https://www.tv2.no/
