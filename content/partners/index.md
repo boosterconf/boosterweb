@@ -93,4 +93,8 @@ resources:
       title: Experis
       params:
         url: https://www.experis.no/nb
+    - src: logos/ulriken.svg
+      title: Ulriken
+      params:
+        url: https://www.uc.no/nb/
 ---
