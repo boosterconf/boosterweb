@@ -89,4 +89,8 @@ resources:
       title: Vizrt
       params:
         url: https://www.vizrt.com/
+    - src: logos/experis.png
+      title: Experis
+      params:
+        url: https://www.experis.no/nb
 ---
