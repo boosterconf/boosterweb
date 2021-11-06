@@ -45,4 +45,48 @@ resources:
       title: Kraftlauget
       params:
         url: https://www.kraftlauget.no/
+    - src: logos/instech.png
+      title: Instech
+      params:
+        url: https://www.instech.no/
+    - src: logos/shortcut.png
+      title: Shortcut
+      params:
+        url: https://www.shortcut.no/
+    - src: logos/helse-vest-ikt.png
+      title: Helse Vest IKT
+      params:
+        url: https://helse-vest-ikt.no/
+    - src: logos/tv2.png
+      title: TV2
+      params:
+        url: https://www.tv2.no/
+    - src: logos/tryg.png
+      title: Tryg
+      params:
+        url: https://www.tryg.no/
+    - src: logos/soprasteria.png
+      title: Sopra Steria
+      params:
+        url: https://www.soprasteria.no/
+    - src: logos/spv.png
+      title: Sparebanken Vest
+      params:
+        url: https://www.spv.no/
+    - src: logos/variant.png
+      title: Variant
+      params:
+        url: https://www.variant.no/
+    - src: logos/bouvet.png
+      title: Bouvet
+      params:
+        url: https://www.bouvet.no/
+    - src: logos/scaleaq.png
+      title: ScaleAQ
+      params:
+        url: https://www.scaleaq.no/
+    - src: logos/vizrt.png
+      title: Vizrt
+      params:
+        url: https://www.vizrt.com/
 ---

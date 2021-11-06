@@ -11,3 +11,7 @@ changes to git, using the graph-like icon in the side-bar. [Here's a small demon
 ## Adding conference organizers to "about us"
 
 To add conference organizers to the about-us page add a photo under `content/info/about/who-are-we` and metadata about the person in `content/info/about/index.md` resources.
+
+## Adding conference partners
+
+To add conference partners, add the logo under `content/partners/logos` and metadata about the parter under `content/partners/index.md`. If only the logo is added the partner will still appear in the footer but with incorrect linking.

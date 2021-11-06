@@ -3,9 +3,16 @@
     <ul class="sponsorlogos">
         {{ range  $partners.Resources.Match "logos/*"  }}
         {{ $image := .Fit "240x120" }}
+        {{ $double := .Fit "480x240" }}
         <li>
-            <a target="_blank" title="{{ .Title }}" href="{{ .Params.url }}"><img alt="{{ .Title }}"
-                    src="{{ $image.RelPermalink }}"  width="{{ $image.Width }}" height="{{ $image.Height }}"></a>
+            <a target="_blank" title="{{ .Title }}" href="{{ .Params.url }}">
+                <img
+                    alt="{{ .Title }}"
+                    srcset="{{ $double.RelPermalink }} 2x,{{ $image.RelPermalink }} 1x"
+                    src="{{ $image.RelPermalink }}"
+                    width="{{ $image.Width }}"
+                    height="{{ $image.Height }}">
+            </a>
         </li>
         {{ end }}
       </ul>
