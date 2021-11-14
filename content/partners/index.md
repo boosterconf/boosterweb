@@ -97,4 +97,11 @@ resources:
       title: Ulriken
       params:
         url: https://www.uc.no/nb/
----
+    - src: logos/dfind.png
+      title: Dfind
+      params:
+        url: https://www.dfindconsulting.no/
+    - src: logos/stacc.svg
+      title: Stacc
+      params:
+        url: hhttps://stacc.com/
