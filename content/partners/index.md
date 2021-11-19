@@ -113,4 +113,8 @@ resources:
       title: Itera
       params:
         url: https://www.itera.com/no/
+    - src: logos/dnb.jpg
+      title: DNB
+      params:
+        url: https://www.dnb.no/
 ---
