@@ -20,6 +20,14 @@
   </div>
   {{ end }}
 
+  
+  {{ with .Site.GetPage "/info/tickets" }}
+  <div class="call-to-action">
+    <h2>Nerd bird tickets are now available!</h2>
+    <a href="{{ .Params.ticket_store_link }}" class="call-to-action__link">Get your ticket here</a>
+  </div>
+  {{ end }}
+
   <div class="imagetron-2" style="background-image: url('/images/bergen1920.jpg')">
     <h2>Beautiful city of Bergen</h2>
     <p>Bergen "the city of seven mountains" is the proud home of Booster. Norwegian beauty surrounds the historic coastal city located in the city fjord.</p>
