@@ -117,4 +117,8 @@ resources:
       title: DNB
       params:
         url: https://www.dnb.no/
+    - src: logos/capgemini.svg
+      title: Capgemini
+      params:
+        url: https://www.capgemini.com/
 ---
