@@ -121,4 +121,8 @@ resources:
       title: Capgemini
       params:
         url: https://www.capgemini.com/
+    - src: logos/noria.svg
+      title: Noria
+      params:
+        url: https://www.noria.no/
 ---
