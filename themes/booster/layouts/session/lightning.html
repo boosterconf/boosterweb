@@ -1,0 +1,50 @@
+
+<!--        <div class="program-row">
+            <section class="period">
+                <header class="{{ .Params.Type }}">
+                    <time class="time">{{ .Params.Time }}</time>
+                    <span class="location">{{ .Params.Location }}</span>
+                    {{ if .Title }}
+                    <span>— {{ .Title }}</span>
+                    {{ end }}
+                </header>
+
+                {{ range .Params.talks }}
+                    {{ with $.Site.GetPage (printf "/talk/%s" . ) }}
+                        {{ .Render "program-li" }}
+                    {{ end }}
+
+                {{ end }}
+            </section>
+        </div>-->
+<div class="program-row">
+    <section class="period lightning-talk-header">
+        <header class="{{ .Params.Type }}">
+            <time class="time">{{ .Params.Time }}</time>
+            <span class="location">{{ .Params.Location }}</span>
+            {{ if .Title }}
+            <span>— {{ .Title }}</span>
+            {{ end }}
+        </header>
+    </section>
+    <div class="lightning-sections">
+
+        {{ range $location, $talks := .Params.talks }}
+        <section class="period lightning-talk">
+            <header>
+                <span class="location">{{ $location }}</span>
+            </header>
+
+            <div class="slot lightning-talk-slot">
+            {{ range $talks }}
+                {{ with $.Site.GetPage (printf "/talk/%s" . ) }}
+                    {{ .Render "program-li" }}
+                {{ end }}
+
+            {{ end }}
+            </div>
+        </section>
+        {{ end }}
+
+    </div>
+</div>

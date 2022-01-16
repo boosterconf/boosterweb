@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="program">
+
+{{ range .Pages }}
+    <div id="day{{.Weight}}">
+        <h2>{{ .Title }}</h2>
+
+        {{ range .Pages }}
+        {{ .Render }}
+
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{end}}
