@@ -1,0 +1,36 @@
+{{ define "main" }}
+{{ $image := index (.Page.Resources.Match "*.jpg") 0 }}
+<article>
+    <div class="speakers-body .container">
+        <div class="row">
+            <div class="speaker ">
+                <div class="left">
+
+                    {{ if $image }}
+                    <img class="speaker-image"
+                        src="{{ $image.RelPermalink }}">
+                    {{ end }}
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h3><a name="{{- .Params.Name -}}">{{- .Params.Name -}}</a></h3>
+                        <div class="speaker-meta"><p>
+                            <i>{{- .Title -}}</i><br />
+                            {{ if .Params.twitter_handle }}
+                            <a href="http://twitter.com/{{ .Params.twitter_handle }}" title="Twitter" target="_blank">
+                                @{{ .Params.twitter_handle }}
+                              </a>
+                              {{ end }}
+                        </p></div>
+
+                        <div class="speaker-bio">
+                            {{- .Content -}}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </article>
+{{end}}

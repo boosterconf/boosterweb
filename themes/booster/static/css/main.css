@@ -475,7 +475,34 @@ article {
     margin-bottom: 16px;
 }
 
+.speakers-body .speaker {
+    background-color: #F2F2F2;
+    display: inline-block;
+    display: -webkit-flex;
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 1rem;
+}
+    .speakers-body .speaker .left {
+        width: 100%;
+        flex: 0 0 50%;
+    }
+        .speakers-body .speaker .left .speaker-image {
+            display: block;
+            margin-left: 1rem;
+            margin-right: 2rem;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+.speakers-body .speaker .right {
+    margin-top: 50px;
+    flex: 0 0 50%;
+}
 
+    .speakers-body .speaker .right .speaker-bio p {
+        padding-right: 4rem;
+    }
 
 @media (min-width: 1200px) {
     .follow-wrapper {
