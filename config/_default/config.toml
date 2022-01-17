@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://2022.boosterconf.no/"
 languageCode = "en-us"
 title = "Booster Conference 2022 Bergen"
 theme = "booster"
