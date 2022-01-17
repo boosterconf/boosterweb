@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $image := index (.Page.Resources.Match "*.jpg") 0 }}
+{{ $image := index (.Page.Resources.ByType "image") 0 }}
 <article>
     <div class="speakers-body .container">
         <div class="row">
