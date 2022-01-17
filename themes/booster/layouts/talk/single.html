@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="inner">
+  
+    <div class="header-join">
+      <h1>{{ .Title }}</h1>
+    </div>
+
+    {{ range .Params.authors  }}
+        {{ range ( where $.Site.Pages "Params.name" . ) }}
+            <h4><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
+        {{ end }}
+    {{ end }}
+    
+    <p class="muted">{{ .Params.talk_type }}</p>
+  
+  
+    <div class="description">
+          {{ .Content }}
+    </div>
+  
+  
+  </article>
+  {{end}}
