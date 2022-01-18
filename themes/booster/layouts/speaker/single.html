@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $source_image := index (.Page.Resources.ByType "image") 0 }}
-{{ $image := ($source_image.Fit "400x400").Filter images.Grayscale }}
+{{ $image := ($source_image.Fill "400x400 smart").Filter images.Grayscale }}
 <article>
     <div class="speakers-body .container">
         <div class="row">
