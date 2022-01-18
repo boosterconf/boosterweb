@@ -1,5 +1,5 @@
 ---
-name: John Christian Lønningdal
+name: André  Berge
 # title: 
 # twitter_handle: 
 ---
