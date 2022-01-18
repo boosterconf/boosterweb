@@ -1,5 +1,5 @@
 ---
-name: Mads  Lundeland
+name: Mads Lundeland
 # title: 
 # twitter_handle: 
 ---

@@ -1,5 +1,5 @@
 ---
-name: André  Berge
+name: André Berge
 # title: 
 # twitter_handle: 
 ---

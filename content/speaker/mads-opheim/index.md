@@ -1,5 +1,5 @@
 ---
-name: Mads  Opheim
+name: Mads Opheim
 # title: 
 # twitter_handle: 
 ---

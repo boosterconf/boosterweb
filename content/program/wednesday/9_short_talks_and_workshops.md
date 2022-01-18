@@ -18,7 +18,7 @@ talks:
     "Room 5 (Workshop)":
         - 107-getting-grid-y-with-it
     "Room 6 (Workshop)":
-        - 69-modern-java-app-development-in-the-cloud:-microprofile-quarkus-and-cloud-run
+        - 69-modern-java-app-development-in-the-cloud-microprofile-quarkus-and-cloud-run
     "Room 7 (Workshop)":
         - 85-hvordan-designe-en-designprosess
 ---

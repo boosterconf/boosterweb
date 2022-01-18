@@ -1,5 +1,5 @@
 ---
-name: May Britt  Haugsvær
+name: May Britt Haugsvær
 # title: 
 # twitter_handle: 
 ---
