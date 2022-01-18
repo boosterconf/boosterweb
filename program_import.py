@@ -8,16 +8,6 @@ def string_to_filename(stuff):
     out = re.sub(r'[-]+$', '', out)
     out = re.sub(r'^[-]+', '', out)
     return out
-def create_speaker_file(speaker_name):
-    pathlib.Path("content/speaker/" + string_to_filename(speaker_name) + "/").mkdir(parents=True, exist_ok=True)
-    with open("content/speaker/" + string_to_filename(speaker_name) + "/index.md", "w+") as file:
-        file.truncate(0)
-        file.write('---\n')
-        file.write(f'name: {speaker_name}\n')
-        file.write('# title: \n')
-        file.write('# twitter_handle: \n')
-        file.write('---\n')
-
 talk_type_map = {
     'Workshop 3 hours': "Workshop (3 hours)",
     'Experience report 30 min': "Experience report (30 min)",
@@ -48,7 +38,20 @@ with open('talks.csv', 'rt', encoding="utf-8") as csvfile:
 
                 file.write('---\n')
                 file.write(abstract + "\n")
-            create_speaker_file(navn)
-            if copresentername != "":
-                create_speaker_file(copresentername)
-                    
+
+with open('speakers.csv', 'rt', encoding="utf-8") as csvfile:
+    reader = csv.reader(csvfile, quotechar='"')
+    for row in reader:
+        firstname = row[2]
+        lastname = row[3]
+        bio = row[4]
+        speaker_name = f'{firstname} {lastname}'
+        pathlib.Path("content/speaker/" + string_to_filename(speaker_name) + "/").mkdir(parents=True, exist_ok=True)
+        with open("content/speaker/" + string_to_filename(speaker_name) + "/index.md", "w+") as file:
+            file.truncate(0)
+            file.write('---\n')
+            file.write(f'name: {speaker_name}\n')
+            file.write('# title: \n')
+            file.write('# twitter_handle: \n')
+            file.write('---\n')
+            file.write(bio + "\n")
