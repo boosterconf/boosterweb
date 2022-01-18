@@ -1,5 +1,5 @@
 ---
 name: Christer Nordvik
-# title: 
-# twitter_handle: 
+title: CEO @ FotMob
+twitter_handle: @cnordvik 
 ---
