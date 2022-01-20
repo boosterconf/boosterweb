@@ -1,6 +1,6 @@
 ---
 name: Felienne Hermans
 # title: 
-# twitter_handle: 
+twitter_handle: Felienne
 ---
 
