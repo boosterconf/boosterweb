@@ -3,8 +3,8 @@ name: Lovise Justad
 # title: 
 # twitter_handle: 
 ---
-Lovise er produktleder for selvbetjeningsløsninger for økonomisk sosialhjelp på nav.no. Vi jobbet sammen om disse løsningene i prosjekt Digisos i 2018/2019. 
+Lovise er produktleder for selvbetjeningsløsninger for økonomisk sosialhjelp i NAV. Hun er utdannet sosionom, og har jobbet med mange forskjellige brukergrupper. 
 
-Lovise avventer en siste avklaring på deltagelse. Om hun ikke får deltatt kan jeg gjennomføre uten henne. Ettersender hennes bio om hun får delta. Regner med at det kommer en avklaring innen 1-2 uker.
+Lovise har erfaring med å bygge relasjoner med de sårbare brukerne, og er opptatt av å inkludere brukerne under utformingen av digitale tjenester.
 
-Hvis outline ble litt lang går det fint å kutte siste avsnitt.
+![Lovise Justad](https://user-images.githubusercontent.com/68546812/150493053-248ba911-83b3-4530-b28f-03b6025dd561.png)
