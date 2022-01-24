@@ -1,6 +1,6 @@
 ---
 name: Maja Jaakson
-# title: 
-# twitter_handle: 
+title: Senior UX Engineer at Stiftelsen SKIL
 ---
-Maja is a front-end developer, UX engineer, Scrum Master, agile coach and continuous improvement enthusiast. She has an academic background in philosophy, with a special focus on fundamental methodological questions in logic, mathematics and formal linguistics. This background largely influences her professional interests: she is especially passionate about raising and addressing methodological questions about the way we work within and across teams. 
+
+[Maja](http://jaakson.ca/) is a frontend developer, Scrum Master, Agile Coach, and continuous improvement enthusiast. She currently works at [Stiftelsen SKIL](http://www.skilnet.no), the Norwegian Centre for Quality Improvement in Clinical Practices. During her graduate studies in [Philosophy](https://www.dal.ca/faculty/arts/philosophy.html) and [Logic](https://www.illc.uva.nl/), she focused on fundamental methodological issues in logic, mathematics, analytic philosophy, and formal linguistics. That background largely influences her professional interests: she _just. won't. stop._ wrestling with methodological questions about the way we work within and across teams. 🤦‍♀️ These days, she spends a good deal of her free time listening to Brené Brown's _amazing_ [Dare to Lead podcast](https://brenebrown.com/podcast-show/dare-to-lead/). Her remaining free time is mostly spent on family, powerlifting, coffee dates, and... wishing there were more free time. 🙃
