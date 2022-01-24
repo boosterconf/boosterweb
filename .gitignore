@@ -8,5 +8,6 @@
 hugo.exe
 hugo.darwin
 hugo.linux
-./talks.csv
 ev/
+speakers.csv
+talks.csv
