@@ -1,6 +1,10 @@
 {{ define "main" }}
 <div class="program">
-
+{{ if .Title }}
+<div class="header-join">
+    <h1>{{- .Title -}}</h1>
+</div>
+{{ end }}
 {{ range .Pages }}
     <div id="day{{.Weight}}">
         <h2>{{ .Title }}</h2>
