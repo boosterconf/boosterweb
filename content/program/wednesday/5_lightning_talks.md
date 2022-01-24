@@ -9,10 +9,10 @@ talks:
         - 2-using-communication-frameworks-to-become-a-better-engineering-leader
         - 12-på-tide-å-droppe-redux-og-all-annen-global-state
         - 14-ett-ord-kan-velte-prosjektet-ditt
-        - 29-bli-litt-bedre
+        - 29-bli-litt-bedre-med-å-jobb-litt-mindre-hver-dag
     "Room 2":
-        - 25-objects-as-a-means-of-distraction
         - 26-objects-as-a-means-of-abstraction
+        - 25-objects-as-a-means-of-distraction-or-how-fp-helps-me-get-my-job-done
         - 47-dependency-confusion
         - 70-strengthen-your-code-review-skills
     "Room 3":

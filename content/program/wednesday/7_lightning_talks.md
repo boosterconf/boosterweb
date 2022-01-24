@@ -12,7 +12,7 @@ talks:
         - 112-will-webauth-end-phishing
     "Room 2":
         - 126-iot-based-sensor-monitoring-of-critical-medical-equipment-and-medicine-in-helse-vest
-        - 138-hjemmesnekra-spillmotor-i-kotlin
+        - 138-hjemmesnekra-spillmotor-i-kotlin-millisekund-om-gangen
         - 145-the-aestetic-usabillty-effect-working-title
         - 146-how-digitalizing-the-ocean-creates-a-brighter-future-for-everyone
     "Room 3":
