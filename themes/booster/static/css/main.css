@@ -425,7 +425,8 @@ article {
 .program header.break,
 .program header.break .location {
  background-color:#A5ECDE;
- color:#2E3E4D
+ color:#2E3E4D;
+ margin-bottom: 16px;
 }
 .program .period>header {
  padding:1rem 1rem
@@ -434,6 +435,13 @@ article {
  padding:1rem 1rem 1rem 1rem;
  margin-bottom:0
 }
+
+.program .day1,
+.program .day2,
+.program .day3 {
+    margin-top: 3rem;
+}
+
 .program h3,
 .program h4,
 .program h5 {

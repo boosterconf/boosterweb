@@ -1,11 +1,11 @@
 ---
-title: "Workshops and short talks"
-time: 10:30-11:15
+title: "Workshops and experience reports"
+time: 13:30-15:00
 type: session
 session_type: presentations
 weight: 9
 talks:
-    "Room 1 (Short talks)":
+    "Room 1 (Experience reports)":
         - 1-make-yourself-at-home-on-impostor-syndrome-and-psychological-safety
         - 46-from-silicon-valley-to-norway
         - 66-the-story-about-tight-loose-tight
