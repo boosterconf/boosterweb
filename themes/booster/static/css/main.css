@@ -151,13 +151,20 @@ article {
         margin-right: auto;
         padding: 0 1rem;
     }
-    article .header-join {
+    article .header-join, article .program-header-join {
         max-width: 100% !important;
         background: #2E3E4D;
         margin-bottom: 3rem;
     }
         article .header-join h1 {
             max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem 1rem;
+            color: white;
+            font-weight: 300;
+        }
+        article .program-header-join h1 {
+            max-width: 1200px;
             margin: 0 auto;
             padding: 1rem 1rem;
             color: white;
@@ -334,22 +341,9 @@ article {
 
 .program {
  max-width:1200px;
- margin:auto
+ margin:auto;
 }
-    .program .header-join {
-        position: absolute;
-        left: 0;
-        right: 0;
-        background: #2E3E4D;
-        margin-bottom: 3rem;
-    }
-        .program .header-join h1 {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 1rem;
-            color: white;
-            font-weight: 300;
-        }
+
 .program .author {
  font-size:14px !important
 }
