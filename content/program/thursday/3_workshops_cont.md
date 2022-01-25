@@ -10,8 +10,8 @@ talks:
     "Room 2":
         - 13-getting-started-with-the-things-network-and-crowdsourced-lorawan
     "Room 3":
-        - 44-resilient-services
-    "Room 3":
+        - 94-building-a-search-engine-backend-with-kafka-streams-and-connect
+    "Room 4":
         - 135-would-heu-risk-it
     "Room 5":
         - 62-gather-your-party-with-svelte
