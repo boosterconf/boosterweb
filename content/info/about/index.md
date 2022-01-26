@@ -68,7 +68,7 @@ We focus on long breaks for networking, provide excellent coffee and good food.
 ## Practical information for Booster 2022
 
 ### Where and when
-The conference takes place March 23-25 2022 in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). 
+The conference takes place March 23-25 2022 at [Radisson Blu Bryggen](https://www.radissonhotels.com/en-us/hotels/radisson-blu-bergen) in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). 
 
 #### First registration
 
