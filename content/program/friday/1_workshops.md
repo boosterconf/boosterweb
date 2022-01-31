@@ -8,7 +8,7 @@ talks:
     "Room 1":
         - 44-resilient-services
     "Room 2":
-        - 101-analyser-forbruket-ditt-med-bankens-api
+        - 100-når-designsprints-feiler-hva-gjør-vi-da
     "Room 3":
         - 83-the-grand-harbor-tour-of-machine-learning
     "Room 4":
