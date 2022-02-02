@@ -18,5 +18,5 @@ talks:
     "Room 6":
         - 64-writing-notes-is-boring-drawing-them-is-fun
     "Room 7":
-        - 54-master-https-in-your-application-in-java
+        - 143-funksjonell-objektorientering-eller-omvendt
 ---
