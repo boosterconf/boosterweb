@@ -1,6 +1,6 @@
 ---
 title: "Lightning talks"
-time: 10:30-11:15
+time: 11:30-12:15
 type: session
 session_type: lightning
 weight: 7
