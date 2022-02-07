@@ -13,7 +13,6 @@ talks:
     "Room 2":
         - 126-iot-based-sensor-monitoring-of-critical-medical-equipment-and-medicine-in-helse-vest
         - 138-hjemmesnekra-spillmotor-i-kotlin
-        - 145-the-aestetic-usabillty-effect-working-title
         - 146-how-digitalizing-the-ocean-creates-a-brighter-future-for-everyone
     "Room 3":
         - 147-råtner-hypotesene-dine-i-en-skuff
