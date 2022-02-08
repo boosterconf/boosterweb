@@ -13,7 +13,6 @@ talks:
     "Room 2":
         - 126-iot-based-sensor-monitoring-of-critical-medical-equipment-and-medicine-in-helse-vest
         - 2-using-communication-frameworks-to-become-a-better-engineering-leader
-        - 145-the-aestetic-usabillty-effect-working-title
         - 146-how-digitalizing-the-ocean-creates-a-brighter-future-for-everyone
     "Room 3":
         - 89-oh-no-i-need-a-cms-in-minutes-what-should-i-do
