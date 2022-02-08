@@ -13,3 +13,5 @@ So, instead of a full paradigm shift, is it possible to introduce some of the pr
 Several object-oriented languages have begun to incorporate FOP-based functionality. C # has had this as a goal since version 3 (2007) and is a leader in the field. Some elements from FOP have become "first class citizens" in C #, in other areas semantic and syntactic changes have been made that enable us to write code in a more function-oriented way. This workshop will show how we can use these possibilities to write correct, readable and error-free code, by refactoring existing OOP code to a more function-oriented design.
 
 Always remember: If all you have is a hammer, everything looks like a (thumb-)nail.
+
+Please have Visual Studio 2019 (Community Edition) (or VS Code) and .Net 5/C#9 (or higher) installed on your laptop prior to the workshop.
