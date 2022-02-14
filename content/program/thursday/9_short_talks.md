@@ -1,6 +1,6 @@
 ---
 title: "Experience reports"
-time: 14:50 - 15:20
+time: 15:00 - 15:30
 type: session
 session_type: presentations
 weight: 9
