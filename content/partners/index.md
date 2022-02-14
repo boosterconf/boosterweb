@@ -109,7 +109,7 @@ resources:
       title: Computas
       params:
         url: https://computas.com/
-    - src: logos/itera.jpg
+    - src: logos/Itera-logo-lobster.png
       title: Itera
       params:
         url: https://www.itera.com/no/
