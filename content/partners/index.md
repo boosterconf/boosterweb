@@ -125,5 +125,8 @@ resources:
       title: Noria
       params:
         url: https://www.noria.no/
-
+    - src: logos/microsoft.png
+      title: Microsoft
+      params:
+        url: https://www.microsoft.no/
 ---
