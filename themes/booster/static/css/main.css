@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     line-height: 1.4;
+    font-weight: normal
 }
 
 h1 {
@@ -37,6 +38,9 @@ h3 {
 
 h4 {
     font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
 }
 
 p {
@@ -581,6 +585,15 @@ article {
     .location-small {
      display:none
     }
+   }
+
+   .kids-program {
+       display: flex;
+       flex-flow: row wrap;
+       gap: 20px;
+   }
+   .kids-program .kids-course {
+       flex: 40%;
    }
    @media (min-width: 768px) and (max-width: 978px) {
     .location-small {
