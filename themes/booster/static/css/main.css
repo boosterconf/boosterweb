@@ -349,6 +349,7 @@ article {
 }
 
 .program .author {
+ display: block;
  font-size:14px !important
 }
 .program .volunteer {
