@@ -60,6 +60,8 @@ resources:
         twitter_handle: torjue
     - src: who-are-we/anna.jpg
       title: Anna Fossen-Helle
+    - src: who-are-we/goran.jpg
+      title: Gøran Basso
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
