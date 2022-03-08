@@ -1,20 +1,23 @@
 ---
-title: "Workshops"
+title: "Workshops and experience reports"
 time: 09:00 - 10:30
 type: session
 session_type: presentations
 weight: 1
 talks:
-    "Room 1":
+    "Kongesalen 2+3 (Experience reports)":
+        - 140-from-fear-to-fun-exploring-design-concepts-in-vr
+        - 67-fra-roller-og-hierarki-til-dynamisk-teamtopologi
+    "Kongesalen 1 (Workshop)":
         - 44-resilient-services
-    "Room 2":
+    "Dræggen 3 (Workshop)":
         - 100-når-designsprints-feiler-hva-gjør-vi-da
-    "Room 3":
+    "Dræggen 4 (Workshop)":
         - 83-the-grand-harbor-tour-of-machine-learning
-    "Room 4":
+    "Dræggen 7 (Workshop)":
         - 57-rebasing-and-presenting-your-work
-    "Room 5":
+    "Dræggen 8 (Workshop)":
         - 152-experience-interactive-development
-    "Room 6":
+    "Bugaarden (Workshop)":
         - 155-weaving-web-components-in-a-bundler-free-world
 ---

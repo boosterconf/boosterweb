@@ -1,8 +1,8 @@
 ---
-time: 15:15 - 16:15
+time: 15:10
 location: Kongesalen
-title: "(TBA)"
+title: "Kortslutning live"
 type: session
 session_type: plenary
-weight: 10
+weight: 9
 ---

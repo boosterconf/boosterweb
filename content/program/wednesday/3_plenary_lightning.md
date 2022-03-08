@@ -1,5 +1,5 @@
 ---
-time: 09:15-10:15
+time: 09:15 - 10:15
 location: Kongesalen
 type: session
 session_type: plenary
