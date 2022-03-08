@@ -1,6 +1,6 @@
 ---
 time: 09:15 - 10:15
-location: Kongesalen
+location: Kongesalen - Opening unkeynote
 type: session
 session_type: plenary
 weight: 3
