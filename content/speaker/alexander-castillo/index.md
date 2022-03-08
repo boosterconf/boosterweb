@@ -1,6 +1,6 @@
 ---
 name: Alexander Castillo
-# title: 
+title: Fullstack Developer @ Miles 
 # twitter_handle: 
 ---
 LinkedIn: https://www.linkedin.com/in/alexander-castillo-72698ab9/
