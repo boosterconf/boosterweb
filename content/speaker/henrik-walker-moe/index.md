@@ -1,7 +1,7 @@
 ---
 name: Henrik Walker Moe
-# title: 
-# twitter_handle: 
+# title: Manager / Temaeier Sikkerhet @ Bekk Consulting AS
+# twitter_handle: henrikwm84
 ---
 Henrik jobber i Bekk som fagleder for Sikkerhet og har over 15 års erfaring i bransjen. Når han finner noe han brenner for å dele med bransjen så kommer det gjerne i form av innlegg på en blogg, i sosiale medier eller fra talerstolen på konferanser. Henrik er også styremedlem i NNUG og arrangerer Meetups for det norske utviklersamfunnet, bl.a. den årlige Azure Bootcamp i Oslo.
 
