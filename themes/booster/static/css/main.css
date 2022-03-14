@@ -417,6 +417,9 @@ article {
 .program .period>header {
  padding:1rem 1rem
 }
+.program .period>header>span> a {
+ color: inherit;
+}
 .program h2 {
  padding:1rem 1rem 1rem 1rem;
  margin-bottom:0
@@ -439,9 +442,10 @@ article {
  line-height:1
 }
 .program .slot a,
-.program section.period a {
+.program section.period a, .program section.period a {
  color:#757470
 }
+
 .program .follow-me {
  padding:1rem 1rem;
  background:#2E3E4D;

@@ -5,15 +5,25 @@
                     <time class="time">{{ .Params.Time }}</time>
                     <span class="location">{{ .Params.Location }}</span>
                     {{ if .Title }}
-                    <span>— {{ .Title }}</span>
+                        
+                        {{ if .Params.talks }}
+                            {{if gt (len .Params.talks) 1}}
+                                <span>— {{ .Title }}</span>
+                            {{ else }}
+                                <span>— <a href="{{ ($.Site.GetPage (printf "/talk/%s" (index .Params.talks 0) )).RelPermalink }}">{{ .Title }}</span>
+                            {{ end }}
+                        {{ end }}
                     {{ end }}
                 </header>
-
+                {{ if .Params.talks }}
+                {{if gt ( len .Params.talks ) 1}}
                 {{ range .Params.talks }}
                     {{ with $.Site.GetPage (printf "/talk/%s" . ) }}
                         {{ .Render "program-li" }}
                     {{ end }}
 
+                {{ end }}
+                {{ end }}
                 {{ end }}
             </section>
         </div>

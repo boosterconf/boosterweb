@@ -1,6 +1,6 @@
 ---
 name: Felienne Hermans
-# title: 
+title: Associate Professor
 twitter_handle: Felienne
 ---
 
