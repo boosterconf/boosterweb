@@ -1,5 +1,5 @@
 ---
-title: "Hva kan innovasjon lære av evolusjonen?"
+title: "The Evolutionary Theory of Creativity"
 talk_type: "Lightning talk"
 authors:
     - Siv Holen

@@ -8,17 +8,17 @@ talks:
     "Kongesalen 2+3+4 (Open spaces)":
         - 162-open-spaces
     "Kongesalen 1 (Workshop)":
-        - 13-getting-started-with-the-things-network-and-crowdsourced-lorawan
+        - 11-expand-your-horizons-and-learn-to-make-games-on-a-commodore
     "Kongesalen 5 (Workshop)":
         - 94-building-a-search-engine-backend-with-kafka-streams-and-connect
     "Dræggen 3 (Workshop)":
-        - 62-gather-your-party-with-svelte
+        - 13-getting-started-with-the-things-network-and-crowdsourced-lorawan
     "Dræggen 4 (Workshop)":
-        - 135-would-heu-risk-it
-    "Dræggen 7 (Workshop)":
-        - 11-expand-your-horizons-and-learn-to-make-games-on-a-commodore
-    "Dræggen 8 (Workshop)":
         - 64-writing-notes-is-boring-drawing-them-is-fun
+    "Dræggen 7 (Workshop)":
+        - 135-would-heu-risk-it
+    "Dræggen 8 (Workshop)":
+        - 62-gather-your-party-with-svelte
     "Bugaarden (Workshop)":
         - 143-funksjonell-objektorientering-eller-omvendt
 ---
