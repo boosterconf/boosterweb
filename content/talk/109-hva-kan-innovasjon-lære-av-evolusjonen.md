@@ -4,6 +4,9 @@ talk_type: "Lightning talk"
 authors:
     - Siv Holen
 ---
-Designprosessen handler om å skape variasjon og selektere, ikke ulikt det som skjer i evolusjonsprosesser i naturen. Kan Darwins evolusjonsteori hjelpe oss å forstå hva vi egentlig driver med slik at vi involverer de riktige folkene underveis og skaper de gode produktene?
+Can Darwins finches help us understand the design prosess? 
 
-Siv er utdannet biolog og har jobbet med digitale løsninger siden internettet kom og alle skulle ha nettsider i en eller annen form. Hun ser klare likheter mellom evolusjon og innovasjon og mener at mange av prosessene er de samme. Naturen har øvd på dette i millioner av år, hun vil fortelle hva vi kan lære av det i vårt fagområde.
+Siv will refer to the idea of creativity as an evolutionary process, which is determined by generation (i.e., recombination and mutation), selection, and retention of ideas. 
+She will evaluate the design thinking process in terms of its capabilities to activate these mechanisms.
+
+Siv is a UX-lead with a master in biology
