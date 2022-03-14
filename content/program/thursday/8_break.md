@@ -1,5 +1,5 @@
 ---
-time: "14:40 - 14:50"
+time: "14:45 - 15:10"
 title: "Coffee break"
 type: session
 session_type: break

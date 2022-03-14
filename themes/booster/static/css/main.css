@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
     line-height: 1.4;
+    font-weight: normal
 }
 
 h1 {
@@ -37,6 +38,9 @@ h3 {
 
 h4 {
     font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
 }
 
 p {
@@ -151,13 +155,20 @@ article {
         margin-right: auto;
         padding: 0 1rem;
     }
-    article .header-join {
+    article .header-join, article .program-header-join {
         max-width: 100% !important;
         background: #2E3E4D;
         margin-bottom: 3rem;
     }
         article .header-join h1 {
             max-width: 900px;
+            margin: 0 auto;
+            padding: 1rem 1rem;
+            color: white;
+            font-weight: 300;
+        }
+        article .program-header-join h1 {
+            max-width: 1200px;
             margin: 0 auto;
             padding: 1rem 1rem;
             color: white;
@@ -334,9 +345,11 @@ article {
 
 .program {
  max-width:1200px;
- margin:auto
+ margin:auto;
 }
+
 .program .author {
+ display: block;
  font-size:14px !important
 }
 .program .volunteer {
@@ -373,7 +386,6 @@ article {
  padding:3px 5px
 }
 .program .period .location {
- text-align:right;
  color:#ffffff;
  display:inline-block
 }
@@ -412,7 +424,8 @@ article {
 .program header.break,
 .program header.break .location {
  background-color:#A5ECDE;
- color:#2E3E4D
+ color:#2E3E4D;
+ margin-bottom: 16px;
 }
 .program .period>header {
  padding:1rem 1rem
@@ -424,6 +437,13 @@ article {
  padding:1rem 1rem 1rem 1rem;
  margin-bottom:0
 }
+
+.program .day1,
+.program .day2,
+.program .day3 {
+    margin-top: 3rem;
+}
+
 .program h3,
 .program h4,
 .program h5 {
@@ -570,6 +590,15 @@ article {
     .location-small {
      display:none
     }
+   }
+
+   .kids-program {
+       display: flex;
+       flex-flow: row wrap;
+       gap: 20px;
+   }
+   .kids-program .kids-course {
+       flex: 40%;
    }
    @media (min-width: 768px) and (max-width: 978px) {
     .location-small {

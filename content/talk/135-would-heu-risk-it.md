@@ -3,6 +3,7 @@ title: "Would Heu-risk it?"
 talk_type: "Workshop (3 hours)"
 authors:
     - Lena Wiberg
+    - Cecilie Wian
 ---
 As we gain testing experience and domain expertise, we start making better decisions around risk. However, it’s easy to get stuck in the same patterns and turn a blind eye to other risks and priorities. In short: we risk failing to pay enough attention and overlook critical testing we should have done. The good news is: there are a lot of things  we can use to do better work, grow and help others and there are even a lot of ways of identifying our own weak spots. 
 To learn more about these traps, tools and weapons we can use gamification!

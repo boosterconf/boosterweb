@@ -4,9 +4,13 @@
 /public/
 /resources/_gen/
 
+# Genereted files by IDEA
+/.idea
+
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
-./talks.csv
 ev/
+speakers.csv
+talks.csv

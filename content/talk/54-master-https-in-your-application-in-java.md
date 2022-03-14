@@ -15,3 +15,5 @@ You may have learned about and thought you understood the theory of public-priva
 In this workshop we will explore the necessary code in Java to create certificates, start an app server with https instead of http, making the client trust a self-signed server certificate and make the server request a certificate from the client.
 
 Along the way, you will learn about trust stores, key stores, SSL context and what the dreaded PKIX path validation failure means.
+
+Bring a computer with the Java runtime pre-installed. There will be hands-on exercises. 

@@ -109,7 +109,7 @@ resources:
       title: Computas
       params:
         url: https://computas.com/
-    - src: logos/itera.jpg
+    - src: logos/Itera-logo-lobster.png
       title: Itera
       params:
         url: https://www.itera.com/no/
@@ -125,5 +125,8 @@ resources:
       title: Noria
       params:
         url: https://www.noria.no/
-
+    - src: logos/microsoft.png
+      title: Microsoft
+      params:
+        url: https://www.microsoft.no/
 ---

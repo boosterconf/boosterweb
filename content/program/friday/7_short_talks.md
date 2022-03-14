@@ -1,14 +1,14 @@
 ---
-title: "Short talks"
-time: 14:10 - 14:40
+title: "Experience reports"
+time: 14:15 - 14:45
 type: session
 session_type: presentations
 weight: 7
 talks:
-    "Room 1":
+    "Kongesal 2+3":
         - 157-hvordan-to-brann-supportere-bygget-en-av-verden-største-fotball-apper
-    "Room 2":
+    "Kongesal 1":
         - 36-from-team-gray-to-killbill-how-we-built-a-lean-development-department
-    "Room 3":
+    "Kongesal 4":
         - 119-getting-rid-of-every-paper-application-for-nav-in-two-years
 ---
