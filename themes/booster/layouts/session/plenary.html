@@ -18,10 +18,12 @@
                 {{ if .Params.talks }}
                 {{if gt ( len .Params.talks ) 1}}
                 {{ range .Params.talks }}
+                
+                <div class="plenary-slot">
                     {{ with $.Site.GetPage (printf "/talk/%s" . ) }}
                         {{ .Render "program-li" }}
                     {{ end }}
-
+                </div>
                 {{ end }}
                 {{ end }}
                 {{ end }}

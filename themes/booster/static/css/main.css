@@ -380,6 +380,12 @@ article {
 .program .workshop-slot .period:nth-child(2n) {
  background-color:#E5E5E5
 }
+.program .plenary-slot {
+ background-color:#F2F2F2
+}
+.program .plenary-slot:nth-child(2n) {
+ background-color:#E5E5E5
+}
 .program .period header {
  background-color:#2E3E4D;
  color:#ffffff;
