@@ -10,8 +10,6 @@ talks:
         - 67-fra-roller-og-hierarki-til-dynamisk-teamtopologi
     "Kongesalen 1 (Workshop)":
         - 44-resilient-services
-    "Dræggen 3 (Workshop)":
-        - 100-når-designsprints-feiler-hva-gjør-vi-da
     "Dræggen 4 (Workshop)":
         - 155-weaving-web-components-in-a-bundler-free-world
     "Dræggen 7 (Workshop)":

@@ -18,7 +18,7 @@ talks:
     "Dræggen 7 (Workshop)":
         - 107-getting-grid-y-with-it
     "Dræggen 8 (Workshop)":
-        - 85-hvordan-designe-en-designprosess
+        - 100-når-designsprints-feiler-hva-gjør-vi-da
     "Bugaarden (Workshop)":
         - 69-modern-java-app-development-in-the-cloud-microprofile-quarkus-and-cloud-run
 ---
