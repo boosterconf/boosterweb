@@ -5,4 +5,4 @@ Bli med og lek med super:bit! Super:bit er bygget med micro:bit og ekstra deler,
 
 ***Målgruppe: 11+ år      Plasser: 20***
 
-[Meld på her](https://boosterconf.ticketco.events/no/nb/e/superbit_2022)
+[Meld på super:bit her](https://boosterconf.ticketco.events/no/nb/e/superbit_2022)

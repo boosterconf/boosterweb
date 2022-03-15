@@ -5,4 +5,4 @@ Klart de minste kan programmere også! Vi bruker Code Studio til å lage et oppl
 
 ***Målgruppe: 6+ år      Plasser: 40***
 
-[Meld på her](https://boosterconf.ticketco.events/no/nb/e/code_studio_2022)
+[Meld på code studio her](https://boosterconf.ticketco.events/no/nb/e/code_studio_2022)

@@ -5,4 +5,4 @@ Har du noen gang lurt på hvordan en nettside er bygd opp? I denne workshopen sk
 
 ***Målgruppe: 13+ år      Plasser: 20***
 
-[Meld på her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2022)
+[Meld på webutvikling her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2022)
