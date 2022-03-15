@@ -1,7 +1,7 @@
 ---
 time: 15:25 - 16:25
 location: Kongesalen
-title: "Panel - TBA"
+title: "Panel - Algorithmic decision making and the effects"
 type: session
 session_type: plenary
 weight: 11
