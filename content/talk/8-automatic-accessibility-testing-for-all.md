@@ -9,14 +9,10 @@ Accessibility testing tools are of great help in making an accessible website. A
 
 In this workshop you'll learn how to set up and write your own automatic accessibility tests. While doing this we'll also cover some of the most common accessibility errors that can be discovered automatically and learn how to fix them. 
 
-Outline
-Introduction 
-- what automatic accessibility testing is good for and how it alone is not enough
-Run browser extension to get used to the format for automatic testing
-Download ready-made Github project including code for web site and test setup
-Write our first unit test using axe-core
-Fix broken code discovered by unit test
-Write browser test
-- learn how to exclude issues/add exceptions, 
-- set appropiate level (WCAG A, AA, AAA)
-- restrict testing to specific components
+Outline 
+- What automatic accessibility testing is good for and how it alone is not enough
+- Semi-automatic testing: using browser extensions to get used to the format for automatic testing
+- Write our first unit test using axe-core
+- Fix broken code discovered by unit test
+- Write browser test using cypress
+- Learn how to exclude issues/add exceptions, set appropiate level (WCAG A, AA, AAA) and restrict testing to specific components
