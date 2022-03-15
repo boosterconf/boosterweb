@@ -7,7 +7,11 @@
 
     {{ range .Params.authors  }}
         {{ range ( where $.Site.Pages "Params.name" . ) }}
+          {{ if .Params.external_profile }}
+            <h4><a href="{{ .Params.external_profile }}">{{ .Params.name }}</a></h4>
+          {{ else }}
             <h4><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
+          {{ end }}
         {{ end }}
     {{ end }}
     
