@@ -14,4 +14,6 @@ Several object-oriented languages have begun to incorporate FOP-based functional
 
 Always remember: If all you have is a hammer, everything looks like a (thumb-)nail.
 
+Some experience with object-oriented development is assumed. No prior knowledge of function-oriented programming required.
+
 Please have Visual Studio 2019 (Community Edition) (or VS Code) and .Net 5/C#9 (or higher) installed on your laptop prior to the workshop.
