@@ -1,5 +1,5 @@
 ---
-title: "Algorithmic decision making and the effects"
+title: "AI. Friend, foe or fad"
 talk_type: "Debate panel"
 authors:
     - Marija Slavkovik
