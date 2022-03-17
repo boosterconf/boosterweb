@@ -1,5 +1,5 @@
 ---
-time: 15:10
+time: 15:10 - 16:10
 location: Kongesalen
 title: "Closing keynote: \"Hedy: Creating a gradual programming language\""
 type: session
