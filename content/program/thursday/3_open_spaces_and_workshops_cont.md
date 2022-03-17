@@ -19,6 +19,6 @@ talks:
         - 135-would-heu-risk-it
     "Dræggen 8 (Workshop continued)":
         - 62-gather-your-party-with-svelte
-    "Bugaarden (Workshop continued)":
+    "Bugaarden (Workshop)":
         - 143-funksjonell-objektorientering-eller-omvendt
 ---
