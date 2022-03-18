@@ -1,6 +1,6 @@
 ---
 name: Anne Landro
 # title: 
-# twitter_handle: 
+# twitter_handle: @annelandro
 ---
-Anne er en UX designer som er levende opptatt av å finne de gode løsningene på brukernes reelle behov
+Anne er tjeneste- og UX-designer i Experis. Hun er levende opptatt av å finne de gode løsningene på brukernes reelle behov
