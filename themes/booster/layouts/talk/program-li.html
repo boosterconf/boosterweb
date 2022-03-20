@@ -2,8 +2,11 @@
     <div class="slot">
         <div class="{{ .Params.Type }} talk">
             <h4>{{.Title}}
+
+
+                {{ $files := .Page.Resources }}
             
-                {{ if .Param "files" }}
+                {{ if $files }}
                 <i class="fa fa-sticky-note" title="Talk has files available"></i>
                 {{ end }}
 
