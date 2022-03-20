@@ -3,6 +3,9 @@ title: "Functional object-orientation (or objective functionalism?)"
 talk_type: "Workshop (1.5 hours)"
 authors:
     - Knut Tveitane
+resources:
+    - src: Functional.zip
+      title: Exercise files
 ---
 Function-oriented programming (FOP, also called “functional programming”) has been the big new thing in program development for… yes, how many years? The paradigm has many and enthusiastic supporters in academic circles, but we have still not seen the massive transition from OOP happen in the “real world”. This has several reasons, but perhaps most importantly, it is extremely expensive to port existing systems – and not least existing developers – to a new programming paradigm.
 

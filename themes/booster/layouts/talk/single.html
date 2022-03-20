@@ -16,7 +16,15 @@
     {{ end }}
     
     <p class="muted">{{ .Params.talk_type }}</p>
-  
+
+    <p>
+    {{ $files := .Page.Resources }}
+    {{ if $files }}
+    {{ range $files  }}
+      <a href="{{ .RelPermalink }}"><i class="fa fa-sticky-note" title="{{ .Title }}"></i> {{ .Title }}</a>
+    {{ end }}
+    {{ end }}
+    </p>
   
     <div class="description">
           {{ .Content }}
