@@ -598,6 +598,10 @@ article {
     }
    }
 
+   .kids-intro {
+        text-align: center;
+   }
+
    .kids-program {
        display: flex;
        flex-flow: row wrap;
