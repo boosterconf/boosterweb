@@ -30,7 +30,7 @@ Participants, speakers or partners asked to stop any harassing or inappropriate 
 
 If a participant engages in harassing behavior, the [organizers](/info/about#organizers) will confer with the offended party and take any action they deem appropriate, from warning the offender to expulsion from the conference _with no refund_.
 
-The Booster staff cannot be everywhere all the time. If you are being harassed, notice that someone else is being harassed, or have any other concerns, say something if you feel safe speaking up, and please contact an organizer immediately. Even if the situation has already been handled, this will help us keep an eye out for further problems. Organizers can be identified by their differently coloured badges, and [they look like this](/info/about#organizers).
+The Booster staff cannot be everywhere all the time. If you are being harassed, notice that someone else is being harassed, or have any other concerns, say something if you feel safe speaking up, and please contact an organizer immediately. Even if the situation has already been handled, this will help us keep an eye out for further problems. Organizers can be identified by their differently coloured lanyards, and [they look like this](/info/about#organizers).
 
 We will do our best to help participants feel comfortable again after an incident. We can contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. Know that we value your attendance over that of the harasser regardless of their speaker status or community standing.
 
