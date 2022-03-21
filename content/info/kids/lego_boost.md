@@ -6,4 +6,6 @@ Opplegget vil være basert på samarbeid da vi ikke har nok Lego Boost kits til 
 
 ***Målgruppe: 7-10 år      Plasser: 30***
 
+***Rom: Dræggen 8***
+
 [Meld på lego boost her](https://boosterconf.ticketco.events/no/nb/e/lego_boost_2022)

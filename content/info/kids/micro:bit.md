@@ -5,4 +5,6 @@ Micro:bit er en mikrokontroller som er laget for å lære barn programmering. Vi
 
 ***Målgruppe: 10+ år      Plasser: 30***
 
+***Rom: Dræggen 3***
+
 [Meld på micro:bit her](https://boosterconf.ticketco.events/no/nb/e/microbit_2022)
