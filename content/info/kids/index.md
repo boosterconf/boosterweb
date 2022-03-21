@@ -17,11 +17,11 @@ For femte gang arrangerer Boosterkonferansen, i samarbeid med Lær Kidsa Koding 
 
 12.00-13.30 - Workshops, del 1 
 
-13.30-14.00 - Lunsj
+13.30-14.15 - Lunsj
 
-14.00-16.00 - Workshops, del 2
+14.15-16.15 - Workshops, del 2
 
-16.00 - Slutt
+16.15 - Slutt
 
 **Merk: Programmet kan endres fortløpende**
 
