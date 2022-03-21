@@ -16,7 +16,7 @@ Have a good time and help others have a good time too. Say hi to someone you don
 
 #### Need help?
 
-Contact Nina (+47 40 09 90 39/ [@nkaurel](http://twitter.com/nkaurel "Twitter")) or André (+47 93 65 40 56/ [@andrev](http://twitter.com/andrev "Twitter")) any time, or any of the other [organizers](/info/about#organizers) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
+Contact Kjersti (+47 45 06 65 06/ [@kjerstibb](http://twitter.com/kjerstibb "Twitter")) or Kjell Iver (+47 40 82 95 63/ [@kjelliver](http://twitter.com/kjelliver "Twitter")) any time, or any of the other [organizers](/info/about#organizers) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
 
 #### The Long Version
 
