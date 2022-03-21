@@ -1,6 +1,6 @@
 ---
 title: "Conference Dinner"
-talk_type: "Conference dinner"
+talk_type: "Conference Dinner at Grand Selskapslokaler"
 ---
 For participants with a conference dinner ticket, we invite you to join us at [Grand Selskapslokaler](https://www.grandbergen.no/selskap/festlokaler/) for an evening with fine food and a traditional, elegant atmosphere.
 The food will be served as a buffet, with allergies and dietary concerns taken into account.
