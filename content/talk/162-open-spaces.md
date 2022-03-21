@@ -5,7 +5,7 @@ authors:
     - All of you!
 ---
 
-![Open spaces is for everyone](/static/images/open_spaces.jpg)
+![Open spaces is for everyone](/images/open_spaces.jpg)
 
 Open spaces is a open format, where you, the participants of Booster, decide what the agenda will be. Do you have a topic that you want to discuss? An idea you want to get feedback on? An experience you want to share? Put your topic on the Open Spaces Agenda flip-overs next to the ticket booth. 
 
@@ -20,4 +20,4 @@ Other than that there are very few rules to follow. Just remember that:
 
 And finally, the law of two feet.
 
-![The law of two feet](/static/images/law_of_two_feet.png)
+![The law of two feet](/images/law_of_two_feet.png)
