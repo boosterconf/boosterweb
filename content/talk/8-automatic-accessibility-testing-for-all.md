@@ -3,6 +3,8 @@ title: "Automatic Accessibility Testing for All"
 talk_type: "Workshop (1.5 hours)"
 authors:
     - Cecilie Haugstvedt
+time_slot: "Wednesday: 13:40 - 15:10"
+room: "Kongesalen 5"
 ---
 Abstract
 Accessibility testing tools are of great help in making an accessible website. Automatic accessibility tests can be of even greater help, freeing up time to focus on the changes that will make your website better for everyone. 

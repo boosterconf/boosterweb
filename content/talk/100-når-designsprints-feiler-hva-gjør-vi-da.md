@@ -4,6 +4,8 @@ talk_type: "Workshop (1.5 hours)"
 authors:
     - Tonje Evanger
     - Vikas Gupta
+time_slot: "Wednesday: 13:40 - 15:10"
+room: "Dræggen 8"
 ---
 Har du hørt alt snakket om designsprints og hvor fantastisk effektiv og bra denne metoden er? 
 Men vent, stemmer det? Nei, mener vi!

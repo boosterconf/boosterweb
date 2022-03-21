@@ -3,6 +3,8 @@ title: "Anonym smittesporing – innebygd personvern i Smittestopp-appen"
 talk_type: "Experience report (30 min)"
 authors:
     - Henrik Walker Moe
+time_slot: "Friday: 10:45 - 12:15"
+room: "Kongesalen 2+3"
 ---
 Smittestopp 1 ble avsluttet tidlig på høsten 2020 etter opprop fra fagmiljø og et påfølgende forbud fra Datatilsynet. Da planleggingen av Smittestopp 2 startet, var det basert på Google og Apples rammeverk for kontaktsporing (GAEN). Tilnærmingen med Smittestopp 2 ble radikalt annerledes, med blant annet utvikling som åpen kildekode. Henrik Walker Moe, Tjerand Silde og Martin Strand møttes høsten 2020 gjennom fagdiskusjoner rundt Smittestopp, og ønsket å bidra til å forbedre personvernet i Smittestopp 2 ytterligere.
 

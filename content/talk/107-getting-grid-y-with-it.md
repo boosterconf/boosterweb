@@ -3,6 +3,8 @@ title: "Getting Grid’y with it"
 talk_type: "Workshop (1.5 hours)"
 authors:
     - Marius Krakeli
+time_slot: "Wednesday: 13:40 - 15:10"
+room: "Dræggen 7"
 ---
 Abstract:
 Once a while technology comes along and reshapes the way we do things. For over two decades layout on the web has been more or less dreaded by developers, and has felt more like a chore, than something that we have enjoyed. Things have started getting better, but with the introduction of CSS grid, the layout game has changed into something quite enjoyable. During this workshop, you will learn all the things that make CSS grid fun to work with, and more than enough to make use of CSS grid in your own projects. Prepare yourself to experience the closest you’ve come to programming magic.

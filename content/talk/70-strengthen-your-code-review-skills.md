@@ -3,6 +3,8 @@ title: "Strengthen Your Code Review Skills"
 talk_type: "Lightning talk"
 authors:
     - Elizabeth Zagroba
+time_slot: "Wednesday: 10:40 - 11:25"
+room: "Kongesalen 1"
 ---
 Confirming that the code compiles, runs, and has all the semi-colons in the right place is the easy part of code review. The hard part is noticing patterns, noticing what's missing. You've got to figure out how, and how deep, to communicate with the person who wrote the code. 
 

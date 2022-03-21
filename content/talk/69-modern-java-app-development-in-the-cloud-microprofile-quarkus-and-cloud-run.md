@@ -4,6 +4,8 @@ talk_type: "Workshop (1.5 hours)"
 authors:
     - Rustam Mehmandarov
     - Mads Opheim
+time_slot: "Wednesday: 13:40 - 15:10"
+room: "Bugaarden"
 ---
 So, you need to have your Java app deployed and available for your users fast, and you would like to do as little managing, wiring, and infrastructure work as possible. How can you achieve that? Well, you go serverless with your containers using supersonic Java in the Cloud!
 

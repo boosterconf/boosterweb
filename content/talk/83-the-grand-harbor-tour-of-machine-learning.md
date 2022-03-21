@@ -4,6 +4,8 @@ talk_type: "Workshop (3 hours)"
 authors:
     - Oliver Zeigermann
     - Kim Nena Duggen
+time_slot: "Friday: 09:00 - 12:15"
+room: "Bugaarden"
 ---
 Machine learning is still not seen as the integral part of software development that it actually is. Certain parts of a software system can actually be implemented much better by a trained model than by a classical development. This creates challenges in the implementation, but also in the definition of the roles and in the integration of the different parts. 
 

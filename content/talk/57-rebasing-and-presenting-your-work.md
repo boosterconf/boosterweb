@@ -4,6 +4,8 @@ talk_type: "Workshop (3 hours)"
 authors:
     - Trond Blomholm Kvamme
     - André Berge
+time_slot: "Friday: 09:00 - 12:15"
+room: "Dræggen 7"
 ---
 In this workshop we'll be exploring different git-techniques, that will improve how you present your work to your teammates.
 
