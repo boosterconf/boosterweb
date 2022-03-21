@@ -1,8 +1,8 @@
 ---
-title: "From Team Gray to KillBill - How we built a lean development department"
+title: "Fra team grå til KillBill - Hvordan bygge en lean utviklingsavdeling"
 talk_type: "Experience report (30 min)"
 authors:
     - Unni Løland
     - Jan Strandbakke
 ---
-In 2016 we had Team Blue, Team Green and Team Gray and we released software every 4th week. We were quite happy - doing Scrum great. But we wanted to do better. Today we release software up to 20 times a day, with our 14 autonomous product teams. Now we have teams like Angry Nerds, SheetStorm, KillBill and Piggy Bank Crew and we do Lean our own way. In this talk you will hear about our Playbook, core principles and awesome work culture for making a great product for 60.000 companies and 250.000 users in Norway. 
+I 2016 hadde vi team blå, team grå og team grønn og vi releaset hver 4. uke. Vi var ganske fornøyde og gjorde Scrum bra. Men, vi ville gjøre det bedre! I dag releaser vi opp til 20 ganger hver dag med våre 14 tverrfaglige produktteam. Vi har team som Angry Nerds, SheetStorm, KillBill og Piggy Bank Crew og vi gjør lean på vår måte. Vil vil i dette foredraget snakke om vår Playbook, våre prinsipper og vår arbeidskultur som gjør at vi klarer å bygge et produkt som er brukt av over 70.000 kunder og mer enn 300.000 brukere i dag. 
