@@ -20,6 +20,7 @@ Other than that there are very few rules to follow. Just remember that:
 - Whatever happens is the only thing that could have
 - When it’s over, it’s over
 
+
 And finally, the law of two feet applies.
 
 ![The law of two feet](/images/law_of_two_feet.png)
