@@ -3,6 +3,8 @@ title: "Writing notes is boring – drawing them is fun!"
 talk_type: "Workshop (3 hours)"
 authors:
     - Morten Laugerud
+time_slot: "Thursday: 09:00 - 12:15"
+room: "Dræggen 4"
 ---
 "Well I can't draw, so this is not for me" - you might say.
 Then I say: "Thats bullcrap! Sketchnoting is not illustration and art. It's about ideas and communication"

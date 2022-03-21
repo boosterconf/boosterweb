@@ -14,8 +14,18 @@
           {{ end }}
         {{ end }}
     {{ end }}
-    
-    <p class="muted">{{ .Params.talk_type }}</p>
+
+    <p>
+        <span class="muted">{{ .Params.talk_type }}</span>
+        {{ if .Param "time_slot" }}
+        &mdash;
+        <span class="muted">{{ .Param "time_slot" }}</span>
+        {{ end }}
+        {{ if .Param "room" }}
+        &mdash;
+        <span class="muted">{{ .Param "room" }}</span>
+        {{ end }}
+    </p>
 
     <p>
     {{ $files := .Page.Resources }}

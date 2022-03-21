@@ -4,6 +4,8 @@ talk_type: "Workshop (1.5 hours)"
 authors:
     - Mikael Brevik
     - Stian Veum Møllersen
+time_slot: "Thursday: 15:10 - 16:10"
+room: "Kongesalen"
 ---
 Hello Booster!
 

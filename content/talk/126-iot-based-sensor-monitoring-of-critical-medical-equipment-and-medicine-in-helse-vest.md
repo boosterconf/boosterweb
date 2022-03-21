@@ -3,6 +3,8 @@ title: "IoT-based sensor monitoring of critical medical equipment and medicine i
 talk_type: "Lightning talk"
 authors:
     - Marte Øvreås Thuen
+time_slot: "Wednesday: 11:40 - 12:25"
+room: "Kongesalen 1"
 ---
 Over the last years, the Department of Development at Helse Vest IKT has been developing a solution for wireless IoT-based monitoring of parameters such as temperature and humidity, used for example for temperature monitoring in refrigerators and freezers used for storage of food and medicine including covid-vaccines. Commercially available sensors are used, and we have developed a user-friendly web-based software application that collects sensor data from the sensor vendors cloud, via their API. The application is used for monitoring of sensor data; to define alarms and configure warning messages, to compare different sensors and to study trends over time, and is available for all hospitals and clinics in Western Norway, with a total of 30 000 employees. The application is cloud-based and is developed using the Azure framework, and is integrated with other solutions used in Helse Vest, for access control and organizational affiliation. 
 Currently, the solution is being rolled out to clinics throughout Helse Vest, and being used in areas such as monitoring of covid-vaccines and other important medicine as well food-storage. Temperature monitoring using these sensors is critical; if a medical refrigerator is broken or if power is lost, all of its content will be compromised, and this is often very expensive medicines. A small sensor can save the hospital for large sums, and ensure that the medicine kept safe and available for the patients that need it. 

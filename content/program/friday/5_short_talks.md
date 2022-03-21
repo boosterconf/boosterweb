@@ -5,10 +5,10 @@ type: session
 session_type: presentations
 weight: 5
 talks:
-    "Kongesal 2+3":
+    "Kongesalen 2+3":
         - 132-change-wings-on-the-fly-how-we-replaced-a-system-that-handles-several-million-euro-turnover-with-zero-downtime
-    "Kongesal 1":
+    "Kongesalen 1":
         - 9-transpiling-our-way-into-the-future
-    "Kongesal 4":
+    "Kongesalen 4":
         - 149-digital-transformasjon-i-nav
 ---

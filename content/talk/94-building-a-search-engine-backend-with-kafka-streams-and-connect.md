@@ -4,6 +4,8 @@ talk_type: "Workshop (3 hours)"
 authors:
     - Øyvind Randa
     - Mads Lundeland
+time_slot: "Thursday: 09:00 - 12:15"
+room: "Kongesalen 5"
 ---
 You are tasked with providing a state-of-the-art search engine for the audiobook store AudioBooks4You.com.
 Your first task will be to create basic search functionality, but by solving exercises you will improve

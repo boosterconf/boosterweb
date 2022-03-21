@@ -4,6 +4,8 @@ talk_type: "Experience report (30 min)"
 authors:
     - Patrick Monslaup
     - Tor Sporsem
+time_slot: "Thursday: 14:15 - 14:45"
+room: "Kongesalen 2+3"
 ---
 Have you ever started in a new team or organization and felt a bit lost? Had issues connecting or collaborating with your team members? Been unsure how to find the information or help that you need? Proper onboarding makes a world of difference for new employees, whether they are new to your team or to your organization.
 

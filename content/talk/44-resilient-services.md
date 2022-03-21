@@ -3,6 +3,8 @@ title: "Resilient services"
 talk_type: "Workshop (3 hours)"
 authors:
     - Bjørn Einar Bjartnes
+time_slot: "Friday: 09:00 - 12:15"
+room: "Kongesalen 1"
 ---
 Users' patience with services not working is gradually decreasing as the quality of services online is improving. With current trends of moving services to the cloud and building smaller and network-intensive services, meeting these expectations can be challenging for us developers. We want to be able to build services that we can run confidently despite partial failures and outages.
 

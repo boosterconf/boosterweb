@@ -3,6 +3,8 @@ title: "Drawing for IT Architects"
 talk_type: "Workshop (1.5 hours)"
 authors:
     - Filip Van Laenen
+time_slot: "Wednesday: 13:40 - 15:10"
+room: "Dræggen 4"
 ---
 Ever seen a drawing trying to explain the architecture of an IT system, and you couldn't make any sense of it because it was drawn so badly? Do you feel that your drawings are OK, but could probably be improved substantially with a few tricks, yet you don't really know what they would be?
 

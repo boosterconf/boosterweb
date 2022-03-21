@@ -4,6 +4,8 @@ talk_type: "Workshop (3 hours)"
 authors:
     - Ricki Sickenger
     - John Christian Lønningdal
+time_slot: "Thursday: 09:00 - 12:15"
+room: "Kongesalen 1"
 ---
 A lot of programming nowadays has been reduced to Jira tasks, predictable processes, and high-level languages. Let’s step away from that and have some low-level fun with one of the most iconic computers ever made!
 
