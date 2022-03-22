@@ -21,4 +21,6 @@ talks:
         - 62-gather-your-party-with-svelte
     "Bugaarden (Workshop)":
         - 143-funksjonell-objektorientering-eller-omvendt
+    "Dræggen 2":
+        - 163-spikke-workshop
 ---
