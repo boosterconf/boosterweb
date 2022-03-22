@@ -96,6 +96,10 @@ header#main-header {
     text-decoration: none;
 }
 
+.description img {
+    width: 100%;
+}
+
 /* Footer with partners */
 #sponsor-area {
     background-color: #F2F2F2;
@@ -596,6 +600,10 @@ article {
     .location-small {
      display:none
     }
+   }
+
+   .kids-intro {
+        text-align: center;
    }
 
    .kids-program {

@@ -3,6 +3,8 @@ title: "The Evolutionary Theory of Creativity"
 talk_type: "Lightning talk"
 authors:
     - Siv Holen
+time_slot: "Wednesday: 09:15 - 10:15"
+room: "Kongesalen"
 ---
 Can Darwins finches help us understand the design prosess? 
 

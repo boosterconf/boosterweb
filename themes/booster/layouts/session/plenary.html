@@ -10,7 +10,7 @@
                             {{if gt (len .Params.talks) 1}}
                                 <span>— {{ .Title }}</span>
                             {{ else }}
-                                <span>— <a href="{{ ($.Site.GetPage (printf "/talk/%s" (index .Params.talks 0) )).RelPermalink }}">{{ .Title }}</span>
+                                <span>— <a href="{{ ($.Site.GetPage (printf "/talk/%s" (index .Params.talks 0) )).RelPermalink }}">{{ .Title }}</a></span>
                             {{ end }}
                         {{ end }}
                     {{ end }}

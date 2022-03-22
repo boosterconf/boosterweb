@@ -6,4 +6,6 @@ NB! Alle deltagere må ha med sin egen PC! og tilhørende lader.
 
 ***Målgruppe: 9+ år      Plasser: 25***
 
+***Rom: Dræggen 7***
+
 [Meld på scratch her](https://boosterconf.ticketco.events/no/nb/e/scratch_2022)

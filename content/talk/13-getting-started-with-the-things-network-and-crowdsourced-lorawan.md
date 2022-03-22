@@ -4,6 +4,8 @@ talk_type: "Workshop (3 hours)"
 authors:
     - Ketil Moland Olsen
     - Ricco Førgaard
+time_slot: "Thursday: 09:00 - 12:15"
+room: "Dræggen 3"
 ---
 
 # Say hello to The Things Network

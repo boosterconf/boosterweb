@@ -3,6 +3,8 @@ title: "The story about Tight Loose Tight"
 talk_type: "Experience report (30 min)"
 authors:
     - Rune Ulvnes
+time_slot: "Wednesday: 13:40 - 15:10"
+room: "Kongesalen 2+3"
 ---
 In 2014 i held a lightning talk about the Tight Loose Tight model at Smidigkonferansen, a model I had used to train leaders in an agile mindset. 
 

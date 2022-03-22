@@ -3,6 +3,8 @@ title: "Hedy: Creating a gradual programming language"
 talk_type: "Closing Keynote"
 authors:
     - Felienne Hermans
+time_slot: "Friday: 15:10 - 16:10"
+room: "Kongesalen"
 ---
 Hedy is a gradual programming language to make learning programming easier. The core idea of Hedy is that it uses different language levels. In level 1, there is hardly any syntax at all, for example printing is done with:
 

@@ -3,6 +3,8 @@ title: "Master https in your application (in Java)"
 talk_type: "Workshop (1.5 hours)"
 authors:
     - Johannes Brodwall
+time_slot: "Thursday: 09:00 - 10:30"
+room: "Bugaarden"
 ---
 So, I decided to make my own Certificate Authority. Kidding. Not kidding.
 

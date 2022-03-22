@@ -4,6 +4,8 @@ talk_type: "Workshop (3 hours)"
 authors:
     - Alexander Castillo
     - Dag Erik Løvgren
+time_slot: "Thursday: 09:00 - 12:15"
+room: "Dræggen 8"
 ---
 In this workshop we will take you through the basic concepts of Svelte. We'll do this by making our own Character Creator! If you're not familiar with the concept, a character creator is a tool for making a fictional character using a variety of features. Examples of features: Inputting name, rolling stats, selecting abilities, uploading portrait, selecting appearance, writing bio, etc. Here's a [simple example](http://basicfantasy.andrewcooperonline.com), and here's a more [advanced example](https://www.dungeonmastersvault.com/pages/dnd/5e/character-builder).
 

@@ -14,9 +14,27 @@
           {{ end }}
         {{ end }}
     {{ end }}
-    
-    <p class="muted">{{ .Params.talk_type }}</p>
-  
+
+    <p>
+        <span class="muted">{{ .Params.talk_type }}</span>
+        {{ if .Param "time_slot" }}
+        &mdash;
+        <span class="muted">{{ .Param "time_slot" }}</span>
+        {{ end }}
+        {{ if .Param "room" }}
+        &mdash;
+        <span class="muted">{{ .Param "room" }}</span>
+        {{ end }}
+    </p>
+
+    <p>
+    {{ $files := .Page.Resources }}
+    {{ if $files }}
+    {{ range $files  }}
+      <a href="{{ .RelPermalink }}"><i class="fa fa-sticky-note" title="{{ .Title }}"></i> {{ .Title }}</a>
+    {{ end }}
+    {{ end }}
+    </p>
   
     <div class="description">
           {{ .Content }}

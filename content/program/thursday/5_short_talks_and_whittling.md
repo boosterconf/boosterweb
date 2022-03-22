@@ -11,6 +11,6 @@ talks:
         - 74-digital-inkludering-ta-vare-på-de-som-er-utafor
     "Kongesalen 4":
         - 15-working-in-babel-my-experiences-in-a-multilingual-workplace
-    "Dræggen 1":
+    "Dræggen 2":
         - 163-spikke-workshop
 ---

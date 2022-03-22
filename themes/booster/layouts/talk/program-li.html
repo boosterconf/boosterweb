@@ -1,8 +1,18 @@
 <a class="single-talk" href="{{ .RelPermalink }}">
     <div class="slot">
         <div class="{{ .Params.Type }} talk">
-            <h4><i class="fa fa-key"></i>{{.Title}}
+            <h4>{{.Title}}
+
+
+                {{ $files := .Page.Resources }}
+            
+                {{ if $files }}
+                <i class="fa fa-sticky-note" title="Talk has files available"></i>
+                {{ end }}
+
+                {{ if .Param "recording_url" }}
                 <i class="fa fa-film"></i>
+                {{ end }}
             </h4>
             {{ range .Param "authors" }}
             <span class="author">{{.}}</span><br />

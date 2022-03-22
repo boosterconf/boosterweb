@@ -3,6 +3,8 @@ title: "Will Webauth end phishing?"
 talk_type: "Lightning talk"
 authors:
     - Martin Valen
+time_slot: "Wednesday: 11:40 - 12:25"
+room: "Kongesalen 2+3"
 ---
 Too many of our users are fooled by phishing attacks and hand over their login credentials to third parties with evil intentions. Our ways of fighting phishing are either that the user needs to be more alert, or that they'll need to install something that makes their lives more difficult. If only some technology existed that simultaneously make phishing harder and make our users' lives easier!
 

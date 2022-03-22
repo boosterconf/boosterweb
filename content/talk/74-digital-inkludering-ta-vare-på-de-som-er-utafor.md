@@ -4,6 +4,8 @@ talk_type: "Experience report (30 min)"
 authors:
     - Ina Aschim
     - Lovise Justad
+time_slot: "Thursday: 13:30 - 14:00"
+room: "Kongesalen 1"
 ---
 Digitale produkter og tjenester har infiltrert de fleste arenaer. Digitaliseringen bidrar uten tvil til effektivisering, underholdning og sosialisering for de aller fleste. Men hvordan påvirker det de som av ulike årsaker står utenfor det digitale fellesskapet? 
 

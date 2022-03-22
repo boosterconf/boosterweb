@@ -3,6 +3,8 @@ title: "En suksesshistorie fra Vipps - når alle tar ansvar for UX"
 talk_type: "Experience report (30 min)"
 authors:
     - Johannes Harestad
+time_slot: "Thursday: 13:30 - 14:00"
+room: "Kongesalen 2+3"
 ---
 Som UX-designer kan det være en krevende oppgave å engasjere utviklere og andre roller i designprosessen. Man føler seg ofte alene om ansvaret for UX.
 

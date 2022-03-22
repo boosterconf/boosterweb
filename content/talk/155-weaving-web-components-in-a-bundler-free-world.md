@@ -3,6 +3,8 @@ title: "Weaving web components in a bundler-free world"
 talk_type: "Workshop (3 hours)"
 authors:
     - Nils Norman Haukås
+time_slot: "Friday: 09:00 - 12:15"
+room: "Dræggen 4"
 ---
 These days many web frameworks offer functionality for expressing reusable components. However, what is less known is that browsers have built-in support for defining web components.
 
