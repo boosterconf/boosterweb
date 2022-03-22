@@ -6,4 +6,6 @@ menu:
     main:
         weight: 15
         name: "Speakers"
+aliases:
+    - /speakers/
 ---
