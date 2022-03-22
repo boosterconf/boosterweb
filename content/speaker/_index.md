@@ -8,4 +8,5 @@ menu:
         name: "Speakers"
 aliases:
     - /speakers/
+    - /info/speakers/
 ---
