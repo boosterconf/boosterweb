@@ -1,6 +1,6 @@
 ---
 title: "Whittling workshop"
-talk_type: "Workshop (3 hours)"
+talk_type: "Workshop (entire day)"
 authors:
     - Anette Bergo
 time_slot: "Thursday: 09:00 - 16:00"
