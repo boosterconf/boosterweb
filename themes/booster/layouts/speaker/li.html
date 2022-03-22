@@ -8,6 +8,9 @@
     {{ if $image }}
     <img class="speaker-image"
         src="{{ $image.RelPermalink }}">
+    {{ else }}
+    <img class="speaker-image"
+        src="/images/placeholder.jpg" width="400" height="400">
     {{ end }}
 </div>
 <div class="right">
