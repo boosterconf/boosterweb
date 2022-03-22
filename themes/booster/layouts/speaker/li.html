@@ -1,0 +1,39 @@
+
+{{ $source_image := index (.Page.Resources.ByType "image") 0 }}
+{{ $image := ($source_image.Fill "400x400 smart").Filter images.Grayscale }}
+<div class="speaker">
+
+<div class="left">
+
+    {{ if $image }}
+    <img class="speaker-image"
+        src="{{ $image.RelPermalink }}">
+    {{ end }}
+</div>
+<div class="right">
+    <div class="content">
+        <h3><a name="{{- .Params.Name -}}">{{- .Params.Name -}}</a></h3>
+        <div class="speaker-meta"><p>
+            <i>{{- .Title -}}</i><br />
+            {{ if .Params.twitter_handle }}
+            <a href="http://twitter.com/{{ .Params.twitter_handle }}" title="Twitter" target="_blank">
+                @{{ .Params.twitter_handle }}
+              </a>
+              {{ end }}
+        </p></div>
+
+        <div class="speaker-bio">
+            {{- .Content -}}
+        </div>
+
+    </div>
+<!--
+      <p>
+        <b>n Presentation</b>
+      </p>
+      <ul style="list-style-type: none;">
+          <li><a href=""></a></li>
+      </ul>
+-->
+  </div>
+</div>
