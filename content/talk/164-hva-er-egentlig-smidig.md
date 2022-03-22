@@ -1,5 +1,5 @@
 ---
-title: "Hva er egentlig smidig?"
+title: "Hva er _egentlig_ smidig?"
 talk_type: "Lightning talk"
 authors:
     - David Mellum
