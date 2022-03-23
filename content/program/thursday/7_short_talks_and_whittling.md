@@ -11,6 +11,6 @@ talks:
         - 93-how-privacy-demands-in-software-development-has-changed-since-the-introduction-of-gdpr
     "Kongesalen 4":
         - 130-aligning-bounded-contexts-with-subdomains-in-legacy-code
-    "Dræggen 2":
+    "Dræggen 2 (Drop-in)":
         - 163-spikke-workshop
 ---
