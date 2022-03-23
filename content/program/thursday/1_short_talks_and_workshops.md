@@ -22,6 +22,6 @@ talks:
         - 62-gather-your-party-with-svelte
     "Bugaarden (Workshop)":
         - 54-master-https-in-your-application-in-java
-    "Dræggen 2":
+    "Dræggen 2 (Drop-in)":
         - 163-spikke-workshop
 ---
