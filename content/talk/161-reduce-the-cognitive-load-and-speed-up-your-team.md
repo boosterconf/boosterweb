@@ -1,5 +1,5 @@
 ---
-title: "Reduce the cognitive load and speed up your team"
+title: "Reduser kognitiv last i teamet og øk utviklingstakten"
 talk_type: "Experience report (30 min)"
 authors:
     - Lars Hopland Nestås
@@ -7,8 +7,8 @@ authors:
 time_slot: "Friday: 10:45 - 12:15"
 room: "Kongesalen 2+3"
 ---
-How many times have you heard a manager say: “we have to work smarter”, and then leave the rest as an exercise for you? Using one of our team as a case, we will share with you how they took the initiative to improve both their work processes and tools in order to “work smarter” and increase team happiness.
+Hvor mange ganger har du hørt en leder si: «vi må jobbe smartere», for så å haste videre til neste møte og la teamet sitte der igjen som et stort spørsmålstegn? Med utgangspunkt i et av våre team i Sbanken vil vi fortelle historien om hvordan teamet selv tok initiativ til å forbedre både arbeidsprosessene sine og bruken av ulike støtteverktøy for faktisk å «jobbe smartere» og samtidig øke tilfredsheten i teamet. 
 
-We will talk about bottlenecks and areas for improvement and also how we have measured our deployment process over time.
+Vi vil snakke om hvordan identifisere flaskehalser og andre områder modne for forbedringer. Videre vil vi vise hvordan en kan måle endringer i utviklingsprosessen over tid for å finne ut hvilke tiltak som gir effekt.
 
-Today this team have reduced their development time considerably, they have a much better overview of their process and last but not least the developers and testers are much happier.
+I dag løser teamet langt flere utviklingssaker enn før, på langt under halve tiden. Teamet har mye bedre oversikt over utviklingsprosessen sin. Og sist, men ikke minst, teamet er mer tilfreds. 
