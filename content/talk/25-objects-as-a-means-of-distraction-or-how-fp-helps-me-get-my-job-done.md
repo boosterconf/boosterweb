@@ -5,5 +5,6 @@ authors:
     - Erik Assum
 time_slot: "Wednesday: 10:40 - 11:25"
 room: "Kongesalen 1"
+vimeo_id: 691770414
 ---
 In this talk, the audience will learn about the real world benefits of functional programming, and especially the dynamically typed version of it. Erik has worked almost exclusively in Clojure over the last five years while keeping an eye on what's happening in the Javascript/Typescript eco system, and has quite a few observations on what makes functional programming better, what works well, what works not so well, and of course a sprinkle of advocacy for Clojure as well. 
