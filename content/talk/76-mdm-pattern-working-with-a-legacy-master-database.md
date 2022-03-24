@@ -5,6 +5,7 @@ authors:
     - Stig Nielsen
 time_slot: "Wednesday: 10:40 - 11:25"
 room: "Kongesalen 4"
+vimeo_id: 691837026
 ---
 The background:
 Your master data is a legacy database - it contains "everything" your business depend upon. You do want to create new solutions to support your business's everyday operations but querying the legacy database is slow and error prone. What to do? 
