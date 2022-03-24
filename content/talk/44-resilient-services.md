@@ -12,3 +12,4 @@ In this workshop, you will learn how to simulate latency and failures in your we
 
 We will use k6 for load testing a .NET Core web API. For resiliency strategies, we will use Polly, and we will use Simmy for fault injection. This is red-green testing, but for performance and resiliency. You will learn about service level indicators, service level objectives, and how to formulate and test such requirements.
 
+{{< tweet 1506906119943376901 >}}
