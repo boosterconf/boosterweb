@@ -5,7 +5,7 @@ authors:
     - Øyvind Fanebust
 time_slot: "Wednesday: 11:40 - 12:25"
 room: "Kongesalen 4"
-vimeo_id: 691846425
+vimeo_id: 691860135
 ---
 Programvare innen bank og finans har noen alvorlige utfordringer. Det er et sterkt behov for økt selvbetjening, automatisering og strømlinjeforming. Dagens hyllevareløsninger gir ikke tilstrekkelig fleksibilitet og er heller ikke laget for å integreres med andre / egne systemer. Samtidig er behovet for utviklere mye større enn tilgangen.
 
