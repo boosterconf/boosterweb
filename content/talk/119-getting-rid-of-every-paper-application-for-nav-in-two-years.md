@@ -1,5 +1,5 @@
 ---
-title: "Getting rid of every paper application for NAV in two years"
+title: "Getting rid of every paper application for NAV in three years"
 talk_type: "Experience report (30 min)"
 authors:
     - Vegard Haugstvedt
