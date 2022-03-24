@@ -1,12 +1,13 @@
 ---
-title: "Best Practice Onboarding: What the research says"
+title: "Onboarding gjort rett: Hva forskningen sier"
 talk_type: "Experience report (30 min)"
 authors:
-    - Patrick Monslaup
-    - Tor Sporsem
+  - Patrick Monslaup
+  - Tor Sporsem
 time_slot: "Thursday: 14:15 - 14:45"
 room: "Kongesalen 2+3"
 ---
-Have you ever started in a new team or organization and felt a bit lost? Had issues connecting or collaborating with your team members? Been unsure how to find the information or help that you need? Proper onboarding makes a world of difference for new employees, whether they are new to your team or to your organization.
 
-This presentation summarizes what we've learned from researching and improving our onboarding at Knowit in collaboration with SINTEF. We will give research-based advice for improving your onboarding directed at software engineering teams and rapport early results from our research.
+Har du noen gang begynt i en ny organisasjon eller team og følt deg litt fortapt? Opplevd utfordringer som gjorde at samarbeid med teamet ikke gikk så bra som det burde? Vært usikker på hvor du finner informasjon eller hjelp som du trenger for å komme i gang? God onboarding har alt å si for velvære og effektiviteten til team.
+
+I denne presentasjonen gjennomgår vi hva vi har lært fra å forbedre og forske på onboarding i Knowit sammen med SINTEF. Vi vil gi tips basert på både vår og tidligere forskning samt erfaringene vi har gjort oss underveis, og dere vil sitte igjen med konkrete tips for å forbedre onboarding i deres utviklingsteam eller organisasjon.
