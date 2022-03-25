@@ -10,7 +10,7 @@ talks:
         - 161-reduce-the-cognitive-load-and-speed-up-your-team
     "Kongesalen 1 (Workshop continued)":
         - 44-resilient-services
-    "Dræggen 3 (Workshop continued)":
+    "Dræggen 3":
         - 101-analyser-forbruket-ditt-med-bankens-api
     "Dræggen 4 (Workshop continued)":
         - 155-weaving-web-components-in-a-bundler-free-world
