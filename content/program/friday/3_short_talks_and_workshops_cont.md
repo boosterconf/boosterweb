@@ -8,6 +8,7 @@ talks:
     "Kongesalen 2+3 (Experience reports)":
         - 53-anonym-smittesporing-innebygd-personvern-i-smittestopp-appen
         - 161-reduce-the-cognitive-load-and-speed-up-your-team
+        - 165-rewriting-a-production-spa-in-elm
     "Kongesalen 1 (Workshop continued)":
         - 44-resilient-services
     "Dræggen 3":
