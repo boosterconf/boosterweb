@@ -5,6 +5,7 @@ authors:
     - Vegard Haugstvedt
 time_slot: "Friday: 14:15 - 14:45"
 room: "Kongesalen 4"
+vimeo_id: 692624432
 ---
 In the beginning of 2020, the Norwegian Labor and Welfare Administration (NAV) had around 250-300 PDF applications, counting all variations and translations. Maintenance was expensive and tedious, user experience was poor and most urgently, they were not accessible for all - a legal requirement in Norway.
 
