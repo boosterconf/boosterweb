@@ -5,6 +5,7 @@ authors:
     - Tatiana Kolesnikova
 time_slot: "Friday: 13:30 - 14:00"
 room: "Kongesalen 2+3"
+vimeo_id: 692620413
 ---
 In October 2019 Diggecard, a Norwegian fintech startup, acquired a UK gift card company. One of the conditions of the deal was to move more than a hundred of their business customers off the systems they were using in less than a year without interrupting the service even for a day. This meant designing and developing the replacement software and of course, not just copying the existing one, but optimising it too. My role as Head of Design was to help development team make it happen. 
 We did make it happen:

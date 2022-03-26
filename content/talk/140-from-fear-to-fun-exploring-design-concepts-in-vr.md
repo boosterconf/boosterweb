@@ -5,6 +5,7 @@ authors:
     - Henriette Stokholm
 time_slot: "Friday: 09:00 - 10:30"
 room: "Kongesalen 2+3"
+vimeo_id: 692621303
 ---
 Deep down in the underground of Haukeland Sykehus in Bergen, a new light rail stop is currently taking shape. Unfortunately, underground stops seem to scare the life out of people: Some people feel trapped, others are afraid of assault, and some are simply afraid of the dark.
 
