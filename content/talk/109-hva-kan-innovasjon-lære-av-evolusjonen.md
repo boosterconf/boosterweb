@@ -5,6 +5,7 @@ authors:
     - Siv Holen
 time_slot: "Wednesday: 09:15 - 10:15"
 room: "Kongesalen"
+vimeo_id: 692592329
 ---
 Can Darwins finches help us understand the design prosess? 
 
