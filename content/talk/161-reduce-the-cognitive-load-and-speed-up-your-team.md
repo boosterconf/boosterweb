@@ -6,7 +6,7 @@ authors:
     - May Britt Haugsvær
 time_slot: "Friday: 10:45 - 12:15"
 room: "Kongesalen 2+3"
-vimeo_id: 692626207
+vimeo_id: 692626530
 ---
 Hvor mange ganger har du hørt en leder si: «vi må jobbe smartere», for så å haste videre til neste møte og la teamet sitte der igjen som et stort spørsmålstegn? Med utgangspunkt i et av våre team i Sbanken vil vi fortelle historien om hvordan teamet selv tok initiativ til å forbedre både arbeidsprosessene sine og bruken av ulike støtteverktøy for faktisk å «jobbe smartere» og samtidig øke tilfredsheten i teamet. 
 
