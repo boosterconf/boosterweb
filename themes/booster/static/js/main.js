@@ -1,9 +1,9 @@
-$( document ).ready(function($) {
-    function shuffle(o) {
-        for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-        return o;
-    };
-    $(".sponsorlogos").html(shuffle($(".sponsorlogos li")));
-
-    $("#organizers").html(shuffle($("#organizers li")));
-});
+function shuffle(parent) {
+    for (var i = parent.children.length; i >= 0; i--) {
+        parent.appendChild(parent.children[Math.random() * i | 0]);
+    }
+}
+var sponsorlogos = document.querySelector('.sponsorlogos');
+shuffle(sponsorlogos);
+var organizers = document.querySelector('#organizers');
+shuffle(organizers);
