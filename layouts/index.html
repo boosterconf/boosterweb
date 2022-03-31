@@ -3,8 +3,8 @@
     <div class="middle-of-image">
       <h1>THE SOFTWARE CONFERENCE<br>FOR THE WHOLE TEAM</h1>
       <div class="dates-location">
-        <span class="font-page-conference-dates">March 23-25 2022</span>
-        <span class="front-page-location">Bergen, Norway<br>Radisson Blu Royal Hotel, Bryggen</span>
+        <span class="font-page-conference-dates">Date for 2023: To be announced!</span>
+        <span class="front-page-location">Bergen, Norway<br><!-- Radisson Blu Royal Hotel, Bryggen--></span>
       </div>
     </div>
 
@@ -20,20 +20,22 @@
   </div>
   {{ end }}
 
-  {{ with .Site.GetPage "/info/tickets" }}
-  <div class="call-to-action">
-    <h2>Early bird tickets are now available!</h2>
-    <a href="{{ .Params.ticket_store_link }}" class="call-to-action__link">Get your ticket here</a>
-  </div>
+  {{ if .Site.GetPage "/info/tickets" }}
+    {{ with .Site.GetPage "/info/tickets" }}
+    <div class="call-to-action">
+      <h2>Early bird tickets are now available!</h2>
+      <a href="{{ .Params.ticket_store_link }}" class="call-to-action__link">Get your ticket here</a>
+    </div>
+    {{ end }}
+  {{ else }}
+    <div class="call-to-action">
+      <h2>We are sold out and looking forward to seeing you all!</h2>
+    </div>
   {{ end }}
-  <div class="call-to-action">
-    <h2>We are sold out and looking forward to seeing you all!</h2>
-  </div>
-
   <div class="imagetron-2" style="background-image: url('/images/bergen1920.jpg')">
     <h2>Beautiful city of Bergen</h2>
     <p>Bergen, "the city of seven mountains", is the proud home of Booster. Norwegian beauty surrounds the historic coastal city located in the city fjord.</p>
-    <p>The venue for 2022 is Radisson Blu Royal Hotel, located at Bryggen, the UNESCO World Heritage Site.</p>
+    <!-- <p>The venue for 2023 is Radisson Blu Royal Hotel, located at Bryggen, the UNESCO World Heritage Site.</p> -->
   </div>
 
   <div class="image-n-contents">
