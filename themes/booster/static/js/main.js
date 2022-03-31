@@ -1,6 +1,8 @@
 function shuffle(parent) {
-    for (var i = parent.children.length; i >= 0; i--) {
-        parent.appendChild(parent.children[Math.random() * i | 0]);
+    if(parent != null) {
+        for (var i = parent.children.length; i >= 0; i--) {
+            parent.appendChild(parent.children[Math.random() * i | 0]);
+        }
     }
 }
 var sponsorlogos = document.querySelector('.sponsorlogos');
