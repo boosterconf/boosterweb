@@ -5,6 +5,7 @@ authors:
     - Håkon André Førre Knudsen
 time_slot: "Friday: 13:30 - 14:00"
 room: "Kongesalen 1"
+vimeo_id: 692599612
 ---
 The first version of RamBase Cloud ERP was released in 1992. Back then it was running on in-house developed hardware, with all business logic written in an in-house developed programming language named COS. We have since moved on from the custom hardware, but COS has been with us until now.
 

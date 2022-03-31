@@ -6,6 +6,7 @@ authors:
   - Tor Sporsem
 time_slot: "Thursday: 14:15 - 14:45"
 room: "Kongesalen 2+3"
+vimeo_id: 692595860
 ---
 
 Har du noen gang begynt i en ny organisasjon eller team og følt deg litt fortapt? Opplevd utfordringer som gjorde at samarbeid med teamet ikke gikk så bra som det burde? Vært usikker på hvor du finner informasjon eller hjelp som du trenger for å komme i gang? God onboarding har alt å si for velvære og effektiviteten til team.

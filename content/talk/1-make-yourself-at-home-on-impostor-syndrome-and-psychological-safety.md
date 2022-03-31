@@ -5,6 +5,7 @@ authors:
     - Maja Jaakson
 time_slot: "Wednesday: 13:40 - 15:10"
 room: "Kongesalen 2+3"
+vimeo_id: 692587426
 ---
 Once upon a time, Maja landed a job at a big digital agency as a developer. An _experienced_ developer—the kind who should know How Things Are Done™. ...But she didn't. Uh oh. 😱
 

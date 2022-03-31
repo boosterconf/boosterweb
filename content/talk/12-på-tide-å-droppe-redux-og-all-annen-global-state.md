@@ -5,6 +5,7 @@ authors:
     - Torry Tufteland
 time_slot: "Wednesday: 10:40 - 11:25"
 room: "Kongesalen 2+3"
+vimeo_id: 692585509
 ---
 Jeg ønsker å vise et lasteikon mens jeg venter på data, et øyeblikk bare, jeg må først sette opp:
 

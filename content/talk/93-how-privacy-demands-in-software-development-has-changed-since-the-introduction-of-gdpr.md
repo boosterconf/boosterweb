@@ -5,6 +5,7 @@ authors:
     - Nikolai Norman Andersen
 time_slot: "Thursday: 14:15 - 14:45"
 room: "Kongesalen 1"
+vimeo_id: 692594162
 ---
 It's been years since GDPR went into effect and we now have court rulings that tells us how to interpret it. There exists no practical way to transfer personally identifiable information to the U.S. The use of public clouds is in a questionable state due to U.S. ownership. Remote work from outside the EEA may not be possible.
 

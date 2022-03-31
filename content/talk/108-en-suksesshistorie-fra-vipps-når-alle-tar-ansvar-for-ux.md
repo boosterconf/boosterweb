@@ -5,6 +5,7 @@ authors:
     - Johannes Harestad
 time_slot: "Thursday: 13:30 - 14:00"
 room: "Kongesalen 2+3"
+vimeo_id: 692594904
 ---
 Som UX-designer kan det være en krevende oppgave å engasjere utviklere og andre roller i designprosessen. Man føler seg ofte alene om ansvaret for UX.
 
