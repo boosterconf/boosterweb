@@ -9,7 +9,7 @@ menu:
         name: "Kids"
 ---
 
-For femte gang arrangerer Boosterkonferansen, i samarbeid med Lær Kidsa Koding og Bergen Offentlige Bibliotek, utviklerkonferanse for barn. Konferansen avholdes på Radisson Blu Royal Hotel, Bryggen 27. mars 2022. Det blir kurs for ulike aldersgrupper og et sterkt faglig innhold, akkurat slik en god konferanse skal være!
+For femte gang arrangerer Boosterkonferansen, i samarbeid med Lær Kidsa Koding og Bergen Offentlige Bibliotek, utviklerkonferanse for barn. Konferansen avholdes på Radisson Blu Royal Hotel, Bryggen XX. mars 2023. Det blir kurs for ulike aldersgrupper og et sterkt faglig innhold, akkurat slik en god konferanse skal være!
 
 ## Program
 

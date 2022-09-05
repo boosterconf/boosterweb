@@ -1,6 +1,6 @@
 ---
 title: "Call for presentations"
-date: 2021-07-17T17:36:23+02:00
+date: 2022-09-05T19:45:23+02:00
 draft: true
 type: article
 menu:
@@ -9,11 +9,11 @@ menu:
         name: "Call for presentations"
 ---
 
-Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2022 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
+Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2023 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
 
-[Submit your proposal here!](https://forms.gle/dN3FMUDR9DbxV3WP8)
+[Submit your proposal here!](https://forms.gle/JC7VAWLPBbV4jqg3A)
 
-#### Submission deadline: November 1st 2021
+#### Submission deadline: November 10th 2022
 
 Pick your format!
 =================
@@ -93,8 +93,8 @@ Please note that if your talk gets accepted we will:
 
 *   Film your talk and publish it to Vimeo, (keynotes, lightning talks and short-talks only)
 *   Publish your name, bio and talk abstract on our website as part of this years program. We will also keep a copy of this information as a part of the Booster history.
-*   Keep your e-mail address, in order to be able to contact you while working on Booster 2022.
+*   Keep your e-mail address, in order to be able to contact you while working on Booster 2023.
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@booster.no](mailto:kontakt@booster.no).
 
-[Submit your proposal here!](https://forms.gle/dN3FMUDR9DbxV3WP8)
+[Submit your proposal here!](https://forms.gle/JC7VAWLPBbV4jqg3A)
