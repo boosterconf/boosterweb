@@ -41,8 +41,6 @@ Lightning talks are pretty cool too. Each speaker in a lightning session gets pr
 Share your story with us. Stories are such an important way to learn from the experience of others. Tell us about how you, created, tested, experienced or did something – alone or with a team.
 
 **Length:** 30 min  
-  
-_Nb._ The program has room for only eight of these sessions.
 
 What should your topic be?
 --------------------------
