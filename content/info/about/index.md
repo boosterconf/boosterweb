@@ -16,10 +16,6 @@ resources:
       title: Kristian Kastet
       params:
         twitter_handle: kakastet
-    - src: who-are-we/andre.jpg
-      title: André Heie Vik
-      params:
-        twitter_handle: andrev
     - src: who-are-we/david.jpg
       title: David Mellum
       params:
