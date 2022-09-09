@@ -4,7 +4,7 @@
       <h1>{{- .Title -}}</h1>
     </div>
     {{- .Content -}}
-    {{ $talks := getCSV "," "https://docs.google.com/spreadsheets/d/1mkmG_9Ayr9H13wV2pr5lN2vAIMyw4AEsFMufIvNwQYM/export?format=csv" }}
+    {{ $talks := getCSV "," "https://docs.google.com/spreadsheets/d/1P62GE4fliCyUlULG7bQGVMVr4FCF7vQ4m-xM-ub0INk/export?format=csv" }}
     
     {{ range $index, $r := $talks }}
     {{ if not (eq $index 0) }}
@@ -12,15 +12,15 @@
 
         <div class="col-8">
           <h4>
-            {{ index $r 4 }}
+            {{ index $r 5 }}
           </h4>
       
           <p class="muted">
-            {{ index $r 3 }} - Suggested by {{ index $r 14 }}
+            {{ index $r 4 }} - Suggested by {{ index $r 2 }}
           </p>
       
           <p>
-            {{ index $r 5 | markdownify }}
+            {{ index $r 6 | markdownify }}
           </p>
       
         </div>
@@ -29,7 +29,7 @@
     {{end}}
     {{ if .Site.Params.CfpOpen }}
     <p>Missing anything?
-        <br/><a href="/cfp">Suggest your own talk!</a>
+        <br/><a href="/info/cfp">Suggest your own talk!</a>
       </p>
       {{ end }}
   </article>
