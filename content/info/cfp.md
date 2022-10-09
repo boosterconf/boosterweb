@@ -13,7 +13,7 @@ Share with us your ideas, valuable experiences and skills – old and new. Don't
 
 [Submit your proposal here!](https://forms.gle/JC7VAWLPBbV4jqg3A)
 
-<!-- #### Submission deadline: November 10th 2022 -->
+#### Submission deadline: November 10th 2022
 
 Pick your format!
 =================
