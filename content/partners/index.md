@@ -104,7 +104,7 @@ resources:
     - src: logos/stacc.svg
       title: Stacc
       params:
-        url: hhttps://stacc.com/
+        url: https://stacc.com/
     - src: logos/computas.svg
       title: Computas
       params:
