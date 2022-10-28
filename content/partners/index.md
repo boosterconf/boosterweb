@@ -133,5 +133,8 @@ resources:
       title: Webstep
       params:
         url: https://www.webstep.no/
-    
+    - src: logos/atea.png
+      title: ATEA
+      params:
+        url: http://www.atea.no
 ---
