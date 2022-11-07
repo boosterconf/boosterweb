@@ -113,7 +113,7 @@ resources:
     #   title: Itera
     #   params:
     #     url: https://www.itera.com/no/
-    - src: logos/dnb.jpg
+    - src: logos/dnb.png
       title: DNB
       params:
         url: https://www.dnb.no/
@@ -133,7 +133,7 @@ resources:
       title: Webstep
       params:
         url: https://www.webstep.no/
-    - src: logos/atea.png
+    - src: logos/atea.svg
       title: ATEA
       params:
         url: https://www.atea.no
