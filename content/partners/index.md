@@ -97,10 +97,10 @@ resources:
       title: Ulriken
       params:
         url: https://www.uc.no/nb/
-    # - src: logos/dfind.png
-    #   title: Dfind
-    #   params:
-    #     url: https://www.dfindconsulting.no/
+    - src: logos/dfind.png
+      title: Dfind
+      params:
+        url: https://www.dfindconsulting.no/
     - src: logos/stacc.svg
       title: Stacc
       params:
@@ -117,10 +117,10 @@ resources:
       title: DNB
       params:
         url: https://www.dnb.no/
-    # - src: logos/capgemini.svg
-    #   title: Capgemini
-    #   params:
-    #     url: https://www.capgemini.com/
+    - src: logos/capgemini.svg
+      title: Capgemini
+      params:
+        url: https://www.capgemini.com/
     - src: logos/noria.png
       title: Noria
       params:
@@ -136,5 +136,9 @@ resources:
     - src: logos/atea.png
       title: ATEA
       params:
-        url: http://www.atea.no
+        url: https://www.atea.no
+    - src: logos/visito.png
+      title: Visito
+      params:
+        url: https://www.visito.no/
 ---
