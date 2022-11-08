@@ -29,10 +29,10 @@ resources:
       title: Sonat Consulting
       params:
         url: http://www.sonat.no
-    # - src: logos/rainfall.png
-    #   title: Rainfall
-    #   params:
-    #     url: http://www.rainfall.no
+    - src: logos/rainfall.png
+      title: Rainfall
+      params:
+        url: http://www.rainfall.no
     # - src: logos/sbanken.png
     #   title: Sbanken
     #   params:
