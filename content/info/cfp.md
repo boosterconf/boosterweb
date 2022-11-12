@@ -1,7 +1,7 @@
 ---
 title: "Call for presentations"
 date: 2022-09-05T19:45:23+02:00
-draft: false
+draft: true
 type: article
 menu:
     main:
