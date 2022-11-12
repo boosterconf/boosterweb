@@ -33,10 +33,10 @@ resources:
       title: Rainfall
       params:
         url: http://www.rainfall.no
-    # - src: logos/sbanken.png
-    #   title: Sbanken
-    #   params:
-    #     url: https://www.sbanken.no/
+    - src: logos/sbanken.png
+      title: Sbanken
+      params:
+        url: https://www.sbanken.no/
     - src: logos/frende.png
       title: Frende
       params:
