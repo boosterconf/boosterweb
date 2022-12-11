@@ -141,4 +141,8 @@ resources:
       title: Visito
       params:
         url: https://www.visito.no/
+    - src: logos/equinor.png
+      title: Equinor
+      params:
+        url: https://www.equinor.com/no
 ---
