@@ -42,9 +42,9 @@ resources:
       params:
         url: https://www.frende.no
     - src: logos/kraftlauget.png
-       title: Kraftlauget
-       params:
-         url: https://www.kraftlauget.no/
+      title: Kraftlauget
+      params:
+        url: https://www.kraftlauget.no/
     - src: logos/instech.png
       title: Instech
       params:
