@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article>
+    <div class="header-join">
+      <h1>{{- .Title -}}</h1>
+    </div>
+    
+    {{ if .Params.ticket_sale_open }}
+        {{- .Content -}}
+    {{ else }}
+        <p>Tickets for boosterconf 2023 will soon be available..</p>
+    {{ end }}
+  
+  </article>
+{{end}}
