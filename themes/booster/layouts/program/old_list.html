@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article>
+    {{ if .Title }}
+    <div class="program-header-join">
+        <h1>{{- .Title -}}</h1>
+    </div>
+    {{ end }}
+    <div class="program">
+        {{ range .Pages }}
+        <div id="day{{.Weight}}">
+            <h2>{{ .Title }}</h2>
+
+            {{ range .Pages }}
+            {{ .Render }}
+
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</article>
+{{end}}

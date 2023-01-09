@@ -1,21 +1,40 @@
 {{ define "main" }}
 <article>
-{{ if .Title }}
-<div class="program-header-join">
-    <h1>{{- .Title -}}</h1>
-</div>
-{{ end }}
-<div class="program">
-{{ range .Pages }}
-    <div id="day{{.Weight}}">
-        <h2>{{ .Title }}</h2>
-
-        {{ range .Pages }}
-        {{ .Render }}
-
-        {{ end }}
+    {{ if .Title }}
+    <div class="program-header-join">
+        <h1>{{- .Title -}}</h1>
     </div>
     {{ end }}
-</div>
+    <div class="program">
+        {{ $paginator := .Paginate ( first 3 .Pages.ByWeight ) 1 }}
+        {{ range .Paginator.Pages }}
+        <div id="day{{.Weight}}">
+            <div>
+                <h2>{{ .Title }}</h2>
+                <div class="program-day-paginator">
+                    <span>
+                        {{ if $paginator.HasPrev }}
+                        <a href="{{ $paginator.Prev.URL }}">
+                            Previous
+                        </a>
+                        {{ end }}
+                    </span>
+                    <span>
+                        {{ if $paginator.HasNext }}
+                        <a href="{{ $paginator.Next.URL }}">
+                            Next
+                        </a>
+                        {{ end }}
+                    </span>
+                </div>
+            </div>
+
+            {{ range .Pages }}
+            {{ .Render }}
+
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
 </article>
 {{end}}

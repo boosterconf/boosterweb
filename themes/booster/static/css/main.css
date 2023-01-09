@@ -164,6 +164,11 @@ article {
         background: #2E3E4D;
         margin-bottom: 3rem;
     }
+    article .program-header-paging {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
         article .header-join h1 {
             max-width: 900px;
             margin: 0 auto;
@@ -451,6 +456,13 @@ article {
 .program .day2,
 .program .day3 {
     margin-top: 3rem;
+}
+
+.program-day-paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3em;
 }
 
 .program h3,
