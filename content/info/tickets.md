@@ -14,7 +14,7 @@ menu:
 
 ### Tickets are now available!
 
-Get your ticket [here.](SETT INN AKTUELL LINK)
+Get your ticket [here.](https://tikkio.com/tickets/34813-booster-2023)
 
 #### Are you purchasing and financing your own ticket?
 
