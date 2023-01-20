@@ -3,8 +3,8 @@ title: "Ticket information"
 date: 2021-12-06T19:55:23+02:00
 draft: false
 type: tickets
-ticket_store_link: https://www.boosterconf.no/info/tickets
-ticket_sale_open: false
+ticket_store_link: https://tikkio.com/tickets/34813-booster-2023
+ticket_sale_open: true
 sold_out: false
 menu:
     main:
@@ -14,10 +14,25 @@ menu:
 
 ### Tickets are now available!
 
-Get your ticket [here.](https://tikkio.com/tickets/34813-booster-2023)
+All tickets grants the attendee access to all three days of the conference and the conference dinner on Wednesday.
 
-#### Are you purchasing and financing your own ticket?
+#### [Nerd Bird Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
+**Price:** NOK 4000 + MVA
 
-This year we offer a limited number of tickets for individuals that does not get ticket expenses covered by their employer. 
-These tickets are available [here.](https://www.boosterconf.no/info/tickets)
+In *very* limited supply. Get 'em while they're hot! For attendees whose companies finance their tickets for them.
 
+#### [Early Bird Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
+**Price:** NOK 6500 + MVA
+
+In limited supply! For attendees whose companies finance their tickets for them.
+
+#### [Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
+**Price:** NOK 8500 + MVA
+
+For attendees whose companies finance their tickets for them.
+
+
+#### [Individual Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
+**Price:**: NOK 2000 + MVA
+
+We want to encourage independent individuals to join the conversation. This is a discounted ticket for individuals who are financing their own ticket.
