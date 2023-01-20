@@ -19,7 +19,7 @@ All tickets grants the attendee access to all three days of the conference and t
 #### [Nerd Bird Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
 **Price:** NOK 4000 + MVA
 
-In *very* limited supply. Get 'em while they're hot! For attendees whose companies finance their tickets for them.
+~~In *very* limited supply. Get 'em while they're hot!~~ **Sold out!** For attendees whose companies finance their tickets for them.
 
 #### [Early Bird Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
 **Price:** NOK 6500 + MVA
