@@ -27,9 +27,9 @@
       </div>
       {{end}}
     {{end}}
-    {{ if .Site.Params.CfpOpen }}
+    {{ with .Site.GetPage "/info/cfp" }}
     <p>Missing anything?
-        <br/><a href="/info/cfp">Suggest your own talk!</a>
+        <br/><a href="{{ .RelPermalink }}">Suggest your own talk!</a>
       </p>
       {{ end }}
   </article>
