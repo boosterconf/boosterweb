@@ -189,11 +189,12 @@ article {
             list-style: none;
         }
         article .program-header-join ul li {
-            padding: 0.5rem 1rem;
             margin: 0 1rem;
         }
         article .program-header-join ul li a {
+            display: block;
             color: inherit;
+            padding: 0.5rem 1rem;
         }
         article .program-header-join ul li {
             color: white;
