@@ -1,8 +1,8 @@
 ---
 time: 09:15 - 10:15
-location: Kongesalen - Opening unkeynote
-type: session
-session_type: plenary
+location: Kongesalen
+title: Opening keynote
+type: period
 weight: 3
 talks:
 ---

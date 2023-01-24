@@ -178,6 +178,33 @@ article {
             color: white;
             font-weight: 300;
         }
+
+        article .program-header-join ul {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #2E3E4D;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            list-style: none;
+        }
+        article .program-header-join ul li {
+            padding: 0.5rem 1rem;
+            margin: 0 1rem;
+        }
+        article .program-header-join ul li a {
+            color: inherit;
+        }
+        article .program-header-join ul li {
+            color: white;
+        }
+        article .program-header-join ul li.active {
+            background: white;
+            color: #2E3E4D;
+        }
+        article .program-header-join ul li:hover {
+            background-color:#F6AB6F
+           }
     article h4 {
         font-weight: 400;
     }
@@ -349,16 +376,57 @@ article {
 
 .program {
  max-width:1200px;
- margin:auto;
 }
 
+/* NEW STYLE START */
+.program .period {
+    margin-bottom: 16px;
+}
+.program .period>header{
+    background-color: #2E3E4D;
+    color: #ffffff;
+    padding: 1rem 1rem;
+}
+.program .period .rooms {
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+}
+
+.program .period .rooms.grabbable {
+    cursor: grab;
+}
+
+.program .period .room {
+    width: 100%;
+    min-width: 22%;
+    background-color: #F2F2F2;
+}
+.program .period .room>header {
+    background-color: #A5ECDE;
+    color: #2E3E4D;
+    padding: 1rem 1rem;
+}
+.program .talk {
+    display: block;
+    background-color: #F2F2F2;
+}
+.program .talk:nth-child(2n) {
+    background-color: #E5E5E5;
+}
+
+.talk .description {
+    font-size: 14px;
+    padding: 1rem 1rem;
+    font-weight: normal;
+    display: block;
+}
 .program .author {
  display: block;
  font-size:14px !important
 }
-.program .volunteer {
- font-size:12px !important
-}
+/* NEW STYLE END */
+
 .program header.time {
  padding:1rem 1rem
 }
@@ -371,40 +439,6 @@ article {
 }
 .program .nav-tabs li a:hover {
  background-color:#F6AB6F
-}
-.program .lightning-talk-slot .single-talk .talk {
- background-color:#F2F2F2
-}
-.program .lightning-talk-slot .single-talk:nth-child(2n) .talk {
- background-color:#E5E5E5
-}
-.program .workshop-slot .period {
- background-color:#F2F2F2
-}
-.program .workshop-slot .period:nth-child(2n) {
- background-color:#E5E5E5
-}
-.program .plenary-slot {
- background-color:#F2F2F2
-}
-.program .plenary-slot:nth-child(2n) {
- background-color:#E5E5E5
-}
-.program .period header {
- background-color:#2E3E4D;
- color:#ffffff;
- padding:3px 5px
-}
-.program .period .location {
- color:#ffffff;
-}
-.program .period header.time {
- border-bottom:none;
- color:#757470;
- background-color:#f2f0e6;
- font-weight:bold;
- font-size:18px;
- padding:5px
 }
 .program .period .slot {
  line-height:1.2em
@@ -429,12 +463,6 @@ article {
 }
 .program .period .plenary-type {
  padding:5px 10px 5px 10px
-}
-.program header.break,
-.program header.break .location {
- background-color:#A5ECDE;
- color:#2E3E4D;
- margin-bottom: 16px;
 }
 .program .period>header {
  padding:1rem 1rem
@@ -489,25 +517,12 @@ article {
 .program .follow-wrapper .time {
  padding:1rem 1rem
 }
-.program .lightning-talk-header {
-    margin-bottom: 16px;
-}
 .program .lightning-talk.period header {
  background-color:#A5ECDE
 }
 .program .lightning-talk.period header .location {
  color:#2E3E4D
 }
-.program .lightning-sections {
-    margin-bottom: 16px;
-}
-.program .presentations-header {
-    margin-bottom: 16px;
-}
-.program .period.program-column {
-    margin-bottom: 16px;
-}
-
 .speakers-body .speaker {
     background-color: #F2F2F2;
     display: inline-block;

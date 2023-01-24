@@ -13,4 +13,5 @@ hugo.darwin
 hugo.linux
 ev/
 speakers.csv
-talks.csv
+talks*.csv
+.hugo_build_lock.lock

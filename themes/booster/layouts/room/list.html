@@ -1,0 +1,10 @@
+<div class="room">
+    <header>
+        <span class="location">{{ .Title }}</span>
+    </header>
+    <div class="sessions">
+        {{ range .Pages }}
+            {{ .Render "program-li" }}
+        {{ end }}
+    </div>
+</div>
