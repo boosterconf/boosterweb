@@ -391,7 +391,7 @@ article {
 .program .period .rooms {
     display: flex;
     gap: 10px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .program .period .rooms.grabbable {
