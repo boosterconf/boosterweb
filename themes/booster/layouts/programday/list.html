@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article>
+
+    <div class="program-header-join">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            {{ if $currentPage.HasMenuCurrent "main" . }}
+                {{ if .Title }}
+                <h1>{{- .Title -}}</h1>
+                {{ end }}
+                <ul>
+                {{ if .HasChildren }}
+                        {{ range .Children }}
+                            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                <a href="{{ .URL }}">{{ .Name }}</a>
+                            </li>
+                        {{ end }}
+                {{ end }}
+                </ul>
+            {{ end }}
+        {{ end }}
+    </div>
+    <div class="program">
+        <h2>{{ .Title }}</h2>
+
+        {{ range .Pages }}
+        {{ .Render }}
+
+        {{ end }}
+    </div>
+</article>
+{{end}}

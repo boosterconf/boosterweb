@@ -2,6 +2,7 @@
 title: "Proposals"
 date: 2022-09-09T15:36:23+02:00
 type: proposals
+draft: true
 menu:
     main:
         weight: 16

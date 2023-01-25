@@ -1,0 +1,16 @@
+<div class="period">
+    <header>
+        <time class="time">{{ .Params.Time }}</time>
+        {{ if .Params.Location}}
+        <span class="location">{{ .Params.Location }}</span>
+        {{ end }}
+        {{ if .Title }}
+        <span>— {{ .Title }}</span>
+        {{ end }}
+    </header>
+    <div class="rooms{{ if gt (len .Pages) 4 }} grabbable{{end}}">
+        {{ range .Pages }}
+            {{ .Render }}
+        {{ end }}
+    </div>
+</div>

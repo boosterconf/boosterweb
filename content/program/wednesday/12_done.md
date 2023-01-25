@@ -1,7 +1,6 @@
 ---
-time: "16:25"
+time: "16:20"
 title: "Day ends"
-type: session
-session_type: break
+type: period
 weight: 12
 ---
