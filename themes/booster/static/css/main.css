@@ -426,6 +426,38 @@ article {
  display: block;
  font-size:14px !important
 }
+
+.program .period {
+    line-height:1.2em
+   }
+   .program .period .talk {
+    font-size:14px;
+    padding:0 1rem 1rem 1rem;
+    font-weight:normal;
+   }
+   .program .period .talk .talk-type {
+    color:#2E3E4D;
+    font-style:italic;
+    font-size: 9px;
+    padding: 0.5rem 0 0 0;
+   }
+   .program .period .talk .author {
+    color:#2E3E4D;
+    font-size: 9px;
+    font-style:italic
+   }
+   .program .period .talk .description {
+    padding:5px 0;
+    color:#2E3E4D
+   }
+   .program .period .talk .description p {
+    margin-bottom:10px
+   }
+
+a.talk:hover {
+cursor:pointer;
+background-color:#e2e0d9
+}
 /* NEW STYLE END */
 
 .program header.time {
@@ -440,27 +472,6 @@ article {
 }
 .program .nav-tabs li a:hover {
  background-color:#F6AB6F
-}
-.program .period .slot {
- line-height:1.2em
-}
-.program .period .slot .talk {
- font-size:14px;
- padding:1rem 1rem;
- font-weight:normal;
- display:block
-}
-.program .period .slot .talk .author {
- color:#2E3E4D;
- font-style:italic
-}
-.program .period .slot .talk .description {
- display:none;
- padding:5px 0;
- color:#2E3E4D
-}
-.program .period .slot .talk .description p {
- margin-bottom:10px
 }
 .program .period .plenary-type {
  padding:5px 10px 5px 10px
@@ -562,10 +573,6 @@ article {
     }
     header.time {
      background-color:transparent
-    }
-    .talk:hover {
-     cursor:pointer;
-     background-color:#e2e0d9
     }
     .program-column {
      width:400px;

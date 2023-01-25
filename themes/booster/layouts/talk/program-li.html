@@ -1,5 +1,9 @@
 <a class="talk" href="{{ .RelPermalink }}">
     <div class="slot">
+        {{ with .Param "talk_type" }}
+        <div class="talk-type">{{ . }}</div>
+        {{ end }}
+        <div></div>
         <div class="description">
             <h4>{{.Title}}
 
