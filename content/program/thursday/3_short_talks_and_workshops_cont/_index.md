@@ -1,6 +1,6 @@
 ---
 title: "Workshops and experience reports (continued)"
-time: 10:45 - 12:15
+time: 10:50 - 12:20
 type: period
 weight: 3
 ---

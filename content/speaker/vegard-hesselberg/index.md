@@ -1,5 +1,5 @@
 ---
-name: Vegard.hesselberg@knowit.no
+name: Vegard Hesselberg
 # title: 
 # twitter_handle: 
 ---

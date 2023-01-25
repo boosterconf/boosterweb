@@ -1,7 +1,6 @@
 ---
-time: "14:00 - 14:15"
+time: "14:00 - 14:25"
 title: "Coffee break"
 type: period
-session_type: break
 weight: 6
 ---

@@ -1,6 +1,6 @@
 ---
-time: "10:15 - 10:35"
+time: "14:35 - 14:55"
 title: "Coffee break"
 type: period
-weight: 4
+weight: 7
 ---

@@ -1,7 +1,7 @@
 ---
 time: "19:00"
 title: "Conference dinner"
-location: "Grand selskapslokaler"
+location: "TBA"
 type: period
 weight: 13
 ---

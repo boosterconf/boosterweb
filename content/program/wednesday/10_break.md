@@ -1,5 +1,5 @@
 ---
-time: "15:10 - 15:25"
+time: "15:15 - 15:35"
 title: "Coffee break"
 type: period
 weight: 10

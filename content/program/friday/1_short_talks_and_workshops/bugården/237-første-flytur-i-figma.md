@@ -3,7 +3,7 @@ title: "Første flytur i Figma"
 talk_type: "Workshop (3 hours)"
 type: talk
 authors:
-    - Vegard.hesselberg@knowit.no
+    - Vegard Hesselberg
     - Merete Bertheau
 ---
 Har du noen gang hatt lyst til å bli bedre kjent med Figma? Denne workshoppen er myntet på utviklere som har lite eller ingen kjennskap til verktøyet, men som gjerne vil bli bedre kjent med det. Du blir kjent med frames, components og prototyping for å nevne noe. I løpet av workshopen vil jeg også dele av mine erfaringer og fortelle om noen av mine snarveier til design med Figma. Vi vil jobbe i et figma-brett jeg har laget – hver deltaker får sin egen kopi som kan brukes som referanse etter konferansen.
