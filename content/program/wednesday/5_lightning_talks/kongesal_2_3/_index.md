@@ -1,5 +1,5 @@
 ---
-title: "Kongesal 2_3"
+title: "Kongesal 2 + 3"
 type: room
 weight: 2
 ---
