@@ -29,10 +29,10 @@ All tickets grants the attendee access to all three days of the conference and t
 #### [Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
 **Price:** NOK 8500 + MVA
 
-For attendees whose companies finance their tickets for them.
+**Sold out!** For attendees whose companies finance their tickets for them.
 
 
-#### [Individual Conference Ticket](https://tikkio.com/tickets/34813-booster-2023)
+#### [Individual Conference Ticket](mailto:kontakt@boosterconf.no?subject=Individual%20conference%20ticket)
 **Price:**: NOK 2000 + MVA
 
-We want to encourage independent individuals to join the conversation. This is a discounted ticket for individuals who are financing their own ticket.
+We want to encourage independent individuals to join the conversation. This is a discounted ticket for individuals who are financing their own ticket.Send a mail to [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no?subject=Individual%20conference%20ticket) for more information.
