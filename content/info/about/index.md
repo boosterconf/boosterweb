@@ -8,14 +8,6 @@ menu:
         weight: 21
         name: "About us"
 resources:
-    - src: who-are-we/jonas.jpg
-      title: Jonas Berdal
-      params:
-        twitter_handle: jonasberdal
-    - src: who-are-we/kristian.png
-      title: Kristian Kastet
-      params:
-        twitter_handle: kakastet
     - src: who-are-we/david.jpg
       title: David Mellum
       params:
@@ -34,10 +26,6 @@ resources:
         twitter_handle: kjelliver
     - src: who-are-we/marit.jpg
       title: Marit Hellestø
-    - src: who-are-we/nina.jpg
-      title:  Nina Kaurel
-      params:
-        twitter_handle: nkaurel
     - src: who-are-we/malin.png
       title: Malin Jakobsen
     - src: who-are-we/elisabeth.jpg
@@ -46,10 +34,6 @@ resources:
       title: Knut Anders Stokke
       params:
         twitter_handle: knutanderss
-    - src: who-are-we/kjersti.png
-      title: Kjersti Bjørnestad Berg
-      params:
-        twitter_handle: kjerstibb
     - src: who-are-we/torjus.jpg
       title: Torjus Eidet
       params:
