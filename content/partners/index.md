@@ -61,10 +61,10 @@ resources:
       title: TV2
       params:
         url: https://www.tv2.no/
-    # - src: logos/tryg.png
-    #   title: Tryg
-    #   params:
-    #     url: https://www.tryg.no/
+    - src: logos/tryg.png
+      title: Tryg
+      params:
+        url: https://www.tryg.no/
     - src: logos/soprasteria.png
       title: Sopra Steria
       params:
@@ -149,4 +149,8 @@ resources:
       title: TietoEvry
       params:
         url: https://www.tietoevry.com/no/
+    - src: logos/fanasparebank.svg
+      title: Fana Sparebank
+      params:
+        url: https://www.fanasparebank.no/
 ---
