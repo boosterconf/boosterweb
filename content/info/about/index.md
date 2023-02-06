@@ -30,6 +30,8 @@ resources:
       title: Malin Jakobsen
     - src: who-are-we/elisabeth.jpg
       title: Elisabeth Hovden
+    - src: who-are-we/christina.jpg
+      title: Christina Vollevik Larsen
     - src: who-are-we/KnutAnders.jpg
       title: Knut Anders Stokke
       params:
