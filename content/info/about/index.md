@@ -44,6 +44,8 @@ resources:
       title: Anna Fossen-Helle
     - src: who-are-we/goran.jpg
       title: Gøran Basso
+    - src: who-are-we/guro.jpg
+      title: Guro Sivertsen Prestegard
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
