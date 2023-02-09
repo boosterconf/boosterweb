@@ -10,7 +10,7 @@
     </header>
     <div class="rooms{{ if gt (len .Pages) 4 }} grabbable{{end}}">
         {{ range .Pages }}
-            {{ .Render }}
+            {{ .Render "period-li" }}
         {{ end }}
     </div>
 </div>

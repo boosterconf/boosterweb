@@ -1,5 +1,5 @@
 ---
 title: "Bugården"
 type: room
-weight: 7
+weight: 8
 ---

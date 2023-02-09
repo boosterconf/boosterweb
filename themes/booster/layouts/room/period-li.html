@@ -1,0 +1,19 @@
+<div class="room">
+    <header>
+        <span class="location">{{ .Title }}</span>
+    </header>
+    <div class="sessions">
+        {{ range .Pages }}
+            {{ .Render "program-li" }}
+        {{ end }}
+        {{ with .Content }}
+        <div class="talk">
+            <div class="slot">
+                <div class="description">
+                    <h4>{{ . }}</h4>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

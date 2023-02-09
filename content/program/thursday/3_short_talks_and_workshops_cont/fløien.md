@@ -1,6 +1,6 @@
 ---
 title: "Mount Fløyen"
 type: room
-weight: 9
+weight: 11
 ---
 Walk and talk up the mountain continues
