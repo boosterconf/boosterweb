@@ -2,7 +2,7 @@
 <article class="inner">
   
     <div class="header-join">
-      <h1>{{ .Title }}</h1>
+      <h1>{{ .Title | markdownify }}</h1>
     </div>
 
     {{ range .Params.authors  }}

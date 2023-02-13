@@ -6,7 +6,7 @@
         {{ end }}
         <div></div>
         <div class="description">
-            <h4>{{.Title}}
+            <h4>{{.Title | markdownify }}
 
 
                 {{ $files := .Page.Resources }}
