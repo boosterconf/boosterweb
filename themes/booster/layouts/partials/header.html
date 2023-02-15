@@ -3,22 +3,33 @@
         <div id="booster-logo">
             <a tabindex="0" href="{{ .Site.Home.RelPermalink }}"><img src="/images/booster_logo.svg"></a>
         </div>
-        <input type="checkbox" id="main-menu-toggle" style="display: none;"/>
-        <label for="main-menu-toggle" class="dropdown">
-            <span class="hamburger">
-                <span class="icon-bar top-bar"></span>
-                <span class="icon-bar middle-bar"></span>
-                <span class="icon-bar bottom-bar"></span>
-            </span>
-        </label>
-        <ul class="main-menu">
+        
+        <details id="thin-menu">
+            <summary>
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </summary>
+            <nav class="main-menu">
+                {{ if .Site.Menus.main }}
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        <li class="nav-item{{if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }} current{{end}}"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                {{ end }}
+            </nav>
+        </details>
+
+        <nav id="wide-menu" class="main-menu">
             {{ if .Site.Menus.main }}
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                     <li class="nav-item{{if or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .) }} current{{end}}"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
                 {{ end }}
             {{ end }}
-        </ul>
+        </nav>
     </nav>
   
   </header>
