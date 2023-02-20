@@ -8,4 +8,20 @@
         <span>— {{ .Title }}</span>
         {{ end }}
     </header>
+    
+    <div class="rooms">
+        {{ with .Content }}
+        <div class="room">
+            <div class="sessions">
+                <div class="talk">
+                    <div class="slot">
+                        <div class="description">
+                            {{ . }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
 </div>

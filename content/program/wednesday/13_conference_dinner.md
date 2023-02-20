@@ -1,7 +1,11 @@
 ---
 time: "19:00"
 title: "Conference dinner"
-location: "TBA"
+location: "Kulturhuset, Vaskerelven 8"
 type: period
 weight: 13
 ---
+
+You are all welcome to the conference dinner at at Kulturhuset in Vaskerelven 8.
+
+Do you have any allergies, intolerances or dietary restrictions? Submit them [here](https://forms.gle/4UFJiB5mcLJ2pPQG6). 
