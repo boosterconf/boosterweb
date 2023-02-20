@@ -2,6 +2,7 @@
 title: "Have no fear, the security guild is here!"
 talk_type: "Lightning talk"
 type: talk
+weight: 1
 authors:
     - Karina Øverland Haugen
 ---

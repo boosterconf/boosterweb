@@ -2,6 +2,7 @@
 title: "GitHopes and Terrorforms 😱"
 talk_type: "Lightning talk"
 type: talk
+weight: 4
 authors:
     - Mike Long
 ---

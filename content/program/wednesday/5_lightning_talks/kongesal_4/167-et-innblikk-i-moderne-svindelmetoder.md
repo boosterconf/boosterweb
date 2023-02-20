@@ -2,6 +2,7 @@
 title: "Et innblikk i moderne svindelmetoder"
 talk_type: "Lightning talk"
 type: talk
+weight: 5
 authors:
     - Brynjar Steinbakk Ulriksen
 ---

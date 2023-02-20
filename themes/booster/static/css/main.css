@@ -70,8 +70,47 @@ header#main-header {
     width: 270px;
 }
 
+#wide-menu {
+    display: flex;
+}
+
+#thin-menu {
+    display: none;
+}
+
+#thin-menu[open] .main-menu {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#thin-menu summary::marker {
+    display: none;
+}
+
+#thin-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+#thin-menu summary {
+    width: 30px;
+    height: 30px;
+    list-style: none;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.hamburger div {
+    border: 1px solid black;
+}
+
 .main-menu {
-    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -79,13 +118,10 @@ header#main-header {
     align-items: baseline;
 }
 
-.main-menu .nav-item {
-
+.main-menu .nav-item.current {
+    font-weight: 500;
+    border-bottom: 3px solid #DD9B77;
 }
-    .main-menu .nav-item.current {
-        font-weight: 500;
-        border-bottom: 3px solid #DD9B77;
-    }
 
 .main-menu .nav-item a {
     display: block;
@@ -353,9 +389,23 @@ article {
 }
 
 @media (max-width: 720px) {
-    /* Desktop-menu */
+    #wide-menu {
+        display: none;
+    }
+    #thin-menu {
+        display: flex;
+    }
     #main-nav {
-        flex-direction: column;
+        flex-direction: row;
+    }
+    #booster-logo {
+        flex: 1;
+    }
+    #booster-logo img {
+        max-height: 93px;
+    }
+    .main-menu .nav-item {
+        width: 100%;
     }
     .main-menu {
         flex-direction: column;

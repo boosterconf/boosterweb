@@ -4,6 +4,7 @@ talk_type: "Workshop (3 hours)"
 type: talk
 authors:
     - Christian Buvik
+    - Henrik Samset
 ---
 Designere av digitale løsninger tar veldig ofte i bruk ikoner i grensesnittene som lages. Det er mange som sverger til f.eks. Googles Material-ikonsett, eller et av de mange andre gratis settene som finnes. 
 
