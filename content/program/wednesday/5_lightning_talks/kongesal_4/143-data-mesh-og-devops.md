@@ -2,6 +2,7 @@
 title: "Data mesh og Devops"
 talk_type: "Lightning talk"
 type: talk
+weight: 2
 authors:
     - Kirsti Loe
 ---

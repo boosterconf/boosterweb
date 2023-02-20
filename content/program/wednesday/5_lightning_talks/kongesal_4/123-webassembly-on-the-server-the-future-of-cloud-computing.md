@@ -2,6 +2,7 @@
 title: "WebAssembly on the server - the future of cloud computing?"
 talk_type: "Lightning talk"
 type: talk
+weight: 3
 authors:
     - Erlend Røsjø
 ---
