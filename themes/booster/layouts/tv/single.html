@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="title" content="Booster Conference 2023">
+    <meta name="description" content="Booster Conference, The Software Conference for the Whole Team">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://2023.boosterconf.no/">
+    <meta property="og:title" content="Booster Conference 2023">
+    <meta property="og:description" content="Booster Conference, The Software Conference for the Whole Team">
+    <meta property="og:image" content="https://2023.boosterconf.no/images/workshops.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://2023.boosterconf.no/">
+    <meta property="twitter:title" content="Booster Conference 2023">
+    <meta property="twitter:description" content="Booster Conference, The Software Conference for the Whole Team">
+    <meta property="twitter:image" content="https://2023.boosterconf.no/images/workshops.jpg">
+    
+    <link rel="stylesheet" href="/css/main.css?{{ now.Unix }}">
+    <link href="/css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <body>
+        <div class="tv">
+            {{ with .GetPage "/program" }}
+
+            <!-- Days -->
+            {{ range .Pages }}
+            <div class="tv-day" data-day="{{ .Params.Title }}"> 
+                <h1>{{ .Title }}</h1>
+
+                <!-- Time slots -->
+                <div class="tv-timeslots">
+                {{ range .Pages }}
+                <div class="tv-timeslot" data-time="{{ .Params.time }}">
+                    <div class="tv-timeslot-info">
+                        <h5 class="tv-timeslot-time">{{ .Params.time }}</h5>
+                        <span class="tv-now-text">Now: </span>
+                        <span class="tv-next-text">Next: </span>
+                        <span class="tv-timeslot-title">{{ .Title }}</span>
+                    </div>
+
+                    <!-- Rooms -->
+                    <div class="tv-rooms">
+                    {{ range .Pages }}
+                    <div class="tv-room">
+                        <h2>{{ .Title }}</h2>
+
+                        <!-- Talks -->
+                        {{ range .Pages }}
+                        <div class="tv-talk">
+                            <p>{{ .Title }}<br>
+                            <i>{{ delimit .Params.authors ", " }}</i>
+                            </p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    </div>
+                </div>
+                {{ end}}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </body>
+
+    <script>
+        // Must be updated for future conferences!
+        const FIRST_DAY = new Date("2023-03-29");
+
+        /** Checks if "wednesday", "thursday" or "friday" is present in the string,
+         *  which is more resilient than exactly parsing the string;
+         *  it would break if the title of the day changed slightly */
+        function parseDate(dateString) {
+            const MSEC_IN_DAY = 24 * 60 * 60 * 1000;
+            let date = new Date(FIRST_DAY);
+            if (dateString.toLowerCase().includes("thursday")) {
+                date = new Date (date.getTime() + MSEC_IN_DAY);
+            } else if (dateString.toLowerCase().includes("friday")) {
+                date = new Date (date.getTime() + MSEC_IN_DAY);
+            }
+            return date;
+        }
+
+        function parseTime(timeString, day) {
+            const parts = timeString.split(" ")[0].split(":");
+            const hour = parseInt(parts[0]);
+            const min = parseInt(parts[1]);
+            let date = new Date(day);
+            date.setHours(hour);
+            date.setMinutes(min);
+            return date;
+        }
+
+        // Global variables
+        let timeSlots = [] // list of {time: Date, timeSlot: DOM-element}
+        let currentIndex = 0;
+
+        function setActiveTimeSlot(index) {
+            if (index + 1 < timeSlots.length) {
+                console.log(timeSlots[index + 1]);
+            }
+
+            timeSlots[currentIndex].timeSlot.classList.remove("tv-now");
+            currentIndex = index;
+            timeSlots[currentIndex].timeSlot.classList.add("tv-now");
+
+            let OFFSET = 9;
+            let top = timeSlots[index].timeSlot.getBoundingClientRect().top + window.scrollY - OFFSET;
+            scrollTo({top, behavior: "smooth"});
+
+        }
+
+        /** timeSlots: {time: Date, timeSlot: DOM-element} */
+        function goToNow() {
+            let current = 0;
+            let next;
+            let now = new Date()
+
+            // find where in the program we are right now
+            for (let i=1; i < timeSlots.length; i++) {
+                if (timeSlots[i].time > now) {
+                    break;
+                }
+                current = i;
+            }
+
+            setActiveTimeSlot(current);
+        }
+
+        function goToNext() {
+            if (currentIndex + 1 < timeSlots.length) {
+                setActiveTimeSlot(currentIndex + 1);
+            }
+        }
+
+        function goToPrev() {
+            if (currentIndex > 0) {
+                setActiveTimeSlot(currentIndex - 1);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+
+            // For every day
+            document.querySelectorAll("[data-day]").forEach(dayElem => {
+                const date = parseDate(dayElem.getAttribute("data-day"));
+                dayElem.querySelectorAll("[data-time]").forEach(timeSlot => {
+                    let time = parseTime(timeSlot.getAttribute("data-time"), date);
+                    timeSlots.push({time, timeSlot});
+                });
+            });
+
+            goToNow();
+
+            document.addEventListener("keydown", event => {
+                if (event.code == "ArrowUp") {
+                    goToPrev();
+                    event.preventDefault()
+                } else if (event.code == "ArrowDown") {
+                    goToNext();
+                    event.preventDefault()
+                }
+            });
+        });
+    </script>
+
+    <script src="/js/main.js?{{ now.Unix }}"></script>
+</html>
