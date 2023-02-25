@@ -745,15 +745,33 @@ background-color:#e2e0d9
 .tv {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 3em;
+    font-size: 1.5em;
 }
     .tv .tv-day {}
     .tv .tv-timeslot {
-        margin: 10px 0;
+        margin: 20px 0;
         border-radius: 5px;
-        padding: 10px;
+        padding: 40px;
         background: #2E3E4D;
         color: white;
+    }
+    .tv .tv-timeslot-info {
+        font-size: 1.3em;
+    }
+    .tv .tv-talks {
+        
+    }
+    .tv li {
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .tv li:only-child {
+        list-style: none;
+        margin-left: 0px;
+    }
+    .tv li > div {
+        display: inline-block;
+        vertical-align: text-top;
     }
     .tv .tv-now-text, .tv .tv-next-text {
         display: none;
@@ -763,19 +781,25 @@ background-color:#e2e0d9
     }
     .tv .tv-timeslot:not(.tv-now) {
         opacity: 0.8;
-
     }
     .tv .tv-rooms {
         display: flex;
         flex-direction: row;
     }
     .tv .tv-room {
-        padding: 10px;
-        margin: 10px 10px 10px 0px;
-        border-radius: 5px;
+        margin-top: 15px;
+    }
+    .tv .tv-room > h2 {
+        font-size: 0.8em;
+    }
+    .tv .tv-talks {
         background: white;
         color: black;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 15px;
+        margin-left: 0;
     }
-    .tv .tv-talk {
-
+    .tv .tv-talk i {
+        font-size: 0.8em;
     }

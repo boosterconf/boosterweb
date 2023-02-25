@@ -36,9 +36,8 @@
                 {{ range .Pages }}
                 <div class="tv-timeslot" data-time="{{ .Params.time }}">
                     <div class="tv-timeslot-info">
-                        <h5 class="tv-timeslot-time">{{ .Params.time }}</h5>
-                        <span class="tv-now-text">Now: </span>
-                        <span class="tv-next-text">Next: </span>
+                        <span class="tv-now-text">NOW</span>
+                        <span class="tv-timeslot-time">{{ .Params.time }}:</span>
                         <span class="tv-timeslot-title">{{ .Title }}</span>
                     </div>
 
@@ -49,13 +48,17 @@
                         <h2>{{ .Title }}</h2>
 
                         <!-- Talks -->
+                        <ul class="tv-talks">
                         {{ range .Pages }}
-                        <div class="tv-talk">
-                            <p>{{ .Title }}<br>
-                            <i>{{ delimit .Params.authors ", " }}</i>
-                            </p>
-                        </div>
+                        <li class="tv-talk">
+                            <div>
+                                <span>{{ .Title }}</span>
+                                <br>
+                                <i>{{ delimit .Params.authors ", " }}</i>
+                            </div>
+                        </li>
                         {{ end }}
+                        </ul>
                     </div>
                     {{ end }}
                     </div>
