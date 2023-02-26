@@ -788,6 +788,7 @@ background-color:#e2e0d9
     }
     .tv .tv-room {
         margin-top: 15px;
+        min-width: 170px;
     }
     .tv .tv-room > h2 {
         font-size: 0.8em;

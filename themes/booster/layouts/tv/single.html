@@ -58,6 +58,13 @@
                             </div>
                         </li>
                         {{ end }}
+                        {{ if eq (len .Pages) 0 }}
+                        <li class="tv-talk">
+                            <div>
+                                <i>{{ .Content }}</i>
+                            </div>
+                        </li>
+                        {{ end }}
                         </ul>
                     </div>
                     {{ end }}
@@ -158,7 +165,9 @@
                 });
             });
 
-            goToNow();
+            goToNow()
+            // update program every 20 sek
+            const timer = setInterval(goToNow, 20*1000);
 
             document.addEventListener("keydown", event => {
                 if (event.code == "ArrowUp") {
