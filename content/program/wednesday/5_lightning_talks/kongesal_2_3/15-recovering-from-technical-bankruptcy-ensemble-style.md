@@ -1,5 +1,5 @@
 ---
-title: "Recovering from technical bankrupty - ensemble style"
+title: "Recovering from technical bankruptcy - ensemble style"
 talk_type: "Lightning talk"
 type: talk
 authors:
