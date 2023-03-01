@@ -8,4 +8,4 @@ NB! Alle deltagere må ha med sin egen PC! og tilhørende lader.
 
 ***Rom: Dræggen 7***
 
-[Meld på scratch her](https://boosterconf.ticketco.events/no/nb/e/scratch_2022)
+Påmelding kommer snart
