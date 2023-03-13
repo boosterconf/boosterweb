@@ -1,5 +1,5 @@
 ---
-title: "Booster kids early release"
+title: "Booster kids early access"
 date: 2023-02-04T17:36:23+02:00
 type: kids
 draft: false
