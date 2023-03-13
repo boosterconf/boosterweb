@@ -4,6 +4,7 @@ talk_type: "Workshop (1.5 hours)"
 type: talk
 authors:
     - Me (Merete) Lange
+    - Christian Haaland
 ---
 In this workshop we will explore the power of LEGO® SERIOUS PLAY® a facilitation method which stimulates play, fun and creativity by using LEGO® bricks. We will experience surprising results when thinking with our hands. 
 
