@@ -1,6 +1,6 @@
 ---
-title: "Dræggen 7"
+title: "Dræggen 8"
 type: room
-weight: 8
+weight: 9
 ---
 Workshop continues
