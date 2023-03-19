@@ -1,6 +1,11 @@
 <div class="room">
     <header>
         <span class="location">{{ .Title }}</span>
+        {{ if isset .Params "language" }}
+            {{ if eq .Params.language "english" }}
+            <span>🇬🇧</span>
+            {{ end }}
+        {{ end }}
     </header>
     <div class="sessions">
         {{ range .Pages }}
