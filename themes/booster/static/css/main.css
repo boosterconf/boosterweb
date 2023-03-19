@@ -782,13 +782,21 @@ background-color:#e2e0d9
     .tv .tv-timeslot:not(.tv-now) {
         opacity: 0.8;
     }
+    .tv .tv-timeslot-info .location {
+        font-size: 0.7em;
+    }
     .tv .tv-rooms {
         display: flex;
         flex-direction: row;
+        align-items: stretch;
     }
     .tv .tv-room {
         margin-top: 15px;
         min-width: 170px;
+        display: inline-flex;
+        flex-direction: column;
+        flex: 1;
+        max-width: 33.3%
     }
     .tv .tv-room > h2 {
         font-size: 0.8em;
@@ -800,6 +808,7 @@ background-color:#e2e0d9
         padding: 10px;
         margin: 15px;
         margin-left: 0;
+        height: 100%;
     }
     .tv .tv-talk i {
         font-size: 0.8em;

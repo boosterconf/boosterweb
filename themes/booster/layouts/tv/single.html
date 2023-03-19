@@ -39,34 +39,52 @@
                         <span class="tv-now-text">NOW</span>
                         <span class="tv-timeslot-time">{{ .Params.time }}:</span>
                         <span class="tv-timeslot-title">{{ .Title }}</span>
+                        {{ if .Param "location" }}
+                        <br>
+                        <span class="location">{{ .Params.location }}</span>
+                        {{ end }}
                     </div>
 
                     <!-- Rooms -->
                     <div class="tv-rooms">
                     {{ range .Pages }}
-                    <div class="tv-room">
-                        <h2>{{ .Title }}</h2>
+                    {{ if eq .Params.type "talk" }}
+                        <div class="tv-room">
+                            <ul class="tv-talks">
+                                <li class="tv-talk">
+                                    <div>
+                                        <span>{{ .Title }}</span>
+                                        <br>
+                                        <i>{{ delimit .Params.authors ", " }}</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    {{ else }}
+                        <div class="tv-room">
+                            <h2>{{ .Title }}</h2>
 
-                        <!-- Talks -->
-                        <ul class="tv-talks">
-                        {{ range .Pages }}
-                        <li class="tv-talk">
-                            <div>
-                                <span>{{ .Title }}</span>
-                                <br>
-                                <i>{{ delimit .Params.authors ", " }}</i>
-                            </div>
-                        </li>
-                        {{ end }}
-                        {{ if eq (len .Pages) 0 }}
-                        <li class="tv-talk">
-                            <div>
-                                <i>{{ .Content }}</i>
-                            </div>
-                        </li>
-                        {{ end }}
-                        </ul>
-                    </div>
+                            <!-- Talks -->
+                            <ul class="tv-talks">
+                            {{ range .Pages }}
+                            <li class="tv-talk">
+                                <div>
+                                    <span>{{ .Title }}</span>
+                                    <br>
+                                    <i>{{ delimit .Params.authors ", " }}</i>
+                                </div>
+                            </li>
+                            {{ end }}
+                            {{ if eq (len .Pages) 0 }}
+                            <li class="tv-talk">
+                                <div>
+                                    <i>{{ .Content }}</i>
+                                </div>
+                            </li>
+                            {{ end }}
+                            </ul>
+                        </div>
+                    {{ end }}
                     {{ end }}
                     </div>
                 </div>
@@ -109,6 +127,7 @@
         // Global variables
         let timeSlots = [] // list of {time: Date, timeSlot: DOM-element}
         let currentIndex = 0;
+        let running = true;
 
         function setActiveTimeSlot(index) {
             if (index + 1 < timeSlots.length) {
@@ -142,6 +161,12 @@
             setActiveTimeSlot(current);
         }
 
+        function tick() {
+            if (running) {
+                goToNow()
+            }
+        }
+
         function goToNext() {
             if (currentIndex + 1 < timeSlots.length) {
                 setActiveTimeSlot(currentIndex + 1);
@@ -167,7 +192,7 @@
 
             goToNow()
             // update program every 20 sek
-            const timer = setInterval(goToNow, 20*1000);
+            const timer = setInterval(tick, 20*1000);
 
             document.addEventListener("keydown", event => {
                 if (event.code == "ArrowUp") {
@@ -176,6 +201,15 @@
                 } else if (event.code == "ArrowDown") {
                     goToNext();
                     event.preventDefault()
+                } else if (event.code == "KeyS") {
+                    if (running) {
+                        console.log("Automatic scrolling stopped");
+                        running = false;
+                    } else {
+                        console.log("Automatic scrolling started");
+                        running = true;
+                        goToNow()
+                    }
                 }
             });
         });
