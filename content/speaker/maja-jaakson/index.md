@@ -1,6 +1,6 @@
 ---
 name: Maja Jaakson
-# title: 
+# title: Senior UX Engineer at SKIL
 # twitter_handle: 
 ---
-Maja Jaakson is a UX Engineer and Agile Coach at Stiftelsen Senter for Kvalitet i Legetjenester. She has an academic background in Philosophy and Logic and is fond of all things frontend, team dynamics, and continuous improvement.
+Maja works with an awesome team at the Senter for Kvalitet i Legetjenester (a foundation for quality improvement in Norway’s primary healthcare services). Professionally speaking, she’s into stuff at the intersection of dev and design and all things process and quality improvement. Unprofessionally speaking, she into shiny things—parrots, tropical plants, obnoxious nail polish. Also Wittgenstein and powerlifting. Please come say hi to her if you like any of these, too. 😄
