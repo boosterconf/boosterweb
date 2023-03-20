@@ -10,4 +10,4 @@ Du trenger ingen forkunnskaper for å være med. Ta med egen laptop og mobil.
 
 ***Du må ha din egen PC og mobil med***
 
-Påmelding kommer snart
+[Meld på Design Drømmeappen! her](https://boosterconf.ticketco.events/no/nb/e/design_droemmeappen)

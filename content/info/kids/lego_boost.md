@@ -8,4 +8,4 @@ Opplegget vil være basert på samarbeid da vi ikke har nok Lego Boost kits til 
 
 ***Rom: Dræggen 8***
 
-Påmelding kommer snart
+[Meld på Lego Boost her](https://boosterconf.ticketco.events/no/nb/e/lego_boost_2023)

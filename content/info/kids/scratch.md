@@ -10,4 +10,4 @@ Scratch er er verktøy der vi lager programmer på en måte som kan minne om Leg
 
 ***NB! Alle deltagere må ha med sin egen PC! og tilhørende lader.***
 
-Påmelding kommer snart
+[Meld på Scratch her](https://boosterconf.ticketco.events/no/nb/e/scratch_2023)
