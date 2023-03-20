@@ -46,6 +46,8 @@ resources:
       title: Gøran Basso
     - src: who-are-we/guro.jpg
       title: Guro Sivertsen Prestegard
+    - src: who-are-we/natalie.jpg
+      title: Natalie P. Wannaphong
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
