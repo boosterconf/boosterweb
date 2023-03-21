@@ -6,5 +6,5 @@ authors:
     - Tomas Osland
     - Marit Fidjestøl
 ---
-Tomas og Marit vil spre litt tegneglede ved å holde et introduksjonskurs i tradisjonell tegning, samt gi oss noen tips om visuelle møtenotater. 
+Tomas og Marit vil spre litt tegneglede ved å holde et introduksjonskurs i tradisjonell tegning. 
 Og vi lover at du vil sitte igjen med en god samling egenproduserte tegninger i løpet av denne workshoppen!
