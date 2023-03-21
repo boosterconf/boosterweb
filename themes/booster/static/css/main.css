@@ -813,3 +813,54 @@ background-color:#e2e0d9
     .tv .tv-talk i {
         font-size: 0.8em;
     }
+
+    .splash {
+        padding: 100px;
+        background-color: #eee;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .splash-grid {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .splash-grid .splash-cell {
+        width: 25%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2vh 5vw;
+    }
+
+    .splash-grid .splash-cell img {
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+
+    @keyframes show {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @keyframes hide {
+        from { opacity: 1; }
+        to { opacity: 0; }
+    }
+
+    .splash-grid .visible {
+        opacity: 1;
+        animation-name: show;
+        animation-duration: 2s;
+    }
+
+    .splash-grid .invisible {
+        opacity: 0;
+        animation-name: hide;
+        animation-duration: 1.5s;
+    }

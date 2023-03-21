@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="title" content="Booster Conference 2023">
+    <meta name="description" content="Booster Conference, The Software Conference for the Whole Team">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://2023.boosterconf.no/">
+    <meta property="og:title" content="Booster Conference 2023">
+    <meta property="og:description" content="Booster Conference, The Software Conference for the Whole Team">
+    <meta property="og:image" content="https://2023.boosterconf.no/images/workshops.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://2023.boosterconf.no/">
+    <meta property="twitter:title" content="Booster Conference 2023">
+    <meta property="twitter:description" content="Booster Conference, The Software Conference for the Whole Team">
+    <meta property="twitter:image" content="https://2023.boosterconf.no/images/workshops.jpg">
+    
+    <link rel="stylesheet" href="/css/main.css?{{ now.Unix }}">
+    <link href="/css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div class="splash">
+            <div class="splash-grid">
+            {{ range seq 4 }}
+                    {{ range seq 5 }}
+                        <div class="splash-cell invisible"></div>
+                    {{ end }}
+            {{ end }}
+            </div>
+        </div>
+        <script>
+            
+            const columns = 5;
+            const rows = 4;
+
+            let inactiveImages = [
+            {{ with .GetPage "/partners" }}
+                {{ range .Params.resources }}
+                  "/partners/{{.src}}",
+                {{ end }}
+            {{ end }}
+            ];
+            let activeImages = []
+
+            // randomize
+            inactiveImages.sort(() => Math.random() - 0.5)
+
+            // Initialize cells logo
+            let cells = document.querySelectorAll(".splash .splash-cell")
+            cells.forEach(cell => {
+                const imgSrc = inactiveImages.pop();
+                activeImages.unshift(imgSrc)
+                const img = document.createElement("img");
+                img.setAttribute("src", imgSrc)
+                cell.classList.remove("invisible");
+                cell.classList.add("visible");
+                cell.appendChild(img);
+            })
+
+            // remove some of the cells
+            for (let i = 0; i < 3; i++) {
+                const cells = document.querySelectorAll(".splash .visible");
+                const cell = cells[Math.floor(Math.random() * cells.length)];
+                const imgSrc = cell.querySelector("img").getAttribute("src");
+                const index = activeImages.indexOf(imgSrc);
+                activeImages.splice(index, 1);
+                inactiveImages.unshift(imgSrc);
+                cell.classList.remove("visible");
+                cell.classList.add("invisible");
+            }
+
+            // randomize active images
+            activeImages.sort(() => Math.random() - 0.5)
+
+            function insertLogo() {
+                let inactiveCells = document.querySelectorAll(".splash .invisible")
+                if (inactiveCells.length <= 0) {
+                    return;
+                }
+                let cell = inactiveCells[Math.floor(Math.random() * inactiveCells.length)];
+                const imgSrc = inactiveImages.pop();
+                activeImages.unshift(imgSrc);
+                const img = document.createElement("img");
+                img.setAttribute("src", imgSrc)
+                cell.innerHTML = '';
+                cell.appendChild(img);
+                cell.classList.remove("invisible");
+                cell.classList.add("visible");
+            }
+
+            function removeLogo() {
+                const imgSrcToRemove = activeImages.pop();
+                const cell = document.querySelector(`.splash img[src="${imgSrcToRemove}"]`).parentElement;
+                inactiveImages.unshift(imgSrcToRemove);
+                cell.classList.remove("visible");
+                cell.classList.add("invisible");
+            }
+
+            setInterval(insertLogo, 3000)
+            setTimeout(() => setInterval(removeLogo, 3000), 1500);
+        </script>
+    </body>
+</html>
