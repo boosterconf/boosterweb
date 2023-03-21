@@ -2,6 +2,7 @@
 title: "5 reasons why your «developer design sucks» – and how to improve it"
 talk_type: "Lightning talk"
 type: talk
+weight: 3
 authors:
     - Andreas Hartveit
 ---

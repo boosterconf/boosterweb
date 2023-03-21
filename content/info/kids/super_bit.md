@@ -7,4 +7,4 @@ Bli med og lek med super:bit! Super:bit er bygget med micro:bit og ekstra deler,
 
 ***Rom: Dræggen 4***
 
-Påmelding kommer snart
+[Meld på super:bit her](https://boosterconf.ticketco.events/no/nb/e/superbit_2023)

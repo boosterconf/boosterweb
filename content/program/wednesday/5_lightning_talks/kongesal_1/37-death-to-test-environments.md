@@ -2,6 +2,7 @@
 title: "Death to Test Environments"
 talk_type: "Lightning talk"
 type: talk
+weight: 4
 authors:
     - Nikolai Norman Andersen
 ---

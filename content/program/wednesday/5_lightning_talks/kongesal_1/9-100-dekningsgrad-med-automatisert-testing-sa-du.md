@@ -2,6 +2,7 @@
 title: "100% dekningsgrad med automatisert testing, sa du?"
 talk_type: "Lightning talk"
 type: talk
+weight: 2
 authors:
     - Gerd Stalheim Wiggen
 ---

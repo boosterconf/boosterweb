@@ -1,5 +1,5 @@
 ---
-title: "Dræggen 8"
+title: "Dræggen 3"
 type: room
-weight: 9
+weight: 6
 ---

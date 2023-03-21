@@ -2,6 +2,7 @@
 title: "Fix your god damned typography!"
 talk_type: "Lightning talk"
 type: talk
+weight: 5
 authors:
     - Alexander Vassbotn Røyne-Helgesen
 ---

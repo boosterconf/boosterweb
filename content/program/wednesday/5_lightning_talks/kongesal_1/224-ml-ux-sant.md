@@ -2,6 +2,7 @@
 title: "ML + UX = sant?"
 talk_type: "Lightning talk"
 type: talk
+weight: 1
 authors:
     - Siv Holen
     - Nora Gjøen-Gjøsæter

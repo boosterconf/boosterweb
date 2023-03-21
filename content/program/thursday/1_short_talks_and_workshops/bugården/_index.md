@@ -2,5 +2,5 @@
 title: "Bugården"
 type: room
 language: english
-weight: 8
+weight: 11
 ---
