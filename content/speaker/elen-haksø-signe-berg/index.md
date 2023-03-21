@@ -1,5 +1,5 @@
 ---
-name: Elen Haksø & Signe Berg
+name: Elen Haksø
 # title: 
 # twitter_handle: 
 ---
