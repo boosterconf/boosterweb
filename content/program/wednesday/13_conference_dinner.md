@@ -8,4 +8,4 @@ weight: 13
 
 You are all welcome to the conference dinner at at Kulturhuset in Vaskerelven 8. Bring you conference badge, as this is your ticket.
 
-Do you have any allergies, intolerances or dietary restrictions? Submit them [here](https://forms.gle/4UFJiB5mcLJ2pPQG6).
+Do you have any allergies, intolerances or dietary restrictions? Submit them [here]([https://forms.gle/4UFJiB5mcLJ2pPQG6](https://forms.gle/jRbg1pBErTaxssvP7)).
