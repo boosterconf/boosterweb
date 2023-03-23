@@ -15,3 +15,4 @@ ev/
 speakers.csv
 talks*.csv
 .hugo_build_lock.lock
+.hugo_build.lock
