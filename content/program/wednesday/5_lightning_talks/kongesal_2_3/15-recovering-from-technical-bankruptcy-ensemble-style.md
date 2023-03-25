@@ -11,6 +11,3 @@ I believe it is possible to recover from this situation, and I've been working t
 
 I'd like to share some of the learnings we've made the past year, specifically how valuable it is to do actual work as a group. 
 
-- Working together develops a shared understanding and a shared language
-- Working together helps restore context that is lost
-- Working together reduces the risk involved in changing legacy code with little or poor test coverage
