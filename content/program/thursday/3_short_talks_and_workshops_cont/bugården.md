@@ -1,6 +1,0 @@
----
-title: "Bugården"
-type: room
-weight: 11
----
-Workshop continues
