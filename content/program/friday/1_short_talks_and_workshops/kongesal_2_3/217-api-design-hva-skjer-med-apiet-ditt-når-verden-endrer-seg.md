@@ -2,6 +2,7 @@
 title: "API-design - hva skjer med APIet ditt når verden endrer seg?"
 talk_type: "Experience report (30 min)"
 type: talk
+weight: 1
 authors:
     - Hege Dreiem
 ---
