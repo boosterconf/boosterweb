@@ -25,7 +25,8 @@
       {{ if .Param "ticket_sale_open" }}
         {{ if .Param "sold_out" }}
           <div class="call-to-action">
-            <h2>We are sold out and looking forward to seeing you all!</h2>
+            <h2>We are sold out. We're looking forward to seeing you all!</h2>
+            <a href="{{ .RelPermalink }}" class="call-to-action__link">Working independently? We might have room for you.</a>
           </div>
         {{ else }}
           <div class="call-to-action">
