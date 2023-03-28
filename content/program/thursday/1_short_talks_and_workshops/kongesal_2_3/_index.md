@@ -1,5 +1,5 @@
 ---
 title: "Kongesal 2+3"
 type: room
-weight: 1
+weight: 2
 ---
