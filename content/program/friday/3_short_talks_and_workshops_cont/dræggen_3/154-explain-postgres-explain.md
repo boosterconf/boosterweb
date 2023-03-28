@@ -17,3 +17,7 @@ Utviklere med grunnleggende sql-erfaring, men som ønsker å bli bedre kjent med
 
 Hva trengs av utstyr/software
 Deltakere bes ta med en laptop med docker og git installert, da vi vil benytte oss av et docker image med Postgres og SqlPad.
+
+## Prerequisites
+
+* Laptop med git og docker.
