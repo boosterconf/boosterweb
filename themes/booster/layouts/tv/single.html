@@ -138,7 +138,7 @@
             currentIndex = index;
             timeSlots[currentIndex].timeSlot.classList.add("tv-now");
 
-            let OFFSET = 9;
+            let OFFSET = 25;
             let top = timeSlots[index].timeSlot.getBoundingClientRect().top + window.scrollY - OFFSET;
             scrollTo({top, behavior: "smooth"});
 
