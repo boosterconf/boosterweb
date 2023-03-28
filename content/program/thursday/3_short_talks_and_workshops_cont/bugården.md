@@ -1,6 +1,6 @@
 ---
-title: "Bugården"
+title: "Dræggen 3"
 type: room
-weight: 11
+weight: 7
 ---
 Workshop continues

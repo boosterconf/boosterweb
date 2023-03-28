@@ -5,7 +5,7 @@ draft: false
 type: tickets
 ticket_store_link: https://tikkio.com/tickets/34813-booster-2023
 ticket_sale_open: true
-sold_out: false
+sold_out: true
 menu:
     main:
         weight: 19

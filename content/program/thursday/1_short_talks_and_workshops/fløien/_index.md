@@ -1,5 +1,5 @@
 ---
 title: "Mount Fløyen"
 type: room
-weight: 12
+weight: 1
 --- 

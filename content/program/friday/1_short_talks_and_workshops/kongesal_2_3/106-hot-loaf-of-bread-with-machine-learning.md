@@ -2,6 +2,7 @@
 title: "Hot loaf of bread with machine learning "
 talk_type: "Experience report (30 min)"
 type: talk
+weight: 2
 authors:
     - Marius Aleksander Olavsrud
 ---
