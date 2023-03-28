@@ -2,6 +2,7 @@
 title: "Hvorfor ville jeg ikke valgt GraphQL som API igjen"
 talk_type: "Experience report (30 min)"
 type: talk
+weight: 2
 authors:
     - Pål Thomassen
 ---

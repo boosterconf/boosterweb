@@ -2,6 +2,7 @@
 title: "Hva skjer når du gir brukerne blyanten og lar dem tegne? "
 talk_type: "Experience report (30 min)"
 type: talk
+weight: 3
 authors:
     - Kristin Brudeseth
     - Tina Mee Johnsen

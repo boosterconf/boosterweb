@@ -2,6 +2,7 @@
 title: "A brief history of Simula"
 talk_type: "Lightning talk"
 type: talk
+weight: 1
 authors:
     - Morten Nygaard Åsnes
 ---
