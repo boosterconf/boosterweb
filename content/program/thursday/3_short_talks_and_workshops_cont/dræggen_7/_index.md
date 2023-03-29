@@ -1,5 +1,5 @@
 ---
 title: "Dræggen 7"
 type: room
-weight: 8
+weight: 3
 ---
