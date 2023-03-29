@@ -4,6 +4,7 @@ talk_type: "Lightning talk"
 type: talk
 authors:
     - Benedicte Selmer
+vimeo_id: 812978199
 ---
 Det finnes en jungel av motstridende klimaråd der ute, og når jungelen blir for tett og uoversiktlig er det lett å bli overveldet og motløs. Men med litt enkel matematikk er det mulig å finne seg en overkommelig vei gjennom denne jungelen. 
 

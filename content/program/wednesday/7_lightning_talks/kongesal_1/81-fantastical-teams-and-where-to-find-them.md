@@ -5,6 +5,7 @@ type: talk
 authors:
     - Fredrik Valde Anthonisen
     - Jean-Paul Balabanian
+vimeo_id: 812977936
 ---
 Personer som jobber sammen, jobber ikke nødvendigvis sammen - men hver for seg. Et godt team leverer mer enn summen av enkeltindividene, og skaper et arbeidsmiljø med høy trivselsfaktor. Dessverre ender mange opp i dysfunksjonelle team som ikke lever opp til sitt potensiale. Er det mulig for disse teamene å endre på dynamikken og bli et fantastisk team? 
 
