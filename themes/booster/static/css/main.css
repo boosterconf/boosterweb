@@ -743,13 +743,13 @@ background-color:#e2e0d9
    }
 
 .tv {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     font-size: 1.5em;
 }
     .tv .tv-day {}
     .tv .tv-timeslot {
-        margin: 20px 0;
+        margin: 25px 0;
         border-radius: 5px;
         padding: 40px;
         background: #2E3E4D;
