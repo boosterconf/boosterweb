@@ -5,6 +5,7 @@ type: talk
 authors:
     - Sofie Bjørnå
     - Henning Bang Halvorsen
+vimeo_id: 812979330
 ---
 I vårt første prosjekt i arbeidslivet fikk vi gleden av å jobbe på en måte som ga oss ekstremt høy hastighet, og vi gikk fra idé til lansert løsning på snaue fem uker! I ettertid har vi samlet erfaring fra andre team og prosjekter hvor hastigheten ikke har vært like høy og stilt oss spørsmålet “hva gjorde det første prosjektet så veldig bra?”.
 

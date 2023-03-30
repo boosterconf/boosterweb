@@ -4,6 +4,7 @@ talk_type: "Lightning talk"
 type: talk
 authors:
     - Vegard Ingebrigtsen Feste
+vimeo_id: 812978066
 ---
 De siste årene har samarbeid og samskaping vært hovedfokuset for design-programmer. Programmene designere bruker har gått til uante lengder for å gjøre designfiler stadig mer tilgjengelig for ikke-designere med mål om mer oversiktlig grensesnitt og kode direkte knyttet til designet som lages. 
 

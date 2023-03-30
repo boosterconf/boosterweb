@@ -5,6 +5,7 @@ type: talk
 weight: 1
 authors:
     - Karina Øverland Haugen
+vimeo_id: 812978450
 ---
 Security is an absolute must these days (and of course has been for some time), but the security architects and security engineers are few. 
 A solution to this challange is to create a security guild at your organization, and recruit security champions to this guild. 

@@ -4,6 +4,7 @@ talk_type: "Lightning talk"
 type: talk
 authors:
     - Nora Gjøen-Gjøsæter
+vimeo_id: 812978922
 ---
 En maskinlæringsmodell blir aldri rettferdig. I alle fall ikke mer rettferdig en de data den er trent på. Og datasettene vi benytter foreslår som hovedregel at vi diskriminerer.
 

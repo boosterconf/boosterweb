@@ -1,6 +1,5 @@
 ---
 title: "Dræggen 4"
 type: room
-weight: 7
+weight: 3
 ---
-Workshop continues
