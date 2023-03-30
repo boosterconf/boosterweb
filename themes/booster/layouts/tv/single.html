@@ -191,7 +191,8 @@
             });
 
             goToNow()
-            // update program every 20 sek
+
+            // Check if we should move to next time slot every 20 sek
             const timer = setInterval(tick, 20*1000);
 
             document.addEventListener("keydown", event => {
@@ -212,6 +213,9 @@
                     }
                 }
             });
+
+            // Refresh after a while, in case the program has been updated
+            setTimeout(() => window.location.reload(true), 1000 * 60 * 10);
         });
     </script>
 
