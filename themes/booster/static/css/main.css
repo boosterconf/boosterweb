@@ -745,7 +745,7 @@ background-color:#e2e0d9
 .tv {
     padding-left: 25px;
     padding-right: 25px;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
     .tv .tv-day {}
     .tv .tv-timeslot {
@@ -789,14 +789,15 @@ background-color:#e2e0d9
         display: flex;
         flex-direction: row;
         align-items: stretch;
+        flex-wrap: wrap;
     }
     .tv .tv-room {
         margin-top: 15px;
         min-width: 170px;
         display: inline-flex;
         flex-direction: column;
-        flex: 1;
-        max-width: 33.3%
+        width: 32.3%;
+        margin-right: 10px;
     }
     .tv .tv-room > h2 {
         font-size: 0.8em;
@@ -805,7 +806,7 @@ background-color:#e2e0d9
         background: white;
         color: black;
         border-radius: 5px;
-        padding: 10px;
+        padding: 10px 30px;
         margin: 15px;
         margin-left: 0;
         height: 100%;
