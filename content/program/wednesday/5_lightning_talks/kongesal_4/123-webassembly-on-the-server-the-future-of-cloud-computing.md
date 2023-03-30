@@ -5,6 +5,7 @@ type: talk
 weight: 3
 authors:
     - Erlend Røsjø
+vimeo_id: 812978722
 ---
 WebAssembly on the server - the future of cloud computing?
 WebAssembly (WASM) is a binary instruction format designed to run in the browser, bringing near-native performance to the web. As a compilation target for over 30 languages, including Rust, Swift, Python and C# / .NET, developers are free to write their applications in their favourite language. WASM is portable, secure and fast.

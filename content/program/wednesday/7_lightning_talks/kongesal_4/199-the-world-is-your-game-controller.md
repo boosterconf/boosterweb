@@ -4,6 +4,7 @@ talk_type: "Lightning talk"
 type: talk
 authors:
     - Embla Flatlandsmo
+vimeo_id: 812979094
 ---
 Have you ever wondered why your keyboard and mouse (mostly) is plug-and-play? What’s the deal with having to set keyboard layouts on your computer? 
 

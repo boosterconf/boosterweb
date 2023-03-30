@@ -4,6 +4,7 @@ talk_type: "Lightning talk"
 type: talk
 authors:
     - Vegard Haugstvedt
+vimeo_id: 812978345
 ---
 In 2023, the Web Content Accessibility Guidelines (WCAG) 2.1 will turn five years old. Almost ready for elementary school, even though it was just adopted by Norwegian law two years ago. It is now time to look ahead to WCAG 2.2 and the new requirements that look likely to make the cut this time.
 

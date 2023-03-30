@@ -4,6 +4,7 @@ talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Jørgen Landsnes
+vimeo_id: 812979700
 ---
 Mange har fått med seg at psykologisk trygghet er en av de mest virkningsfulle faktorene når det kommer til prestasjoner i teams.
 
