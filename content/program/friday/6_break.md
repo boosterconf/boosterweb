@@ -1,6 +1,6 @@
 ---
 time: "14:00 - 14:25"
-title: "Coffee break"
+title: "Beverages and snack"
 type: period
 weight: 6
 ---
