@@ -109,7 +109,7 @@
             if (dateString.toLowerCase().includes("thursday")) {
                 date = new Date (date.getTime() + MSEC_IN_DAY);
             } else if (dateString.toLowerCase().includes("friday")) {
-                date = new Date (date.getTime() + MSEC_IN_DAY);
+                date = new Date (date.getTime() + MSEC_IN_DAY * 2);
             }
             return date;
         }
@@ -129,6 +129,7 @@
         let currentIndex = 0;
         let running = true;
 
+        /** Mark time slot as active and scroll slot to the top of the view */
         function setActiveTimeSlot(index) {
             if (index + 1 < timeSlots.length) {
                 console.log(timeSlots[index + 1]);
@@ -179,7 +180,27 @@
             }
         }
 
+        /** Sort days to get Onsdag->Torsdag->Fredag */
+        function sortDays() {
+            const tvList = document.querySelector(".tv");
+            const dayViews = document.querySelectorAll("[data-day]");
+            const dayDict = {}
+            const days = []
+            for (let day of dayViews) {
+                const time = parseDate(day.getAttribute("data-day"));
+                dayDict[time] = day;
+                days.push(time);
+            }
+            days.sort((a, b) => a - b);
+            for (let day of days) {
+                tvList.appendChild(dayDict[day]);
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", function(event) {
+
+            // sort days 
+            sortDays();
 
             // For every day
             document.querySelectorAll("[data-day]").forEach(dayElem => {
@@ -190,7 +211,7 @@
                 });
             });
 
-            goToNow()
+            goToNow();
 
             // Check if we should move to next time slot every 20 sek
             const timer = setInterval(tick, 20*1000);
