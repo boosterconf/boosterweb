@@ -1,10 +1,10 @@
 ---
 title: "Ticket information"
 date: 2021-12-06T19:55:23+02:00
-draft: false
+draft: true
 type: tickets
 ticket_store_link: https://tikkio.com/tickets/34813-booster-2023
-ticket_sale_open: true
+ticket_sale_open: false
 sold_out: true
 menu:
     main:
