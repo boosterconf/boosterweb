@@ -4,6 +4,7 @@ talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Elisabeth Whiteley
+vimeo_id: 814008986
 ---
 Hobby projects are supposed to be fun, not stressful, but if your hobby is basically the same as your job, it could lead to more stress and burnout instead of being a way to destress. 
 So how does one complete an ambitious hobby project without making it feel like a second job?

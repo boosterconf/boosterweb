@@ -5,6 +5,7 @@ type: talk
 authors:
     - Eirin Sognnes
     - Markus Løland
+vimeo_id: 814010366
 ---
 The past year we have seen massive advancements in AI image generation, where they can generate almost any conceivable concept. At this point, they are so widespread that everyone can try it with just a few clicks, but are these AIs just a means of entertainment, or can they be of practical use?
 

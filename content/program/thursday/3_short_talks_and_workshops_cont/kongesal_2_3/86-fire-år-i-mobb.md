@@ -1,10 +1,11 @@
 ---
-title: "Fire år i mobb "
+title: "Fire år i mobb"
 talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Lars Jørgen Tvedt
     - Heidi Mork
+vimeo_id: 814011581
 ---
 Våren 2018 fekk teamet vårt i NRK eit vanskeleg oppdrag. Så vanskeleg at kvar medlem av vårt lille team på tre, ikkje kom nokon veg. Heidi hadde sett eit par twitter-meldingar om ein ny måte å organisere arbeidet på. Kanskje mobb-programmering kunne hjelpe oss? 
 

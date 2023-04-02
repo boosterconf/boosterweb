@@ -1,9 +1,10 @@
 ---
-title: "Help! I am going to speak at the Booster Conference! "
+title: "Help! I am going to speak at the Booster Conference!"
 talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Therese Engen
+vimeo_id: 814011444
 ---
 I am an introvert. And I'm not particularly fond of a lot of attention. But at the same time, I know that if I am to succeed in my career and achieve my goals, I need to be more visible. And I also actually like to share my experiences and ideas. So I push myself to be more on a stage, talking to an audience. 
 To compensate for my nervousness and lack of comfort in the spotlight, I make sure to be well prepared. I would like to share with you how I do that. In this experience report I will talk about how I

@@ -4,6 +4,7 @@ talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Elizabeth Zagroba
+vimeo_id: 814010088
 ---
 Driven to madness by the normal workflow for testing my application, I wrote a small Python script in a couple of days. It called some APIs to build the app and deploy it to a hosted environment. It ran in my terminal, printing output often enough that I wouldn't get distracted. It solved my immediate problem. 
 

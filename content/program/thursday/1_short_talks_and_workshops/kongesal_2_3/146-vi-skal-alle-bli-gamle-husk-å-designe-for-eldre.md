@@ -5,6 +5,7 @@ type: talk
 authors:
     - Elen Haksø
     - Signe Berg
+vimeo_id: 814010976
 ---
 Det snakkes mye om digitalt utenforskap. Vi har jo som mål å være digitalt inkluderende, men det finnes dessverre mange som faller utenfor. Eldre er en av gruppene hvor flere opplever digitalt utenforskap. Vi skal også bli mange flere eldre i nær fremtid: Statistisk Sentralbyrå estimerer at det i 2030 vil være flere eldre (65+) enn barn og unge (0-19), og at det i 2040 kommer til å være 60% flere eldre sammenlignet med i dag. En stor eldrebølge er på vei!
 
