@@ -4,6 +4,7 @@ talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Terje Tjervaag
+vimeo_id: 814015306
 ---
 Nylig ga jeg meg selv en utfordring: I en måned gjorde jeg skjermen på mobilen min sort og brukte den utelukkende med Nora som min skjermleser-VoiceOver!
 

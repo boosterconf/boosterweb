@@ -5,6 +5,7 @@ type: talk
 weight: 2
 authors:
     - Pål Thomassen
+vimeo_id: 814015103
 ---
 Vurderer du å ta i bruk GraphQL? Stikk innom å bli motbevist!
 

@@ -5,6 +5,7 @@ type: talk
 authors:
     - Caroline Enge Jørgensen
     - Djamel Adjou
+vimeo_id: 814014615
 ---
 Tidene forandrer seg og før du kunne hente eiendomsdata digitalt, så fantes det 6.2 millioner grunnboksark før ideen om å digitalisere hele grunnboken. Det var i 1987 Ambitas historie startet med et samfunnsoppdrag fra det offentlige om å digitalisere grunnboken i Norge. Ambita het på den tiden Norsk Eiendomsinformasjon og var et statlig eid selskap.
  

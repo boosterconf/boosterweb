@@ -4,6 +4,7 @@ talk_type: "Experience report (30 min)"
 type: talk
 authors:
     - Andrew Harmel-Law
+vimeo_id: 814014311
 ---
 I’m an architect, and I think a lot about architecture. Mostly I think about how irrelevant architecture is if it doesn’t get shipped to production. I worry a lot too. I worry about how to help all the teams I’m supposed to be helping, without slowing them down, getting in their way, or making their lives harder rather than easier.
 

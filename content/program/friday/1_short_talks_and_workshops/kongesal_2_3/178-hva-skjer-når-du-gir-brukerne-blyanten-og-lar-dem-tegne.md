@@ -1,11 +1,12 @@
 ---
-title: "Hva skjer når du gir brukerne blyanten og lar dem tegne? "
+title: "Hva skjer når du gir brukerne blyanten og lar dem tegne?"
 talk_type: "Experience report (30 min)"
 type: talk
 weight: 3
 authors:
     - Kristin Brudeseth
     - Tina Mee Johnsen
+vimeo_id: 814015499
 ---
 Hva er viktig å tenke på når du skal designe for en gruppe mennesker som opplever diskriminering og utenforskap? Universell utforming handler om å gi alle mulighet og tilgang til å delta i samfunnet. Burde ikke dette også gjelde designprosesser som påvirker deres liv?
  
