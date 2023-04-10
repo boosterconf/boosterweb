@@ -5,6 +5,7 @@ type: talk
 weight: 1
 authors:
     - Hege Dreiem
+vimeo_id: 816158507
 ---
 En frontend-utvikler nevnte en gang for meg at han ofte ikke skjønner hva backend-utviklerne har tenkt når de designer et API. Dette foredraget er en historie om hva vi tenkte og hvordan vi jobbet med API hos Entur i en periode der det skjedde store endringer som gjorde at APIet vårt ikke lenger løste klientenes viktigste behov.
 
