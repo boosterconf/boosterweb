@@ -5,6 +5,7 @@ type: talk
 weight: 2
 authors:
     - Gerd Stalheim Wiggen
+vimeo_id: 813227275
 ---
 Med et tankesett og metodikk som dreier seg mot å levere raskere og oftere, må alle flaskehalser fjernes. Teamene har ikke tid til å vente på en tester skal bruke dager på å teste det som er utviklet etter at det er ferdig utviklet. Løsningen er da å skrive automatiserte tester. Kan man da velge å erstatte en tester med automatiserte tester?
 

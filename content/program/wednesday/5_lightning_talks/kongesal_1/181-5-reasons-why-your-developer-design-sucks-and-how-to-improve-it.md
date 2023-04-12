@@ -5,6 +5,7 @@ type: talk
 weight: 3
 authors:
     - Andreas Hartveit
+vimeo_id: 813228319
 ---
 Far too often I hear the phrase «my developer design sucks», usually followed by «we could really use a designer on our project». 
 

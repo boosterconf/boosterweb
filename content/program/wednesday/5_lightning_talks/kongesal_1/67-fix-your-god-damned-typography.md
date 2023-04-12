@@ -5,6 +5,7 @@ type: talk
 weight: 5
 authors:
     - Alexander Vassbotn Røyne-Helgesen
+vimeo_id: 813230688
 ---
 This talk will demonstrate the pains a developer have with the designer when the developer implements typography design. 
 
