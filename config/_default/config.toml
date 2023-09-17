@@ -1,4 +1,4 @@
-baseURL = "https://2023.boosterconf.no/"
+baseURL = "https://2024.boosterconf.no/"
 languageCode = "en-us"
-title = "Booster Conference 2023 Bergen"
+title = "Booster Conference 2024 Bergen"
 theme = "booster"
