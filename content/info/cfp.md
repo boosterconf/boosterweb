@@ -1,6 +1,6 @@
 ---
 title: "Call for presentations"
-date: 2023-09-19T14:00:00+02:00
+date: 2023-09-19T13:00:00+02:00
 draft: false
 type: article
 menu:
@@ -95,4 +95,4 @@ Please note that if your talk gets accepted we will:
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no).
 
-[Submit your proposal here!](https://forms.gle/JC7VAWLPBbV4jqg3A)
+[Submit your proposal here!](https://forms.gle/H3pwQGeG8875wfnDA)
