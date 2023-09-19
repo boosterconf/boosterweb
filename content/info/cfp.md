@@ -1,7 +1,7 @@
 ---
 title: "Call for presentations"
-date: 2022-09-05T19:45:23+02:00
-draft: true
+date: 2023-09-19T14:00:00+02:00
+draft: false
 type: article
 menu:
     main:
@@ -38,7 +38,7 @@ Lightning talks are pretty cool too. Each speaker in a lightning session gets pr
 
 ### #3 – Experience Report
 
-Share your story with us. Stories are such an important way to learn from the experience of others. Tell us about how you, created, tested, experienced or did something – alone or with a team.
+Share your story with us. Stories are such an important way to learn from the experience of others. Tell us about how you, created, tested, experienced or did something – alone or with a team. As our program contains fewer experience reports than lightning talks, we expect a high quality of proposals.
 
 **Length:** 30 min  
 
