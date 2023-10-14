@@ -22,6 +22,6 @@ In order to organize the event we need to raise money from partners. Partners ar
 
 To limit the environmental footprint of the conference we have decided not to hand out tote bags with marketing material this year. We are open to suggestions on how to promote your company during the conference.
   
-The partnership package price is NOK 31 000,- plus VAT.
+The partnership package price is NOK 35 000,- plus VAT.
 
 Please send an e-mail to [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no) if you want to know more about partnering with Booster.
