@@ -1,10 +1,10 @@
 ---
 headless: true
 resources:
-    # - src: logos/kantega2.png
-    #   title: Kantega
-    #   params:
-    #     url: http://www.kantega.no
+    - src: logos/kantega2.png
+      title: Kantega
+      params:
+        url: http://www.kantega.no
     # - src: logos/knowit.png
     #   title: Knowit
     #   params:
@@ -29,10 +29,10 @@ resources:
     #   title: Sonat Consulting
     #   params:
     #     url: http://www.sonat.no
-    # - src: logos/rainfall.png
-    #   title: Rainfall
-    #   params:
-    #     url: http://www.rainfall.no
+    - src: logos/rainfall.png
+      title: Rainfall
+      params:
+        url: http://www.rainfall.no
     # - src: logos/sbanken.png
     #   title: Sbanken
     #   params:
@@ -41,14 +41,14 @@ resources:
     #   title: Frende
     #   params:
     #     url: https://www.frende.no
-    # - src: logos/kraftlauget.png
-    #   title: Kraftlauget
-    #   params:
-    #     url: https://www.kraftlauget.no/
-    # - src: logos/instech.png
-    #   title: Instech
-    #   params:
-    #     url: https://www.instech.no/
+    - src: logos/kraftlauget.png
+      title: Kraftlauget
+      params:
+        url: https://www.kraftlauget.no/
+    - src: logos/instech.png
+      title: Instech
+      params:
+        url: https://www.instech.no/
     # - src: logos/shortcut.png
     #   title: Shortcut
     #   params:
@@ -65,10 +65,10 @@ resources:
     #   title: Tryg
     #   params:
     #     url: https://www.tryg.no/
-    # - src: logos/soprasteria.png
-    #   title: Sopra Steria
-    #   params:
-    #     url: https://www.soprasteria.no/
+    - src: logos/soprasteria.png
+      title: Sopra Steria
+      params:
+        url: https://www.soprasteria.no/
     # - src: logos/spv.png
     #   title: Sparebanken Vest
     #   params:
@@ -77,10 +77,10 @@ resources:
     #   title: Variant
     #   params:
     #     url: https://www.variant.no/
-    # - src: logos/bouvet.png
-    #   title: Bouvet
-    #   params:
-    #     url: https://www.bouvet.no/
+    - src: logos/bouvet.png
+      title: Bouvet
+      params:
+        url: https://www.bouvet.no/
     # - src: logos/scaleaq.png
     #   title: ScaleAQ
     #   params:
@@ -93,18 +93,18 @@ resources:
     #   title: Experis
     #   params:
     #     url: https://www.experis.no/nb
-    # - src: logos/ulriken.svg
-    #   title: Ulriken
-    #   params:
-    #     url: https://www.uc.no/nb/
+    - src: logos/ulriken.svg
+      title: Ulriken
+      params:
+        url: https://www.uc.no/nb/
     # - src: logos/dfind.png
     #   title: Dfind
     #   params:
     #     url: https://www.dfindconsulting.no/
-    # - src: logos/stacc.svg
-    #   title: Stacc
-    #   params:
-    #     url: https://stacc.com/
+    - src: logos/stacc.svg
+      title: Stacc
+      params:
+        url: https://stacc.com/
     # - src: logos/computas.svg
     #   title: Computas
     #   params:
@@ -133,10 +133,10 @@ resources:
     #   title: Webstep
     #   params:
     #     url: https://www.webstep.no/
-    # - src: logos/atea.svg
-    #   title: ATEA
-    #   params:
-    #     url: https://www.atea.no
+    - src: logos/atea.svg
+      title: ATEA
+      params:
+        url: https://www.atea.no
     # - src: logos/visito.png
     #   title: Visito
     #   params:
