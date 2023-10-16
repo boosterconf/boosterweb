@@ -5,10 +5,10 @@ resources:
       title: Kantega
       params:
         url: http://www.kantega.no
-    # - src: logos/knowit.png
-    #   title: Knowit
-    #   params:
-    #     url: http://www.knowit.no
+    - src: logos/knowit.png
+      title: Knowit
+      params:
+        url: http://www.knowit.no
     # - src: logos/visma.png
     #   title: Visma Real Estate AS
     #   params:
