@@ -21,10 +21,10 @@ resources:
     #   title: Eviny
     #   params:
     #     url: https://www.eviny.no/
-    # - src: logos/miles.svg
-    #   title: Miles
-    #   params:
-    #     url: http://www.miles.no
+    - src: logos/miles.svg
+      title: Miles
+      params:
+        url: http://www.miles.no
     # - src: logos/sonat.png
     #   title: Sonat Consulting
     #   params:
@@ -113,10 +113,10 @@ resources:
     #   title: Itera
     #   params:
     #     url: https://www.itera.com/no/
-    # - src: logos/dnb.png
-    #   title: DNB
-    #   params:
-    #     url: https://www.dnb.no/
+    - src: logos/dnb.png
+      title: DNB
+      params:
+        url: https://www.dnb.no/
     # - src: logos/capgemini.svg
     #   title: Capgemini
     #   params:
