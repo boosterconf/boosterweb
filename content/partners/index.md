@@ -129,7 +129,7 @@ resources:
     #   title: Microsoft
     #   params:
     #     url: https://www.microsoft.no/
-   - src: logos/webstep.svg
+    - src: logos/webstep.svg
       title: Webstep
       params:
         url: https://www.webstep.no/
