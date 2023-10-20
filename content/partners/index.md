@@ -110,8 +110,8 @@ resources:
     #   params:
     #     url: https://computas.com/
    - src: logos/Itera-logo-lobster.png
-     title: Itera
-     params:
+      title: Itera
+      params:
        url: https://www.itera.com/no/
     - src: logos/dnb.png
       title: DNB
@@ -130,9 +130,9 @@ resources:
     #   params:
     #     url: https://www.microsoft.no/
    - src: logos/webstep.svg
-     title: Webstep
-     params:
-       url: https://www.webstep.no/
+      title: Webstep
+      params:
+        url: https://www.webstep.no/
     - src: logos/atea.svg
       title: ATEA
       params:
