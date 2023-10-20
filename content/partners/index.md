@@ -112,7 +112,7 @@ resources:
    - src: logos/Itera-logo-lobster.png
       title: Itera
       params:
-       url: https://www.itera.com/no/
+        url: https://www.itera.com/no/
     - src: logos/dnb.png
       title: DNB
       params:
