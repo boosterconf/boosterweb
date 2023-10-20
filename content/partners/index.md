@@ -37,8 +37,8 @@ resources:
     #   title: Sbanken
     #   params:
     #     url: https://www.sbanken.no/
-   - src: logos/frende.png
-     title: Frende
+    - src: logos/frende.png
+      title: Frende
       params:
         url: https://www.frende.no
     - src: logos/kraftlauget.png
