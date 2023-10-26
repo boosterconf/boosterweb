@@ -13,13 +13,14 @@
     </div>
 
   </div>
+
   {{ with .Site.GetPage "/info/cfp" }}
   <div class="call-to-action">
     <h2>Call for presentations is now open!</h2>
     <a href="{{ .RelPermalink }}" class="call-to-action__link">Submit a talk / workshop</a>
   </div>
   {{ end }}
-
+  
   {{ if .Site.GetPage "/info/tickets" }}
     {{ with .Site.GetPage "/info/tickets" }}
       {{ if .Param "ticket_sale_open" }}
@@ -37,10 +38,10 @@
       {{ end }}
     {{ end }}
   {{ end }}
-  <div class="imagetron-2" style="background-image: url('/images/bergen1920.jpg')">
+  <!-- <div class="imagetron-2" style="background-image: url('/images/bergen1920.jpg')">
     <h2>Beautiful city of Bergen</h2>
     <p>Bergen, "the city of seven mountains", is the proud home of Booster. Norwegian beauty surrounds the historic coastal city located in the city fjord.</p>
-  </div>
+  </div> -->
 
   <div class="image-n-contents">
     <div class="image-n-contents__content">
@@ -66,11 +67,29 @@
       <p>Open spaces is about conversations. Join an open space, or suggest an open space about your favorite topic.</p>
     </div>
     <img class="img-superfluid" src="/images/open_spaces.jpg" alt="Man showing kanban board on flipover" />
+
+    <div class="image-n-contents__content">
+      <h2>Open spaces</h2>
+      <p>Open spaces is about conversations. Join an open space, or suggest an open space about your favorite topic.</p>
+    </div>
+    <img class="img-superfluid" src="/images/open_spaces.jpg" alt="Man showing kanban board on flipover" />
+
+    <!--
+    <div class="image-n-contents__content">
+      <h2>Embrace the Quirkiness</h2>
+      <!-- <p>Let your hair down and explore the lighter side of things. Dive into a hands-on workshop learning something out of the ordinary.</p> -->
+      <!-- <p>There will be room to unleash your creativity and explore the zany side of things. Expect the unexpected. </p> -->
+      <p>Dedicated sessions to unleash your creativity and exploring the zany side of things. Expect the unexpected.</p>
+    </div>
+    <img class="img-superfluid" src="/images/open_spaces.jpg" alt="Man showing kanban board on flipover" />
   </div>
 
-  <div class="imagetron-2" style="background-image: url('/images/coffee.jpg')">
+  <!-- <div class="imagetron-2" style="background-image: url('/images/coffee.jpg')">
     <h2>Our very own baristas</h2>
     <p>We always have fantastic coffee - and plenty of it!</p>
-  </div>
+  </div> -->
 
 {{end}}
+
+
+Embrace the Quirkiness

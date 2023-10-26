@@ -139,7 +139,7 @@ header#main-header {
 /* Footer with partners */
 #sponsor-area {
     background-color: #F2F2F2;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -377,7 +377,7 @@ article {
 
 .image-n-contents__content {
     align-self: center;
-    padding: 40px;
+    padding: 60px;
 }
 
 .image-n-contents__content:nth-of-type(2n) {
