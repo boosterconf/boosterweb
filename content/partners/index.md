@@ -149,8 +149,8 @@ resources:
     #   title: TietoEvry
     #   params:
     #     url: https://www.tietoevry.com/no/
-    # - src: logos/fanasparebank.svg
-    #   title: Fana Sparebank
-    #   params:
-    #     url: https://www.fanasparebank.no/
+    - src: logos/fanasparebank.svg
+      title: Fana Sparebank
+      params:
+        url: https://www.fanasparebank.no/
 ---
