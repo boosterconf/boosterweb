@@ -145,10 +145,10 @@ resources:
     #   title: Equinor
     #   params:
     #     url: https://www.equinor.com/no
-    # - src: logos/tietoevry.png
-    #   title: TietoEvry
-    #   params:
-    #     url: https://www.tietoevry.com/no/
+    - src: logos/tietoevry.png
+      title: TietoEvry
+      params:
+        url: https://www.tietoevry.com/no/
     - src: logos/fanasparebank.svg
       title: Fana Sparebank
       params:
