@@ -153,4 +153,8 @@ resources:
       title: Fana Sparebank
       params:
         url: https://www.fanasparebank.no/
+    - src: logos/itslearning.png
+      title: Itslearning
+      params:
+        url: https://itslearning.com/
 ---
