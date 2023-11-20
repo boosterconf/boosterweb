@@ -121,10 +121,10 @@ resources:
     #   title: Capgemini
     #   params:
     #     url: https://www.capgemini.com/
-    # - src: logos/noria.png
-    #   title: Noria
-    #   params:
-    #     url: https://www.noria.no/
+    - src: logos/noria.png
+      title: Noria
+      params:
+        url: https://www.noria.no/
     # - src: logos/microsoft.png
     #   title: Microsoft
     #   params:
