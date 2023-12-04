@@ -17,10 +17,10 @@ resources:
     #   title: Imove
     #   params:
     #     url: https://imove.no/
-    # - src: logos/eviny.png
-    #   title: Eviny
-    #   params:
-    #     url: https://www.eviny.no/
+    - src: logos/eviny.png
+      title: Eviny
+      params:
+        url: https://www.eviny.no/
     - src: logos/miles.svg
       title: Miles
       params:
@@ -141,10 +141,10 @@ resources:
     #   title: Visito
     #   params:
     #     url: https://www.visito.no/
-    # - src: logos/equinor.png
-    #   title: Equinor
-    #   params:
-    #     url: https://www.equinor.com/no
+    - src: logos/equinor.png
+      title: Equinor
+      params:
+        url: https://www.equinor.com/no
     - src: logos/tietoevry.png
       title: TietoEvry
       params:
