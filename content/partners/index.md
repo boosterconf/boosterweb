@@ -105,10 +105,10 @@ resources:
       title: Stacc
       params:
         url: https://stacc.com/
-    # - src: logos/computas.svg
-    #   title: Computas
-    #   params:
-    #     url: https://computas.com/
+    - src: logos/computas.svg
+      title: Computas
+      params:
+        url: https://computas.com/
     - src: logos/Itera-logo-lobster.png
       title: Itera
       params:
