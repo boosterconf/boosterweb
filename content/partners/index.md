@@ -81,6 +81,10 @@ resources:
       title: Bouvet
       params:
         url: https://www.bouvet.no/
+    - src: logos/nordea.png
+      title: Nordea
+      params:
+        url: https://www.nordea.no/
     # - src: logos/scaleaq.png
     #   title: ScaleAQ
     #   params:
