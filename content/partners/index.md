@@ -141,10 +141,10 @@ resources:
       title: ATEA
       params:
         url: https://www.atea.no
-    # - src: logos/visito.png
-    #   title: Visito
-    #   params:
-    #     url: https://www.visito.no/
+    - src: logos/visito.png
+      title: Visito
+      params:
+        url: https://www.visito.no/
     - src: logos/equinor.png
       title: Equinor
       params:
