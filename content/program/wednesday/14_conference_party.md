@@ -1,8 +1,9 @@
 ---
 time: "20:30"
 title: "Booster party"
-location: "Kulturhuset, Vaskerelven 8"
+location: "USF Verftet, Georgernes verft 12"
 type: period
+draft: true
 weight: 14
 ---
 

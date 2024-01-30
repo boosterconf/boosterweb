@@ -1,6 +1,6 @@
 ---
 title: "Lightning talks"
-time: 11:45 - 12:30
+time: 15:00 - 15:40
 type: period
-weight: 7
+weight: 6
 ---
