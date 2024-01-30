@@ -24,7 +24,7 @@
         <h2>{{ .Title }}</h2>
 
         {{ range .Pages }}
-        {{ .Render }}
+        {{ .Render "list" }}
 
         {{ end }}
     </div>
