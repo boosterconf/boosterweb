@@ -437,6 +437,9 @@ article {
     color: #ffffff;
     padding: 1rem 1rem;
 }
+.program .period>header>a {
+    color: #ffffff;
+}
 .program .period .rooms {
     display: flex;
     gap: 10px;

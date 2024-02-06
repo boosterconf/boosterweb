@@ -1,27 +1,18 @@
-<div class="period">
-    <header>
-        <time class="time">{{ .Params.Time }}</time>
+{{ define "main" }}
+<article class="inner">
+    <div class="header-join">
+        <h1>{{ .Title }}</h1>
+    </div>
+
+    <h4>
+        <span class="muted">{{ .Params.Time }}</span>
         {{ if .Params.Location}}
         <span class="location">{{ .Params.Location }}</span>
         {{ end }}
-        {{ if .Title }}
-        <span>— {{ .Title }}</span>
-        {{ end }}
-    </header>
-    
-    <div class="rooms">
-        {{ with .Content }}
-        <div class="room">
-            <div class="sessions">
-                <div class="talk">
-                    <div class="slot">
-                        <div class="description">
-                            {{ . }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{ end }}
+    </h4>
+            
+    <div class="description">
+        <p>{{ .Content }}</p>
     </div>
-</div>
+</article>
+{{ end }}

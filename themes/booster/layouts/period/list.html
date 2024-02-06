@@ -1,11 +1,17 @@
 <div class="period">
     <header>
-        <time class="time">{{ .Params.Time }}</time>
-        {{ if .Params.Location}}
-        <span class="location">{{ .Params.Location }}</span>
+        {{ if .Content | len }}
+        <a href="{{ .Permalink }}">
         {{ end }}
-        {{ if .Title }}
-        <span>— {{ .Title }}</span>
+            <time class="time">{{ .Params.Time }}</time>
+            {{ if .Params.Location}}
+                <span class="location">{{ .Params.Location }}</span>
+            {{ end }}
+            {{ if .Title }}
+                <span>— {{ .Title }}</span>
+            {{ end }}
+        {{ if .Content | len }}
+        </a>
         {{ end }}
     </header>
     <div class="rooms{{ if gt (len .Pages) 4 }} grabbable{{end}}">
