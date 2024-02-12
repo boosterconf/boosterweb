@@ -89,10 +89,10 @@ resources:
     #   title: ScaleAQ
     #   params:
     #     url: https://www.scaleaq.no/
-    # - src: logos/vizrt.svg
-    #   title: Vizrt
-    #   params:
-    #     url: https://www.vizrt.com/
+    - src: logos/vizrt.svg
+      title: Vizrt
+      params:
+        url: https://www.vizrt.com/
     # - src: logos/experis.png
     #   title: Experis
     #   params:
