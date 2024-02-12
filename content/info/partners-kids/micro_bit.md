@@ -1,5 +1,5 @@
 ## micro:bit
-##### Bjørn Hamre
+##### Bjørn og Torstein Hamre
 
 Micro:bit er en mikrokontroller som er laget for å lære barn programmering. 
 Vi skal programmere den med kode-blokker, akkurat som Scratch. 
