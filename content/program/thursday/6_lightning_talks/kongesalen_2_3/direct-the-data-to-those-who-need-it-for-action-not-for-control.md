@@ -1,5 +1,5 @@
 ---
-title: "Styr data til de som trenger dem for å agere - ikke for å kontrollere!"
+title: "Direct the data to those who need it for action – not for control!"
 talk_type: "Lightning talk"
 type: talk
 authors:
