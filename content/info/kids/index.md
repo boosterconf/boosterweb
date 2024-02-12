@@ -1,6 +1,5 @@
 ---
-title: "Booster kids"
-date: 2023-02-04T17:36:23+02:00
+title: "Booster Kids"
 type: kids
 draft: true
 menu:
@@ -9,19 +8,23 @@ menu:
         name: "Kids"
 ---
 
-For femte gang arrangerer Boosterkonferansen, i samarbeid med Lær Kidsa Koding og Bergen Offentlige Bibliotek, utviklerkonferanse for barn. Konferansen avholdes på Radisson Blu Royal Hotel, Bryggen 2. April 2024. Det blir kurs for ulike aldersgrupper og et sterkt faglig innhold, akkurat slik en god konferanse skal være! OBS: Foreldre trenger ikke å booke biletter til seg selv!
+For syvende gang arrangerer Boosterkonferansen, i samarbeid med Bergen Offentlige Bibliotek, utviklerkonferanse for barn. 
+Konferansen avholdes på Radisson Blu Royal Hotel, Bryggen 17. mars 2024. 
+Det blir kurs for ulike aldersgrupper og et sterkt faglig innhold, akkurat slik en god konferanse skal være! 
+OBS: Foreldre trenger ikke å booke billetter til seg selv!
 
 ## Program
 
-11.00-12.00 - Registrering
+11:00-12:00: Registrering
 
-12.00-13.30 - Workshops, del 1 
+12:00-13:30: Workshops, del 1
 
-13.30-14.15 - Lunsj
+13:30-14:15: Lunsj
 
-14.15-16.15 - Workshops, del 2
+14:15-16:00: Workshops, del 2
 
-16.15 - Slutt
+16:00: Takk for i år!
+
 
 **Merk: Programmet kan endres fortløpende**
 
