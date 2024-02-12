@@ -3,7 +3,7 @@
 
 Hvordan lager man en nettside?
 I denne workshopen skal vi begynne med det helt grunnleggende - hvordan man bruker HTML, CSS og JavaScript til å lage en nettside som både ser fin ut, og har oppførsel.
-Det vil være praktiske oppgaver, eksempler, og live-demo på hvor lett det er å komme i gang med webutvikling.
+Det vil være praktiske oppgaver, eksempler, og live-demo som viser hvor lett det er å komme i gang med webutvikling.
 Man trenger ingen forkunnskaper for å delta, kun PC og godt humør!
 					
 
