@@ -11,6 +11,6 @@ Man trenger ingen forkunnskaper for å delta, kun PC og godt humør!
 
 ***Rom: Bugaarden***
 
-***Alle deltagere må ha med sin egen PC og tilhørende lader***
+***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
 [Meld på Webutvikling 101 her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2024)

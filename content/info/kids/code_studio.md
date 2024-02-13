@@ -9,4 +9,6 @@ Man må kunne lese, eller ha med seg en voksen som kan hjelpe med den biten :)
 
 ***Rom: Kongesalen***
 
+***OBS: Alle deltagere må ha med sin egen PC / Mac, eller tablet, og tilhørende lader***
+
 [Meld på Code Studio her](https://boosterconf.ticketco.events/no/nb/e/code_studio_2024)

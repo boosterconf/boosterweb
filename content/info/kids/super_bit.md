@@ -11,6 +11,6 @@ Dere skal få lære hvordan dere programmerer den og teste den på baner som der
 
 ***Rom: Dræggen 4***
 
-***Husk: Alle deltagere må ha med sin egen PC eller mac som kan kobles til med USB og lader!***
+***OBS: Alle deltagere må ha med sin egen PC / Mac, som kan kobles micro:bit'en til med USB, og tilhørende lader***
 
 [Meld på super:bit her](https://boosterconf.ticketco.events/no/nb/e/superbit_2024)

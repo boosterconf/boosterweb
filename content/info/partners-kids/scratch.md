@@ -11,6 +11,6 @@ Det finnes mange forskjellige programbrikker i verktøykassen, og vi kan gjøre 
 
 ***Rom: Dræggen 7***
 
-***NB! Alle deltagere må ha med sin egen PC! og tilhørende lader.***
+***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
 [Meld på Scratch her](https://boosterconf.ticketco.events/no/nb/e/scratch_2024)

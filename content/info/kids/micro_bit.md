@@ -12,6 +12,6 @@ Micro:bit får du låne når du kommer.
 
 ***Rom: Dræggen 3***
 
-***Alle deltagere må ha med sin egen PC eller mac som kan kobles til med USB og lader!***
+***OBS: Alle deltagere må ha med sin egen PC / Mac, som kan kobles micro:bit'en til med USB, og tilhørende lader***
 
 [Meld på micro:bit her](https://boosterconf.ticketco.events/no/nb/e/microbit_2024)
