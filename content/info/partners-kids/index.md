@@ -11,15 +11,15 @@ OBS: Foreldre trenger ikke å booke billetter til seg selv!
 
 ## Program
 
-11:00-12:00: Registrering
+**11:00 - 12:00:** Registrering
 
-12:00-13:30: Workshops, del 1
+**12:00 - 13:30:** Workshops, del 1
 
-13:30-14:15: Lunsj
+**13:30 - 14:15:** Lunsj
 
-14:15-16:00: Workshops, del 2
+**14:15 - 16:00:** Workshops, del 2
 
-16:00: Takk for i år!
+**16:00:** Takk for i år!
 
 
 **Merk: Programmet kan endres fortløpende**
