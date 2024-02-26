@@ -5,6 +5,7 @@ type: talk
 authors:
     - Brage Breivik
     - Cecilie Daae Nilsen
+    - Jørgen Langemyr
 
 ---
 Hva skjer egentlig på innsiden av VAR-rommet? I år ble video-assistert dømming (VAR) innført i Eliteserien. Under generalprøvene to måneder før seriestart oppdaget Norges Fotballforbund at de trengte en løsning for å kommunisere mellom VAR-dommerne og medieproduksjonen. 

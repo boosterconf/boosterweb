@@ -1,6 +1,6 @@
 ---
-title: "Mount Ulriken"
+title: "Dreggen 2"
 type: room
-weight: 12
+weight: 7
 ---
 Workshop continues
