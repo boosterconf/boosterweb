@@ -62,7 +62,12 @@
                         </div>
                     {{ else }}
                         <div class="tv-room">
-                            <h2>{{ .Title }}</h2>
+                            <h2>
+                                {{ .Title }}
+                                {{ if eq .Params.language "english" }}
+                                <span>🇬🇧</span>
+                                {{ end }}
+                            </h2>
 
                             <!-- Talks -->
                             <ul class="tv-talks">
