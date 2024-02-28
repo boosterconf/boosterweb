@@ -1,6 +1,6 @@
 ---
 title: "Open Spaces "
-time: 13:30 - 14:40
+time: 13:10 - 14:30
 type: period
 weight: 5
 ---

@@ -1,5 +1,5 @@
 ---
-time: "12:20 - 13:30"
+time: "12:20 - 13:10"
 title: "Lunch"
 type: period
 session_type: break
