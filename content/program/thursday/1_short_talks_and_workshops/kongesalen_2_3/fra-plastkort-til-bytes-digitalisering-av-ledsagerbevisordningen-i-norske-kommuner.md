@@ -2,6 +2,7 @@
 title: "Fra plastkort til bytes: digitalisering av ledsagerbevisordningen i norske kommuner"
 talk_type: "Experience report"
 type: talk
+weight: 3
 authors:
     - Stian Morsund
     - Hege Liby Erdal

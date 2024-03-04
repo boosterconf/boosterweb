@@ -2,6 +2,7 @@
 title: "Offensive kill chain to reveal client's financial status"
 talk_type: "Experience report"
 type: talk
+weight: 2
 authors:
     - Oleksandr Kazymyrov
 
