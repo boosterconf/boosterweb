@@ -6,9 +6,9 @@
     </div>
     {{ end }}
     <div class="speakers-body">
-    {{ range .Pages }}
-    {{ .Render "li" }}
+        {{ range .Pages }}
+        {{ .Render "li" }}
         {{ end }}
     </div>
-    </article>
+</article>
 {{end}}

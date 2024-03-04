@@ -1,21 +1,21 @@
 {{ define "main" }}
 <article>
     <div class="header-join">
-      <h1>{{- .Title -}}</h1>
+        <h1>{{- .Title -}}</h1>
     </div>
     <div class="kids-intro">
-    {{- .Content -}}
-  </div>
-    <div class="kids-program">
-    {{ with .Resources.ByType "page" }}
-    {{ range . }}
-    <div class="kids-course">
-      {{- .Content -}}
+        {{- .Content -}}
     </div>
-    {{ end }}
-    {{ end }}
+    <div class="kids-program">
+        {{ with .Resources.ByType "page" }}
+        {{ range . }}
+        <div class="kids-course">
+            {{- .Content -}}
+        </div>
+        {{ end }}
+        {{ end }}
     </div>
 
     <p>Ta gjerne kontakt med oss på kids@boosterconf.no om du har noen spørsmål om Booster Kids!</p>
-  </article>
+</article>
 {{end}}
