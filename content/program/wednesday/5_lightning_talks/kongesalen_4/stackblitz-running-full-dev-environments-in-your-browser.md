@@ -2,7 +2,6 @@
 title: "StackBlitz: Running Full Dev Environments in Your Browser"
 talk_type: "Lightning talk"
 type: talk
-weight: 1
 authors:
     - Ole Eskild Steensen
 

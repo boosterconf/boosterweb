@@ -3,4 +3,4 @@ name: "Yves Hwang"
 title: "AWS, Senior Solutions Architect"
 # twitter_handle: 
 ---
-Thinking big whilst learning and staying curious in AWS as a Senior Solutions Architect. A co-founder of wanda.space and a software engineer at heart. Building products is my craft as is my passion for creating a culture of innovation that is inclusive and diverse.
+Currently thinking big, inventing and simplifying for my customers as a Senior Solutions Architect in AWS. I am a co-founder of wanda.space and a software engineer at heart. Building products is my craft as is my passion for creating a team culture that is innovative, inclusive, diverse, and based on a growth mindset that loves learning and seeks to solve challenging problems.

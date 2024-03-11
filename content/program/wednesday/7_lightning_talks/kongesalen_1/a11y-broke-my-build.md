@@ -2,7 +2,6 @@
 title: "A11y Broke My Build"
 talk_type: "Lightning talk"
 type: talk
-weight: 1
 authors:
     - Kristoffer Nordström
 

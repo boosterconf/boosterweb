@@ -1,6 +1,6 @@
 ---
 name: "Birgir Stefansson"
-title: ""
+title: "Schibsted, Engineering Manager"
 # twitter_handle: 
 ---
-None
+TBW

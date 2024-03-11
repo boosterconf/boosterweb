@@ -4,7 +4,7 @@ talk_type: "Workshop 1,5t"
 type: talk
 authors:
     - Stig Nielsen
-    - Morten Cools
+    - Eugene Rebedailo
 
 ---
 This workshop will consist of a theory part before the practical bit/workshop.
@@ -17,15 +17,26 @@ Basic knowledge of SQL and Entity Framework is useful. 
 
 A notion of what DDD is.
 
-Computer requirements:
+When it comes to setting running the code / template, this is what you need:
 
-Rider/Visual Studio/Other dotnet-capable IDE
+* a GitHub account, or else using the template above will prove difficult 💥
+* .NET SDK (https://dotnet.microsoft.com/en-us/download) - this is the crux of our exercise. Make sure you at least have this installed.
+* IDE for C# (We will be using Visual Studio 2022, with latest updates). In a standard setup, you will then already have EF version 8.x installed. Alternatives:
+    - JetBrains Rider
+    - VS Code + dotnet CLI
+* MS SQL SERVER - Developer - https://www.microsoft.com/en-us/sql-server/sql-server-downloads - there are alternatives, but this workshop is designed for MS SQL Server, so try and stick with it.
+* MS SQL Server - Management Studio - https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16 or another SQL Management tool. Some alternatives:
+    - Azure Data Studio - https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio. Great minimal tool, but doesn't allow for a lot of advanced automations or diagram generation.
+    - DBeaver - https://dbeaver.io/download/ - Open source and works with a lot of database engines, not just MS SQL.
+    - Visual Studio or JetBrains Rider have builtin tools. VS Code extensions also can be used for this as well, but are not as well supported.
+* EF core Tools - https://learn.microsoft.com/en-us/ef/core/cli/dotnet#installing-the-tools - those should be installed as a part of Visual Studio, but make sure you can run `dotnet ef` or `dotnet-ef` 
 
-dotnet 8.0 installed
+Maximum preparedness checklist:
+- You can navigate into the solution folder and run `dotnet build` - this means you have setup .NET correctly
+- You can connect to sql local DB via your database management tool of choice
+- `dotnet ef` (or `dotnet-ef`) runs successfully. This means you installed the EntityFramework tools correctly.
 
-SQL Server (Express) installed. If using other RDBMS, support might be limited.
-
-Github account for creating repo based on template
+Github template url: https://github.com/InsuranceTechnologySolutions/boosterconf-ef-ninja
 
 Background:
 
@@ -62,3 +73,5 @@ Apply the migrations
 ++
 
 The end result should be a functioning API where we can do CRUD operations on a well-defined set of REST resources.
+
+

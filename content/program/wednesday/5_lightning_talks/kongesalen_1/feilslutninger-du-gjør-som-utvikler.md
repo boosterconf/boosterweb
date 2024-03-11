@@ -6,8 +6,8 @@ authors:
     - Stian Morsund
 
 ---
-Tror du at alle dine valg og beslutninger er basert på rasjonelle tanker? At du alltid forstår hvorfor du handler som du gjør? Vel, sannheten er at hjernen din ofte tar snarveier uten at du merker det. Denne tendensen gjelder også for oss som jobber som utviklere.
+Tror du at alle dine valg og beslutninger er basert på rasjonelle tanker? At du alltid forstår hvorfor du handler som du gjør? Sannheten er at hjernen din ofte tar snarveier uten at du merker det. Denne tendensen gjelder også for oss som jobber som utviklere.
 
-I en verden hvor beslutningene dine kan ha stor innvirkning på prosjekter og resultater, er det viktig å innse at du noen ganger handler basert på feil informasjon eller antakelser. 
+I en verden hvor beslutningene våre kan ha stor innvirkning på prosjekter og resultater, er det viktig å innse at man noen ganger handler basert på feil informasjon eller antakelser. 
 
-Jeg vil gå gjennom noen av de fascinerende måtene hjernen vår opererer på når vi tar beslutninger. Du vil lære om ulike mentale snarveiene som kan forekomme, og dermed være bedre rustet til å gjenkjenne dem neste gang de oppstår.
+Jeg vil gå gjennom noen feilslutninger som har skjedd i faktiske utviklingsprosjekt slik at du kan gjenkjenne dem hvis de skulle oppstå hos deg!

@@ -4,7 +4,7 @@ talk_type: "Workshop 1,5t"
 type: talk
 authors:
     - Vegard Feste
-    - Sofie Thornhill
+    - Sindre Holm
 
 ---
 Figmavariabler gir designere nye superkrefter når de skal lage designsystemer for både små og store organisasjoner. Variabler gjør ikke bare det å lage nye design, som kan tilpasses ulike stiler veldig veldig mye raskere, enkelt og smooth, men den ekte sannheten mellom design og kode kan også bli litt lettere å lage, vedlikeholde og forstå.
