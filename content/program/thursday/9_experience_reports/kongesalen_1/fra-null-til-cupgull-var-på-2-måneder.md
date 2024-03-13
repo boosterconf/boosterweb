@@ -4,7 +4,6 @@ talk_type: "Experience report"
 type: talk
 authors:
     - Brage Breivik
-    - Cecilie Daae Nilsen
     - Jørgen Langemyr
 
 ---
