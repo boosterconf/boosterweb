@@ -19,12 +19,11 @@ The goal is to get a good understanding of the basics of Rust and get some hands
 This talk is aimed at developers without any Rust experience.
 You should have at least a little bit of programming experience (no matter the language)
 
-Participants should bring a laptop with the following installed:
-- git
-- a code editor of their choice
+Participants should bring a laptop with git and a code editor of their choice installed.
 
-And preferably already installed:
-- rust tool-chain for their laptop's architecture (Try checking out the workshop repository and running cargo build. If you run into problems you cannot resolve, don't sweat it, we can sort it out on the day.)
-
+And preferably the rust tool-chain for their laptop's architecture.
+(Try checking out the workshop repository and running cargo build. If you run into problems you cannot resolve, don't sweat it, we can sort it out on the day.)
+  
 The slides can be found here: https://www.julian-ertel.de/booster/
+
 The code can be found here: https://github.com/0Merlin0/rust_workshop/tree/booster
