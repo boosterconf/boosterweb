@@ -6,7 +6,6 @@ authors:
     - Julian Philipp Merlin Ertel
 
 ---
-
 Learn the basics of the Rust programming language by implementing the world's most iconic cellular automaton: Conway's Game of Life.
 
 The Rust programming language is a modern high-level language that offers memory-safety and thread-safety guarantees, great tooling and extremely high performance.
