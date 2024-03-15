@@ -158,6 +158,9 @@
             let current = 0;
             let next;
             let now = new Date()
+            
+            // add 10 minutes so we show the next program 10 minutes before
+            now.setMinutes(now.getMinutes() + 10);
 
             // find where in the program we are right now
             for (let i=1; i < timeSlots.length; i++) {
