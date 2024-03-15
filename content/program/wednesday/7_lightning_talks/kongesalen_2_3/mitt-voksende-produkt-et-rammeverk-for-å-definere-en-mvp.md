@@ -2,6 +2,7 @@
 title: "Mitt Voksende Produkt - Et rammeverk for å definere en MVP"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923304441
 authors:
     - Andreas Sætersdal Hartveit
 

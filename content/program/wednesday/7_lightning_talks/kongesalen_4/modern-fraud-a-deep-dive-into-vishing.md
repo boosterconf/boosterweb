@@ -2,6 +2,7 @@
 title: "Modern fraud: A deep dive into Vishing"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923669016
 authors:
     - Brynjar Steinbakk Ulriksen
 

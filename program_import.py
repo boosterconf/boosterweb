@@ -119,6 +119,12 @@ def write_room_header(path, session):
     room = sessionize['room']
     room_key = room.replace(" + ", "_").replace(" ", "_").replace("-","_").lower()
     room_exists = os.path.exists(path + "/" + room_key)
+    
+    session_data = sessions_map[sessionize['title']]
+    language = ""
+    for questionAnswers in session_data['questionAnswers']:
+        if questionAnswers['questionId'] == 62991:
+            language = questionAnswers['answerValue']
     if not room_exists:
         os.makedirs(path + "/" + room_key)
     room_index_path = path + "/" + room_key + "/_index.md"
@@ -126,6 +132,7 @@ def write_room_header(path, session):
     template = f"""---
 title: "{room}"
 type: room
+language: {language.lower()}
 weight: {room_weights[room]}
 ---"""
     f.write(template)
@@ -146,14 +153,18 @@ def write_session_file(room_path, session):
         print(session_format)
         #session_data['categories'][0]['categoryItems'][0]['name']
         session_title = re.sub("\"", "\\\"", sessionize['title'])
+        recording_url_formatted = ""
+        if session_data['recordingUrl']:
+            recording_url_formatted = f"\nrecording_url: {session_data['recordingUrl']}"
         speakers_formatted = ""
         for speaker_id in session_data['speakers']:
             speaker = speaker_map[speaker_id]
             speakers_formatted += "    - " + speaker['firstName'] + " " + speaker['lastName'] + "\n"
+
         template = f"""---
 title: "{session_title}"
 talk_type: "{session_format}"
-type: talk
+type: talk{recording_url_formatted}
 authors:
 {speakers_formatted}
 ---
@@ -169,9 +180,16 @@ def write_session_continuation(room_path, session):
     room_key = room.replace(" + ", "_").replace(" ", "_").replace("-","_").lower()
     room_exists = os.path.exists(room_path + "/" + room_key + ".md")
 
+    session_data = sessions_map[sessionize['title']]
+    language = ""
+    for questionAnswers in session_data['questionAnswers']:
+        if questionAnswers['questionId'] == 62991:
+            language = questionAnswers['answerValue']
+
     template = f"""---
 title: "{room}"
 type: room
+language: {language.lower()}
 weight: {room_weights[room]}
 ---
 Workshop continues

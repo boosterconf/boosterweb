@@ -24,12 +24,13 @@
         {{ if .Param "room" }}
         &mdash;
         <span class="muted">{{ .Param "room" }}</span>
+        
         {{ end }}
     </p>
 
-    {{ if .Params.vimeo_id }}
+    {{ if .Params.recording_url }}
     <p>
-      <div style="padding:35% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{ .Params.vimeo_id }}?h=51c09b009d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .Title }} - {{ .Params.author }}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      <div style="padding:35% 0 0 0;position:relative;"><iframe src="{{ replace .Params.recording_url "https://vimeo.com/" "https://player.vimeo.com/video/" }}?h=51c09b009d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="{{ .Title }} - {{ .Params.author }}"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     </p>
     {{ end }}
     <p>

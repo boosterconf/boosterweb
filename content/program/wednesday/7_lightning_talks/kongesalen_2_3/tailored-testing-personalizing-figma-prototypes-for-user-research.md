@@ -2,6 +2,7 @@
 title: "Tailored testing: Personalizing Figma Prototypes for User Research"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923340019
 authors:
     - Erika Hågensen
 

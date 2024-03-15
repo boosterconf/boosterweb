@@ -2,6 +2,7 @@
 title: "Ta kontroll på stylingen med Styled Components"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923683310
 authors:
     - Sebastian Frøyen
 

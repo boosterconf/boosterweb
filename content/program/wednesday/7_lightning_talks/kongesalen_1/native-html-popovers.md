@@ -2,6 +2,7 @@
 title: "Native HTML popovers"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923681953
 authors:
     - Catriona MacKenzie
 

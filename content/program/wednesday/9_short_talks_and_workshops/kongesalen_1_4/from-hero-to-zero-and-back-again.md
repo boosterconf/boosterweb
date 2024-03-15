@@ -2,6 +2,7 @@
 title: "From Hero to Zero and back again..."
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/923350810
 authors:
     - Marit Hellestø
 

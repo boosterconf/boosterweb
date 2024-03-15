@@ -2,6 +2,7 @@
 title: "GDPR in development - a mystery?"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923662438
 authors:
     - Julie Eldøy
 

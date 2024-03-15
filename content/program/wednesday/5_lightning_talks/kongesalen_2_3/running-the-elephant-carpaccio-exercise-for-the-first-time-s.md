@@ -2,6 +2,7 @@
 title: "Running the \"Elephant Carpaccio\" exercise for the first time(s)"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923301356
 authors:
     - Joep Schuurkes
 

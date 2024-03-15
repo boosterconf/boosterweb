@@ -2,6 +2,7 @@
 title: "Why should I listen to my UX-colleague?"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923342385
 authors:
     - Helene Sofie Stenstadvold
 

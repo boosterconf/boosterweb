@@ -2,6 +2,7 @@
 title: "Designing for All: Accessibility Considerations in Remote Health Monitoring"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923303716
 authors:
     - Malin Jakobsen
 

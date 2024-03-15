@@ -2,6 +2,7 @@
 title: "Exploring Features in Modern CSS"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923680721
 authors:
     - Jakob Endrestad Kielland
 

@@ -2,6 +2,7 @@
 title: "Endringsbonanza til folket! 7 råd til deg som vil få hva som helst til å skje"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923673533
 authors:
     - Marie Stoltz
 

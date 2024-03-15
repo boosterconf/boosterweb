@@ -2,6 +2,7 @@
 title: "A11y Broke My Build"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923679546
 authors:
     - Kristoffer Nordström
 

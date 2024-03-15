@@ -2,6 +2,7 @@
 title: "Effective communication in hybrid teams"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923299056
 authors:
     - Ami Ahalpara
 

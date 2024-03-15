@@ -2,6 +2,7 @@
 title: "Feilslutninger man gjør som utvikler"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923675000
 authors:
     - Stian Morsund
 

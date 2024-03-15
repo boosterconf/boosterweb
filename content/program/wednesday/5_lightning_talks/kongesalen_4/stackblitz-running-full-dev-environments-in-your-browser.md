@@ -2,6 +2,7 @@
 title: "StackBlitz: Running Full Dev Environments in Your Browser"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923666334
 authors:
     - Ole Eskild Steensen
 

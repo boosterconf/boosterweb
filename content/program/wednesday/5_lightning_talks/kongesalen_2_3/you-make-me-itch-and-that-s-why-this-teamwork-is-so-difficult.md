@@ -2,6 +2,7 @@
 title: "You make me itch - and that's why this teamwork is so difficult "
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923302415
 authors:
     - Cathrine Fredhøi
 

@@ -2,6 +2,7 @@
 title: "Passwords - a thing of the past?"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923663849
 authors:
     - Tore Stensaker Tefre
 

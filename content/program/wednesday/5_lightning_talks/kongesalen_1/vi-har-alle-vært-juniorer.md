@@ -2,6 +2,7 @@
 title: "Vi har alle vært juniorer"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923678054
 authors:
     - André Heie Vik
 

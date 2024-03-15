@@ -2,6 +2,7 @@
 title: "Stop Stealing My Tokens!"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923670064
 authors:
     - Håkon Knudsen
 

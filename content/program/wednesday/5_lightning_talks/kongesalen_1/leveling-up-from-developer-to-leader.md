@@ -2,6 +2,7 @@
 title: "Leveling up from developer to leader"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923676739
 authors:
     - Nicolai Gjellestad
 

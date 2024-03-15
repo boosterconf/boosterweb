@@ -2,6 +2,7 @@
 title: "Experiences from LIVE TV shows at NRK"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/923344508
 authors:
     - Morten Kjelling
 

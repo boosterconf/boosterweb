@@ -2,6 +2,7 @@
 title: "Disrupting hackers: Technqiues to ruin their day and securing your applications! "
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923667518
 authors:
     - Joakim Pedersen
 

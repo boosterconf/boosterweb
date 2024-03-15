@@ -2,6 +2,7 @@
 title: "Family Retrospectives: How to Empower Your Team at Home"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923300176
 authors:
     - Anna Kvashchuk
 

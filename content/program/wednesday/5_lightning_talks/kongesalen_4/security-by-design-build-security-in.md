@@ -2,6 +2,7 @@
 title: "Security by design: build security in"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/923665148
 authors:
     - Elias Brattli Sørensen
 
