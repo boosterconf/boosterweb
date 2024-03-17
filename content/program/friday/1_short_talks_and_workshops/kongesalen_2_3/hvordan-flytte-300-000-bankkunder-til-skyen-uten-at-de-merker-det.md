@@ -2,6 +2,7 @@
 title: "Hvordan flytte 300 000 bankkunder til skyen uten at de merker det?"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924291940
 authors:
     - Andreas THuen
 

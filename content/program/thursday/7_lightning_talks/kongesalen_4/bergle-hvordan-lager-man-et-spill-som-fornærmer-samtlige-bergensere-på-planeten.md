@@ -2,6 +2,7 @@
 title: "Bergle – Hvordan lager man et spill som fornærmer samtlige bergensere på planeten"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924288679
 authors:
     - Lukas Schramm
 

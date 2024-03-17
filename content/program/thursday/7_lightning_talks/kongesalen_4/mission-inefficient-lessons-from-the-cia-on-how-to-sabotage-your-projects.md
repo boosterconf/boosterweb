@@ -2,6 +2,7 @@
 title: "Mission: Inefficient – Lessons from the CIA on how to sabotage your projects"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924288825
 authors:
     - Ådne Forslund
 

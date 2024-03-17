@@ -2,6 +2,7 @@
 title: "Beyond the Wall: Navigating the Wilds of Team Dysfunction"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924280625
 authors:
     - Fredrik Anthonisen
 

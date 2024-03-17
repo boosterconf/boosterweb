@@ -2,6 +2,7 @@
 title: "Mischief Managed using Design Tokens 🧙 "
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924281052
 authors:
     - Abel van Beek
 

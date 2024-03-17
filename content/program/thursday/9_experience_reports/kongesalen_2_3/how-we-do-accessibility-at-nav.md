@@ -2,6 +2,7 @@
 title: "How we do accessibility at NAV"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924281169
 authors:
     - Vegard Haugstvedt
 

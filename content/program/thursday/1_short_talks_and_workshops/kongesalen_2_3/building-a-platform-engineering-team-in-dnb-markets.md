@@ -2,7 +2,7 @@
 title: "Building a platform engineering team in DNB Markets"
 talk_type: "Experience report"
 type: talk
-weight: 1
+recording_url: https://vimeo.com/924280955
 authors:
     - Oddmar Sandvik
     - Christian Pedersen

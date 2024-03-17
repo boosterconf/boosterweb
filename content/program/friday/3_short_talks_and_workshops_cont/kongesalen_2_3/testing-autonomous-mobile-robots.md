@@ -2,6 +2,7 @@
 title: "Testing Autonomous Mobile Robots"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924292565
 authors:
     - Mesut Durukal
 

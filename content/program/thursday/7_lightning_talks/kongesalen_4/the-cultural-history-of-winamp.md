@@ -2,6 +2,7 @@
 title: "The Cultural History of WinAmp ⚡️"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924288773
 authors:
     - Anders Norås
 

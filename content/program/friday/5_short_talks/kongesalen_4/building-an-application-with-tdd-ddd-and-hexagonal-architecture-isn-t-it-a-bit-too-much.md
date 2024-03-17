@@ -2,6 +2,7 @@
 title: "Building an Application with TDD, DDD and Hexagonal Architecture - Isn't it a bit too much?"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924293338
 authors:
     - Mufrid Krilic
 

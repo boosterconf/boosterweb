@@ -2,6 +2,7 @@
 title: "TV 2 Play: Når sport blir personlig"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280527
 authors:
     - Astrid Johnsen Tessem
 

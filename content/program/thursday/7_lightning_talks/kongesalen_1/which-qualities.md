@@ -2,6 +2,7 @@
 title: "Which qualities?"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280361
 authors:
     - Janniche Lange
 

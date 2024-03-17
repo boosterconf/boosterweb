@@ -2,6 +2,7 @@
 title: "Optimizing Public Healthcare: Leveraging Language Models for Reliable IT Support"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280466
 authors:
     - Johanna Jøsang
 

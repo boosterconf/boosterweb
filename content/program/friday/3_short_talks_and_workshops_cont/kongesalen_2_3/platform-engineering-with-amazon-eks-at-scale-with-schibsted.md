@@ -2,6 +2,7 @@
 title: "Platform Engineering with Amazon EKS at scale with Schibsted"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924292138
 authors:
     - Birgir Stefansson
     - Yves Hwang

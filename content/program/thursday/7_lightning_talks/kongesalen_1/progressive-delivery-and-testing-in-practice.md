@@ -2,6 +2,7 @@
 title: "Progressive delivery and testing in practice"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280287
 authors:
     - Iryna Vasylenko
 

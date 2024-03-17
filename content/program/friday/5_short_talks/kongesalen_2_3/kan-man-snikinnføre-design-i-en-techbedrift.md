@@ -2,6 +2,7 @@
 title: "Kan man snikinnføre design i en techbedrift?"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924292433
 authors:
     - Anne Landro
 

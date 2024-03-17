@@ -2,6 +2,7 @@
 title: "From Code to Chaos: A Developer's Journey into Product Management"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924280709
 authors:
     - Marius Krakeli
 

@@ -2,6 +2,7 @@
 title: "It’s not exactly rocket science"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924288723
 authors:
     - Christine Smith-Johnsen
 

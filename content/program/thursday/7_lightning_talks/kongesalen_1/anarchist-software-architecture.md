@@ -2,6 +2,7 @@
 title: "Anarchist Software Architecture"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280210
 authors:
     - Elizabeth Zagroba
 

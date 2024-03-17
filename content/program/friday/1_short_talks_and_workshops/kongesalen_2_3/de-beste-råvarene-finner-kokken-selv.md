@@ -2,6 +2,7 @@
 title: "De beste råvarene finner kokken selv"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924292285
 authors:
     - Marit Ånestad
 

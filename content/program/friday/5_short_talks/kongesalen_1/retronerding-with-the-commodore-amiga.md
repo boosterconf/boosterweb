@@ -2,6 +2,7 @@
 title: "Retronerding with the Commodore Amiga"
 talk_type: "Experience report"
 type: talk
+recording_url: https://vimeo.com/924291696
 authors:
     - Ricki Sickenger
 

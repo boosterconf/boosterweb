@@ -2,6 +2,7 @@
 title: "Beyond the terrarium?"
 talk_type: "Keynote"
 type: talk
+recording_url: https://vimeo.com/924293086
 authors:
     - Einar Høst
 

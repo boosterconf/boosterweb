@@ -2,6 +2,7 @@
 title: "The Fine Line: Balancing Critique and Compassion in Code Reviews"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280230
 authors:
     - Embla Øye
 

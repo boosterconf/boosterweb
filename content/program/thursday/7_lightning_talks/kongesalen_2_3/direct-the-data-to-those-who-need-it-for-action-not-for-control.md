@@ -2,6 +2,7 @@
 title: "Direct the data to those who need it for action – not for control!"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280577
 authors:
     - Kristin Wulff
 

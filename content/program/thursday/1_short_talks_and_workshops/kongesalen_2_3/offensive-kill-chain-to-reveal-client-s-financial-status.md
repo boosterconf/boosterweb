@@ -3,6 +3,7 @@ title: "Offensive kill chain to reveal client's financial status"
 talk_type: "Experience report"
 type: talk
 weight: 2
+recording_url: https://vimeo.com/924280838
 authors:
     - Oleksandr Kazymyrov
 
