@@ -2,6 +2,7 @@
 title: "Is your team complete without inexperience?"
 talk_type: "Keynote"
 type: talk
+recording_url: https://vimeo.com/923292845
 authors:
     - Siv Midtun Hollup
 
