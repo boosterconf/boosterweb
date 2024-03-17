@@ -2,6 +2,7 @@
 title: "Biggest fails of AI - learn and laugh"
 talk_type: "Lightning talk"
 type: talk
+recording_url: https://vimeo.com/924280419
 authors:
     - Dalibor Jovic
 
