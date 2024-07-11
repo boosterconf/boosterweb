@@ -54,7 +54,7 @@ http {
 			root /app/public;
 		}
 		location / {
-			return 302 https://$host$request_uri2025/;
+			return 302 https://$host${request_uri}2025/;
 			## Clean URLs: match on extensionless requests.
 			# try_files $uri $uri/ $uri.html =404;
 
