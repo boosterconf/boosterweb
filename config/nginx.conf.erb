@@ -48,7 +48,7 @@ http {
 		}
 
 		location / {
-			return 302 https://$host${request_uri}2025/;
+			return 302 https://$host/2025${request_uri};
 			## Clean URLs: match on extensionless requests.
 			# try_files $uri $uri/ $uri.html =404;
 
