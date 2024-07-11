@@ -9,7 +9,7 @@ menu:
         name: "Call for presentations"
 ---
 
-Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2024 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
+Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2025 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
 
 [Submit your proposal here!](https://forms.gle/H3pwQGeG8875wfnDA)
 
@@ -91,7 +91,7 @@ Please note that if your talk gets accepted we will:
 
 *   Film your talk and publish it to Vimeo, (keynotes, lightning talks and short-talks only)
 *   Publish your name, bio and talk abstract on our website as part of this years program. We will also keep a copy of this information as a part of the Booster history.
-*   Keep your e-mail address, in order to be able to contact you while working on Booster 2024.
+*   Keep your e-mail address, in order to be able to contact you while working on Booster 2025.
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no).
 
