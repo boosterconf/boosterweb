@@ -17,11 +17,11 @@
     <meta property="twitter:url" content="{{ .Site.BaseURL }}">
     <meta property="twitter:title" content="Booster Conference 2025">
     <meta property="twitter:description" content="Booster Conference, The Software Conference for the Whole Team">
-    <meta property="twitter:image" content="{{ .Site.BaseURL }}images/workshops.jpg">
+    <meta property="twitter:image" content="{{ relURL "images/workshops.jpg" }}">
     
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css?{{ now.Unix }}">
-    <link href="{{ .Site.BaseURL }}css/fontawesome/css/all.css" rel="stylesheet">
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ relURL "css/main.css" }}?{{ now.Unix }}">
+    <link href="{{ relURL "css/fontawesome/css/all.css" }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ relURL "images/favicon.ico" }}" type="image/x-icon">
     <body>
         <div class="tv">
             {{ with .GetPage "/program" }}
@@ -251,5 +251,5 @@
         });
     </script>
 
-    <script src="{{ .Site.BaseURL }}js/main.js?{{ now.Unix }}"></script>
+    <script src="{{ relURL "js/main.js" }}?{{ now.Unix }}"></script>
 </html>
