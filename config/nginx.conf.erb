@@ -57,8 +57,15 @@ http {
 			# error_page 404 = /index.html;
 		}
 		location /2025/ {
-			## Document root
+		
 			root /app/public;
+			location /images {
+				expires 1d;
+			}
+				
+			location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
+				expires 1d;
+			}
 		}
 
 		## Define specific behaviors for sub directories and other locations.
