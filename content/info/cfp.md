@@ -13,7 +13,7 @@ Share with us your ideas, valuable experiences and skills – old and new. Don't
 
 [Submit your proposal here!](https://forms.gle/H3pwQGeG8875wfnDA)
 
-#### Submission deadline: October 25th 2023
+#### Submission deadline: October 25th 2024
 
 Pick your format!
 =================
