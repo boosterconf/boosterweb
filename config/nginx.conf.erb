@@ -47,9 +47,6 @@ http {
 			return 301 https://$host$request_uri;
 		}
 
-		## Document root
-		root /app/public;
-
 		location / {
 			return 302 https://$host${request_uri}2025/;
 			## Clean URLs: match on extensionless requests.
@@ -58,6 +55,10 @@ http {
 			## Single-page app client-side routing: returns index.html if the requested path doesn't exist.
 			## When enabled, the client-side app must handle its own 404 errors.
 			# error_page 404 = /index.html;
+		}
+		location /2025/ {
+			## Document root
+			root /app/public;
 		}
 
 		## Define specific behaviors for sub directories and other locations.
