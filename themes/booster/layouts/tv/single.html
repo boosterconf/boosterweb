@@ -19,9 +19,9 @@
     <meta property="twitter:description" content="Booster Conference, The Software Conference for the Whole Team">
     <meta property="twitter:image" content="{{ .Site.BaseURL }}images/workshops.jpg">
     
-    <link rel="stylesheet" href="/css/main.css?{{ now.Unix }}">
-    <link href="/css/fontawesome/css/all.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css?{{ now.Unix }}">
+    <link href="{{ .Site.BaseURL }}css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" type="image/x-icon">
     <body>
         <div class="tv">
             {{ with .GetPage "/program" }}
