@@ -48,11 +48,8 @@ http {
 		}
 
 		## Document root
-		root /app/dist;
+		root /app/public;
 
-		location /2025/ {
-			root /app/public;
-		}
 		location / {
 			return 302 https://$host${request_uri}2025/;
 			## Clean URLs: match on extensionless requests.
