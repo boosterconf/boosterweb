@@ -14,4 +14,4 @@ To add conference organizers to the about-us page add a photo under `content/inf
 
 ## Adding conference partners
 
-To add conference partners, add the logo under `content/partners/logos` and metadata about the parter under `content/partners/index.md`. If only the logo is added the partner will still appear in the footer but with incorrect linking.
+To add conference partners, add the logo under `content/partners/logos` and metadata about the partner under `content/partners/index.md`. If only the logo is added the partner will still appear in the footer but with incorrect linking.
