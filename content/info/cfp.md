@@ -1,7 +1,7 @@
 ---
 title: "Call for presentations"
 date: 2023-09-19T13:00:00+02:00
-draft: true
+draft: false
 type: article
 menu:
     main:
@@ -11,7 +11,7 @@ menu:
 
 Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2025 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
 
-[Submit your proposal here!](https://forms.gle/H3pwQGeG8875wfnDA)
+[Submit your proposal here!](https://sessionize.com/booster-conference-2025)
 
 #### Submission deadline: October 25th 2024
 
