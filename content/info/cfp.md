@@ -95,4 +95,4 @@ Please note that if your talk gets accepted we will:
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no).
 
-[Submit your proposal here!](https://forms.gle/H3pwQGeG8875wfnDA)
+[Submit your proposal here!](https://sessionize.com/booster-conference-2025)
