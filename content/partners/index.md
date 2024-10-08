@@ -1,14 +1,14 @@
 ---
 headless: true
 resources:
-#    - src: logos/kantega2.png
-#      title: Kantega
-#      params:
-#        url: http://www.kantega.no
-#    - src: logos/knowit.png
-#      title: Knowit
-#      params:
-#        url: http://www.knowit.no
+    - src: logos/kantega2.png
+        title: Kantega
+        params:
+        url: http://www.kantega.no
+    - src: logos/knowit.png
+        title: Knowit
+        params:
+        url: http://www.knowit.no
     # - src: logos/visma.png
     #   title: Visma Real Estate AS
     #   params:
@@ -41,14 +41,14 @@ resources:
 #      title: Frende
 #      params:
 #        url: https://www.frende.no
-#    - src: logos/kraftlauget.png
-#      title: Kraftlauget
-#      params:
-#        url: https://www.kraftlauget.no/
-#    - src: logos/instech.png
-#      title: Instech
-#      params:
-#        url: https://www.instech.no/
+    - src: logos/kraftlauget.png
+        title: Kraftlauget
+        params:
+        url: https://www.kraftlauget.no/
+    - src: logos/instech.png
+        title: Instech
+        params:
+        url: https://www.instech.no/
     # - src: logos/shortcut.png
     #   title: Shortcut
     #   params:
@@ -65,10 +65,10 @@ resources:
 #      title: Tryg
 #      params:
 #        url: https://www.tryg.no/
-#    - src: logos/soprasteria.png
-#      title: Sopra Steria
-#      params:
-#        url: https://www.soprasteria.no/
+    - src: logos/soprasteria.png
+        title: Sopra Steria
+        params:
+        url: https://www.soprasteria.no/
 #    - src: logos/spv.png
 #      title: Sparebanken Vest
 #      params:
@@ -93,10 +93,10 @@ resources:
 #      title: Vizrt
 #      params:
 #        url: https://www.vizrt.com/
-    # - src: logos/experis.png
-    #   title: Experis
-    #   params:
-    #     url: https://www.experis.no/nb
+    - src: logos/experis.png
+        title: Experis
+        params:
+        url: https://www.experis.no/nb
 #    - src: logos/ulriken.svg
 #      title: Ulriken
 #      params:
@@ -105,10 +105,10 @@ resources:
     #   title: Dfind
     #   params:
     #     url: https://www.dfindconsulting.no/
-#    - src: logos/stacc.svg
-#      title: Stacc
-#      params:
-#        url: https://stacc.com/
+    - src: logos/stacc.svg
+        title: Stacc
+        params:
+        url: https://stacc.com/
 #    - src: logos/computas.svg
 #      title: Computas
 #      params:
@@ -133,10 +133,10 @@ resources:
     #   title: Microsoft
     #   params:
     #     url: https://www.microsoft.no/
-#    - src: logos/webstep.svg
-#      title: Webstep
-#      params:
-#        url: https://www.webstep.no/
+    - src: logos/webstep.svg
+        title: Webstep
+        params:
+        url: https://www.webstep.no/
 #    - src: logos/atea.svg
 #      title: ATEA
 #      params:
