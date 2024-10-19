@@ -37,10 +37,10 @@ resources:
     #   title: Sbanken
     #   params:
     #     url: https://www.sbanken.no/
-#    - src: logos/frende.png
-#      title: Frende
-#      params:
-#        url: https://www.frende.no
+    - src: logos/frende.png
+      title: Frende
+      params:
+      url: https://www.frende.no
     - src: logos/kraftlauget.png
       title: Kraftlauget
       params:
@@ -77,14 +77,14 @@ resources:
     #   title: Variant
     #   params:
     #     url: https://www.variant.no/
-#    - src: logos/bouvet.png
-#      title: Bouvet
-#      params:
-#        url: https://www.bouvet.no/
-#    - src: logos/nordea.png
-#      title: Nordea
-#      params:
-#        url: https://www.nordea.no/
+    - src: logos/bouvet.png
+      title: Bouvet
+      params:
+      url: https://www.bouvet.no/
+    - src: logos/nordea.png
+      title: Nordea
+      params:
+      url: https://www.nordea.no/
     # - src: logos/scaleaq.png
     #   title: ScaleAQ
     #   params:
@@ -137,10 +137,10 @@ resources:
       title: Webstep
       params:
       url: https://www.webstep.no/
-#    - src: logos/atea.svg
-#      title: ATEA
-#      params:
-#        url: https://www.atea.no
+    - src: logos/atea.svg
+      title: ATEA
+      params:
+      url: https://www.atea.no
 #    - src: logos/visito.png
 #      title: Visito
 #      params:
@@ -153,12 +153,12 @@ resources:
 #      title: TietoEvry
 #      params:
 #        url: https://www.tietoevry.com/no/
-#    - src: logos/fanasparebank.svg
-#      title: Fana Sparebank
-#      params:
-#        url: https://www.fanasparebank.no/
-#    - src: logos/itslearning.png
-#      title: Itslearning
-#      params:
-#        url: https://itslearning.com/
+    - src: logos/fanasparebank.svg
+      title: Fana Sparebank
+      params:
+      url: https://www.fanasparebank.no/
+    - src: logos/itslearning.png
+      title: Itslearning
+      params:
+      url: https://itslearning.com/
 ---
