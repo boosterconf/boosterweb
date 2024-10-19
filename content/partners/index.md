@@ -85,10 +85,10 @@ resources:
       title: Nordea
       params:
       url: https://www.nordea.no/
-    # - src: logos/scaleaq.png
-    #   title: ScaleAQ
-    #   params:
-    #     url: https://www.scaleaq.no/
+    - src: logos/scaleaq.png
+      title: ScaleAQ
+      params:
+      url: https://www.scaleaq.no/
 #    - src: logos/vizrt.svg
 #      title: Vizrt
 #      params:
@@ -161,4 +161,12 @@ resources:
       title: Itslearning
       params:
       url: https://itslearning.com/
+    - src: logos/casi.png
+      title: Casi
+      params:
+      url: https://www.casi.auto
+    - src: logos/highsoft.png
+      title: Highsoft
+      params:
+      url: https://www.highcharts.com/
 ---
