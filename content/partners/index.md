@@ -61,6 +61,10 @@ resources:
       title: Sopra Steria
       params:
         url: https://www.soprasteria.no/
+    - src: logos/spv.png
+      title: Sparebanken Vest
+      params:
+        url: https://www.spv.no/
     - src: logos/stacc.svg
       title: Stacc
       params:
@@ -143,10 +147,6 @@ resources:
 #      title: Sonat Consulting
 #      params:
 #        url: http://www.sonat.no
-#    - src: logos/spv.png
-#      title: Sparebanken Vest
-#      params:
-#        url: https://www.spv.no/
 #    - src: logos/tietoevry.png
 #      title: TietoEvry
 #      params:
