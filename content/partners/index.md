@@ -1,6 +1,10 @@
 ---
 headless: true
 resources:
+    - src: logos/acos.png
+      title: ACOS
+      params:
+        url: https://www.acos.no/
     - src: logos/atea.svg
       title: ATEA
       params:
