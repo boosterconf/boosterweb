@@ -1,7 +1,7 @@
 ---
 title: "Call for presentations"
 date: 2023-09-19T13:00:00+02:00
-draft: false
+draft: true
 type: article
 menu:
     main:
