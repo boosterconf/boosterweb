@@ -37,6 +37,10 @@ resources:
       title: Instech
       params:
         url: https://www.instech.no/
+    - src: logos/Itera-logo-lobster.png
+      title: Itera
+      params:
+        url: https://www.itera.com/no/
     - src: logos/itslearning.png
       title: Itslearning
       params:
@@ -53,14 +57,26 @@ resources:
       title: Kraftlauget
       params:
         url: https://www.kraftlauget.no/
+    - src: logos/miles.svg
+      title: Miles
+      params:
+        url: http://www.miles.no
     - src: logos/nordea.png
       title: Nordea
       params:
         url: https://www.nordea.no/
+    - src: logos/rainfall.png
+      title: Rainfall
+      params:
+        url: http://www.rainfall.no
     - src: logos/scaleaq.png
       title: ScaleAQ
       params:
         url: https://www.scaleaq.no/
+    - src: logos/sonat.png
+      title: Sonat Consulting
+      params:
+        url: http://www.sonat.no
     - src: logos/soprasteria.png
       title: Sopra Steria
       params:
@@ -119,14 +135,6 @@ resources:
 #      title: Imove
 #      params:
 #        url: https://imove.no/
-#    - src: logos/miles.svg
-#      title: Miles
-#      params:
-#        url: http://www.miles.no
-#    - src: logos/Itera-logo-lobster.png
-#      title: Itera
-#      params:
-#        url: https://www.itera.com/no/
 #    - src: logos/microsoft.png
 #      title: Microsoft
 #      params:
@@ -135,10 +143,6 @@ resources:
 #      title: Noria
 #      params:
 #        url: https://www.noria.no/
-#    - src: logos/rainfall.png
-#      title: Rainfall
-#      params:
-#        url: http://www.rainfall.no
 #    - src: logos/sbanken.png
 #      title: Sbanken
 #      params:
@@ -147,10 +151,6 @@ resources:
 #      title: Shortcut
 #      params:
 #        url: https://www.shortcut.no/
-#    - src: logos/sonat.png
-#      title: Sonat Consulting
-#      params:
-#        url: http://www.sonat.no
 #    - src: logos/tietoevry.png
 #      title: TietoEvry
 #      params:
