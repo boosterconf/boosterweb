@@ -73,6 +73,10 @@ resources:
       title: Nordea
       params:
         url: https://www.nordea.no/
+    - src: logos/noria.png
+      title: Noria
+      params:
+        url: https://www.noria.no/
     - src: logos/rainfall.png
       title: Rainfall
       params:
@@ -139,10 +143,6 @@ resources:
 #      title: Microsoft
 #      params:
 #        url: https://www.microsoft.no/
-#    - src: logos/noria.png
-#      title: Noria
-#      params:
-#        url: https://www.noria.no/
 #    - src: logos/sbanken.png
 #      title: Sbanken
 #      params:
