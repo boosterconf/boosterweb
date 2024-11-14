@@ -13,10 +13,18 @@ resources:
       title: Bouvet
       params:
         url: https://www.bouvet.no/
+    - src: logos/capgemini.svg
+      title: Capgemini
+      params:
+        url: https://www.capgemini.com/
     - src: logos/casi.png
       title: Casi
       params:
         url: https://www.casi.auto
+    - src: logos/equinor.png
+      title: Equinor
+      params:
+        url: https://www.equinor.com/no
     - src: logos/experis.png
       title: Experis
       params:
@@ -103,10 +111,6 @@ resources:
 # ------------------------------------------------------
 
 
-#    - src: logos/capgemini.svg
-#      title: Capgemini
-#      params:
-#        url: https://www.capgemini.com/
 #    - src: logos/computas.svg
 #      title: Computas
 #      params:
@@ -119,10 +123,6 @@ resources:
 #      title: DNB
 #      params:
 #        url: https://www.dnb.no/
-#    - src: logos/equinor.png
-#      title: Equinor
-#      params:
-#        url: https://www.equinor.com/no
 #    - src: logos/eviny.png
 #      title: Eviny
 #      params:
