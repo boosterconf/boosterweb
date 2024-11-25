@@ -25,6 +25,10 @@ resources:
       title: Equinor
       params:
         url: https://www.equinor.com/no
+    - src: logos/eviny.png
+      title: Eviny
+      params:
+        url: https://www.eviny.no/
     - src: logos/experis.png
       title: Experis
       params:
@@ -127,10 +131,6 @@ resources:
 #      title: DNB
 #      params:
 #        url: https://www.dnb.no/
-#    - src: logos/eviny.png
-#      title: Eviny
-#      params:
-#        url: https://www.eviny.no/
 #    - src: logos/helse-vest-ikt.png
 #      title: Helse Vest IKT
 #      params:
