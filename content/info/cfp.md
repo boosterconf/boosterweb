@@ -15,8 +15,7 @@ Share with us your ideas, valuable experiences and skills – old and new. Don't
 
 #### Submission deadline: October 11th 2024
 
-Pick your format!
-=================
+## Pick your format!
 
 We accept submissions that fall under one of the following three categories. Read about them below to find out which format works best for your contribution!
 
