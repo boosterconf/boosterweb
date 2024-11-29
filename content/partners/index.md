@@ -21,6 +21,10 @@ resources:
       title: Casi
       params:
         url: https://www.casi.auto
+    - src: logos/dnb.png
+      title: DNB
+      params:
+        url: https://www.dnb.no/
     - src: logos/equinor.png
       title: Equinor
       params:
@@ -127,10 +131,6 @@ resources:
 #      title: Dfind
 #      params:
 #        url: https://www.dfindconsulting.no/
-#    - src: logos/dnb.png
-#      title: DNB
-#      params:
-#        url: https://www.dnb.no/
 #    - src: logos/helse-vest-ikt.png
 #      title: Helse Vest IKT
 #      params:
