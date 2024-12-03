@@ -487,25 +487,79 @@ article .map iframe {
 }
 
 .program {
-  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: var(--color-blurple);
+  max-width: 1100px;
 }
 
-/* NEW STYLE START */
 .program .period {
-  margin-bottom: 16px;
+  max-width: 600px;
+  width: 100%;
 }
+
+.program .period:has(.room + .room) {
+  max-width: 1100px;
+}
+
+.program .break {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+.program .break .title {
+  font-size: var(--font-size-body);
+  font-family: var(--condensed-font);
+  letter-spacing: var(--letter-spacing-condensed);
+  text-transform: uppercase;
+  background: var(--color-varmkvit);
+  z-index: 1;
+  padding: 0 12px;
+}
+
+.program .break .line {
+  height: 1px;
+  border-bottom: 1px solid var(--color-mose);
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+}
+
+.program .break time {
+  font-size: var(--font-size-small);
+  background: var(--color-varmkvit);
+}
+
 .program .period > header {
-  background-color: #2e3e4d;
-  color: #ffffff;
-  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
 }
-.program .period > header > a {
-  color: #ffffff;
+
+.program .period header a {
+  color: var(--color-blurple);
+  text-decoration: none;
 }
+
 .program .period .rooms {
   display: flex;
-  gap: 10px;
+  flex-direction: row;
+  gap: 12px;
   overflow: auto;
+}
+
+.program .period .room:has(+ .room) {
+  width: 90%;
+  max-width: 350px;
+}
+.program .period .room + .room {
+  width: 90%;
+  max-width: 350px;
 }
 
 .program .period .rooms.grabbable {
@@ -514,91 +568,65 @@ article .map iframe {
 
 .program .period .room {
   width: 100%;
-  min-width: 22%;
-  background-color: #f2f2f2;
+  flex-shrink: 0;
 }
-.program .period .room > header {
-  background-color: #a5ecde;
-  color: #2e3e4d;
-  padding: 1rem 1rem;
+
+.program .period .room .sessions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .program .talk {
-  display: block;
-  background-color: #f2f2f2;
+  background: var(--color-varmkvit);
+  border: 2px solid var(--color-rust);
+  border-left: 8px solid var(--color-rust);
+  padding: 16px 16px 16px 24px;
 }
-.program .talk:nth-child(2n) {
-  background-color: #e5e5e5;
+
+.program .talk.common {
+  border: 2px solid var(--color-salvie);
+  border-left: 8px solid var(--color-salvie);
+}
+.program .talk.Workshop {
+  border: 2px solid var(--color-hav);
+  border-left: 8px solid var(--color-hav);
+}
+
+a.talk {
+  color: var(--color-blurple);
+  text-decoration: none;
 }
 
 .talk .description {
-  font-size: 14px;
-  padding: 1rem 1rem;
-  font-weight: normal;
+  font-size: var(--font-size-small);
   display: block;
 }
+.talk .description h4 {
+  font-family: var(--condensed-font);
+  font-size: var(--font-size-body);
+  letter-spacing: var(--letter-spacing-condensed);
+  font-weight: var(--font-weight-header);
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+.talk .description .talk-type {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--color-gamalrosa);
+  color: var(--color-blurple);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.talk.Workshop .description .talk-type {
+  background: color-mix(in srgb, var(--color-hav) 70%, #fff);
+  color: var(--color-varmkvit);
+}
+
 .program .author {
   display: block;
-  font-size: 14px !important;
-}
-
-.program .period {
-  line-height: 1.2em;
-}
-.program .period .talk {
-  font-size: 14px;
-  padding: 0 1rem 1rem 1rem;
-  font-weight: normal;
-}
-.program .period .talk .talk-type {
-  color: #2e3e4d;
-  font-style: italic;
-  font-size: 9px;
-  padding: 0.5rem 0 0 0;
-}
-.program .period .talk .author {
-  color: #2e3e4d;
-  font-size: 9px;
-  font-style: italic;
-}
-.program .period .talk .description {
-  padding: 5px 0;
-  color: #2e3e4d;
-}
-.program .period .talk .description p {
-  margin-bottom: 10px;
-}
-
-a.talk:hover {
-  cursor: pointer;
-  background-color: #e2e0d9;
-}
-/* NEW STYLE END */
-
-.program header.time {
-  padding: 1rem 1rem;
-}
-.program .nav-tabs li a {
-  background-color: transparent;
-  color: #2e3e4d;
-}
-.program .nav-tabs li.active a {
-  background-color: #d3d1cb;
-}
-.program .nav-tabs li a:hover {
-  background-color: #f6ab6f;
-}
-.program .period .plenary-type {
-  padding: 5px 10px 5px 10px;
-}
-.program .period > header {
-  padding: 1rem 1rem;
-}
-.program .period > header > span > a {
-  color: inherit;
-}
-.program h2 {
-  padding: 1rem 1rem 1rem 1rem;
-  margin-bottom: 0;
+  font-size: 16px;
 }
 
 .program .day1,
@@ -607,50 +635,6 @@ a.talk:hover {
   margin-top: 3rem;
 }
 
-.program h3,
-.program h4,
-.program h5 {
-  font-family: "Siri Core", "Lucida Sans Unicode", "Lucida Sans", Verdana,
-    sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: none;
-  font-style: normal;
-  color: #2e3e4d;
-  margin-bottom: 2px;
-}
-.program .program-column h3 {
-  line-height: 1;
-}
-.program .lightning-talk h3 {
-  line-height: 1;
-}
-.program .slot a,
-.program section.period a,
-.program section.period a {
-  color: #757470;
-}
-
-.program .follow-me {
-  padding: 1rem 1rem;
-  background: #2e3e4d;
-  color: white;
-}
-.program .location-small {
-  margin-top: 7px;
-  color: #2e3e4d;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-.program .follow-wrapper .time {
-  padding: 1rem 1rem;
-}
-.program .lightning-talk.period header {
-  background-color: #a5ecde;
-}
-.program .lightning-talk.period header .location {
-  color: #2e3e4d;
-}
 .speakers-body .speaker {
   background-color: #f2f2f2;
   display: inline-block;
