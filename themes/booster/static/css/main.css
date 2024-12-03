@@ -245,6 +245,7 @@ footer a {
 /* Front page */
 .front-image {
   position: relative;
+  width: 100%;
 }
 .front-image img {
   width: 100%;
@@ -473,6 +474,7 @@ article .map iframe {
 
   .front-image {
     height: 500px;
+    overflow: hidden;
   }
   .front-image img {
     object-fit: cover;
