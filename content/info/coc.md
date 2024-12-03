@@ -10,15 +10,15 @@ menu:
 ---
 All attendees, speakers, partners, staff and volunteers at our conference are required to follow the code of conduct.
 
-#### Short Version
+### Short Version
 
 Have a good time and help others have a good time too. Say hi to someone you don’t know. Meet interesting people. Don’t act surprised when a person doesn’t conform to a stereotype. No one is at Booster just to represent a minority so start conversations about tech, the weather, the food, the best speaker or the delights of Bergen before talking about “being minority X in tech”. Make sure people are okay with touching before you touch them. Laugh and learn. You, and everyone else, is here to have a good time and learn something new – [let us know](/info/about#organizers) if anything is getting in the way of that.
 
-#### Need help?
+### Need help?
 
 Contact Håkon (+47 93 04 88 50/ [@hakonl](http://twitter.com/hakonl "Twitter")) or Kjell Iver (+47 40 82 95 63/ [@kjelliver](http://twitter.com/kjelliver "Twitter")) any time, or any of the other [organizers](/info/about#organizers) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
 
-#### The Long Version
+### The Long Version
 
 Booster strives to be an enjoyable and welcoming conference for all attendees, regardless of their background, abilities or appearance. We do not tolerate harassment of our participants or staff in any form.
 
