@@ -1,10 +1,10 @@
 {{ define "main" }}
-<article>
     {{ if .Title }}
     <div class="header-join">
         <h1>{{- .Title -}}</h1>
     </div>
     {{ end }}
+<article>
     <div class="speakers-body">
         {{ range .Pages }}
         {{ .Render "li" }}

@@ -1,22 +1,19 @@
   {{ define "main" }}
   <div class="rocket">
     <div class="middle-of-image">
-      <h1>THE SOFTWARE CONFERENCE<br>FOR THE WHOLE TEAM</h1>
       <div class="dates-location">
         <span class="font-page-conference-dates">March 26-28 2025</span>
-        <span class="front-page-location">Bergen, Norway<br>Radisson Blu Royal Hotel, Bryggen</span>
+        <span class="front-page-slogan">The Software Conference For The Whole Team</span>
       </div>
     </div>
-
-    <div class="bottom-image">
-      <img class="img-superfluid" src="{{ relURL "images/figures.png" }}">
-    </div>
-
   </div>
+
+
+  <div class="front-image">
+  <img src="{{ relURL "images/Forside.jpg" }}" alt="the conference venue seen from the main stage">
   {{ with .Site.GetPage "/info/cfp" }}
   <div class="call-to-action">
-    <h2>Call for presentations is now open!</h2>
-    <a href="{{ .RelPermalink }}" class="call-to-action__link">Submit a talk / workshop</a>
+    <a href="{{ .RelPermalink }}" class="call-to-action__link">Submit</a>
   </div>
   {{ end }}
 
@@ -25,56 +22,15 @@
       {{ if .Param "ticket_sale_open" }}
         {{ if .Param "sold_out" }}
           <div class="call-to-action">
-            <h2>We are sold out. We're looking forward to seeing you all!</h2>
-            <p>(All hope is not lost, we are still <a href="https://forms.gle/TLg55z1vP5rePMH19">looking for volunteers!</a>)</p>
-            <a href="{{ .RelPermalink }}" class="call-to-action__link">Paying for your own ticket? We might have room for you.</a>
+            <a href="{{ .RelPermalink }}" class="call-to-action__link">Sold out?</a>
           </div>
         {{ else }}
           <div class="call-to-action">
-            <h2>Tickets are now available!</h2>
-            <a href="{{ .RelPermalink }}" class="call-to-action__link">Get your ticket here</a>
+            <a href="{{ .RelPermalink }}" class="call-to-action__link">Tickets</a>
           </div>
         {{ end }}
       {{ end }}
     {{ end }}
   {{ end }}
-
-  <div class="image-n-contents">
-    <div class="image-n-contents__content">
-      <h2>Workshops</h2>
-      <p>We strongly believe in learning by doing. Join a workshop and bring back practical knowledge to your workplace.</p>
-    </div>
-    <img class="img-superfluid" src="{{ relURL "images/workshop_01.jpg" }}" alt="Man showing kanban board on flipover" />
-
-    <div class="image-n-contents__content">
-      <h2>Lightning talks</h2>
-      <p>Lightning talks are fast-paced 10-minute talks about all the latest trends, buzzwords and more.</p>
-    </div>
-    <img class="img-superfluid" src="{{ relURL "images/lightning_02.jpg" }}" alt="Man showing kanban board on flipover" />
-
-    <div class="image-n-contents__content">
-      <h2>Experience reports</h2>
-      <p>Stories are such an important way to learn from the experience of others. Experience reports are 30-minute talks meant to give you a deeper understanding of a subject.</p>
-    </div>
-    <img class="img-superfluid" src="{{ relURL "images/experience_01.jpg" }}" alt="Man showing kanban board on flipover" />
-
-    <div class="image-n-contents__content">
-      <h2>Open spaces</h2>
-      <p>Open spaces is about conversations. Join an open space, or suggest an open space about your favorite topic.</p>
-    </div>
-    <img class="img-superfluid" src="{{ relURL "images/open_01.jpg" }}" alt="Man showing kanban board on flipover" />
-
-    <div class="image-n-contents__content">
-      <h2>Conference Dinner</h2>
-      <p>The perfect setting for enjoyable conversations, making new friends, and having a blast. Bring your appetite, sense of humor, and conversation game.</p>
-    </div>
-    <img class="img-superfluid" src="{{ relURL "images/dinner_01.jpg" }}" alt="Man showing kanban board on flipover" />
-
-    <div class="image-n-contents__content">
-      <h2>Embrace quirkiness</h2>
-      <p>Constraints and novelty trigger new thoughts and conversations. That's why we have dedicated sessions outside of the obvious IT format. Expect the unexpected.</p>
-    </div>
-    <img class="img-superfluid" src="{{ relURL "images/quirky_01.jpg" }}" alt="Man showing kanban board on flipover" />
-  </div>
-
+</div>
 {{end}}
