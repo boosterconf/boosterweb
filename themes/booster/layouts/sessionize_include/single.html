@@ -1,0 +1,24 @@
+{{ define "main" }}
+<style>
+    .sz-powered-by {
+        display: none !important;
+    }
+    .sessionize-wrapper {
+        margin-top: 1em;
+    }
+</style>
+<article>
+{{ if isset .Params "embed_url" }}
+    {{ with resources.GetRemote .Params.embed_url }}
+        {{ with .Err }}
+            {{ errorf "%s" . }}
+        {{ else }}
+            {{  .Content | safe.HTML }}
+        {{ end }}
+
+    {{ else }}
+
+    {{ end }}
+{{ end }}
+</article>
+{{end}}
