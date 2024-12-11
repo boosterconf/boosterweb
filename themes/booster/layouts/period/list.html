@@ -7,8 +7,12 @@
             {{ if .Params.Location}}
                 <span class="location">{{ .Params.Location }}</span>
             {{ end }}
-            {{ if .Title }}
-                <span>— {{ .Title }}</span>
+                {{ if .Title }}
+                <div class="talk common">
+                  <div class="description">
+                       <h4>{{ .Title }}</h4>
+                  </div>
+                </div>
             {{ end }}
         {{ if .Content | len }}
         </a>

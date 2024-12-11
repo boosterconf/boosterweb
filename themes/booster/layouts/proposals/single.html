@@ -1,8 +1,8 @@
 {{ define "main" }}
-<article>
     <div class="header-join">
       <h1>{{- .Title -}}</h1>
     </div>
+<article>
     {{- .Content -}}
     {{ $talks := getCSV "," "https://docs.google.com/spreadsheets/d/1P62GE4fliCyUlULG7bQGVMVr4FCF7vQ4m-xM-ub0INk/export?format=csv" }}
     

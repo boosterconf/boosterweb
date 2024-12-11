@@ -1,9 +1,9 @@
 {{ define "main" }}
-<article>
     <div class="header-join">
       <h1>{{- .Title -}}</h1>
     </div>
-    
+<article>
+   
     {{ if .Params.ticket_sale_open }}
         {{- .Content -}}
     {{ else }}
