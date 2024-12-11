@@ -1,6 +1,4 @@
 {{ define "main" }}
-<article>
-
     <div class="program-header-join">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
@@ -20,6 +18,9 @@
             {{ end }}
         {{ end }}
     </div>
+<article>
+
+
     <div class="program">
         <h2>{{ .Title }}</h2>
 
