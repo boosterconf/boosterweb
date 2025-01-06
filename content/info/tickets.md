@@ -3,7 +3,7 @@ title: "Ticket information"
 date: 2021-12-06T19:55:23+02:00
 draft: true
 type: tickets
-ticket_store_link: https://app.checkin.no/event/64997/booster-2024
+ticket_store_link: https://app.checkin.no/event/92093/booster-2025
 ticket_sale_open: false
 sold_out: false
 menu:
@@ -12,29 +12,29 @@ menu:
     name: "Tickets"
 ---
 
-### Tickets are now available!
+### Tickets!
 
 All tickets grants the attendee access to all three days of the conference and the conference dinner on Wednesday.
 
-#### [Blind Bird Conference Ticket](https://app.checkin.no/event/64997/booster-2024)
+#### [Blind Bird Conference Ticket](https://app.checkin.no/event/92093/booster-2025)
 
 **Price:** NOK 4200 + MVA
 
 In _very_ limited supply. Get 'em while they're hot! For attendees whose companies finance their tickets for them.
 
-#### [Early Bird Conference Ticket](https://app.checkin.no/event/64997/booster-2024)
+#### [Early Bird Conference Ticket](https://app.checkin.no/event/92093/booster-2025)
 
 **Price:** NOK 6800 + MVA
 
 In limited supply! For attendees whose companies finance their tickets for them.
 
-#### [Late Bird Conference Ticket](https://app.checkin.no/event/64997/booster-2024)
+#### [Late Bird Conference Ticket](https://app.checkin.no/event/92093/booster-2025)
 
 **Price:** NOK 8900 + MVA
 
 For attendees whose companies finance their tickets for them.
 
-#### [Individual Nerd Bird Conference Ticket](https://app.checkin.no/event/64997/booster-2024)
+#### [Individual Nerd Bird Conference Ticket](https://app.checkin.no/event/92093/booster-2025)
 
 **Price:**: NOK 2000 + MVA
 
