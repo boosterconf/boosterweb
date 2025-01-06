@@ -1,7 +1,7 @@
 ---
 title: "Ticket information"
 date: 2021-12-06T19:55:23+02:00
-draft: true
+draft: false
 type: tickets
 ticket_store_link: https://app.checkin.no/event/92093/booster-2025
 ticket_sale_open: false
