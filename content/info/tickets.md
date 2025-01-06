@@ -12,7 +12,7 @@ menu:
     name: "Tickets"
 ---
 
-### Tickets!
+### Tickets will go on sale January 8th 12:00!
 
 All tickets grants the attendee access to all three days of the conference and the conference dinner on Wednesday.
 
