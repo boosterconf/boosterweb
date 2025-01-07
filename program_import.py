@@ -97,19 +97,14 @@ for day in data_json:
 
                 (slot_start_hr, slot_start_m) = day_predefined_slot['start'].split(":")
                 (slot_end_hr, slot_end_m) = day_predefined_slot['end'].split(":")
-                slot_start = session_start.replace(hour=int(slot_start_hr), minute=int(slot_start_m)) # CET -> UTC included
-                slot_end = session_end.replace(hour=int(slot_end_hr), minute=int(slot_end_m)) # CET -> UTC included
+                slot_start = session_start.replace(hour=int(slot_start_hr)-1, minute=int(slot_start_m)) # CET -> UTC included
+                slot_end = session_end.replace(hour=int(slot_end_hr)-1, minute=int(slot_end_m)) # CET -> UTC included
                 day_predefined_slot['startDateTime'] = slot_start
                 day_predefined_slot['endDateTime'] = slot_end
                 
                 session_starts_in_slot = (session_start >= slot_start and session_start < slot_end)
                 session_starts_before_and_ends_after_slot = (session_start < slot_start and session_end > slot_end)
                 session_ends_in_slot = (session_end <= slot_end and session_end > slot_start)
-                # if session['title'] == 'Welcome from the organizers':
-                #     print(day_predefined_slot['title'])
-                #     print(str(session_start) + " - " + str(session_end))
-                #     print(slot_start)
-                #     print(slot_start_hr)
                 if session_starts_in_slot or session_ends_in_slot or session_starts_before_and_ends_after_slot:
                     found_slot = True
                     day_predefined_slot['sessions'].append({'sessionize': session, 'continuation': (session_ends_in_slot and not session_starts_in_slot) or session_starts_before_and_ends_after_slot})
@@ -139,7 +134,7 @@ weight: {room_weights[room]}
 ---"""
     f.write(template)
     return path + "/" + room_key
-def write_session_file(room_path, session):
+def write_session_file(room_path, session, weight):
     sessionize = session['sessionize']
     session_title_key = re.sub("[^a-z0-9æøå]", "-", sessionize['title'].lower())
     session_title_key = re.sub("-+", "-", session_title_key)
@@ -167,6 +162,7 @@ def write_session_file(room_path, session):
 title: "{session_title}"
 talk_type: "{session_format}"
 type: talk{recording_url_formatted}
+weight: {weight}
 authors:
 {speakers_formatted}
 ---
@@ -203,6 +199,7 @@ Workshop continues
 for day in predefined_slots:
     day_predefined_slots = predefined_slots[day]
     for day_predefined_slot in day_predefined_slots:
+        weight = 1
         for session in day_predefined_slot['sessions']:
             if day_predefined_slot['isRoom']:
                 if session['continuation']:
@@ -211,7 +208,8 @@ for day in predefined_slots:
                     room = session['sessionize']['room']
                     print("Creating session "+ session['sessionize']['title'] +" in room " + room + " weight: (" + str(room_weights[room]) + ")")
                     room_path = write_room_header(day_predefined_slot['path'], session)
-                    write_session_file(room_path, session)
+                    write_session_file(room_path, session, weight)
+                    weight = weight+1
 
 for speaker_id in speaker_map:
     print("creating speaker " + (speaker['firstName'] + " " + speaker['lastName']))
