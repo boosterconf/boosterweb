@@ -94,12 +94,14 @@ for day in data_json:
             session_end = parser.parse(session['endsAt'])
             found_slot = False
             for day_predefined_slot in day_predefined_slots:
+
                 (slot_start_hr, slot_start_m) = day_predefined_slot['start'].split(":")
                 (slot_end_hr, slot_end_m) = day_predefined_slot['end'].split(":")
-                slot_start = session_start.replace(hour=int(slot_start_hr)-1, minute=int(slot_start_m)) # CET -> UTC included
-                slot_end = session_end.replace(hour=int(slot_end_hr)-1, minute=int(slot_end_m)) # CET -> UTC included
+                slot_start = session_start.replace(hour=int(slot_start_hr), minute=int(slot_start_m)) # CET -> UTC included
+                slot_end = session_end.replace(hour=int(slot_end_hr), minute=int(slot_end_m)) # CET -> UTC included
                 day_predefined_slot['startDateTime'] = slot_start
                 day_predefined_slot['endDateTime'] = slot_end
+                
                 session_starts_in_slot = (session_start >= slot_start and session_start < slot_end)
                 session_starts_before_and_ends_after_slot = (session_start < slot_start and session_end > slot_end)
                 session_ends_in_slot = (session_end <= slot_end and session_end > slot_start)
