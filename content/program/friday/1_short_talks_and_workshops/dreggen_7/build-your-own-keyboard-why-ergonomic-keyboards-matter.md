@@ -2,6 +2,7 @@
 title: "Build your own keyboard, why ergonomic keyboards matter"
 talk_type: "Workshop 3t"
 type: talk
+weight: 9
 authors:
     - Anders Rørvik
     - Vidar Waagbø

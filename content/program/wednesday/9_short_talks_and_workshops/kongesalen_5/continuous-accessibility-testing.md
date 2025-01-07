@@ -2,6 +2,7 @@
 title: "Continuous accessibility testing"
 talk_type: "Workshop 1,5t"
 type: talk
+weight: 4
 authors:
     - Vegard Haugstvedt
 

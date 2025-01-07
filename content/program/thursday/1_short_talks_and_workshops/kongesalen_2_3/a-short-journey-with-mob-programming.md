@@ -2,6 +2,7 @@
 title: "A short journey with mob programming"
 talk_type: "Experience report"
 type: talk
+weight: 1
 authors:
     - Helén Persson
 

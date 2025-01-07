@@ -2,6 +2,7 @@
 title: "CSS Workshop: Mastering 3D Animations"
 talk_type: "Workshop"
 type: talk
+weight: 8
 authors:
     - Amit Sheen
 

@@ -2,6 +2,7 @@
 title: "Disconnect : learn to paint (again)"
 talk_type: "Workshop"
 type: talk
+weight: 7
 authors:
     - EWian Eli Veronica Wian
     - Cecilie Wian

@@ -2,6 +2,7 @@
 title: "Fra PoC til Shock! En smidig reaksjonsspill-workshop."
 talk_type: "Workshop 3t"
 type: talk
+weight: 5
 authors:
     - Frank Aakvik
 

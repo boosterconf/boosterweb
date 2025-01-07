@@ -2,6 +2,7 @@
 title: "Terraform, Kubernetes, Helm, ArgoCD... What?"
 talk_type: "Workshop 3t"
 type: talk
+weight: 6
 authors:
     - Filip Ambrosius
 

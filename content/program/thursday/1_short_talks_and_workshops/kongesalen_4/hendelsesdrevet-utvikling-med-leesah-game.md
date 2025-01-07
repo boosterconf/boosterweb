@@ -2,6 +2,7 @@
 title: "Hendelsesdrevet utvikling med Leesah Game!"
 talk_type: "Workshop 3t"
 type: talk
+weight: 4
 authors:
     - Tania Holst
     - Øydis Kind Refsum

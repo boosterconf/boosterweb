@@ -2,6 +2,7 @@
 title: "User Authentication: A Deep Dive"
 talk_type: "Workshop 3t"
 type: talk
+weight: 4
 authors:
     - Håkon Knudsen
 

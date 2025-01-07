@@ -2,6 +2,7 @@
 title: "Arbeidsplassen 2.0: Inkludering og kulturbygging på tvers av generasjoner"
 talk_type: "Workshop 1,5t"
 type: talk
+weight: 9
 authors:
     - Lene Sørensen Sundfør
     - Hana Colakovic

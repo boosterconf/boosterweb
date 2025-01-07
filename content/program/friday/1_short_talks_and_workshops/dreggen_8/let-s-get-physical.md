@@ -2,6 +2,7 @@
 title: "Let's Get Physical!"
 talk_type: "Workshop 1,5t"
 type: talk
+weight: 10
 authors:
     - Ana Cascante
     - Maja Maria Dawn Jaakson

@@ -2,6 +2,7 @@
 title: "Supercharging your Developer Experience with Tilt and Telepresence"
 talk_type: "Workshop 1,5t"
 type: talk
+weight: 7
 authors:
     - Jaideep Khandelwal
 

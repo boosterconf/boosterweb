@@ -2,6 +2,7 @@
 title: "World Beyond Summit – en metode for scenariobygging"
 talk_type: "Experience report"
 type: talk
+weight: 1
 authors:
     - Tonje Evanger
     - Hildegunn Vada

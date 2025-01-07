@@ -2,6 +2,7 @@
 title: "Scaling agility in Customer Experience at Ford Motor Company"
 talk_type: "Experience report"
 type: talk
+weight: 1
 authors:
     - Benjamin Igna
 

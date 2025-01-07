@@ -2,6 +2,7 @@
 title: "Bli kjent med React Server Components"
 talk_type: "Workshop 3t"
 type: talk
+weight: 8
 authors:
     - Christian Grimsgaard
     - Christian Wallervand

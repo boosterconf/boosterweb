@@ -2,6 +2,7 @@
 title: "Zero-bug policy success"
 talk_type: "Experience report"
 type: talk
+weight: 1
 authors:
     - Peter Hilton
 

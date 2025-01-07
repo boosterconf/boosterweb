@@ -2,6 +2,7 @@
 title: "Becoming a code crime investigator"
 talk_type: "Workshop 3t"
 type: talk
+weight: 5
 authors:
     - Ole Eskild Steensen
 

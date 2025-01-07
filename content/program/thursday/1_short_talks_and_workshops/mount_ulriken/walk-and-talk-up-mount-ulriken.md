@@ -2,6 +2,7 @@
 title: "Walk and talk up mount Ulriken"
 talk_type: "Workshop 3t"
 type: talk
+weight: 11
 authors:
     - Andreas Olsen Gulla
 

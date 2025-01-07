@@ -2,6 +2,7 @@
 title: "NATS for everything"
 talk_type: "Workshop 1,5t"
 type: talk
+weight: 5
 authors:
     - Morten Slingsby
     - Anders Husebø
