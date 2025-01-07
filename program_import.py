@@ -3,8 +3,8 @@ from pathlib import Path
 import os
 
 
-schedule_url = "https://sessionize.com/api/v2/06sdf2fc/view/GridSmart"
-all_url = "https://sessionize.com/api/v2/06sdf2fc/view/All"
+schedule_url = "https://sessionize.com/api/v2/dblm5kaq/view/GridSmart"
+all_url = "https://sessionize.com/api/v2/dblm5kaq/view/All"
 
 from urllib.request import urlopen 
 from urllib.parse import urlparse
@@ -56,7 +56,7 @@ def parse_slot(path):
     fm = frontmatter.load(path)
     time = fm['time'].split(" - ")
     slot = {
-        'title': fm['title'],
+        #'title': fm['title'],
         'start': time[0],
         'end':  time[1] if len(time) > 1 else time[0],
         'sessions': [],
@@ -128,7 +128,7 @@ def write_room_header(path, session):
     if not room_exists:
         os.makedirs(path + "/" + room_key)
     room_index_path = path + "/" + room_key + "/_index.md"
-    f = open(room_index_path, "w")
+    f = open(room_index_path, "w", encoding="utf-8")
     template = f"""---
 title: "{room}"
 type: room
@@ -170,7 +170,7 @@ authors:
 ---
 {session_data['description']}
 """
-        f = open(session_path, "w")
+        f = open(session_path, "w", encoding="utf-8")
         f.write(template)
 #    return path + "/" + room_key
 
@@ -195,7 +195,7 @@ weight: {room_weights[room]}
 Workshop continues
 """
 
-    f = open(room_path + "/" + room_key + ".md", "w")
+    f = open(room_path + "/" + room_key + ".md", "w", encoding="utf-8")
     f.write(template)
 
 for day in predefined_slots:
@@ -231,7 +231,7 @@ title: "{speaker_title}"
     speaker_exists = os.path.exists(speaker_dir)
     if not speaker_exists:
         os.makedirs(speaker_dir)
-    f = open(speaker_dir + "/index.md", "w")
+    f = open(speaker_dir + "/index.md", "w", encoding="utf-8")
     f.write(template)
     profile_picture_url = speaker['profilePicture']
     if profile_picture_url != None:

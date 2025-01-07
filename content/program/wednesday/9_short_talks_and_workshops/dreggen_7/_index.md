@@ -1,6 +1,6 @@
 ---
 title: "Dreggen 7"
 type: room
-language: norsk og/eller engelsk
+language: 
 weight: 9
 ---

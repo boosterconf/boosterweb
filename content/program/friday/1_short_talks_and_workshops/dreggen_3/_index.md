@@ -1,6 +1,6 @@
 ---
 title: "Dreggen 3"
 type: room
-language: english
+language: 
 weight: 7
 ---
