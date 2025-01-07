@@ -10,3 +10,4 @@ menu:
         name: "Talks"
 ---
 
+We're excited to present this year’s sessions! The conference will feature workshops focused on hands-on learning, 10-minute lightning talks on emerging trends, and 30-minute experience reports offering in-depth insights. **The full schedule will be published soon**.
