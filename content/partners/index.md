@@ -113,6 +113,10 @@ resources:
       title: Webstep
       params:
         url: https://www.webstep.no/
+    - src: logos/ren.svg
+      title: REN
+      params:
+        url: https://www.ren.no/
       
 
 # ------==== Old Partners ====--------------------------
