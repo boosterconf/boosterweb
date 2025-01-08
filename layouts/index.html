@@ -1,36 +1,40 @@
-  {{ define "main" }}
-  <div class="rocket">
+{{ define "main" }}
+<div class="rocket">
     <div class="middle-of-image">
-      <div class="dates-location">
-        <span class="font-page-conference-dates">March 26-28 2025</span>
-        <span class="front-page-slogan">The Software Conference For The Whole Team</span>
-      </div>
+        <div class="dates-location">
+            <span class="font-page-conference-dates">March 26-28 2025</span>
+            <span class="front-page-slogan">The Software Conference For The Whole Team</span>
+        </div>
     </div>
-  </div>
+</div>
 
 
-  <div class="front-image">
-  <img src="{{ relURL "images/Forside.jpg" }}" alt="the conference venue seen from the main stage">
-  {{ with .Site.GetPage "/info/cfp" }}
-  <div class="call-to-action">
-    <a href="{{ .RelPermalink }}" class="call-to-action__link">Submit</a>
-  </div>
-  {{ end }}
+<div class="front-image">
+    {{ $frontImage := resources.Get "images/Forside.jpg" }}
+    {{ $frontImage := $frontImage.Resize "3000x" }}
+    {{ with $frontImage }}
+        <img src="{{ $frontImage.RelPermalink }}" alt="the conference venue seen from the main stage">
+    {{ end }}
+    {{ with .Site.GetPage "/info/cfp" }}
+      <div class="call-to-action">
+          <a href="{{ .RelPermalink }}" class="call-to-action__link">Submit</a>
+      </div>
+    {{ end }}
 
-  {{ if .Site.GetPage "/info/tickets" }}
-    {{ with .Site.GetPage "/info/tickets" }}
-      {{ if .Param "ticket_sale_open" }}
-        {{ if .Param "sold_out" }}
-          <div class="call-to-action">
-            <a href="{{ .RelPermalink }}" class="call-to-action__link">Sold out?</a>
-          </div>
-        {{ else }}
-          <div class="call-to-action">
-            <a href="{{ .RelPermalink }}" class="call-to-action__link">Tickets</a>
-          </div>
+    {{ if .Site.GetPage "/info/tickets" }}
+      {{ with .Site.GetPage "/info/tickets" }}
+        {{ if .Param "ticket_sale_open" }}
+          {{ if .Param "sold_out" }}
+            <div class="call-to-action">
+                <a href="{{ .RelPermalink }}" class="call-to-action__link">Sold out?</a>
+            </div>
+          {{ else }}
+            <div class="call-to-action">
+                <a href="{{ .RelPermalink }}" class="call-to-action__link">Tickets</a>
+            </div>
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}
-  {{ end }}
 </div>
 {{end}}

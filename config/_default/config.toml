@@ -3,3 +3,8 @@ languageCode = "en-us"
 title = "Booster Conference 2025 Bergen"
 theme = "booster"
 publishDir = "public/2025"
+
+[module]
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
