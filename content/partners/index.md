@@ -117,7 +117,10 @@ resources:
       title: REN
       params:
         url: https://www.ren.no/
-      
+    - src: logos/visito.png
+      title: Visito
+      params:
+        url: https://www.visito.no/
 
 # ------==== Old Partners ====--------------------------
 #   To add one of these:
@@ -175,10 +178,6 @@ resources:
 #      title: Variant
 #      params:
 #        url: https://www.variant.no/
-#    - src: logos/visito.png
-#      title: Visito
-#      params:
-#        url: https://www.visito.no/
 #    - src: logos/visma.png
 #      title: Visma Real Estate AS
 #      params:
