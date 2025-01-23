@@ -121,6 +121,10 @@ resources:
       title: Visito
       params:
         url: https://www.visito.no/
+    - src: logos/skatteetaten.png
+      title: Skatteetaten
+      params:
+        url: https://www.skatteetaten.no/
 
 # ------==== Old Partners ====--------------------------
 #   To add one of these:
