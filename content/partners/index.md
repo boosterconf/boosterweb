@@ -125,6 +125,10 @@ resources:
       title: Skatteetaten
       params:
         url: https://www.skatteetaten.no/
+    - src: logos/silverlining.svg
+      title: SilverLining IT
+      params:
+        url: https://www.silverliningit.no/
 
 # ------==== Old Partners ====--------------------------
 #   To add one of these:
