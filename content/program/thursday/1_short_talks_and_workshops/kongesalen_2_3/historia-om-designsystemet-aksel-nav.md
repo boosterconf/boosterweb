@@ -1,6 +1,6 @@
 ---
 title: "Historia om designsystemet Aksel (NAV)"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 2
 authors:

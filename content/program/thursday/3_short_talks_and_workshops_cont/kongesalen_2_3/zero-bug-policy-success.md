@@ -1,6 +1,6 @@
 ---
 title: "Zero-bug policy success"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 1
 authors:

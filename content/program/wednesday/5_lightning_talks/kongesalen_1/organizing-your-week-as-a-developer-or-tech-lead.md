@@ -1,6 +1,6 @@
 ---
 title: "Organizing your week as a developer or tech lead"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 4
 authors:

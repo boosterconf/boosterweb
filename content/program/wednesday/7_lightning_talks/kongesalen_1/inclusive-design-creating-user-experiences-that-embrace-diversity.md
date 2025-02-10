@@ -1,6 +1,6 @@
 ---
 title: "Inclusive Design: Creating User Experiences That Embrace Diversity"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 4
 authors:

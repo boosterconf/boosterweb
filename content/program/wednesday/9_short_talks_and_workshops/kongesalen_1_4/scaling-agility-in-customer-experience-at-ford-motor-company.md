@@ -1,6 +1,6 @@
 ---
 title: "Scaling agility in Customer Experience at Ford Motor Company"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 1
 authors:

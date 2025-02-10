@@ -1,6 +1,6 @@
 ---
 title: "Feature flags: silver bullet eller silver lining?"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 6
 authors:

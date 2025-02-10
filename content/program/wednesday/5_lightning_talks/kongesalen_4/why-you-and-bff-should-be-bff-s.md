@@ -1,6 +1,6 @@
 ---
 title: "Why you and BFF should be BFF's"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 10
 authors:

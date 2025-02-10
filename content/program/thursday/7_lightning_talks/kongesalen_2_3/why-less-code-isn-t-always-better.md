@@ -1,6 +1,6 @@
 ---
 title: "Why Less Code Isn’t Always Better"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 7
 authors:

@@ -1,6 +1,6 @@
 ---
 title: "Navigating Thunderstorms: The Innovation Behind Yr’s Lightning Map"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 2
 authors:

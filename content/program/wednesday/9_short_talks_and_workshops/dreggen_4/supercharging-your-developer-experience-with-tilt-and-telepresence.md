@@ -1,6 +1,6 @@
 ---
 title: "Supercharging your Developer Experience with Tilt and Telepresence"
-talk_type: "Workshop 1,5t"
+talk_type: "Workshop 1,5h"
 type: talk
 weight: 6
 authors:

@@ -1,6 +1,6 @@
 ---
 title: "Unseen, Unheard, Unaccounted: Addressing the Gender Data Gap's Impact on Women"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 7
 authors:

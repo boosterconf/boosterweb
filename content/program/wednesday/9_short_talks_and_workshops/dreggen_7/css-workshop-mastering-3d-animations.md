@@ -1,6 +1,6 @@
 ---
 title: "CSS Workshop: Mastering 3D Animations"
-talk_type: "Workshop"
+talk_type: "Workshop 1,5h"
 type: talk
 weight: 7
 authors:

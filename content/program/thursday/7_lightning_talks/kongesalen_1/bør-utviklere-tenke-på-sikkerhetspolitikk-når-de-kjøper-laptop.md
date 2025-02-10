@@ -1,6 +1,6 @@
 ---
 title: "Bør utviklere tenke på sikkerhetspolitikk når de kjøper laptop?"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 3
 authors:

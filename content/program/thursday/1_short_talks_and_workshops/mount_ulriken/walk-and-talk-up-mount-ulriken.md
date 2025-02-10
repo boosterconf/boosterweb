@@ -1,6 +1,6 @@
 ---
 title: "Walk and talk up mount Ulriken"
-talk_type: "Workshop 3t"
+talk_type: "Workshop"
 type: talk
 weight: 11
 authors:

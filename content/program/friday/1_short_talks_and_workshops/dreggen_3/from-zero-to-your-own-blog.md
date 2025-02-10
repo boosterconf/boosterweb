@@ -1,6 +1,6 @@
 ---
 title: "From zero to your own blog"
-talk_type: "Workshop 3t"
+talk_type: "Workshop 3h"
 type: talk
 weight: 7
 authors:

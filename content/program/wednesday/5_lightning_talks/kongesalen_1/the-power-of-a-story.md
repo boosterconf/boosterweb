@@ -1,6 +1,6 @@
 ---
 title: "The power of a story!"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 3
 authors:

@@ -1,6 +1,6 @@
 ---
 title: "Speaking Your Mind: The Why and Where and When and What and How"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 1
 authors:

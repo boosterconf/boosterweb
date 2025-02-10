@@ -1,6 +1,6 @@
 ---
 title: "Why you don’t have to be the smartest person in the room"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 8
 authors:

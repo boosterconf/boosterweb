@@ -1,6 +1,6 @@
 ---
 title: "Let's Get Physical!"
-talk_type: "Workshop 1,5t"
+talk_type: "Workshop 1,5h"
 type: talk
 weight: 10
 authors:

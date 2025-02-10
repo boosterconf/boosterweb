@@ -28,12 +28,18 @@ for session in all_json['sessions']:
 
 session_formats = {}
 session_tags = {}
+session_accepted_as = {}
 
 for session_format in all_json['categories'][0]['items']:
     session_formats[session_format['id']] = session_format
 for session_tag in all_json['categories'][1]['items']:
     session_tags[session_tag['id']] = session_tag
-    
+for accepted_as in all_json['categories'][2]['items']:
+    if(accepted_as['name'] == "Special Workshop"):
+        accepted_as['name'] = "Workshop"
+    session_accepted_as[accepted_as['id']] = accepted_as
+
+
 speaker_map = {}
 
 for speaker in all_json['speakers']:
@@ -146,7 +152,7 @@ def write_session_file(room_path, session, weight):
 #        room_index_path = path + "/" + room_key + "/_index.md"
     session_data = sessions_map[sessionize['title']]
     if not session_data['isServiceSession']:
-        session_format = [session_formats[x] for x in session_data['categoryItems'] if x in session_formats][0]['name']
+        session_format = [session_accepted_as[x] for x in session_data['categoryItems'] if x in session_accepted_as][0]['name']
         print(session_format)
         #session_data['categories'][0]['categoryItems'][0]['name']
         session_title = re.sub("\"", "\\\"", sessionize['title'])

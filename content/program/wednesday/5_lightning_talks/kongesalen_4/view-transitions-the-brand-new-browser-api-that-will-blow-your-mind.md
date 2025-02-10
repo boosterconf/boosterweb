@@ -1,6 +1,6 @@
 ---
 title: "View Transitions: The brand-new browser API that will blow your mind"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 11
 authors:

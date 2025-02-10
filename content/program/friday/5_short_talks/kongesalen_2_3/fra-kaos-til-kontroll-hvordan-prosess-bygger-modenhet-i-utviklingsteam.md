@@ -1,6 +1,6 @@
 ---
 title: "Fra kaos til kontroll: Hvordan prosess bygger modenhet i utviklingsteam"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 2
 authors:

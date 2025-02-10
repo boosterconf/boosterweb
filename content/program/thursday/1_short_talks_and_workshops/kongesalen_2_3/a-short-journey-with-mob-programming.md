@@ -1,6 +1,6 @@
 ---
 title: "A short journey with mob programming"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 1
 authors:

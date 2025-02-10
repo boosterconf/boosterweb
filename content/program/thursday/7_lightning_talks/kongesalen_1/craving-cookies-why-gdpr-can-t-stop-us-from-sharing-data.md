@@ -1,6 +1,6 @@
 ---
 title: "Craving Cookies: Why GDPR Can’t Stop Us from Sharing Data"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 4
 authors:

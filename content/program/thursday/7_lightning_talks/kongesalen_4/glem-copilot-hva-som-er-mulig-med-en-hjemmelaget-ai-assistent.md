@@ -1,6 +1,6 @@
 ---
 title: "Glem copilot! - Hva som er mulig med en hjemmelaget AI Assistent"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 9
 authors:

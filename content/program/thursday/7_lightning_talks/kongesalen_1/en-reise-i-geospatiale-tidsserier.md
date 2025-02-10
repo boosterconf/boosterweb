@@ -1,6 +1,6 @@
 ---
 title: "En reise i geospatiale tidsserier"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 2
 authors:

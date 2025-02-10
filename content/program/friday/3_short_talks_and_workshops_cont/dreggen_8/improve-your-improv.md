@@ -1,6 +1,6 @@
 ---
 title: "Improve your improv!"
-talk_type: "Workshop 1,5t"
+talk_type: "Workshop 1,5h"
 type: talk
 weight: 4
 authors:

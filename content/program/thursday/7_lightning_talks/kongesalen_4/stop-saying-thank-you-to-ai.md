@@ -1,6 +1,6 @@
 ---
 title: "Stop saying \"Thank you\" to AI"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 10
 authors:

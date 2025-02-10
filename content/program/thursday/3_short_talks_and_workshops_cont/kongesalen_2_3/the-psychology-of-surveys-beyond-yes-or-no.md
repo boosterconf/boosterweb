@@ -1,6 +1,6 @@
 ---
 title: "The Psychology of Surveys: Beyond Yes or No"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 2
 authors:

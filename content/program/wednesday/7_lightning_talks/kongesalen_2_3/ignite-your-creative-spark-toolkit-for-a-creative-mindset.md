@@ -1,6 +1,6 @@
 ---
 title: "Ignite your creative spark: Toolkit for a creative mindset"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 5
 authors:

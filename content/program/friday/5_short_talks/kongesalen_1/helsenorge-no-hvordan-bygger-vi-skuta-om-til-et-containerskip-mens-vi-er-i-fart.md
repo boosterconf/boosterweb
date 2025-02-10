@@ -1,6 +1,6 @@
 ---
 title: "Helsenorge.no. Hvordan bygger vi skuta om til et containerskip mens vi er i fart."
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 1
 authors:

@@ -1,6 +1,6 @@
 ---
 title: "Working effectively with your working memory"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 1
 authors:

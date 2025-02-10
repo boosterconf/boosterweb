@@ -1,6 +1,6 @@
 ---
 title: "Hendelsesdrevet utvikling med Leesah Game!"
-talk_type: "Workshop 3t"
+talk_type: "Workshop 3h"
 type: talk
 weight: 4
 authors:

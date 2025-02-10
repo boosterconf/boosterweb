@@ -1,6 +1,6 @@
 ---
 title: "GitHub Actions Workshop"
-talk_type: "Workshop 1,5t"
+talk_type: "Workshop 1,5h"
 type: talk
 weight: 5
 authors:

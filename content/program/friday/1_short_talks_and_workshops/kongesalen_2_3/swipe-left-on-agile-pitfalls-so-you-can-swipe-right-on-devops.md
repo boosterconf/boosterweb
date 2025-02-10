@@ -1,6 +1,6 @@
 ---
 title: "Swipe left on Agile pitfalls so you can swipe right on DevOps!"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 3
 authors:

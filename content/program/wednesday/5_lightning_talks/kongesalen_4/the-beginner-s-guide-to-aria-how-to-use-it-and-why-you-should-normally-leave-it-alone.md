@@ -1,6 +1,6 @@
 ---
 title: "The beginner's guide to ARIA. How to use it and why you should normally leave it alone."
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 9
 authors:

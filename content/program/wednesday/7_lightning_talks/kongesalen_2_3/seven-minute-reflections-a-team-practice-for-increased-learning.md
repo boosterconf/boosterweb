@@ -1,6 +1,6 @@
 ---
 title: "Seven minute reflections – a team practice for increased learning"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 6
 authors:

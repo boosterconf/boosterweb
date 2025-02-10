@@ -1,6 +1,6 @@
 ---
 title: "Teaching an old dog new tricks : Modern Deployment Techniques on Legacy Platform"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 2
 authors:

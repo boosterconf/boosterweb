@@ -1,6 +1,6 @@
 ---
 title: "Kompetanseheving i arbeidstiden - innspill fra 20 års erfaring"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 7
 authors:

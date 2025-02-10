@@ -1,6 +1,6 @@
 ---
 title: "Arbeidsplassen 2.0: Inkludering og kulturbygging på tvers av generasjoner"
-talk_type: "Workshop 1,5t"
+talk_type: "Workshop 1,5h"
 type: talk
 weight: 8
 authors:

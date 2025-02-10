@@ -1,6 +1,6 @@
 ---
 title: "AI Assisted Coding for Kids"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 11
 authors:

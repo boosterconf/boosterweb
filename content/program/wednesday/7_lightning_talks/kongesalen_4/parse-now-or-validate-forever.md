@@ -1,6 +1,6 @@
 ---
 title: "Parse Now or Validate Forever"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 12
 authors:

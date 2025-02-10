@@ -1,6 +1,6 @@
 ---
 title: "Sommerstudenter - hvorfor gidde?"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 2
 authors:

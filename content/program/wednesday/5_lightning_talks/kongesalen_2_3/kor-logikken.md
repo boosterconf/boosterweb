@@ -1,6 +1,6 @@
 ---
 title: "Kor é logikken??!"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 5
 authors:

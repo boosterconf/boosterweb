@@ -1,6 +1,6 @@
 ---
 title: "We are the destroyers of worlds"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 2
 authors:

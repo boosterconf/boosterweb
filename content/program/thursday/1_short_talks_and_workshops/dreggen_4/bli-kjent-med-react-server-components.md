@@ -1,6 +1,6 @@
 ---
 title: "Bli kjent med React Server Components"
-talk_type: "Workshop 3t"
+talk_type: "Workshop 3h"
 type: talk
 weight: 8
 authors:

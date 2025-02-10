@@ -1,6 +1,6 @@
 ---
 title: "Hvordan kommunisere godt – 12 prinsipper som er nyttige for alle"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 2
 authors:

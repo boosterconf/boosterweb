@@ -1,6 +1,6 @@
 ---
 title: "Fake it till you make it - a tale from two developers on their journey through imposter syndrome"
-talk_type: "Experience report"
+talk_type: "Experience Report"
 type: talk
 weight: 3
 authors:

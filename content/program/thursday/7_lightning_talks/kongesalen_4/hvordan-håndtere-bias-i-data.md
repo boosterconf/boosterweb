@@ -1,6 +1,6 @@
 ---
 title: "Hvordan håndtere bias i data"
-talk_type: "Lightning talk"
+talk_type: "Lightning Talk"
 type: talk
 weight: 12
 authors:
