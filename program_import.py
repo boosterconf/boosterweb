@@ -122,7 +122,10 @@ def write_room_header(path, session):
     room = sessionize['room']
     room_key = room.replace(" + ", "_").replace(" ", "_").replace("-","_").lower()
     room_exists = os.path.exists(path + "/" + room_key)
-    
+    if(room == "Kongesalen 1-4"):
+        room_name = "Kongesalen plenum"
+    else:
+        room_name = room
     session_data = sessions_map[sessionize['title']]
     language = ""
     for questionAnswers in session_data['questionAnswers']:
@@ -133,7 +136,7 @@ def write_room_header(path, session):
     room_index_path = path + "/" + room_key + "/_index.md"
     f = open(room_index_path, "w", encoding="utf-8")
     template = f"""---
-title: "{room}"
+title: "{room_name}"
 type: room
 language: {language.lower()}
 weight: {room_weights[room]}
