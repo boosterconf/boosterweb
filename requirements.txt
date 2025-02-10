@@ -1,1 +1,3 @@
 python-frontmatter
+python-dateutil
+pytz
