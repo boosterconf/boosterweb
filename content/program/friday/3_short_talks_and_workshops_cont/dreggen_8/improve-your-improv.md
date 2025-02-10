@@ -10,28 +10,15 @@ authors:
 ---
 Public speaking often range in the top 3 of what people are most afraid of. This workshop aims to challenge this, since improv theatre should fight for first place! 
 
-
-
 This is a repeat of last years successful workshop, where over 30 attendees joined in on the fun!
-
-
 
 The workshop draws from the speakers experience from improvisational theater, and includes a set of unique exercises that embraces change, welcome failure and cultivate a sense of openness in a supportive environment. 
 
-
-
 The exercises you learn at this workshop are perfect for teambuilding at your workplace, all while having an absolute blast.
 
-
-
 No prior experience is necessary. The workshop is open to all, regardless of your background. Here's a non inclusive list of what you do NOT need:
-
 You don't need any theater knowledge.
-
 You don't have to be an extrovert.
-
 You don't need to be a student.
-
 You don't even have to consider yourself humorous.
-
 

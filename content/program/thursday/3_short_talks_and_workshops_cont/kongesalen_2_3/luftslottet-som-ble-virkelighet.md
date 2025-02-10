@@ -7,6 +7,6 @@ authors:
     - Audun Fauchald Strand
 
 ---
-NAV kjører nå mesteparten av systmene sine i almenn sky. Denne presentasjonen vil fortelle historien om hvordan NAv i sky begynte som et luftslott og ble virkelighet. 
-
+NAV kjører nå mesteparten av systmene sine i almenn sky. Denne presentasjonen vil fortelle historien om hvordan NAv i sky begynte som et luftslott og ble virkelighet. 
+
 Jeg vil komme innom teknologi, strategi, sikkerhet og organisering. 

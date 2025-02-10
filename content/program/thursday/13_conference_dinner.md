@@ -5,3 +5,4 @@ location: "Ostra"
 type: period
 weight: 13
 ---
+How to join: send in talk, get accepted. (Only for speakers!)
