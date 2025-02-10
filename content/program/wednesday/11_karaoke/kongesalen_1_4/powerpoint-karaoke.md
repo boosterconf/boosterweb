@@ -8,4 +8,3 @@ authors:
     - Christine Smith-Johnsen
 
 ---
-None
