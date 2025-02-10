@@ -1,6 +1,6 @@
 ---
 title: "Unpredictable, Unavoidable, Unstoppable: Communicating uncertainty with integrity"
-talk_type: "Lightning talk"
+talk_type: "Keynote"
 type: talk
 weight: 1
 authors:
