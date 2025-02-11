@@ -13,4 +13,4 @@ Dere skal bl.a. lære å bruke sensorene på bilen slik at den selv unngår å k
 
 ***OBS! Safari-nettleseren på Mac fungerer dårlig, derfor anbefaler vi Chrome. Hvis ikke PC/Mac har USB A-utgang anbefaler vi at barna har med en egen USB C til USB A-overgang da vi bare har et begrenset antall til utlån.***
 
-[Meld på BitBot her](https://boosterconf.ticketco.events/no/nb/e/code_studio_2024)
+[Meld på BitBot her](https://boosterconf.ticketco.events/no/nb/e/bitbot__selvkjoerendebil_2025)

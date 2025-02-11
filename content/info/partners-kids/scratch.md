@@ -13,4 +13,4 @@ Det finnes mange forskjellige programbrikker i verktøykassen, og vi kan gjøre 
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
-[Meld på Scratch her](https://boosterconf.ticketco.events/no/nb/e/scratch_2024)
+[Meld på Scratch her](https://boosterconf.ticketco.events/no/nb/e/scratch_2025)

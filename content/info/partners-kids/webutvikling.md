@@ -13,4 +13,4 @@ Man trenger ingen forkunnskaper for å delta, kun PC og godt humør!
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
-[Meld på Webutvikling 101 her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2024)
+[Meld på Webutvikling 101 her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2025)
