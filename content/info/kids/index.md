@@ -8,9 +8,10 @@ menu:
         name: "Kids"
 ---
 
-For syvende gang arrangerer Boosterkonferansen, i samarbeid med Bergen Offentlige Bibliotek, utviklerkonferanse for barn. 
-Konferansen avholdes på Radisson Blu Royal Hotel, Bryggen 17. mars 2024. 
-Det blir kurs for ulike aldersgrupper og et sterkt faglig innhold, akkurat slik en god konferanse skal være! 
+For åttende gang arrangerer Boosterkonferansen, i samarbeid med Bergen Offentlige Bibliotek, utviklerkonferanse for barn.
+Konferansen avholdes på Radisson Blu Royal Hotel, Bryggen 30. mars 2025.
+Det blir kurs for ulike aldersgrupper og et sterkt faglig innhold, akkurat slik en god konferanse skal være!
+
 OBS: Foreldre trenger ikke å booke billetter til seg selv!
 
 ## Program

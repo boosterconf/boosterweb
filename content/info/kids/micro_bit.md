@@ -1,5 +1,5 @@
 ## micro:bit
-##### Bjørn og Torstein Hamre
+##### Torstein og Eivind Hamre
 
 Micro:bit er en mikrokontroller som er laget for å lære barn programmering.
 I denne workshopen skal du lage dine egne spill som kan kjøres på micro:biten.
