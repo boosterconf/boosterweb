@@ -1,5 +1,5 @@
 ---
-title: "Thursday 14. March"
+title: "Thursday 27th March"
 weight: 2
 type: programday
 menu:
