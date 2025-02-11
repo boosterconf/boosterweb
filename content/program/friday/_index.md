@@ -6,5 +6,5 @@ menu:
     main:
         weight: 3
         parent: "program"
-        name: "Friday"
+        name: "Fri"
 ---
