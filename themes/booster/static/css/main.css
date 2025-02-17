@@ -217,6 +217,8 @@ header#main-header {
 #sponsor-area .sponsorlogos li img {
   width: 100%;
   height: auto;
+  aspect-ratio: 16/9;
+  object-fit: contain;
 }
 
 footer {
