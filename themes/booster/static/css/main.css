@@ -209,6 +209,7 @@ header#main-header {
 #sponsor-area .sponsorlogos li {
   flex-basis: 25%;
   max-width: 170px;
+  max-height: 90px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 0px 20px 0px 20px;
@@ -708,15 +709,29 @@ a.talk {
 
 .kids-intro {
   text-align: center;
+  max-width: 800px;
 }
 
 .kids-program {
+  max-width: 1000px;
   display: flex;
   flex-flow: row wrap;
-  gap: 20px;
+  gap: 100px;
 }
 .kids-program .kids-course {
   flex: 40%;
+
+  h2 {
+    background: var(--header-color);
+    color: var(--header-text-color);
+    padding: 10px 20px 10px 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  h5 {
+    text-align: center;
+    padding: 20px;
+  }
 }
 
 .splash {
