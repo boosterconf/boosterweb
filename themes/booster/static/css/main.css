@@ -209,7 +209,6 @@ header#main-header {
 #sponsor-area .sponsorlogos li {
   flex-basis: 25%;
   max-width: 170px;
-  max-height: 90px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 0px 20px 0px 20px;
@@ -718,6 +717,7 @@ a.talk {
   flex-flow: row wrap;
   gap: 100px;
 }
+
 .kids-program .kids-course {
   flex: 40%;
 
@@ -728,6 +728,7 @@ a.talk {
     margin-left: -20px;
     margin-right: -20px;
   }
+
   h5 {
     text-align: center;
     padding: 20px;
