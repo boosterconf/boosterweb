@@ -43,6 +43,8 @@ http {
 		client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
 		port_in_redirect off;
 
+		root /app/public;
+
 		## HTTPS Only
 		if ($http_x_forwarded_proto != "https") {
 			return 301 https://$host$request_uri;
@@ -57,17 +59,17 @@ http {
 			## When enabled, the client-side app must handle its own 404 errors.
 			# error_page 404 = /index.html;
 		}
-		location /2025/ {
-		
-			root /app/public;
-			location /2025/images {
-				expires 1d;
-			}
-				
-			location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
-				expires 1d;
-			}
+
+		location /2025/images {
+			expires 1d;
 		}
+			
+		location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
+			expires 1d;
+		}
+		#location ~ ^/2025(?:/(.*))?$ {
+		#	alias /app/public/2025/$1;
+		#}
 
 		## Define specific behaviors for sub directories and other locations.
 		# location /assets {
