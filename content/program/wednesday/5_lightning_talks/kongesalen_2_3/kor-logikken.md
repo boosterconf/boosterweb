@@ -7,4 +7,4 @@ authors:
     - Stine Karlsen
 
 ---
-Human Centered System Thinking. Systemisk design forklart enkelt og visuelt, med eksempler fra prosjekt i FHI. 
+La oss snakke om systemtenkning!  Systemisk design enkelt forklart på 10 minutter. Kanskje blir det en liten øvelse også. 
