@@ -121,7 +121,7 @@ resources:
       title: Visito
       params:
         url: https://www.visito.no/
-    - src: logos/skatteetaten.png
+    - src: logos/skatteetaten.svg
       title: Skatteetaten
       params:
         url: https://www.skatteetaten.no/
