@@ -28,8 +28,10 @@
                 </li>
             {{ end }}
         {{ end }}
-      </ul>
-    <p><a class="nav-link" href="/info/become-a-partner/">Become one of our partners!</a></p>
+    </ul>
+    {{ with .Site.GetPage "/info/become-a-partner" }}
+        <p><a class="nav-link" href="{{ .RelPermalink }}">Become one of our partners!</a></p>
+    {{ end }}
 </div>
 <footer>
     <h2 id="footer-text">You are awesome.<br>Hope to see you soon!</h2>
