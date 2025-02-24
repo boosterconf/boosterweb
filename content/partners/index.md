@@ -85,10 +85,10 @@ resources:
       title: Noria
       params:
         url: https://www.noria.no/
-    - src: logos/rainfall.png
-      title: Rainfall
+    - src: logos/solea.png
+      title: Solea
       params:
-        url: http://www.rainfall.no
+        url: http://www.solea.no
     - src: logos/scaleaq.png
       title: ScaleAQ
       params:
