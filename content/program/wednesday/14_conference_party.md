@@ -3,6 +3,7 @@ time: "20:00"
 title: "Kulturhuset - Booster party"
 location: "Kulturhuset"
 type: period
+draft: true
 weight: 14
 ---
 
