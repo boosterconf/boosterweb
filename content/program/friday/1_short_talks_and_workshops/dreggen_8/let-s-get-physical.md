@@ -5,7 +5,6 @@ type: talk
 weight: 10
 authors:
     - Ana Cascante
-    - Maja Maria Dawn Jaakson
 
 ---
 Most of us spend an ungodly number of hours — often seated — in front of our machines. And those of us who’ve been in the game for a little while know all too well that the IT-worker lifestyle sure can take a toll on the body. 🙈
