@@ -45,7 +45,7 @@
             let inactiveImages = [
             {{ with .GetPage "/partners" }}
                 {{ range .Params.resources }}
-                  "/partners/{{.src}}",
+                  "{{ .RelPermalink }}",
                 {{ end }}
             {{ end }}
             ];
