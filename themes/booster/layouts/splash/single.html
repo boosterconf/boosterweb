@@ -42,11 +42,10 @@
             const columns = 5;
             const rows = 4;
 
-            let inactiveImages = [
             {{ $partners := .Site.GetPage "/partners" }}
-                {{ range  $partners.Resources.Match "logos/*"  }}
-                  "{{ .RelPermalink }}",
-                {{ end }}
+            let inactiveImages = [
+            {{ range  $partners.Resources.Match "logos/*"  }}
+                "{{ .RelPermalink }}",
             {{ end }}
             ];
             let activeImages = []
