@@ -43,8 +43,8 @@
             const rows = 4;
 
             let inactiveImages = [
-            {{ with .GetPage "/partners" }}
-                {{ range .Params.resources }}
+            {{ $partners := .Site.GetPage "/partners" }}
+                {{ range  $partners.Resources.Match "logos/*"  }}
                   "{{ .RelPermalink }}",
                 {{ end }}
             {{ end }}
