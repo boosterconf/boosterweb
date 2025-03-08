@@ -2,7 +2,7 @@
 title: "Hands on workshop: Building a culture of innovation and improvement by making people feel safe"
 talk_type: "Workshop 1,5h"
 type: talk
-weight: 10
+weight: 6
 authors:
     - Pirita Johnsen
     - Celina Thom

@@ -1,5 +1,5 @@
 ---
-title: "Hvordan kommunisere godt – 12 prinsipper som er nyttige for alle"
+title: "Hvordan kommunisere godt – 9 prinsipper som er nyttige for alle"
 talk_type: "Lightning Talk"
 type: talk
 weight: 2

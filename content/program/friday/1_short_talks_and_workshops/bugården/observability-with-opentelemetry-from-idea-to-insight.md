@@ -2,7 +2,7 @@
 title: "Observability with OpenTelemetry: From Idea to Insight"
 talk_type: "Workshop 3h"
 type: talk
-weight: 6
+weight: 7
 authors:
     - Hans Kristian Flaatten
     - Øyvind Randa

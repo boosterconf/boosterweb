@@ -2,6 +2,6 @@
 title: "Bugården"
 type: room
 language: 
-weight: 6
+weight: 7
 ---
 Workshop continues

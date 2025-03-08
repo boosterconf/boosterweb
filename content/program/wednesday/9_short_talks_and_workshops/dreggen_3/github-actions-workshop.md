@@ -2,7 +2,7 @@
 title: "GitHub Actions Workshop"
 talk_type: "Workshop 1,5h"
 type: talk
-weight: 5
+weight: 6
 authors:
     - Sindre Bøyum
     - Vegard Valvik

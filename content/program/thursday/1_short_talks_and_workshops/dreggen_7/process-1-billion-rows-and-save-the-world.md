@@ -2,7 +2,7 @@
 title: "Process 1 billion rows and save the world"
 talk_type: "Workshop 3h"
 type: talk
-weight: 9
+weight: 11
 authors:
     - Helge Holm
 

@@ -1,7 +1,7 @@
 ---
-title: "Dreggen 8"
+title: "Kongesalen 1-4"
 type: room
 language: 
-weight: 10
+weight: 1
 ---
 Workshop continues

@@ -1,5 +1,5 @@
 ---
-title: "The Psychology of Surveys: Beyond Yes or No"
+title: "The Psychology of Surveys: Crafting Questions \"Beyond Yes or No\""
 talk_type: "Experience Report"
 type: talk
 weight: 2
@@ -7,9 +7,9 @@ authors:
     - Sophie Aldebert
 
 ---
-Great research starts with asking the right things. Poorly designed questions — whether in surveys, interviews, or usability tests — can result in biased answers and unreliable data. 
+Great research starts with asking the right questions. But poorly designed ones — whether in surveys, interviews, or usability tests — can result in biased answers and unreliable data, impacting decisions across product, design, and engineering.
 
-This talk delves into the psychology behind how people respond and provides practical strategies to overcome bias and uncover accurate insights.
+This talk explores the psychology behind how people respond to surveys. You’ll walk away with practical techniques to overcome bias and uncover accurate insights.
 
 In this session, you’ll learn how to:
 •  Create more effective surveys that deliver reliable results

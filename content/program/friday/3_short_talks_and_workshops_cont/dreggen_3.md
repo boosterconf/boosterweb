@@ -2,6 +2,6 @@
 title: "Dreggen 3"
 type: room
 language: 
-weight: 7
+weight: 8
 ---
 Workshop continues

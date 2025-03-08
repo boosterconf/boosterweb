@@ -1,6 +1,6 @@
 ---
 name: "Truls Lindmark"
-title: "Frontend developer at NRK"
+title: "Developer at NRK"
 # twitter_handle: 
 ---
 TBW

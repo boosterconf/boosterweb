@@ -2,7 +2,7 @@
 title: "From zero to your own blog"
 talk_type: "Workshop 3h"
 type: talk
-weight: 7
+weight: 8
 authors:
     - Elisabeth Irgens
 
