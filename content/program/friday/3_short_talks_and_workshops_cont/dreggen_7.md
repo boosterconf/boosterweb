@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 10
 ---
-Workshop continues
+Continues: Build your own keyboard, why ergonomic keyboards matter

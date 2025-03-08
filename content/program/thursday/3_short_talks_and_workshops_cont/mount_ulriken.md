@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 13
 ---
-Workshop continues
+Continues: Walk and talk up mount Ulriken

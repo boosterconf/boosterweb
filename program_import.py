@@ -187,6 +187,7 @@ def write_session_continuation(room_path, session):
     room_key = room.replace(" + ", "_").replace(" ", "_").replace("-","_").lower()
     room_exists = os.path.exists(room_path + "/" + room_key + ".md")
 
+    session_title = re.sub("\"", "\\\"", sessionize['title'])
     session_data = sessions_map[sessionize['title']]
     language = ""
     for questionAnswers in session_data['questionAnswers']:
@@ -199,7 +200,7 @@ type: room
 language: {language.lower()}
 weight: {room_weights[room]}
 ---
-Workshop continues
+Continues: {session_title}
 """
 
     f = open(room_path + "/" + room_key + ".md", "w", encoding="utf-8")

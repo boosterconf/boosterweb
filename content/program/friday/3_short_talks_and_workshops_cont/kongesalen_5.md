@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 5
 ---
-Workshop continues
+Continues: Becoming a code crime investigator

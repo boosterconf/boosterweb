@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 8
 ---
-Workshop continues
+Continues: From zero to your own blog

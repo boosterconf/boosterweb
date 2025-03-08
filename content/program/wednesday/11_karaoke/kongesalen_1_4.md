@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 1
 ---
-Workshop continues
+Continues: Coffee Break

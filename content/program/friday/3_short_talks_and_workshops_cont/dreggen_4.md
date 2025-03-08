@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 9
 ---
-Workshop continues
+Continues: Let's build web experiences that don't make people puke.

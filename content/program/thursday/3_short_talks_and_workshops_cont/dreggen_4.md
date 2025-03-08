@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 9
 ---
-Workshop continues
+Continues: Bli kjent med React Server Components

@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 5
 ---
-Workshop continues
+Continues: Fra PoC til Shock! En smidig reaksjonsspill-workshop.

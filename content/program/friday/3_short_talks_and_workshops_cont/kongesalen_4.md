@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 4
 ---
-Workshop continues
+Continues: User Authentication: A Deep Dive

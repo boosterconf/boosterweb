@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 7
 ---
-Workshop continues
+Continues: Observability with OpenTelemetry: From Idea to Insight

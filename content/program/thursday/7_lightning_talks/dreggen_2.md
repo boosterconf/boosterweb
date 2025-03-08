@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 9
 ---
-Workshop continues
+Continues: Disconnect : learn to paint (again)

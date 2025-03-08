@@ -4,4 +4,4 @@ type: room
 language: 
 weight: 7
 ---
-Workshop continues
+Continues: Terraform, Kubernetes, Helm, ArgoCD... What?
