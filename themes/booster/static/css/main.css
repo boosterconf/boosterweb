@@ -21,6 +21,7 @@
   --color-salvie: #6b8a80;
   --color-mose: #71926e;
   --color-hav: #324e56;
+  --color-hav-dus: #324e5677;
   --color-blurple: #243248;
   --color-oker: #eda842;
   --color-gamalrosa: #dfaca5;
@@ -603,7 +604,8 @@ article .map iframe {
   border-left: 8px solid var(--color-hav);
 }
 .program .talk.continuation {
-  opacity:0.7;
+  border: 2px solid var(--color-hav-dus);
+  border-left: 8px solid var(--color-hav-dus);
 }
 
 a.talk {
