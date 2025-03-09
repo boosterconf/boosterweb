@@ -1,0 +1,11 @@
+<div class='talk continuation {{ .Param "talk_type" }}'>
+    <div class="slot">
+        <div class="description">
+            <h4>{{.Title | markdownify }}
+            </h4>
+            {{ with .Param "talk_type" }}
+               <span class="talk-type">{{ . }}</span>
+            {{ end }}
+        </div>
+    </div>
+</div>

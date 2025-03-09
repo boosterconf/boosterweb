@@ -79,8 +79,10 @@
                             <li class="tv-talk">
                                 <div>
                                     <span>{{ .Title }}</span>
+                                    {{ with .Params.paramname }}
                                     <br>
-                                    <i>{{ delimit .Params.authors ", " }}</i>
+                                    <i>{{ delimit . ", " }}</i>
+                                    {{ end }}
                                 </div>
                             </li>
                             {{ end }}

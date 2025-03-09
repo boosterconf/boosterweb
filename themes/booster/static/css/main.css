@@ -602,6 +602,9 @@ article .map iframe {
   border: 2px solid var(--color-hav);
   border-left: 8px solid var(--color-hav);
 }
+.program .talk.continuation {
+  opacity:0.7;
+}
 
 a.talk {
   color: var(--color-blurple);

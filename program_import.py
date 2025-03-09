@@ -181,30 +181,31 @@ authors:
         f.write(template)
 #    return path + "/" + room_key
 
-def write_session_continuation(room_path, session):
+def write_session_continuation(room_path, session, weight):
     sessionize = session['sessionize']
     room = sessionize['room']
-    room_key = room.replace(" + ", "_").replace(" ", "_").replace("-","_").lower()
-    room_exists = os.path.exists(room_path + "/" + room_key + ".md")
 
     session_title = re.sub("\"", "\\\"", sessionize['title'])
     session_data = sessions_map[sessionize['title']]
-    language = ""
-    for questionAnswers in session_data['questionAnswers']:
-        if questionAnswers['questionId'] == 62991:
-            language = questionAnswers['answerValue']
+    if not session_data['isServiceSession']:
+        print(session_data['categoryItems'])
+        session_format = [session_accepted_as[x] for x in session_data['categoryItems'] if x in session_accepted_as][0]['name']
+        language = ""
+        for questionAnswers in session_data['questionAnswers']:
+            if questionAnswers['questionId'] == 62991:
+                language = questionAnswers['answerValue']
 
-    template = f"""---
-title: "{room}"
-type: room
-language: {language.lower()}
-weight: {room_weights[room]}
+        template = f"""---
+title: "Continues: {session_title}"
+talk_type: "{session_format}"
+type: talk_continuation
+weight: {weight}
 ---
-Continues: {session_title}
 """
+        session_path = room_path + "/continuation.md"
 
-    f = open(room_path + "/" + room_key + ".md", "w", encoding="utf-8")
-    f.write(template)
+        f = open(session_path, "w", encoding="utf-8")
+        f.write(template)
 
 for day in predefined_slots:
     day_predefined_slots = predefined_slots[day]
@@ -212,14 +213,15 @@ for day in predefined_slots:
         weight = 1
         for session in day_predefined_slot['sessions']:
             if day_predefined_slot['isRoom']:
+                room = session['sessionize']['room']
+                print("Creating session "+ session['sessionize']['title'] +" in room " + room + " weight: (" + str(room_weights[room]) + ")")
+                room_path = write_room_header(day_predefined_slot['path'], session)
+                
                 if session['continuation']:
-                    write_session_continuation(day_predefined_slot['path'], session)
+                    write_session_continuation(room_path, session, weight)
                 else:
-                    room = session['sessionize']['room']
-                    print("Creating session "+ session['sessionize']['title'] +" in room " + room + " weight: (" + str(room_weights[room]) + ")")
-                    room_path = write_room_header(day_predefined_slot['path'], session)
                     write_session_file(room_path, session, weight)
-                    weight = weight+1
+                weight = weight+1
 
 for speaker_id in speaker_map:
     print("creating speaker " + (speaker['firstName'] + " " + speaker['lastName']))

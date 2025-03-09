@@ -2,7 +2,7 @@
 title: "Rescue those Retros 🛟"
 talk_type: "Workshop 1,5h"
 type: talk
-weight: 4
+weight: 6
 authors:
     - Maja Maria Dawn Jaakson
     - Anne Lise Bergem
