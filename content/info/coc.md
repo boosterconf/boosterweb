@@ -16,7 +16,7 @@ Have a good time and help others have a good time too. Say hi to someone you don
 
 ### Need help?
 
-Contact Håkon (+47 93 04 88 50/ [@hakonl](http://twitter.com/hakonl "Twitter")) or Kjell Iver (+47 40 82 95 63/ [@kjelliver](http://twitter.com/kjelliver "Twitter")) any time, or any of the other [organizers](/info/about#organizers) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
+Contact Håkon Lerring ([+47 93 04 88 50](tel:+4793048850) / [@hakonl](https://hakonl.bsky.social "Bluesky")) or Gøran Basso ([+47 90 72 01 68](tel:+4790720168)) any time, or any of the other [organizers](/info/about#organizers) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
 
 ### The Long Version
 

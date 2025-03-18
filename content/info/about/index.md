@@ -8,8 +8,6 @@ menu:
         weight: 21
         name: "About us"
 resources:
-    - src: who-are-we/christina.jpg
-      title: Christina Vollevik Larsen
     - src: who-are-we/david.jpg
       title: David Mellum
       params:
