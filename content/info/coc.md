@@ -12,11 +12,11 @@ All attendees, speakers, partners, staff and volunteers at our conference are re
 
 ### Short Version
 
-Have a good time and help others have a good time too. Say hi to someone you don’t know. Meet interesting people. Don’t act surprised when a person doesn’t conform to a stereotype. No one is at Booster just to represent a minority so start conversations about tech, the weather, the food, the best speaker or the delights of Bergen before talking about “being minority X in tech”. Make sure people are okay with touching before you touch them. Laugh and learn. You, and everyone else, is here to have a good time and learn something new – [let us know](/info/about#organizers) if anything is getting in the way of that.
+Have a good time and help others have a good time too. Say hi to someone you don’t know. Meet interesting people. Don’t act surprised when a person doesn’t conform to a stereotype. No one is at Booster just to represent a minority so start conversations about tech, the weather, the food, the best speaker or the delights of Bergen before talking about “being minority X in tech”. Make sure people are okay with touching before you touch them. Laugh and learn. You, and everyone else, is here to have a good time and learn something new – [let us know]({{< relref "info/about#organizers" >}}) if anything is getting in the way of that.
 
 ### Need help?
 
-Contact Håkon Lerring ([+47 93 04 88 50](tel:+4793048850) / [@hakonl](https://hakonl.bsky.social "Bluesky")) or Gøran Basso ([+47 90 72 01 68](tel:+4790720168)) any time, or any of the other [organizers](/info/about#organizers) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
+Contact Håkon Lerring ([+47 93 04 88 50](tel:+4793048850) / [@hakonl](https://hakonl.bsky.social "Bluesky")) or Gøran Basso ([+47 90 72 01 68](tel:+4790720168)) any time, or any of the other [organizers]({{< relref "/info/about#organizers" >}}) or volunteers around. Organizers wear different colored lanyards, volunteers wear Booster branded shirts.
 
 ### The Long Version
 
@@ -28,9 +28,9 @@ Partners are also subject to this policy. In particular, partners should not use
 
 Participants, speakers or partners asked to stop any harassing or inappropriate behavior are expected to comply immediately.
 
-If a participant engages in harassing behavior, the [organizers](/info/about#organizers) will confer with the offended party and take any action they deem appropriate, from warning the offender to expulsion from the conference _with no refund_.
+If a participant engages in harassing behavior, the [organizers]({{< relref "info/about#organizers" >}}) will confer with the offended party and take any action they deem appropriate, from warning the offender to expulsion from the conference _with no refund_.
 
-The Booster staff cannot be everywhere all the time. If you are being harassed, notice that someone else is being harassed, or have any other concerns, say something if you feel safe speaking up, and please contact an organizer immediately. Even if the situation has already been handled, this will help us keep an eye out for further problems. Organizers can be identified by their differently coloured lanyards, and [they look like this](/info/about#organizers).
+The Booster staff cannot be everywhere all the time. If you are being harassed, notice that someone else is being harassed, or have any other concerns, say something if you feel safe speaking up, and please contact an organizer immediately. Even if the situation has already been handled, this will help us keep an eye out for further problems. Organizers can be identified by their differently coloured lanyards, and [they look like this]({{< relref "info/about#organizers" >}}).
 
 We will do our best to help participants feel comfortable again after an incident. We can contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. Know that we value your attendance over that of the harasser regardless of their speaker status or community standing.
 

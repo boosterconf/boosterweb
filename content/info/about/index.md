@@ -64,7 +64,7 @@ One of the highlights of any conference is always the conference dinner and Boos
 
 #### Code of conduct
 
-We want to ensure that Booster is a positive experience for all who participates. All participants, speakers, volunteers and organizers have agreed to follow the [Code of Conduct](/info/coc).
+We want to ensure that Booster is a positive experience for all who participates. All participants, speakers, volunteers and organizers have agreed to follow the [Code of Conduct]({{< relref "info/coc" >}}).
 
 #### Contact us
 
