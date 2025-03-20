@@ -10,32 +10,20 @@ menu:
 resources:
     - src: who-are-we/david.jpg
       title: David Mellum
-      params:
-        twitter_handle: edmellum
-    - src: who-are-we/erlend.jpg
-      title: Erlend Birkenes
-      params:
-        twitter_handle: ebirkenes
     - src: who-are-we/guro.jpg
       title: Guro Sivertsen Prestegard
     - src: who-are-we/goran.jpg
       title: Gøran Basso
     - src: who-are-we/hakon.jpg
       title: Håkon Heggernes Lerring
-      params:
-        twitter_handle: hakonl
     - src: who-are-we/KnutAnders.jpg
       title: Knut Anders Stokke
-      params:
-        twitter_handle: knutanderss
     - src: who-are-we/lene.jpg
       title: Lene Skorpen Kavli
     - src: who-are-we/tomas.jpg
       title: Tomas Osland
     - src: who-are-we/torjus.jpg
       title: Torjus Eidet
-      params:
-        twitter_handle: torjue
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
