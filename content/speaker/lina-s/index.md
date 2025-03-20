@@ -1,5 +1,5 @@
 ---
-name: "Lina  Sievering"
+name: "Lina  S"
 title: "Senior product engineer @ accenture song"
 # twitter_handle: 
 ---

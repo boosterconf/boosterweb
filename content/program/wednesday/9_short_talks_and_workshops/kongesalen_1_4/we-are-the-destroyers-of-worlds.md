@@ -7,7 +7,7 @@ authors:
     - Espen Dalløkken
 
 ---
-Starting with looking at the origins of software development this talk follows looks at its application up until the current times.
+This is an experience report on what I have learned since starting to look at how software is used as a weapon.
 
 The talk will look at how software is destroying our worlds and every living being on it? 
 How are we as developers to deal with this, when we are so used to see ourselves as the saviors? 

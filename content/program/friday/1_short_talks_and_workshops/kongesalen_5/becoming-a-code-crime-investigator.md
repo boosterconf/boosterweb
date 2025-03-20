@@ -5,6 +5,7 @@ type: talk
 weight: 5
 authors:
     - Ole Eskild Steensen
+    - Ida Sofie Grude
 
 ---
 Traditionally, code analysis focuses on one metric: code complexity. With this narrow approach we disregard the treasure trove of behavioural information found in our version control system. 

@@ -7,4 +7,4 @@ authors:
     - Charles Aleksander Ravndal
 
 ---
-The talk explores the concept of inclusive design, a design approach that goes beyond traditional accessibility and universal design to create products, interfaces, and experiences that consider the full diversity of human characteristics. It highlights the importance of recognizing and accommodating differences in ethnicity, gender, age, physical abilities, and socio-economic backgrounds to ensure that everyone can benefit from and enjoy digital and physical products.
+This talk explores inclusive design—a human-centered approach that goes beyond accessibility and universal design to create experiences that embrace the full diversity of human characteristics. Through real-world examples, it highlights the importance of designing for differences in ethnicity, gender, age, physical abilities, and socio-economic backgrounds, ensuring that digital and physical products foster inclusion and belonging for all.

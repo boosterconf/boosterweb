@@ -1,6 +1,6 @@
 ---
 name: "Espen Dalløkken"
-title: "Developer"
+title: "Software developer"
 # twitter_handle: 
 ---
-Developer based in Oslo. Loves working for the web. Made a living making software for over twenty years.
+Developer from in Oslo, Norway. Made a living making software for over twenty years.

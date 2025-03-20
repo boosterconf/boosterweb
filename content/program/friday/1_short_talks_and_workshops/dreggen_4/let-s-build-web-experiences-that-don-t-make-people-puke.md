@@ -4,7 +4,7 @@ talk_type: "Workshop 3h"
 type: talk
 weight: 9
 authors:
-    - Lina  Sievering
+    - Lina  S
     - Njan Voelker
 
 ---
