@@ -567,11 +567,11 @@ article .map iframe {
 
 .program .period .room:has(+ .room) {
   width: 90%;
-  max-width: 350px;
+  max-width: 340px;
 }
 .program .period .room + .room {
   width: 90%;
-  max-width: 350px;
+  max-width: 340px;
 }
 
 .program .period .rooms.grabbable {
