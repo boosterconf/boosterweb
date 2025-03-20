@@ -56,4 +56,4 @@ We want to ensure that Booster is a positive experience for all who participates
 
 #### Contact us
 
-You can contact us on e-mail: [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no), Mastodon [hachyderm.io/@boosterconf](https://hachyderm.io/@boosterconf) or on Twitter: [@boosterconf](https://twitter.com/boosterconf "Twitter") .
+You can contact us on e-mail: [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no).
