@@ -829,6 +829,7 @@ a.talk {
 .tv .tv-day {
   margin-bottom: 64px;
   position: relative;
+  aspect-ratio: 16/9;
 }
 
 .tv .tv-day:after {
@@ -856,11 +857,12 @@ a.talk {
 .tv .tv-timeslot {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 
-.tv .tv-timeslot-info {
-  padding-bottom: 32px;
+.tv .tv-timeslot:has(.tv-talk) {
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .tv .tv-timeslot-info {
@@ -887,12 +889,12 @@ a.talk {
 .tv .tv-rooms {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 8px;
 }
 
 .tv .tv-rooms .tv-room {
   display: flex;
-  gap: 16px;
+  gap: 8px;
 }
 
 .tv .tv-rooms .tv-room h2 {
