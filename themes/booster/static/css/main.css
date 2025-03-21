@@ -811,3 +811,98 @@ a.talk {
   animation-name: hide;
   animation-duration: 1.5s;
 }
+
+.tv {
+  padding: 64px;
+  overflow: hidden;
+}
+.tv .tv-day {
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.tv .tv-day:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent 30%);
+  width: 20px;
+}
+
+.tv .tv-day h1 {
+  background: var(--color-salvie);
+  padding: 16px;
+  width: 100%;
+}
+
+.tv .tv-timeslots {
+  display: flex;
+  gap: 64px;
+  overflow-y: scroll;
+}
+
+.tv .tv-timeslot {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tv .tv-timeslot-info {
+  padding-bottom: 32px;
+}
+
+.tv .tv-timeslot-info {
+  display: block;
+  width: 100%;
+  min-width: 300px;
+  height: 140px;
+  background: var(--color-varmkvit);
+  border: 2px solid var(--color-hav-70);
+  border-bottom: 8px solid var(--color-hav-70);
+  padding: 16px 16px 16px 24px;
+
+  font-family: var(--condensed-font);
+  font-size: var(--font-size-body);
+  letter-spacing: var(--letter-spacing-condensed);
+  font-weight: var(--font-weight-header);
+  text-transform: uppercase;
+  color: var(--color-blurple);
+}
+
+.tv .tv-rooms {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.tv .tv-rooms .tv-room {
+  display: flex;
+  gap: 16px;
+}
+
+.tv .tv-rooms .tv-room h2 {
+  width: 260px;
+}
+
+.tv .tv-rooms .tv-room .tv-talks {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+.tv .tv-rooms .tv-room .tv-talks .tv-talk {
+  width: 300px;
+  background: var(--color-varmkvit);
+  border: 2px solid var(--color-rust);
+  border-left: 8px solid var(--color-rust);
+  padding: 16px 16px 16px 24px;
+
+  font-family: var(--condensed-font);
+  font-size: var(--font-size-body);
+  letter-spacing: var(--letter-spacing-condensed);
+  font-weight: var(--font-weight-header);
+  text-transform: uppercase;
+  color: var(--color-blurple);
+}
