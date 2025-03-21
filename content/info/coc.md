@@ -3,10 +3,6 @@ title: "Booster Code of Conduct"
 date: 2021-07-17T17:36:23+02:00
 draft: false
 type: article
-menu:
-    main:
-        weight: 20
-        name: "Code of Conduct"
 ---
 All attendees, speakers, partners, staff and volunteers at our conference are required to follow the code of conduct.
 
