@@ -506,6 +506,10 @@ article .map iframe {
     background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent 30%);
     width: 10px;
   }
+
+  button.toggler {
+    display: none;
+  }
 }
 
 .program {
