@@ -672,6 +672,71 @@ a.talk {
   margin-top: 3rem;
 }
 
+.program.horizontal {
+  flex-direction: row;
+  align-items: start;
+  overflow: scroll;
+  position: relative;
+  max-width: 1440px;
+}
+
+.program-wrapper {
+  position: relative;
+  max-width: 1100px;
+}
+.program-wrapper:has(.program.horizontal) {
+  max-width: 1440px;
+}
+
+.program-wrapper:has(.program.horizontal):after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent 30%);
+  width: 30px;
+}
+
+.program.horizontal .period {
+  flex-shrink: 0;
+}
+.program.horizontal .period:after {
+  background: transparent;
+}
+.program.horizontal .period .rooms {
+  width: 100%;
+  flex-direction: column;
+}
+.program.horizontal .period .room {
+  width: 100%;
+  max-width: none;
+}
+.program.horizontal .period .sessions {
+  flex-direction: row;
+}
+
+.program.horizontal .period .sessions .talk {
+  width: 100%;
+}
+
+.program.horizontal .period:not(:has(.location + .talk.common)) .talk.common {
+  margin-top: 26px;
+}
+
+button.toggler {
+  appearance: none;
+  border: 2px solid var(--color-salvie);
+  border-radius: 4px;
+  padding: 8px;
+  background: #fff;
+  margin-bottom: 32px;
+  color: var(--color-hav);
+}
+button.toggler.toggled {
+  transform: rotate(90deg);
+}
+
 .program-header-join {
   background: var(--header-color);
   display: flex;
