@@ -1,5 +1,5 @@
 ---
-title: "Kongesalen 2-4"
+title: "Kongesalen 1-4"
 type: room
 language: 
 weight: 1
