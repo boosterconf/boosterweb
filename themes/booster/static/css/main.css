@@ -496,6 +496,16 @@ article .map iframe {
   .speakers-body .speaker .right {
     width: 100%;
   }
+
+  .program .period:has(.room + .room):after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent 30%);
+    width: 10px;
+  }
 }
 
 .program {
