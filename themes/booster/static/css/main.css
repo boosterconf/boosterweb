@@ -510,6 +510,7 @@ article .map iframe {
 .program .period {
   max-width: 600px;
   width: 100%;
+  position: relative;
 }
 
 .program .period:has(.room + .room) {
@@ -576,6 +577,16 @@ article .map iframe {
 
 .program .period .rooms.grabbable {
   cursor: grab;
+}
+
+.program .period:has(.grabbable):after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent 30%);
+  width: 10px;
 }
 
 .program .period .room {
