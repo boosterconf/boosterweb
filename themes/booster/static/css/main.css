@@ -857,7 +857,6 @@ a.talk {
   display: block;
   width: 100%;
   min-width: 300px;
-  height: 140px;
   background: var(--color-varmkvit);
   border: 2px solid var(--color-hav-70);
   border-bottom: 8px solid var(--color-hav-70);
@@ -869,6 +868,10 @@ a.talk {
   font-weight: var(--font-weight-header);
   text-transform: uppercase;
   color: var(--color-blurple);
+}
+
+.tv .tv-timeslot:not(:has(.tv-talk)) .tv-timeslot-info {
+  height: 100%;
 }
 
 .tv .tv-rooms {
@@ -884,6 +887,7 @@ a.talk {
 
 .tv .tv-rooms .tv-room h2 {
   width: 260px;
+  flex-shrink: 0;
 }
 
 .tv .tv-rooms .tv-room .tv-talks {
@@ -893,7 +897,8 @@ a.talk {
 }
 
 .tv .tv-rooms .tv-room .tv-talks .tv-talk {
-  width: 300px;
+  min-width: 300px;
+  width: 100%;
   background: var(--color-varmkvit);
   border: 2px solid var(--color-rust);
   border-left: 8px solid var(--color-rust);
