@@ -1,5 +1,5 @@
 ---
-title: "Det neste rette: Design for en kompleks verden"
+title: "Design for en kompleks verden"
 talk_type: "Lightning Talk"
 type: talk
 weight: 6
