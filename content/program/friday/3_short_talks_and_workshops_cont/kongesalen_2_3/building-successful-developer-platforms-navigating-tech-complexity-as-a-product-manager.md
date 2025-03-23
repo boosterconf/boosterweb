@@ -2,6 +2,9 @@
 title: "Building Successful Developer Platforms: Navigating Tech Complexity as a Product Manager"
 talk_type: "Experience Report"
 type: talk
+starts_at: 2025-03-28T09:50:00Z
+ends_at: 2025-03-28T10:20:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 1
 authors:
     - Kasia Szulc

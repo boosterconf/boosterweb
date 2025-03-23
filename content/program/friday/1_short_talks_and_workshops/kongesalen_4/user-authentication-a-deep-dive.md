@@ -2,6 +2,9 @@
 title: "User Authentication: A Deep Dive"
 talk_type: "Workshop 3h"
 type: talk
+starts_at: 2025-03-28T08:00:00Z
+ends_at: 2025-03-28T11:20:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 4
 authors:
     - Luci André Knudsen

@@ -2,6 +2,9 @@
 title: "Zero-bug policy success"
 talk_type: "Experience Report"
 type: talk
+starts_at: 2025-03-27T09:50:00Z
+ends_at: 2025-03-27T10:20:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 1
 authors:
     - Peter Hilton

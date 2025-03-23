@@ -2,6 +2,9 @@
 title: "Feature flags: silver bullet eller silver lining?"
 talk_type: "Lightning Talk"
 type: talk
+starts_at: 2025-03-27T14:10:00Z
+ends_at: 2025-03-27T14:20:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 6
 authors:
     - Ekaterina  Orlova

@@ -2,6 +2,9 @@
 title: "View Transitions: The brand-new browser API that will blow your mind"
 talk_type: "Lightning Talk"
 type: talk
+starts_at: 2025-03-26T09:55:00Z
+ends_at: 2025-03-26T10:05:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 11
 authors:
     - Jakob Endrestad Kielland

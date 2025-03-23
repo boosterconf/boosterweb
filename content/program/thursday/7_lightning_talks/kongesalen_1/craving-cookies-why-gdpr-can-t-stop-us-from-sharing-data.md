@@ -2,6 +2,9 @@
 title: "Craving Cookies: Why GDPR Can’t Stop Us from Sharing Data"
 talk_type: "Lightning Talk"
 type: talk
+starts_at: 2025-03-27T14:30:00Z
+ends_at: 2025-03-27T14:40:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 4
 authors:
     - Frida Bjørnstad

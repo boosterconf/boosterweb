@@ -2,6 +2,9 @@
 title: "Hands on workshop: Building a culture of innovation and improvement by making people feel safe"
 talk_type: "Workshop 1,5h"
 type: talk
+starts_at: 2025-03-27T08:00:00Z
+ends_at: 2025-03-27T09:30:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 6
 authors:
     - Pirita Johnsen

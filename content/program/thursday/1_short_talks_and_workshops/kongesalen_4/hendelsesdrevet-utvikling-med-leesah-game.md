@@ -2,6 +2,9 @@
 title: "Hendelsesdrevet utvikling med Leesah Game!"
 talk_type: "Workshop 3h"
 type: talk
+starts_at: 2025-03-27T08:00:00Z
+ends_at: 2025-03-27T11:20:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 4
 authors:
     - Tania Holst

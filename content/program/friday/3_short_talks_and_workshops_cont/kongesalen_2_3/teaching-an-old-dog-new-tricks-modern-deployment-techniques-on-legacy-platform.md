@@ -2,6 +2,9 @@
 title: "Teaching an old dog new tricks : Modern Deployment Techniques on Legacy Platform"
 talk_type: "Experience Report"
 type: talk
+starts_at: 2025-03-28T10:20:00Z
+ends_at: 2025-03-28T10:50:00Z
+2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 2
 authors:
     - Boris Bushmelev
