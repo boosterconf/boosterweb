@@ -4,7 +4,6 @@ talk_type: "Workshop 1,5h"
 type: talk
 starts_at: 2025-03-26T12:45:00Z
 ends_at: 2025-03-26T14:15:00Z
-2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 3
 authors:
     - Vegard Haugstvedt

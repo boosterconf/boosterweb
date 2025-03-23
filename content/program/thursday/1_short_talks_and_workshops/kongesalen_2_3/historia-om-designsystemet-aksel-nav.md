@@ -4,7 +4,6 @@ talk_type: "Experience Report"
 type: talk
 starts_at: 2025-03-27T08:30:00Z
 ends_at: 2025-03-27T09:00:00Z
-2025-03-28T08:00:00Z', 'endsAt': '2025-03-28T11:20:00Z
 weight: 2
 authors:
     - Magnus Børnes Hellevik
