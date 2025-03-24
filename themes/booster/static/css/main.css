@@ -1000,3 +1000,42 @@ button.toggler.toggled {
   text-transform: uppercase;
   color: var(--color-blurple);
 }
+
+.next-up {
+  background-color: var(--color-hav);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.next-up .logo { 
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 3em;
+}
+.next-up .talk-info { 
+  grid-area: 2 / 2 / 3 / 7;
+  display:none;
+} 
+.next-up .talk-info.current {
+  display:block;
+}
+.next-up .talk-info h1 {
+  font-size: 3em;
+  text-align: left;
+}
+.next-up .talk-info h2 {
+  font-size: 2em;
+  text-align: left;
+  color: var(--header-text-color);
+}
+.next-up .talk-info h4 {
+  font-size: 2em;
+  text-align: left;
+  color: var(--header-text-color);
+}
+.next-up .talk-info h4 img {
+  vertical-align:middle;
+}
