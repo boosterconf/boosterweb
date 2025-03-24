@@ -1023,19 +1023,23 @@ button.toggler.toggled {
   display:block;
 }
 .next-up .talk-info h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   text-align: left;
+  margin-bottom: 1em;
 }
 .next-up .talk-info h2 {
+  font-family: var(--condensed-font), sans-serif;
   font-size: 2em;
   text-align: left;
   color: var(--header-text-color);
 }
 .next-up .talk-info h4 {
-  font-size: 2em;
+  font-family: var(--condensed-font), sans-serif;
+  font-size: 1.5em;
   text-align: left;
   color: var(--header-text-color);
 }
 .next-up .talk-info h4 img {
   vertical-align:middle;
+  margin-right: 1em;
 }
