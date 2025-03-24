@@ -59,10 +59,9 @@
 
         document.addEventListener("DOMContentLoaded", function(event) {
 
-            let speedup = Temporal.Duration.from({ minutes: 1 });
-            let now = Temporal.Now.instant();
             var current = null;
             var tick = function() {
+                let now = Temporal.Now.instant();
                 let nodeList = document.querySelectorAll("[data-starts-at]");
                 let nextTalks = Array.from(document.querySelectorAll("[data-starts-at]")).filter(talkInfo => {
                     let start = Temporal.Instant.from(talkInfo.getAttribute('data-starts-at'));
@@ -81,17 +80,6 @@
                 }
                 current = nextTalk;
                 current.classList.add("current");
-                    /*
-                .forEach(talkInfo => {
-                    let starts = Temporal.Instant.from(talkInfo.getAttribute('data-starts-at'));
-                    let ends = Temporal.Instant.from(talkInfo.getAttribute('data-ends-at'));
-                    //let now = Temporal.Instant.from("2025-03-28T13:21:00Z");//Temporal.Now.instant();
-
-
-                    
-                });*/
-                now = now.add(speedup);
-                console.log(now.toString());
             }
             tick();
             const timer = setInterval(tick, 1000);
