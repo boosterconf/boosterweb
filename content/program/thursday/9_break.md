@@ -1,6 +1,6 @@
 ---
-time: "15:15 - 15:35"
+time: "15:40 - 16:00"
 title: "Break"
 type: break
-weight: 10
+weight: 9
 ---
