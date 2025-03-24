@@ -618,6 +618,7 @@ article .map iframe {
   border: 2px solid var(--color-rust);
   border-left: 8px solid var(--color-rust);
   padding: 16px 16px 16px 24px;
+  overflow: hidden;
 }
 
 .program .talk.common {
@@ -631,6 +632,13 @@ article .map iframe {
 .program .talk.continuation {
   border: 2px solid var(--color-hav-dus);
   border-left: 8px solid var(--color-hav-dus);
+}
+.program .talk.cancelled {
+  border: 2px solid var(--color-hav-dus);
+  border-left: 8px solid var(--color-hav-dus);
+}
+.program .talk.cancelled h4 {
+  text-decoration: line-through;
 }
 
 a.talk {

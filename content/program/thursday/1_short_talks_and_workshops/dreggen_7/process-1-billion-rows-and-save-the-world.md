@@ -1,5 +1,6 @@
 ---
 title: "Process 1 billion rows and save the world"
+cancelled: true
 talk_type: "Workshop 3h"
 type: talk
 starts_at: 2025-03-27T08:00:00Z

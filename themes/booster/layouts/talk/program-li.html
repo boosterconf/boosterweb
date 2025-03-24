@@ -1,7 +1,7 @@
-<a class='talk {{ .Param "talk_type" }}' href="{{ .RelPermalink }}">
+<a class='talk {{ .Param "talk_type" }}{{ if .Params.cancelled }} cancelled{{end}}' href="{{ .RelPermalink }}">
     <div class="slot">
         <div class="description">
-            <h4>{{.Title | markdownify }}
+            <h4>{{ if .Params.cancelled }} Cancelled: {{end}}{{.Title | markdownify }}
                 {{ $files := .Page.Resources }}
             
                 {{ if $files }}
