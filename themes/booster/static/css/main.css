@@ -1040,6 +1040,7 @@ button.toggler.toggled {
   color: var(--header-text-color);
 }
 .next-up .talk-info h4 img {
-  vertical-align:middle;
+  vertical-align:-0.9em;
   margin-right: 1em;
+  border-radius: 50%;
 }
