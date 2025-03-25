@@ -171,13 +171,15 @@ def write_session_file(room_path, session, weight):
 title: "{session_title}"
 talk_type: "{session_format}"
 type: talk{recording_url_formatted}
+starts_at: {sessionize['startsAt']}
+ends_at: {sessionize['endsAt']}
 weight: {weight}
 authors:
 {speakers_formatted}
 ---
 {session_data['description']}
 """
-        f = open(session_path, "w", encoding="utf-8")
+        f = open(session_path, "wt", encoding="utf-8", newline="\n")
         f.write(template)
 #    return path + "/" + room_key
 
@@ -204,7 +206,7 @@ weight: {weight}
 """
         session_path = room_path + "/continuation.md"
 
-        f = open(session_path, "w", encoding="utf-8")
+        f = open(session_path, "w", encoding="utf-8", newline="\n")
         f.write(template)
 
 for day in predefined_slots:
@@ -243,7 +245,7 @@ title: "{speaker_title}"
     speaker_exists = os.path.exists(speaker_dir)
     if not speaker_exists:
         os.makedirs(speaker_dir)
-    f = open(speaker_dir + "/index.md", "w", encoding="utf-8")
+    f = open(speaker_dir + "/index.md", "w", encoding="utf-8", newline="\n")
     f.write(template)
     profile_picture_url = speaker['profilePicture']
     if profile_picture_url != None:
@@ -254,7 +256,7 @@ title: "{speaker_title}"
         if not file_exists:
             print("loading image " + profile_picture_url)
             data = urlopen(profile_picture_url)
-            open(profile_picture_path, "wb").write(data.read())
+            open(profile_picture_path, "wb", newline="\n").write(data.read())
         
 
     

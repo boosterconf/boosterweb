@@ -14,3 +14,5 @@ As developers, we often feel the pressure to keep up with the latest changes, wh
 In this talk, we’re diving into the concept of Intellectual Humility and how it can transform your mindset as a software developer. I’ll share some of my own stories to show you how this approach can help and, more importantly, how you can use it in your daily work as a dev.
 
 The goal here is to shift your mindset from trying to know everything to focusing on what really matters: staying curious, learning from others, and being okay with not having all the answers.
+
+PS. This talk will be held in Norwegian.
