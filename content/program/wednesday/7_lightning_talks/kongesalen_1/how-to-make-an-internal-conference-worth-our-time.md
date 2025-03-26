@@ -2,6 +2,7 @@
 title: "How to make an internal conference worth our time"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069764414
 starts_at: 2025-03-26T11:05:00Z
 ends_at: 2025-03-26T11:15:00Z
 weight: 3

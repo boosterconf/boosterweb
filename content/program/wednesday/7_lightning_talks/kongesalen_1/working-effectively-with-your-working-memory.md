@@ -2,6 +2,7 @@
 title: "Working effectively with your working memory"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069764117
 starts_at: 2025-03-26T10:45:00Z
 ends_at: 2025-03-26T10:55:00Z
 weight: 1

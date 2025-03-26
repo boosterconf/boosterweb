@@ -16,3 +16,5 @@ Perhaps you have to interact with it daily (and have no clue what you are doing)
 We will learn all about GitOps, and how to set up a small container cluster on your own computer! 
 
 You'll need a computer with access to docker/podman and devbox (https://www.jetify.com/devbox). Or if you do not want to use devbox you need to have: minikube, terraform/opentofu, kubectl, argocd, helm, deno.
+
+Workshop: https://github.com/aMediocreDad/workshop_2024-06_kubernetes

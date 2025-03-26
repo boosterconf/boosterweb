@@ -2,6 +2,7 @@
 title: "We are the destroyers of worlds"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1069765789
 starts_at: 2025-03-26T13:45:00Z
 ends_at: 2025-03-26T14:15:00Z
 weight: 2

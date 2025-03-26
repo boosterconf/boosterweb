@@ -2,6 +2,7 @@
 title: "Scaling agility in Customer Experience at Ford Motor Company"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1069761555
 starts_at: 2025-03-26T12:45:00Z
 ends_at: 2025-03-26T13:15:00Z
 weight: 1
