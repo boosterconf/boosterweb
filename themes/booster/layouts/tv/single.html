@@ -37,7 +37,6 @@
                 {{ range .Pages }}
                 <div class="tv-timeslot" data-time="{{ .Params.time }}">
                     <div class="tv-timeslot-info">
-                        <span class="tv-now-text">NOW</span>
                         <span class="tv-timeslot-time">{{ .Params.time }}:</span>
                         <span class="tv-timeslot-title">{{ .Title }}</span>
                         {{ if .Param "location" }}
