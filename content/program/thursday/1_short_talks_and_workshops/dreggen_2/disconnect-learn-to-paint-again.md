@@ -1,5 +1,5 @@
 ---
-title: "Disconnect : learn to paint (again)"
+title: "*Drop-in* Disconnect : learn to paint (again)"
 talk_type: "Workshop"
 type: talk
 starts_at: 2025-03-27T08:00:00Z
