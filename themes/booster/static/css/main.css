@@ -909,6 +909,16 @@ button.toggler.toggled {
   aspect-ratio: 16/9;
 }
 
+
+.tv .qr {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 64px;
+  height: 64px;
+  margin: 6px;
+}
+
 .tv .tv-day:after {
   position: absolute;
   content: "";
@@ -1009,6 +1019,7 @@ button.toggler.toggled {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  overflow: hidden;
 }
 
 .next-up .logo { 
