@@ -945,7 +945,7 @@ button.toggler.toggled {
 .tv .tv-timeslot-info {
   display: block;
   width: 100%;
-  min-width: 300px;
+  min-width: 150px;
   background: var(--color-varmkvit);
   border: 2px solid var(--color-hav-70);
   border-bottom: 8px solid var(--color-hav-70);
