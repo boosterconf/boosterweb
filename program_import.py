@@ -256,7 +256,7 @@ title: "{speaker_title}"
         if not file_exists:
             print("loading image " + profile_picture_url)
             data = urlopen(profile_picture_url)
-            open(profile_picture_path, "wb", newline="\n").write(data.read())
+            open(profile_picture_path, "wb").write(data.read())
         
 
     
