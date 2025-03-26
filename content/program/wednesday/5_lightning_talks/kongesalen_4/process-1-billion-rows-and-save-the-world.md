@@ -2,6 +2,7 @@
 title: "Process 1 billion rows and save the world"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069766614
 starts_at: 2025-03-26T10:05:00Z
 ends_at: 2025-03-26T10:15:00Z
 weight: 12
