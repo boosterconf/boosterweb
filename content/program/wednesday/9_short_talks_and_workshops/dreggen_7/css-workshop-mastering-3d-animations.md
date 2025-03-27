@@ -5,6 +5,7 @@ type: talk
 starts_at: 2025-03-26T12:45:00Z
 ends_at: 2025-03-26T14:15:00Z
 weight: 8
+cancelled: true
 authors:
     - Amit Sheen
 

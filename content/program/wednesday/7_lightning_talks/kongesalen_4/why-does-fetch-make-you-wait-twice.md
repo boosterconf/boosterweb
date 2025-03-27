@@ -2,6 +2,7 @@
 title: "Why does Fetch make you wait twice?"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069766766
 starts_at: 2025-03-26T10:45:00Z
 ends_at: 2025-03-26T10:55:00Z
 weight: 9
