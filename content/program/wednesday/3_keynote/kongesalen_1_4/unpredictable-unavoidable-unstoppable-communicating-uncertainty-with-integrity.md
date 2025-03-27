@@ -2,6 +2,7 @@
 title: "Unpredictable, Unavoidable, Unstoppable: Communicating uncertainty with integrity"
 talk_type: "Keynote"
 type: talk
+recording_url: https://vimeo.com/1069757807
 starts_at: 2025-03-26T08:15:00Z
 ends_at: 2025-03-26T09:15:00Z
 weight: 1

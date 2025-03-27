@@ -2,6 +2,7 @@
 title: "Why you and BFF should be BFF's"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069766380
 starts_at: 2025-03-26T09:45:00Z
 ends_at: 2025-03-26T09:55:00Z
 weight: 10

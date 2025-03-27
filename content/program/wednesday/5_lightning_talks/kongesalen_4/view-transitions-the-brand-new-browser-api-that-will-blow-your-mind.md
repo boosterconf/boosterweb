@@ -2,6 +2,7 @@
 title: "View Transitions: The brand-new browser API that will blow your mind"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069766487
 starts_at: 2025-03-26T09:55:00Z
 ends_at: 2025-03-26T10:05:00Z
 weight: 11

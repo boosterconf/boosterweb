@@ -2,6 +2,7 @@
 title: "Organizing your week as a developer or tech lead"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069763972
 starts_at: 2025-03-26T10:05:00Z
 ends_at: 2025-03-26T10:15:00Z
 weight: 4

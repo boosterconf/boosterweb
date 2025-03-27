@@ -2,6 +2,7 @@
 title: "Speaking Your Mind: The Why and Where and When and What and How"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1069763007
 starts_at: 2025-03-26T09:35:00Z
 ends_at: 2025-03-26T09:45:00Z
 weight: 1
