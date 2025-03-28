@@ -2,6 +2,7 @@
 title: "The Psychology of Surveys: Crafting Questions \"Beyond Yes or No\""
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070227625
 starts_at: 2025-03-27T10:20:00Z
 ends_at: 2025-03-27T10:50:00Z
 weight: 2

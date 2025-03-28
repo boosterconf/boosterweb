@@ -2,6 +2,7 @@
 title: "Practical Domain-Driven Design - Case Study from Healthcare"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070228607
 starts_at: 2025-03-27T09:00:00Z
 ends_at: 2025-03-27T09:30:00Z
 weight: 3

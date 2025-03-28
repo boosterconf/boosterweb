@@ -3,7 +3,7 @@ title: "Build your own keyboard, why ergonomic keyboards matter"
 talk_type: "Workshop 3h"
 type: talk
 starts_at: 2025-03-28T08:00:00Z
-ends_at: 2025-03-28T11:20:00Z
+ends_at: 2025-03-28T13:00:00Z
 weight: 10
 authors:
     - Anders Rørvik

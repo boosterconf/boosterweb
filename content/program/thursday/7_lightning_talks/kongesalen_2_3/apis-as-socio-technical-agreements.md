@@ -2,6 +2,7 @@
 title: "APIs as socio-technical agreements"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070227419
 starts_at: 2025-03-27T14:30:00Z
 ends_at: 2025-03-27T14:40:00Z
 weight: 8

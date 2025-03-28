@@ -2,6 +2,7 @@
 title: "Feature flags: silver bullet eller silver lining?"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070227255
 starts_at: 2025-03-27T14:10:00Z
 ends_at: 2025-03-27T14:20:00Z
 weight: 6

@@ -2,6 +2,7 @@
 title: "Why Less Code Isn’t Always Better"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070227342
 starts_at: 2025-03-27T14:20:00Z
 ends_at: 2025-03-27T14:30:00Z
 weight: 7

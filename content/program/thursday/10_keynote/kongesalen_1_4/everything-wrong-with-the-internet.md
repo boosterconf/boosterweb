@@ -2,6 +2,7 @@
 title: "Everything wrong with the internet"
 talk_type: "Keynote"
 type: talk
+recording_url: https://vimeo.com/1070228266
 starts_at: 2025-03-27T15:00:00Z
 ends_at: 2025-03-27T15:50:00Z
 weight: 1

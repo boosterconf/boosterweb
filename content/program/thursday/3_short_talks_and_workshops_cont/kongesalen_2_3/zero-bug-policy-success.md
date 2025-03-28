@@ -2,6 +2,7 @@
 title: "Zero-bug policy success"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070228841
 starts_at: 2025-03-27T09:50:00Z
 ends_at: 2025-03-27T10:20:00Z
 weight: 1

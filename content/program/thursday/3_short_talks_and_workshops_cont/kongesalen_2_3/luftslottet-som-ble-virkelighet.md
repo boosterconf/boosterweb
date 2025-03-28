@@ -2,6 +2,7 @@
 title: "Luftslottet som ble virkelighet"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070229114
 starts_at: 2025-03-27T10:50:00Z
 ends_at: 2025-03-27T11:20:00Z
 weight: 3
