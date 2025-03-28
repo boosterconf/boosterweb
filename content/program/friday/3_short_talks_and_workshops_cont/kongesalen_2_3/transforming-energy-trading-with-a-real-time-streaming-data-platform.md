@@ -2,9 +2,9 @@
 title: "Transforming Energy Trading with a Real-Time Streaming Data Platform"
 talk_type: "Experience Report"
 type: talk
-starts_at: 2025-03-28T10:50:00Z
-ends_at: 2025-03-28T11:20:00Z
-weight: 3
+starts_at: 2025-03-28T10:20:00Z
+ends_at: 2025-03-28T10:50:00Z
+weight: 2
 authors:
     - Kristoffer Føllesdal
 
