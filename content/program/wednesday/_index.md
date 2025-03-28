@@ -1,6 +1,6 @@
 ---
 title: "Wednesday 26th March"
-weight: 2
+weight: 4
 type: programday
 menu:
     main:
