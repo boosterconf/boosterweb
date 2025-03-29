@@ -2,6 +2,7 @@
 title: "Teaching an old dog new tricks : Modern Deployment Techniques on Legacy Platform"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070652234
 starts_at: 2025-03-28T09:50:00Z
 ends_at: 2025-03-28T10:20:00Z
 weight: 1

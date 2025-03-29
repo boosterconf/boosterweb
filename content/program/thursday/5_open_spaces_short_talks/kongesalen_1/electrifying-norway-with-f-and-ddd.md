@@ -2,6 +2,7 @@
 title: "Electrifying Norway with F# and DDD"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070647821
 starts_at: 2025-03-27T12:10:00Z
 ends_at: 2025-03-27T12:40:00Z
 weight: 2

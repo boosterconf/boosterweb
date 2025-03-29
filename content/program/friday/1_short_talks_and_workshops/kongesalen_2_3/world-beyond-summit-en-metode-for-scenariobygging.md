@@ -2,6 +2,7 @@
 title: "World Beyond Summit – en metode for scenariobygging"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070653190
 starts_at: 2025-03-28T08:00:00Z
 ends_at: 2025-03-28T08:30:00Z
 weight: 1

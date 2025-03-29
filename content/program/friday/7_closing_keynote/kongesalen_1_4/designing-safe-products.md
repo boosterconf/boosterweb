@@ -2,6 +2,7 @@
 title: "Designing safe products"
 talk_type: "Keynote"
 type: talk
+recording_url: https://vimeo.com/1070654115
 starts_at: 2025-03-28T13:20:00Z
 ends_at: 2025-03-28T14:05:00Z
 weight: 1

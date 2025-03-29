@@ -2,6 +2,7 @@
 title: "Fra kaos til kontroll: Hvordan prosess bygger modenhet i utviklingsteam"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070654437
 starts_at: 2025-03-28T12:30:00Z
 ends_at: 2025-03-28T13:00:00Z
 weight: 2

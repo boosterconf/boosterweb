@@ -2,6 +2,7 @@
 title: "Hvordan sensorteknologi og brukersentrert utvikling kan gi verdi for sykehusets operasjonsavdeling"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070648256
 starts_at: 2025-03-27T12:40:00Z
 ends_at: 2025-03-27T13:10:00Z
 weight: 3

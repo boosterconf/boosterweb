@@ -2,6 +2,7 @@
 title: "Transforming Energy Trading with a Real-Time Streaming Data Platform"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070653818
 starts_at: 2025-03-28T10:20:00Z
 ends_at: 2025-03-28T10:50:00Z
 weight: 2

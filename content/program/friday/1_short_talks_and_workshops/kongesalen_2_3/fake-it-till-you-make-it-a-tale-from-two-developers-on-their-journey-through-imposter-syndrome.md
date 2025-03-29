@@ -2,6 +2,7 @@
 title: "Fake it till you make it - a tale from two developers on their journey through imposter syndrome"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070655287
 starts_at: 2025-03-28T08:30:00Z
 ends_at: 2025-03-28T09:00:00Z
 weight: 2

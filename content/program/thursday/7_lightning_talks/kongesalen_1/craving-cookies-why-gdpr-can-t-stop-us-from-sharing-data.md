@@ -2,6 +2,7 @@
 title: "Craving Cookies: Why GDPR Can’t Stop Us from Sharing Data"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070647449
 starts_at: 2025-03-27T14:30:00Z
 ends_at: 2025-03-27T14:40:00Z
 weight: 4

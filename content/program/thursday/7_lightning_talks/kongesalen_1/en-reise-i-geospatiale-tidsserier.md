@@ -2,6 +2,7 @@
 title: "En reise i geospatiale tidsserier"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070645153
 starts_at: 2025-03-27T14:10:00Z
 ends_at: 2025-03-27T14:20:00Z
 weight: 2

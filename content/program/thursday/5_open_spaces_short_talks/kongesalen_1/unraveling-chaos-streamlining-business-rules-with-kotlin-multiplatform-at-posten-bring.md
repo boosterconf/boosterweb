@@ -2,6 +2,7 @@
 title: "Unraveling Chaos: Streamlining Business Rules with Kotlin Multiplatform at Posten Bring"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070592307
 starts_at: 2025-03-27T13:10:00Z
 ends_at: 2025-03-27T13:40:00Z
 weight: 4

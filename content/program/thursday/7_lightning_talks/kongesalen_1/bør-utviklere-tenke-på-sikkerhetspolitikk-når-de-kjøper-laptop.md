@@ -2,6 +2,7 @@
 title: "Bør utviklere tenke på sikkerhetspolitikk når de kjøper laptop?"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070647583
 starts_at: 2025-03-27T14:20:00Z
 ends_at: 2025-03-27T14:30:00Z
 weight: 3

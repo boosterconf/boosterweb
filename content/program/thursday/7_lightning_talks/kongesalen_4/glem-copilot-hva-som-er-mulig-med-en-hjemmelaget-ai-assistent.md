@@ -2,6 +2,7 @@
 title: "Glem copilot! - Hva som er mulig med en hjemmelaget AI Assistent"
 talk_type: "Lightning Talk"
 type: talk
+recording_url: https://vimeo.com/1070657327
 starts_at: 2025-03-27T14:00:00Z
 ends_at: 2025-03-27T14:10:00Z
 weight: 9

@@ -2,6 +2,7 @@
 title: "Helsenorge.no. Hvordan bygger vi skuta om til et containerskip mens vi er i fart."
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070654625
 starts_at: 2025-03-28T12:30:00Z
 ends_at: 2025-03-28T13:00:00Z
 weight: 1
