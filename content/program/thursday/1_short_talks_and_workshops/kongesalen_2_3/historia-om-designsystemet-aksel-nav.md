@@ -2,6 +2,7 @@
 title: "Historia om designsystemet Aksel (NAV)"
 talk_type: "Experience Report"
 type: talk
+recording_url: https://vimeo.com/1070660069
 starts_at: 2025-03-27T08:30:00Z
 ends_at: 2025-03-27T09:00:00Z
 weight: 2
