@@ -1,3 +1,10 @@
 python-frontmatter
 python-dateutil
 pytz
+pyvimeo
+oauthlib
+flask
+prompt_toolkit
+pillow
+pyav
+pyperclip
