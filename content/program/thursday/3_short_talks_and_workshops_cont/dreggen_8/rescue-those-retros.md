@@ -10,6 +10,8 @@ authors:
     - Anne Lise Bergem
 
 ---
+Link to the slides: https://slides.com/jaakson/retros-booster-2025/
+
 Retrospectives are supposed to help our teams continuously improve. But where do we turn when our retros continuously fall flat? The same issues come up over and over, but your team can’t seem to get traction on them. When you feel like you’re living the dev team version of Groundhog Day… it’s time to rescue those retros.
 
 In this workshop, you’ll learn about the foundations of effective retrospectives: what non-negotiable elements that must be in place for retros to succeed, and where to switch things up based on your team's needs. You’ll also take part in a practical exercise aimed at helping you figure out how to guide a team out of its retro rut. We'll also provide you with resources to take back to your own team so you can help them identify what to start, stop, and continue doing to get your team’s retros back on track.
