@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_4/</link>
+    <description>Recent content in Kongesalen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hendelsesdrevet utvikling med Leesah Game!</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_4/hendelsesdrevet-utvikling-med-leesah-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_4/hendelsesdrevet-utvikling-med-leesah-game/</guid>
+      <description>&lt;p&gt;I NAV utvikler vi moderne systemer i hendelsesdrevet mikrotjenestearkitektur som skal løse fremtidens arbeids- og velferdsbehov. Nå vil vi lære dere mer om hvordan vi bygger applikasjoner og hvordan hendelsesdrevne systemer kan brukes til å løse komplekse utfordringer.&lt;/p&gt;&#xA;&lt;p&gt;Vi kommer til å presentere viktige prinsipper bak hendelsesdrevne systemer før vi kjører i gang med et “gamified” opplegg hvor dere koder sammen to og to. Gjennom kurset skal dere utvikle en applikasjon som kobles mot Kafka for å motta utfordringer deres applikasjon må håndtere. Dette blir en morsom workshop med litt utfordring og mye moro!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

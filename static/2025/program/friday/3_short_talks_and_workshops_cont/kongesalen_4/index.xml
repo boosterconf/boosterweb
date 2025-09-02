@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_4/</link>
+    <description>Recent content in Kongesalen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continues: User Authentication: A Deep Dive</title>
+      <link>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_4/continuation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_4/continuation/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 2-3 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/</link>
+    <description>Recent content in Kongesalen 2-3 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ouvroir de Code Potentiel</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/ouvroir-de-code-potentiel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/ouvroir-de-code-potentiel/</guid>
+      <description>&lt;p&gt;The Ouvroir de littérature potentielle (Workshop of potential literature) movement, founded in the 1960s, explored creativity by applying strict constraints to writing. These constraints — like avoiding specific letters or using mathematical structures — forced authors to think differently and produced unique literary works.&lt;/p&gt;&#xA;&lt;p&gt;In this lightning talk, we’ll apply the principles of Oulipo to programming. By reimagining familiar programming exercises with unusual rules and restrictions, we’ll explore how constraints can lead to new insights and approaches in coding. This approach, though unconventional, offers valuable lessons in problem-solving and creativity in software development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feature flags: silver bullet eller silver lining?</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/feature-flags-silver-bullet-eller-silver-lining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/feature-flags-silver-bullet-eller-silver-lining/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Can&amp;rsquo;t we just launch it behind a feature flag?&amp;rdquo; – a phrase often heard in agile software development. These flags are often a dream for project managers but can turn into a nightmare for developers to implement. Is it really as simple as &amp;ldquo;just launching on a Friday afternoon&amp;rdquo; without any worries? What is the actual difference between a release toggle, kill switch, and an A/B testing flag? When is it wise to use feature flags, and when should we avoid them? How can we keep our code clean and prevent it from turning into a tangled mess of spaghetti? We will also explore some of the exciting tools available out there. And last but not least, share our own experiences – both the good and the not-so-good – from Vibbo and Styrerommet apps that we are working on for OBOS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Less Code Isn’t Always Better</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/why-less-code-isn-t-always-better/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/why-less-code-isn-t-always-better/</guid>
+      <description>&lt;p&gt;Have you ever come across a piece of code that&amp;rsquo;s been &amp;ldquo;optimized&amp;rdquo; so much that it is impossible to read?&#xA;Let’s talk about the fine line between making code efficient and turning it into a cryptic mess. I’ll share some funny examples of code that’s been boiled down to one-liners or clever tricks that look cool&amp;hellip; until you try to figure out what they actually do. In this quick talk, we’ll explore why readable code is sometimes better than the &amp;ldquo;simplified&amp;rdquo; version, and how to strike a balance between elegance and clarity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>APIs as socio-technical agreements</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/apis-as-socio-technical-agreements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_2_3/apis-as-socio-technical-agreements/</guid>
+      <description>&lt;p&gt;An API is a multilateral socio-technical agreement to collaborate. Unfortunately a lot of aspects of the collaboration tend to be left unspecified, which causes all kinds of problems. A technical specification for the API is just the beginning. Many other things should be agreed upon as well. How long does the provider team commit to offer the API, and under what conditions? How will the upkeep of the API be financed? What is the SLA? What is the expected rate of change, and how will change will be handled? How will bugs be addressed? What do the consumers commit to? Often these things are naively left undefined, to be worked out by an ad-hoc mixture of power dynamics, conscience and available resources. Instead, these issues should be addressed head-on, making the negotiations explicit rather than implicit. In this talk, we&amp;rsquo;ll take a closer look at the socio-technical issues concerning APIs, see how we can address them in a structured way, and discuss some patterns that can be applied in various contexts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

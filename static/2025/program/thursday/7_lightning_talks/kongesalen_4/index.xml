@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/</link>
+    <description>Recent content in Kongesalen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Glem copilot! - Hva som er mulig med en hjemmelaget AI Assistent</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/glem-copilot-hva-som-er-mulig-med-en-hjemmelaget-ai-assistent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/glem-copilot-hva-som-er-mulig-med-en-hjemmelaget-ai-assistent/</guid>
+      <description>&lt;p&gt;Sikkerhet er den største utfordringen rundt nye personaliserte AI verktøy.  Den beste løsningen på dette er å aldri sende ut personlige data til nettet.&lt;/p&gt;&#xA;&lt;p&gt;Heldigvis finnes det mange open source LLM modeller som vi kan ta i bruk. I denne lyntalen så skal vi se på hva som er mulig med et on-prem AI verktøy som brukes til alt fra code generering til en personalisert chatbot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stop saying &#34;Thank you&#34; to AI</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/stop-saying-thank-you-to-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/stop-saying-thank-you-to-ai/</guid>
+      <description>&lt;p&gt;Ai is getting better by the day and it is only the beginning. As end users and a living creature on earth, we need to wake up to the environmental cost of research, development and upkeep. Even a small &amp;ldquo;Thank you&amp;rdquo; message to ChatGPT is wasting resources elsewhere.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is even more pressing now that OpenAI has removed its non-profit control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI Assisted Coding for Kids</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/ai-assisted-coding-for-kids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/ai-assisted-coding-for-kids/</guid>
+      <description>&lt;p&gt;You may share my experience trying to teach kids about coding, but learning the hard way that console.log(&amp;ldquo;Hello world&amp;rdquo;) simply doesn&amp;rsquo;t do it. They want to make Fortnite in an hour, and quickly loose interest.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I will show how using AI assistants can help making these introductory programming sessions much more interesting, as I will showcase a course I have developed that introduces coding through cool, practical problem solving tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hvordan håndtere bias i data</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/hvordan-h%C3%A5ndtere-bias-i-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_4/hvordan-h%C3%A5ndtere-bias-i-data/</guid>
+      <description>&lt;p&gt;Dårlige data kan gjøre stor skade. Jeg skal gå gjennom syv ulike typer bias og hvor i ML-prosessen de kan gjøre skade. Hvilke av dem er vanskeligst å håndtere for hhv designere, beslutningstakere eller ledere?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

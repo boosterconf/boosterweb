@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 1 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/</link>
+    <description>Recent content in Kongesalen 1 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nettlesere uten tilsyn</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/nettlesere-uten-tilsyn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/nettlesere-uten-tilsyn/</guid>
+      <description>&lt;p&gt;Content Security Policy (CSP)-headeren er et viktig verktøy når man sikrer nettsider.&lt;/p&gt;&#xA;&lt;p&gt;Dette er et forsøk på å forklare CSP som en slags barnevakt for nettlesere, illustrert med håndtegna forklaringer.&lt;/p&gt;&#xA;&lt;p&gt;Denne presentasjonen vil forklare CSP på en slik måte at du aldri vil glemme hva det er for noe og hvorfor du bør ha det på din nettside.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>En reise i geospatiale tidsserier</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/en-reise-i-geospatiale-tidsserier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/en-reise-i-geospatiale-tidsserier/</guid>
+      <description>&lt;p&gt;Er du klar over hvilke muligheter du har med postgreSQL?&lt;/p&gt;&#xA;&lt;p&gt;I denne talken viser jeg frem 3 fiffige features med postgres du kan bruke til å håndtere geospatiale tidsserier i ukjente domener. En kort intro til temaene json, tidsserier og geolokasjoner for å håndtere en endeløs strøm av geospatiale data for båter i norske farvann.&lt;/p&gt;&#xA;&lt;p&gt;Historien dreier seg om AIS-data fra båter i norske farvann fra kystverket presentert av en mobil-app lagd av foredragsholder. (appen er gratis, dette er ikke en salespitch)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bør utviklere tenke på sikkerhetspolitikk når de kjøper laptop?</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/b%C3%B8r-utviklere-tenke-p%C3%A5-sikkerhetspolitikk-n%C3%A5r-de-kj%C3%B8per-laptop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/b%C3%B8r-utviklere-tenke-p%C3%A5-sikkerhetspolitikk-n%C3%A5r-de-kj%C3%B8per-laptop/</guid>
+      <description>&lt;p&gt;Da jeg startet som konsulent, mottok jeg en e-post med spørsmål om hvilken type datamaskin jeg foretrakk: en PC med Windows/Linux eller en Mac. Jeg valgte førstnevnte og fikk deretter en Lenovo-PC.&lt;/p&gt;&#xA;&lt;p&gt;Er det uvesentlig at norske IT-selskaper rutinemessig kjøper maskinvare produsert i Kina, samtidig som USA aktivt forsøker å begrense Kinas tilgang til avanserte mikroprosessorer og halvledere?&lt;/p&gt;&#xA;&lt;p&gt;I denne lyntalen skal jeg presentere hvorfor IT-bransjen har et særskilt ansvar med tanke på Norges sikkerhetspolitikk, og hvilke valg vi kan ta med hensyn til maskinvare.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Craving Cookies: Why GDPR Can’t Stop Us from Sharing Data</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/craving-cookies-why-gdpr-can-t-stop-us-from-sharing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/7_lightning_talks/kongesalen_1/craving-cookies-why-gdpr-can-t-stop-us-from-sharing-data/</guid>
+      <description>&lt;p&gt;GDPR aimed to put consumers in control of their data, but our love for convenience and cookie-clicking habits persist. Biases like present bias keep us stuck in the privacy paradox, where we care about privacy but act otherwise.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

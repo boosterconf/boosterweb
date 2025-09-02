@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dreggen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/dreggen_4/</link>
+    <description>Recent content in Dreggen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/dreggen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s build web experiences that don&#39;t make people puke.</title>
+      <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/dreggen_4/let-s-build-web-experiences-that-don-t-make-people-puke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/dreggen_4/let-s-build-web-experiences-that-don-t-make-people-puke/</guid>
+      <description>&lt;p&gt;🎢 An actually interactive accessibility workshop about motion sickness&lt;/p&gt;&#xA;&lt;p&gt;Join us for an engaging workshop where we&amp;rsquo;ll explore accessibility beyond screen readers and alternative inputs. We&amp;rsquo;ll dive into the super specific problem of motion sickness and discover how addressing it will shape your thinking patterns for more inclusive product decisions.&lt;/p&gt;&#xA;&lt;p&gt;Despite the tummy-turning title, this hands-on workshop is a lot of fun. There’s a 10min introduction to the world of motion sensitivities, the remaining 85% of the workshop is pure interaction. If attendees share firsthand motion sickness experiences (spoiler: they always do!), accessibility becomes tangible. Go to the office on Monday, give your colleagues of all disciplines the tl;dr and scroll through your website or app together to see where it might trip affected people. Then collectively implement solutions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

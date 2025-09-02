@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 2-3 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/</link>
+    <description>Recent content in Kongesalen 2-3 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zero-bug policy success</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/zero-bug-policy-success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/zero-bug-policy-success/</guid>
+      <description>&lt;p&gt;Zero-bug policies are usually controversial, misunderstood, or both. Meanwhile, you probably live with a backlog of open bugs that you don’t expect to resolve any time soon. But you could. Zero-bug policies matter, because swarms of unfixed bugs waste time, hurt team morale, cause soul-destroying meetings, make development slow and unpredictable, and destroy customer trust.&lt;/p&gt;&#xA;&lt;p&gt;This experience report from a Norwegian start-up in 2024 describes the journey from firefighting daily bug reports, to fixing the last open bug, and the joy of development with zero open bugs. Attendees will learn about the practical side of implementing a zero-bug policy, from introducing the idea, to achieving its goals. Our story includes the team dynamics of agreeing to give it a try, the objections and risks, and other implementation challenges. You’ll learn about why it’s worth the effort to fix (almost) all of the bugs, and which ones you can ignore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Psychology of Surveys: Crafting Questions &#34;Beyond Yes or No&#34;</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/the-psychology-of-surveys-crafting-questions-beyond-yes-or-no/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/the-psychology-of-surveys-crafting-questions-beyond-yes-or-no/</guid>
+      <description>&lt;p&gt;Great research starts with asking the right questions. But poorly designed ones — whether in surveys, interviews, or usability tests — can result in biased answers and unreliable data, impacting decisions across product, design, and engineering.&lt;/p&gt;&#xA;&lt;p&gt;This talk explores the psychology behind how people respond to surveys. You’ll walk away with practical techniques to overcome bias and uncover accurate insights.&lt;/p&gt;&#xA;&lt;p&gt;In this session, you’ll learn how to:&#xA;•  Create more effective surveys that deliver reliable results&#xA;• Design questions that reduce bias and build trust with respondents&#xA;• Harness the power of sentence completion, a lightweight yet powerful technique that reveals deeper insights beyond standard checkboxes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Luftslottet som ble virkelighet</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/luftslottet-som-ble-virkelighet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/3_short_talks_and_workshops_cont/kongesalen_2_3/luftslottet-som-ble-virkelighet/</guid>
+      <description>&lt;p&gt;NAV kjører nå mesteparten av systmene sine i almenn sky. Denne presentasjonen vil fortelle historien om hvordan NAv i sky begynte som et luftslott og ble virkelighet.&lt;/p&gt;&#xA;&lt;p&gt;Jeg vil komme innom teknologi, strategi, sikkerhet og organisering.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

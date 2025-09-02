@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bugården on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/bug%C3%A5rden/</link>
+    <description>Recent content in Bugården on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/bug%C3%A5rden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terraform, Kubernetes, Helm, ArgoCD... What?</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/bug%C3%A5rden/terraform-kubernetes-helm-argocd-what/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/bug%C3%A5rden/terraform-kubernetes-helm-argocd-what/</guid>
+      <description>&lt;p&gt;What do all these buzzwords mean, and what do they have in common?&lt;/p&gt;&#xA;&lt;p&gt;Perhaps you have to interact with it daily (and have no clue what you are doing), or perhaps you have a cool SRE team that has abstracted away all the complexity into something self-serviceable. But how does enterprise scale services? What actually happens when you push to Github?&lt;/p&gt;&#xA;&lt;p&gt;We will learn all about GitOps, and how to set up a small container cluster on your own computer!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

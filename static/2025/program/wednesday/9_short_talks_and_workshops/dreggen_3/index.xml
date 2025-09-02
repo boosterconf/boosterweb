@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dreggen 3 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_3/</link>
+    <description>Recent content in Dreggen 3 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Actions Workshop</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_3/github-actions-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_3/github-actions-workshop/</guid>
+      <description>&lt;p&gt;This workshop will teach you how to use GitHub Actions to automate your workflows.&lt;/p&gt;&#xA;&lt;p&gt;Our goal with this workshop is to make you gain a basic understanding of GitHub Actions, and to give you the tools to continue learning on your own. Additionally, we want you to be more comfortable and confident in using GitHub Actions in your own projects. Opening up a large repository with many workflows can be intimidating, but we hope that this workshop will make you feel more at home.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

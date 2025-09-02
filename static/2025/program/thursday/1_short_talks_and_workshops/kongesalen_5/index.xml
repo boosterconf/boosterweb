@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 5 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_5/</link>
+    <description>Recent content in Kongesalen 5 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fra PoC til Shock! En smidig reaksjonsspill-workshop.</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_5/fra-poc-til-shock-en-smidig-reaksjonsspill-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_5/fra-poc-til-shock-en-smidig-reaksjonsspill-workshop/</guid>
+      <description>&lt;p&gt;Har du hatt lyst til å jobbe med smidig produktutvikling, men ennå ikke fått muligheten? Har du jobbet smidig, men ikke helt etter forventninger?&lt;/p&gt;&#xA;&lt;p&gt;I denne morsomme hands-on workshopen, vil du få en mulighet til å jobbe iterativt, i et tverrfaglig team, med videreutvikling av et reaksjonsspill - fullstendig uten konsekvenser!&lt;/p&gt;&#xA;&lt;p&gt;Reaksjonsspillet består av en mikrokontroller; enkel spill-logikk, i form av simpel kode; og prototyp av hardware-komponenter, som utgjør sensorer og brytere i spillet. Produktet bærer tydelig preg av å være en Proof of Concept (PoC), der både hardware of software har kjente feil og mangler. Teamet vil måtte implementere forbedringer/utvidelser for å gjøre produktet mer stabilt og brukervennlig. Prosessen vil bli ledsaget av erfarne produktutviklere og UXere fra Kantega, med mange års erfaring i bruken av smidige prinsipper.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

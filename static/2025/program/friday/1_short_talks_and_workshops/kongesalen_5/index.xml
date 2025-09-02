@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 5 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_5/</link>
+    <description>Recent content in Kongesalen 5 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Becoming a code crime investigator</title>
+      <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_5/becoming-a-code-crime-investigator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_5/becoming-a-code-crime-investigator/</guid>
+      <description>&lt;p&gt;Traditionally, code analysis focuses on one metric: code complexity. With this narrow approach we disregard the treasure trove of behavioural information found in our version control system.&lt;/p&gt;&#xA;&lt;p&gt;In this workshop we&amp;rsquo;ll explore tools and concepts from Adam Tornhill&amp;rsquo;s book &amp;ldquo;Your Code as a Crime Scene&amp;rdquo;, using data-driven analysis to investigate code for clues hidden in our version control systems.&lt;/p&gt;&#xA;&lt;p&gt;After we&amp;rsquo;ve demoed and looked at how to do these behavioural analyses on big open source projects like React and Kuberenetes, you will be running similar analyses on your own codebase. The analysis is code agnostic, and is run locally on your own computer.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

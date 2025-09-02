@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 2-3 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/</link>
+    <description>Recent content in Kongesalen 2-3 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kor é logikken??!</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/kor-logikken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/kor-logikken/</guid>
+      <description>&lt;p&gt;La oss snakke om systemtenkning!  Systemisk design enkelt forklart på 10 minutter. Kanskje blir det en liten øvelse også.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Design for en kompleks verden</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/design-for-en-kompleks-verden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/design-for-en-kompleks-verden/</guid>
+      <description>&lt;p&gt;Norske virksomheter sløser bort milliarder på produkter og tjenester som ikke funker. Grunnen er at viktige beslutninger baseres på magefølelse og tilfeldigheter - omtrent som i kortspill.&lt;/p&gt;&#xA;&lt;p&gt;I dette korte foredraget skal vi avlive et par vanlige myter om design, og se på hvordan vi kan ruste virksomhetene våre for å ta bedre beslutninger, skape mer verdi og redusere avfall.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kompetanseheving i arbeidstiden - innspill fra 20 års erfaring</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/kompetanseheving-i-arbeidstiden-innspill-fra-20-%C3%A5rs-erfaring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/kompetanseheving-i-arbeidstiden-innspill-fra-20-%C3%A5rs-erfaring/</guid>
+      <description>&lt;p&gt;Mange bedrifter velger faste læredager, mens vi har hatt gode erfaringer med å kjøre flere parallelle løp for kompetansedeling; faggruppe, fagdag, fagskoler, fagkaffe, faglunsj, uformell og formell deling. Gjennom 20 år har vi justert og tilpasset våre metoder, og lært mye underveis. Nå har vi en sterk delingskultur som bidrar til høy trivsel blant ansatte, men hva er den mest effektive måten å sette dette i system på?&lt;/p&gt;&#xA;&lt;p&gt;Vi har gjort tabber det går an å lære av, for eksempel kom ledergruppen begeistret tilbake fra WebSummit i Portugal og bestilte tre Misty roboter - en til hvert kontor. De har stort sett stått og støvet ned i en krok. Forhåpentligvis kan du lære enda mer av hva vi har fått til bra. Vi tar ut noen lærerike statistikker fra timeføringssystemet, har spurt NotebookLM om å tolke oss, og sper på med fortellinger om det vi har erfart er viktigst for en kunnskapsorganisasjon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why you don’t have to be the smartest person in the room</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/why-you-don-t-have-to-be-the-smartest-person-in-the-room/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_2_3/why-you-don-t-have-to-be-the-smartest-person-in-the-room/</guid>
+      <description>&lt;p&gt;As developers, we often feel the pressure to keep up with the latest changes, whether it’s a shiny new CSS framework or the hottest AI tool. Without this knowledge, it’s easy to feel less relevant. Let’s be real: keeping track of every trend is nearly impossible and can lead to burnout. But what if I told you that you can still be a kick-ass developer without knowing it all?&lt;/p&gt;&#xA;&lt;p&gt;In this talk, we’re diving into the concept of Intellectual Humility and how it can transform your mindset as a software developer. I’ll share some of my own stories to show you how this approach can help and, more importantly, how you can use it in your daily work as a dev.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

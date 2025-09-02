@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 1 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/5_short_talks/kongesalen_1/</link>
+    <description>Recent content in Kongesalen 1 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/5_short_talks/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Helsenorge.no. Hvordan bygger vi skuta om til et containerskip mens vi er i fart.</title>
+      <link>https://www.boosterconf.no/2025/program/friday/5_short_talks/kongesalen_1/helsenorge-no-hvordan-bygger-vi-skuta-om-til-et-containerskip-mens-vi-er-i-fart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/5_short_talks/kongesalen_1/helsenorge-no-hvordan-bygger-vi-skuta-om-til-et-containerskip-mens-vi-er-i-fart/</guid>
+      <description>&lt;p&gt;Helsenorge.no er på en moderniseringsreise for å for å holde tritt med teknologiens fremgang og endrede brukerbehov. Denne talken tar for seg overgangen fra en monolittisk IT-arkitektur til en moderne, skalerbar løsning ved hjelp av .Net og Kubernetes – alt mens vi holder tjenestene i drift.&lt;/p&gt;&#xA;&lt;p&gt;I talken snakker jeg om hvordan en stor utviklingsorganisasjon tar innover seg helt nye verktøy og metoder, samtidig som vi holder farten oppe. Hvilke utfordringer har vi møtt underveis, og hvordan har vi løst dem? Vi snakker gjenbrukbare løsninger og GitOps i stor skala.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

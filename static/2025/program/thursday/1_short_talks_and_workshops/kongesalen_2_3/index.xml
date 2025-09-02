@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 2-3 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/</link>
+    <description>Recent content in Kongesalen 2-3 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A short journey with mob programming</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/a-short-journey-with-mob-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/a-short-journey-with-mob-programming/</guid>
+      <description>&lt;p&gt;Ever thought about trying mob programming? Come listen to this introduction to mob programming and learn from the ups and downs my team faced when trying it out for the first time. Like everything mob programming is a skill that needs to be learned, but I hope this talk will give you some stepping stones for your own journey.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Historia om designsystemet Aksel (NAV)</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/historia-om-designsystemet-aksel-nav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/historia-om-designsystemet-aksel-nav/</guid>
+      <description>&lt;p&gt;I dette innlegget vil ein få høyre historia om Aksel og utviklinga frå eit designsystem som ikkje var skalert for ein moderne produktorganisasjon til å bli ei verktøykasse for digital produktutvikling som er god likt og veldig mykje brukt i NAV. Innhaldet vil ha følgjande element:&#xA;Kort om bakgrunnen til kvifor vi fekk lage Aksel&#xA;Arbeid med visjon og strategi og merkevare, og kvifor dette har vore heilt vesentleg for den posisjonen vi har i dag.&#xA;Korleis bygge det rette teamet&#xA;Justering av arbeidsmetodikk (radical focus), og kvifor det er viktig med mål&#xA;Slik jobber teamet i det daglege med design, kode og uu&#xA;Kvifor eit designsystem er heilt vesentleg for ein stor organisasjon som NAV&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Practical Domain-Driven Design - Case Study from Healthcare</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/practical-domain-driven-design-case-study-from-healthcare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/kongesalen_2_3/practical-domain-driven-design-case-study-from-healthcare/</guid>
+      <description>&lt;p&gt;In many cross-functional teams we encounter communication challenges between different roles in the team. Making domain experts, designers, testers, developers and tech leads align on the shared understanding is not an easy task. This is mainly due to different perspectives that each team member brings to the table, each perspective being a valid one however not adequate on its own. The different perspectives are particularly visible when reasoning about different approaches to the decomposition of the domain problem at hand which leads to different perceptions of subdomains and bounded contexts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

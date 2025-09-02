@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/</link>
+    <description>Recent content in Kongesalen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The beginner&#39;s guide to ARIA. How to use it and why you should normally leave it alone.</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/the-beginner-s-guide-to-aria-how-to-use-it-and-why-you-should-normally-leave-it-alone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/the-beginner-s-guide-to-aria-how-to-use-it-and-why-you-should-normally-leave-it-alone/</guid>
+      <description>&lt;p&gt;If you have worked in frontend development for a while, and have tried to make your solutions accessible to all, you have probably encountered a few aria-attributes - small hints to screen readers about how to interpret elements on the web page.&lt;/p&gt;&#xA;&lt;p&gt;ARIA can be very helpful and in some cases completely necessary to provide users of screen readers the same experience as seeing users. However, it can also be really destructive. There are many reasons why the first rule of ARIA is to not use ARIA (if you can), and why websites with ARIA attributes are generally less accessible than those without any ARIA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why you and BFF should be BFF&#39;s</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/why-you-and-bff-should-be-bff-s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/why-you-and-bff-should-be-bff-s/</guid>
+      <description>&lt;p&gt;BFF, or Backend For Frontend, is a pattern designed to abstract away details from the frontend, by implementing them in a backend. When you are making an application that authenticates the user through OAuth flows and OpenID Connect, this pattern allows you to make the client a more secure confidential client, instead of a less secure public client.&lt;/p&gt;&#xA;&lt;p&gt;In this talk I will explain what problems this pattern addresses, when you can use it, and why you should become BFF&amp;rsquo;s with your authentication flows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>View Transitions: The brand-new browser API that will blow your mind</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/view-transitions-the-brand-new-browser-api-that-will-blow-your-mind/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/view-transitions-the-brand-new-browser-api-that-will-blow-your-mind/</guid>
+      <description>&lt;p&gt;Have you ever wondered why a well-made native app often feels way smoother than a similar web page? The answer is that native apps have long wielded the full power of seamless transitions, while on the web we have had to use heavy JavaScript frameworks to accomplish anything remotely similar.&lt;/p&gt;&#xA;&lt;p&gt;That ends now! In this lightning talk we will take a look at the brand new View Transitions API, a browser API that lets you control every aspect of the transition between web pages with just a few lines of CSS. In addition to seeing what the API is capable of we will dive under the hood to see how exactly the API does its magic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Process 1 billion rows and save the world</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/process-1-billion-rows-and-save-the-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/5_lightning_talks/kongesalen_4/process-1-billion-rows-and-save-the-world/</guid>
+      <description>&lt;p&gt;A good intuition for low level code allows us to make decisions in high level code that embarrassingly often reduces environmental impact (and cloud costs) by 90%.&lt;/p&gt;&#xA;&lt;p&gt;The 1 Billion Rows Challenge is a perfect rabbit hole of a tool to go from any skill level to any deeper skill level.&lt;/p&gt;&#xA;&lt;p&gt;I will describe how to get started in a good way with it, and hopefully &amp;ldquo;nerd snipe&amp;rdquo; some of you.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

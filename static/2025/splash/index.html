@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Partner&#39;s splash - Booster Conference 2025 Bergen</title>
+    <meta name="title" content="Booster Conference 2025">
+    <meta name="description" content="Booster Conference, The Software Conference for the Whole Team">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.boosterconf.no/">
+    <meta property="og:title" content="Booster Conference 2025">
+    <meta property="og:description" content="Booster Conference, The Software Conference for the Whole Team">
+    <meta property="og:image" content="/2025/images/workshops.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.boosterconf.no/2025/">
+    <meta property="twitter:title" content="Booster Conference 2025">
+    <meta property="twitter:description" content="Booster Conference, The Software Conference for the Whole Team">
+    <meta property="twitter:image" content="/2025/images/workshops.jpg">
+    
+    <link rel="stylesheet" href="/2025/css/main.css?1756817985">
+    <link href="/2025/css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/2025/images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div class="splash">
+            <div class="splash-grid">
+            
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+            
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+            
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+            
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+                        <div class="splash-cell invisible"></div>
+                    
+            
+            </div>
+        </div>
+        <script>
+            
+            const columns = 5;
+            const rows = 4;
+
+            
+            let inactiveImages = [
+            
+                "\/2025\/partners\/logos\/Itera-logo-lobster.png",
+            
+                "\/2025\/partners\/logos\/acos.png",
+            
+                "\/2025\/partners\/logos\/atea.svg",
+            
+                "\/2025\/partners\/logos\/bouvet.png",
+            
+                "\/2025\/partners\/logos\/capgemini.svg",
+            
+                "\/2025\/partners\/logos\/casi.png",
+            
+                "\/2025\/partners\/logos\/dnb.png",
+            
+                "\/2025\/partners\/logos\/equinor.png",
+            
+                "\/2025\/partners\/logos\/eviny.png",
+            
+                "\/2025\/partners\/logos\/experis.png",
+            
+                "\/2025\/partners\/logos\/fanasparebank.svg",
+            
+                "\/2025\/partners\/logos\/frende.png",
+            
+                "\/2025\/partners\/logos\/highsoft.png",
+            
+                "\/2025\/partners\/logos\/instech.png",
+            
+                "\/2025\/partners\/logos\/itslearning.png",
+            
+                "\/2025\/partners\/logos\/kantega2.png",
+            
+                "\/2025\/partners\/logos\/knowit.svg",
+            
+                "\/2025\/partners\/logos\/kraftlauget.png",
+            
+                "\/2025\/partners\/logos\/miles2.svg",
+            
+                "\/2025\/partners\/logos\/nordea.png",
+            
+                "\/2025\/partners\/logos\/noria.png",
+            
+                "\/2025\/partners\/logos\/ren.svg",
+            
+                "\/2025\/partners\/logos\/scaleaq.png",
+            
+                "\/2025\/partners\/logos\/silverlining.png",
+            
+                "\/2025\/partners\/logos\/skatteetaten.svg",
+            
+                "\/2025\/partners\/logos\/solea.png",
+            
+                "\/2025\/partners\/logos\/sonat.png",
+            
+                "\/2025\/partners\/logos\/soprasteria.png",
+            
+                "\/2025\/partners\/logos\/spv.png",
+            
+                "\/2025\/partners\/logos\/stacc.svg",
+            
+                "\/2025\/partners\/logos\/visito.png",
+            
+                "\/2025\/partners\/logos\/webstep.svg",
+            
+            ];
+            let activeImages = []
+
+            
+            inactiveImages.sort(() => Math.random() - 0.5)
+
+            
+            let cells = document.querySelectorAll(".splash .splash-cell")
+            cells.forEach(cell => {
+                const imgSrc = inactiveImages.pop();
+                activeImages.unshift(imgSrc)
+                const img = document.createElement("img");
+                img.setAttribute("src", imgSrc)
+                cell.classList.remove("invisible");
+                cell.classList.add("visible");
+                cell.appendChild(img);
+            })
+
+            
+            for (let i = 0; i < 3; i++) {
+                const cells = document.querySelectorAll(".splash .visible");
+                const cell = cells[Math.floor(Math.random() * cells.length)];
+                const imgSrc = cell.querySelector("img").getAttribute("src");
+                const index = activeImages.indexOf(imgSrc);
+                activeImages.splice(index, 1);
+                inactiveImages.unshift(imgSrc);
+                cell.classList.remove("visible");
+                cell.classList.add("invisible");
+            }
+
+            
+            activeImages.sort(() => Math.random() - 0.5)
+
+            function insertLogo() {
+                let inactiveCells = document.querySelectorAll(".splash .invisible")
+                if (inactiveCells.length <= 0) {
+                    return;
+                }
+                let cell = inactiveCells[Math.floor(Math.random() * inactiveCells.length)];
+                const imgSrc = inactiveImages.pop();
+                activeImages.unshift(imgSrc);
+                const img = document.createElement("img");
+                img.setAttribute("src", imgSrc)
+                cell.innerHTML = '';
+                cell.appendChild(img);
+                cell.classList.remove("invisible");
+                cell.classList.add("visible");
+            }
+
+            function removeLogo() {
+                const imgSrcToRemove = activeImages.pop();
+                const cell = document.querySelector(`.splash img[src="${imgSrcToRemove}"]`).parentElement;
+                inactiveImages.unshift(imgSrcToRemove);
+                cell.classList.remove("visible");
+                cell.classList.add("invisible");
+            }
+
+            setInterval(insertLogo, 2000)
+            setTimeout(() => setInterval(removeLogo, 2000), 1000);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dreggen 7 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_7/</link>
+    <description>Recent content in Dreggen 7 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimized Java for Sustainability</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_7/optimized-java-for-sustainability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_7/optimized-java-for-sustainability/</guid>
+      <description>&lt;p&gt;Today, our industry already consumes about 10% of the world&amp;rsquo;s electricity. By 2030, this will double. Not only do we emit as much CO2 as aviation (approximately 4%), but with current energy prices, this becomes very expensive. The next big change in aviation will be planes moving away from fossil fuels (biofuels and/or electric aircraft). While this likely won&amp;rsquo;t happen in the next 10 years, that&amp;rsquo;s the direction they&amp;rsquo;re heading. We, on the other hand, appears to be on an exponential increase in energy consumption and emissions. Yet &amp;ldquo;flight shame&amp;rdquo; is a common term, while &amp;ldquo;Netflix shame&amp;rdquo; remains unknown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Process 1 billion rows and save the world</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_7/process-1-billion-rows-and-save-the-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_7/process-1-billion-rows-and-save-the-world/</guid>
+      <description>&lt;p&gt;Green computing is a growing trend, both for the environment and for saving cloud costs. For developers, this means understanding how to write efficient software.&lt;/p&gt;&#xA;&lt;p&gt;The popular &amp;ldquo;1 Billion Row Challenge&amp;rdquo; (1brc.dev) is a fun tool to get hands-on experience in how various coding techniques can make a difference. Cutting your processing time by 90% is easier than you might think!&lt;/p&gt;&#xA;&lt;p&gt;First we will focus on writing code that can read an input file of 14 gigabytes in the first place, and perform necessary processing to get a basic solution for the &amp;ldquo;1 Billion Row Challenge&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

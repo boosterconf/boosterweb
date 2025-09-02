@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 5 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/kongesalen_5/</link>
+    <description>Recent content in Kongesalen 5 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/kongesalen_5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous accessibility testing</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/kongesalen_5/continuous-accessibility-testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/kongesalen_5/continuous-accessibility-testing/</guid>
+      <description>&lt;p&gt;In modern software development, with short sprints or even continuous deployment of code, time for manual testing can often be scarce. If we want to properly test for accessibility, we need to make every effort to automate what can be automated, so we can spend our time where it is most valuable.&lt;/p&gt;&#xA;&lt;p&gt;By attending this workshop, you will get hands-on experience with different tools to test for accessibility. We will cover linting, unit testing and ui-/integration testing using Eslint, React Testing Library, Cypress and Axe. You will also learn about which types of tests you can&amp;rsquo;t automate, and be introduced to some tools to aid your manual testing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

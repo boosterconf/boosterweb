@@ -51,7 +51,7 @@ http {
 		}
 
 		location ~ ^/?$ {
-			return 302 https://www.boosterconf.no/2025${request_uri};
+			return 302 https://www.boosterconf.no/2026{request_uri};
 			## Clean URLs: match on extensionless requests.
 			# try_files $uri $uri/ $uri.html =404;
 
@@ -62,7 +62,7 @@ http {
 
 		expires 1m;
 
-		location /2025/images {
+		location ~* /(2025|2026)/images {
 			expires 1d;
 		}
 			

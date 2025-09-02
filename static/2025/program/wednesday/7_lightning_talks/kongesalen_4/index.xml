@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/</link>
+    <description>Recent content in Kongesalen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why does Fetch make you wait twice?</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/why-does-fetch-make-you-wait-twice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/why-does-fetch-make-you-wait-twice/</guid>
+      <description>&lt;p&gt;Anyone who&amp;rsquo;s worked with the Fetch API in JavaScript has probably wondered why you have to await twice — first for the response and then for the body. If you&amp;rsquo;re anything like me, you probably just accepted this as how the API works and moved on with your work. But now I&amp;rsquo;ve gone back and done a deep dive into Fetch so you don&amp;rsquo;t have to!&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll take a look at how data is transmitted over the Internet and have a closer look at Streams in Javascript. Expect to gain a better understanding of their funky features and how you can use them to your advantage. At the very least, you&amp;rsquo;ll leave with the satisfaction of actually understanding why you need to wait twice when using Fetch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Secrets Belong in Git</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/why-secrets-belong-in-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/why-secrets-belong-in-git/</guid>
+      <description>&lt;p&gt;Encrypted secrets that is! The audience will learn about tools and techniques that will enable them to version control secrets alongside the code these secrets belong to. Easily share secrets with new team members and get a full audit log as a bonus. All while following modern security practices.&lt;/p&gt;&#xA;&lt;p&gt;The session will introduce SOPS and how attendees can use keys stored in secure remote services like Azure Key Vault or HashiCorp Vault to encrypt and decrypt files. Access is easily controlled through the same identity providers they use for other services. The presentation will cover some gotchas to be aware of, but there&amp;rsquo;s no need to be afraid of putting secrets in Git!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>You don&#39;t like OOP, you like Polymorphism</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/you-don-t-like-oop-you-like-polymorphism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/you-don-t-like-oop-you-like-polymorphism/</guid>
+      <description>&lt;p&gt;When a programming paradigm becomes as prevalent as Object Oriented Programming, one can lose sight of the bigger picture and more universally applicable ideas can seem like a feature of OOP.&#xA;Join me on a brief exploration of how data is structured into types and how polymorphism is the real star of modern programming.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parse Now or Validate Forever</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/parse-now-or-validate-forever/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/7_lightning_talks/kongesalen_4/parse-now-or-validate-forever/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Wait, haven&amp;rsquo;t I already done that?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Unless you&amp;rsquo;re a compiler, whether a particular value has and hasn&amp;rsquo;t been validated isn&amp;rsquo;t always obvious. Do you verify that the value has been validated somewhere else, or would you rather double-check for some extra peace of mind? Neither of these options are particularly appealing, so what can we do instead? By putting the type system to work, we can become certain that a value has been validated where we need it. Boost your confidence in your code with &lt;em&gt;parsing&lt;/em&gt;: Structure your inputs at the very edge of your API, and say farewell to endless validation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

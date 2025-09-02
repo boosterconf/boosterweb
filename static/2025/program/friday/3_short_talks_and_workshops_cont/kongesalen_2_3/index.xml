@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 2-3 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/</link>
+    <description>Recent content in Kongesalen 2-3 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teaching an old dog new tricks : Modern Deployment Techniques on Legacy Platform</title>
+      <link>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/teaching-an-old-dog-new-tricks-modern-deployment-techniques-on-legacy-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/teaching-an-old-dog-new-tricks-modern-deployment-techniques-on-legacy-platform/</guid>
+      <description>&lt;p&gt;Deploying modern technologies on a legacy platform often feels like trying to fit a square peg into a round hole. As an enterprise SaaS, itslearning must adopt fast, low-cost strategies while working within the constraints of legacy infrastructure. In this presentation, we’ll share the story of how we managed to use the latest deployment techniques, even though our platform wasn’t designed to support them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transforming Energy Trading with a Real-Time Streaming Data Platform</title>
+      <link>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/transforming-energy-trading-with-a-real-time-streaming-data-platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/transforming-energy-trading-with-a-real-time-streaming-data-platform/</guid>
+      <description>&lt;p&gt;I will share Eviny Fornybar’s journey from a traditional SQL Server environment to a cutting-edge real-time data platform, showcasing how it is used in algorithmic trading within the energy market. I’ll briefly discuss the challenges we encountered and the key decisions that shaped our path through Databricks and Kafka, before ultimately arriving at a platform where NATS with Jetstream forms the backbone. Join us to learn how we built a platform that delivers both real-time and historical data capabilities, that supports fast decision-making and strategic insights&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_4/</link>
+    <description>Recent content in Kongesalen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>User Authentication: A Deep Dive</title>
+      <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_4/user-authentication-a-deep-dive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/kongesalen_4/user-authentication-a-deep-dive/</guid>
+      <description>&lt;p&gt;In this workshop we’ll explore how user authentication works, risks involved, and common attacks targeting authentication systems. Through a mix of lectures, group discussions, and hands-on labs, you’ll develop a stronger understanding of secure authentication principles.&lt;/p&gt;&#xA;&lt;p&gt;This workshop is ideal for anyone involved in designing or building applications that require user authentication. By the end, you&amp;rsquo;ll have a clearer understanding of authentication challenges and strategies, making it easier to address them in your future projects.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

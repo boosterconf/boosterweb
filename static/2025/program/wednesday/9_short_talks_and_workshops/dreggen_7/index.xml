@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dreggen 7 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_7/</link>
+    <description>Recent content in Dreggen 7 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSS Workshop: Mastering 3D Animations</title>
+      <link>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_7/css-workshop-mastering-3d-animations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/wednesday/9_short_talks_and_workshops/dreggen_7/css-workshop-mastering-3d-animations/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s take a deep dive into the world of perspective and movement, and open ourselves to a new dimension (literally) of CSS.&lt;/p&gt;&#xA;&lt;p&gt;Join us and learn how to harness the power of CSS to add depth to your elements and spice up your design with animated 3D buttons, menus, info cards, and more. This is a fully &amp;lsquo;Hands-on&amp;rsquo; workshop, with a lot of live-coding, aimed for intermediate level developers who want to advance their CSS skills, and advanced developers who want to improve their knowledge on animations and perspective in CSS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

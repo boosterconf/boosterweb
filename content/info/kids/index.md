@@ -1,7 +1,7 @@
 ---
 title: "Booster Kids"
 type: kids
-draft: false
+draft: true
 menu:
     main:
         weight: 22

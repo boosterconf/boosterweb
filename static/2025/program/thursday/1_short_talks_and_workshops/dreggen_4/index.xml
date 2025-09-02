@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dreggen 4 on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_4/</link>
+    <description>Recent content in Dreggen 4 on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bli kjent med React Server Components</title>
+      <link>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_4/bli-kjent-med-react-server-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/thursday/1_short_talks_and_workshops/dreggen_4/bli-kjent-med-react-server-components/</guid>
+      <description>&lt;p&gt;Med React 19 innføres en av de mer spennende nyhetene i React på lang tid: React Server Components (RSCs).&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Hva er React Server Components?&amp;rdquo; spør du kanskje. Veldig kort fortalt kan RSCs sees på som server-side rendering (SSR) på steroider.&lt;/p&gt;&#xA;&lt;p&gt;Litt mindre kort fortalt kan RSCs selv hente data og rendres i sin helhet på serveren (eller i et byggsteg).&#xA;Den produserte HTMLen fra komponenten blir så sendt til klienten hvor den flettes automagisk inn i komponent-treet 🤯&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

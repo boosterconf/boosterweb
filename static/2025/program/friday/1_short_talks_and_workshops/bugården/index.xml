@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bugården on Booster Conference 2025 Bergen</title>
+    <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/bug%C3%A5rden/</link>
+    <description>Recent content in Bugården on Booster Conference 2025 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/bug%C3%A5rden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Observability with OpenTelemetry: From Idea to Insight</title>
+      <link>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/bug%C3%A5rden/observability-with-opentelemetry-from-idea-to-insight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.boosterconf.no/2025/program/friday/1_short_talks_and_workshops/bug%C3%A5rden/observability-with-opentelemetry-from-idea-to-insight/</guid>
+      <description>&lt;p&gt;OpenTelemetry might be the biggest thing that has happened in the OpenSource ecosystem since Kubernetes. With a much steeper contribution graph, and the recent General Availability of the specification, OpenTelemetry is now ready for prime time with more and more observability vendors supporting the standard.&lt;/p&gt;&#xA;&lt;p&gt;Getting insights from your applications is absolutely vital for modern software development teams that want to release new functionality with confidence. The process of programming your application to give this insight is often called instrumentation and we often refer to the three pillars of observability; logs, metrics and tracing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
