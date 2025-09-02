@@ -1,3 +1,5 @@
-{{ with ( index .Pages 0 ) }}
-    {{ .Render "list" }}
+{{ define "main" }}
+    {{ with ( index .Pages 0 ) }}
+        {{ .Render "view_list" }}
+    {{ end }}
 {{ end }}
