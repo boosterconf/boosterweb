@@ -1,134 +1,134 @@
 ---
 headless: true
 resources:
-    - src: logos/acos.png
-      title: ACOS
-      params:
-        url: https://www.acos.no/
-    - src: logos/atea.svg
-      title: ATEA
-      params:
-        url: https://www.atea.no
-    - src: logos/bouvet.png
-      title: Bouvet
-      params:
-        url: https://www.bouvet.no/
-    - src: logos/capgemini.svg
-      title: Capgemini
-      params:
-        url: https://www.capgemini.com/
-    - src: logos/casi.png
-      title: Casi
-      params:
-        url: https://www.casi.auto
-    - src: logos/dnb.png
-      title: DNB
-      params:
-        url: https://www.dnb.no/
-    - src: logos/equinor.png
-      title: Equinor
-      params:
-        url: https://www.equinor.com/no
-    - src: logos/eviny.png
-      title: Eviny
-      params:
-        url: https://www.eviny.no/
-    - src: logos/experis.png
-      title: Experis
-      params:
-        url: https://www.experis.no/nb
-    - src: logos/fanasparebank.svg
-      title: Fana Sparebank
-      params:
-        url: https://www.fanasparebank.no/
-    - src: logos/frende.png
-      title: Frende
-      params:
-        url: https://www.frende.no
-    - src: logos/highsoft.png
-      title: Highsoft
-      params:
-        url: https://www.highcharts.com/
-    - src: logos/instech.png
-      title: Instech
-      params:
-        url: https://www.instech.no/
-    - src: logos/Itera-logo-lobster.png
-      title: Itera
-      params:
-        url: https://www.itera.com/no/
-    - src: logos/itslearning.png
-      title: Itslearning
-      params:
-        url: https://itslearning.com/
-    - src: logos/kantega2.png
-      title: Kantega
-      params:
-        url: http://www.kantega.no
-    - src: logos/knowit.svg
-      title: Knowit
-      params:
-        url: http://www.knowit.no
-    - src: logos/kraftlauget.png
-      title: Kraftlauget
-      params:
-        url: https://www.kraftlauget.no/
-    - src: logos/miles2.svg
-      title: Miles
-      params:
-        url: http://www.miles.no
-    - src: logos/nordea.png
-      title: Nordea
-      params:
-        url: https://www.nordea.no/
-    - src: logos/noria.png
-      title: Noria
-      params:
-        url: https://www.noria.no/
-    - src: logos/solea.png
-      title: Solea
-      params:
-        url: http://www.solea.no
-    - src: logos/scaleaq.png
-      title: ScaleAQ
-      params:
-        url: https://www.scaleaq.no/
-    - src: logos/sonat.png
-      title: Sonat Consulting
-      params:
-        url: http://www.sonat.no
-    - src: logos/soprasteria.png
-      title: Sopra Steria
-      params:
-        url: https://www.soprasteria.no/
-    - src: logos/spv.png
-      title: Sparebanken Vest
-      params:
-        url: https://www.spv.no/
-    - src: logos/stacc.svg
-      title: Stacc
-      params:
-        url: https://stacc.com/
-    - src: logos/webstep.svg
-      title: Webstep
-      params:
-        url: https://www.webstep.no/
-    - src: logos/ren.svg
-      title: REN
-      params:
-        url: https://www.ren.no/
-    - src: logos/visito.png
-      title: Visito
-      params:
-        url: https://www.visito.no/
-    - src: logos/skatteetaten.svg
-      title: Skatteetaten
-      params:
-        url: https://www.skatteetaten.no/
-    - src: logos/silverlining.png
-      title: SilverLining IT
-      params:
-        url: https://www.silverliningit.no/
+#    - src: logos/acos.png
+#      title: ACOS
+#      params:
+#        url: https://www.acos.no/
+#    - src: logos/atea.svg
+#      title: ATEA
+#      params:
+#        url: https://www.atea.no
+#    - src: logos/bouvet.png
+#      title: Bouvet
+#      params:
+#        url: https://www.bouvet.no/
+#    - src: logos/capgemini.svg
+#      title: Capgemini
+#      params:
+#        url: https://www.capgemini.com/
+#    - src: logos/casi.png
+#      title: Casi
+#      params:
+#        url: https://www.casi.auto
+#    - src: logos/dnb.png
+#      title: DNB
+#      params:
+#        url: https://www.dnb.no/
+#    - src: logos/equinor.png
+#      title: Equinor
+#      params:
+#        url: https://www.equinor.com/no
+#    - src: logos/eviny.png
+#      title: Eviny
+#      params:
+#        url: https://www.eviny.no/
+#    - src: logos/experis.png
+#      title: Experis
+#      params:
+#        url: https://www.experis.no/nb
+#    - src: logos/fanasparebank.svg
+#      title: Fana Sparebank
+#      params:
+#        url: https://www.fanasparebank.no/
+#    - src: logos/frende.png
+#      title: Frende
+#      params:
+#        url: https://www.frende.no
+#    - src: logos/highsoft.png
+#      title: Highsoft
+#      params:
+#        url: https://www.highcharts.com/
+#    - src: logos/instech.png
+#      title: Instech
+#      params:
+#        url: https://www.instech.no/
+#    - src: logos/Itera-logo-lobster.png
+#      title: Itera
+#      params:
+#        url: https://www.itera.com/no/
+#    - src: logos/itslearning.png
+#      title: Itslearning
+#      params:
+#        url: https://itslearning.com/
+#    - src: logos/kantega2.png
+#      title: Kantega
+#      params:
+#        url: http://www.kantega.no
+#    - src: logos/knowit.svg
+#      title: Knowit
+#      params:
+#        url: http://www.knowit.no
+#    - src: logos/kraftlauget.png
+#      title: Kraftlauget
+#      params:
+#        url: https://www.kraftlauget.no/
+#    - src: logos/miles2.svg
+#      title: Miles
+#      params:
+#        url: http://www.miles.no
+#    - src: logos/nordea.png
+#      title: Nordea
+#      params:
+#        url: https://www.nordea.no/
+#    - src: logos/noria.png
+#      title: Noria
+#      params:
+#        url: https://www.noria.no/
+#    - src: logos/solea.png
+#      title: Solea
+#      params:
+#        url: http://www.solea.no
+#    - src: logos/scaleaq.png
+#      title: ScaleAQ
+#      params:
+#        url: https://www.scaleaq.no/
+#    - src: logos/sonat.png
+#      title: Sonat Consulting
+#      params:
+#        url: http://www.sonat.no
+#    - src: logos/soprasteria.png
+#      title: Sopra Steria
+#      params:
+#        url: https://www.soprasteria.no/
+#    - src: logos/spv.png
+#      title: Sparebanken Vest
+#      params:
+#        url: https://www.spv.no/
+#    - src: logos/stacc.svg
+#      title: Stacc
+#      params:
+#        url: https://stacc.com/
+#    - src: logos/webstep.svg
+#      title: Webstep
+#      params:
+#        url: https://www.webstep.no/
+#    - src: logos/ren.svg
+#      title: REN
+#      params:
+#        url: https://www.ren.no/
+#    - src: logos/visito.png
+#      title: Visito
+#      params:
+#        url: https://www.visito.no/
+#    - src: logos/skatteetaten.svg
+#      title: Skatteetaten
+#      params:
+#        url: https://www.skatteetaten.no/
+#    - src: logos/silverlining.png
+#      title: SilverLining IT
+#      params:
+#        url: https://www.silverliningit.no/
 
 # ------==== Old Partners ====--------------------------
 #   To add one of these:
