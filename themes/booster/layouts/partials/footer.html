@@ -2,7 +2,7 @@
     {{ $partners := .Site.GetPage "/partners" }}
     <ul class="sponsorlogos">
         {{ range  $partners.Resources.Match "logos/*"  }}
-
+          {{ if isset .Params "url" }}
             {{ if eq (path.Ext .) ".svg"}}
                 <li>
                     <a target="_blank" title="{{ .Title }}" href="{{ .Params.url }}">
@@ -27,6 +27,7 @@
                     </a>
                 </li>
             {{ end }}
+          {{ end }}
         {{ end }}
     </ul>
     {{ with .Site.GetPage "/info/become-a-partner" }}

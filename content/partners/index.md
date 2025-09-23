@@ -21,10 +21,10 @@ resources:
 #      title: Casi
 #      params:
 #        url: https://www.casi.auto
-#    - src: logos/dnb.png
-#      title: DNB
-#      params:
-#        url: https://www.dnb.no/
+    - src: logos/dnb.png
+      title: DNB
+      params:
+        url: https://www.dnb.no/
 #    - src: logos/equinor.png
 #      title: Equinor
 #      params:
@@ -49,10 +49,10 @@ resources:
 #      title: Highsoft
 #      params:
 #        url: https://www.highcharts.com/
-#    - src: logos/instech.png
-#      title: Instech
-#      params:
-#        url: https://www.instech.no/
+    - src: logos/instech.png
+      title: Instech
+      params:
+        url: https://www.instech.no/
 #    - src: logos/Itera-logo-lobster.png
 #      title: Itera
 #      params:
@@ -73,10 +73,10 @@ resources:
 #      title: Kraftlauget
 #      params:
 #        url: https://www.kraftlauget.no/
-#    - src: logos/miles2.svg
-#      title: Miles
-#      params:
-#        url: http://www.miles.no
+    - src: logos/miles2.svg
+      title: Miles
+      params:
+        url: http://www.miles.no
 #    - src: logos/nordea.png
 #      title: Nordea
 #      params:
@@ -109,10 +109,10 @@ resources:
 #      title: Stacc
 #      params:
 #        url: https://stacc.com/
-#    - src: logos/webstep.svg
-#      title: Webstep
-#      params:
-#        url: https://www.webstep.no/
+    - src: logos/webstep.svg
+      title: Webstep
+      params:
+        url: https://www.webstep.no/
 #    - src: logos/ren.svg
 #      title: REN
 #      params:
