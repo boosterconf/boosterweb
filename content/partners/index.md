@@ -61,10 +61,10 @@ resources:
 #      title: Itslearning
 #      params:
 #        url: https://itslearning.com/
-#    - src: logos/kantega2.png
-#      title: Kantega
-#      params:
-#        url: http://www.kantega.no
+    - src: logos/kantega.svg
+      title: Kantega
+      params:
+        url: http://www.kantega.no
 #    - src: logos/knowit.svg
 #      title: Knowit
 #      params:
@@ -113,10 +113,10 @@ resources:
       title: Webstep
       params:
         url: https://www.webstep.no/
-#    - src: logos/ren.svg
-#      title: REN
-#      params:
-#        url: https://www.ren.no/
+    - src: logos/ren.svg
+      title: REN
+      params:
+        url: https://www.ren.no/
 #    - src: logos/visito.png
 #      title: Visito
 #      params:
