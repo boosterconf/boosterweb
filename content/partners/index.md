@@ -97,18 +97,18 @@ resources:
 #      title: Sonat Consulting
 #      params:
 #        url: http://www.sonat.no
-#    - src: logos/soprasteria.png
-#      title: Sopra Steria
-#      params:
-#        url: https://www.soprasteria.no/
+    - src: logos/soprasteria.png
+      title: Sopra Steria
+      params:
+        url: https://www.soprasteria.no/
     - src: logos/sparebanken-norge.svg
       title: Sparebanken Norge
       params:
         url: https://www.spv.no/
-#    - src: logos/stacc.svg
-#      title: Stacc
-#      params:
-#        url: https://stacc.com/
+    - src: logos/stacc.svg
+      title: Stacc
+      params:
+        url: https://stacc.com/
     - src: logos/webstep.svg
       title: Webstep
       params:
