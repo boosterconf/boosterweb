@@ -174,10 +174,10 @@ resources:
 #      title: Tryg
 #      params:
 #        url: https://www.tryg.no/
-#    - src: logos/tv2.svg
-#      title: TV2
-#      params:
-#        url: https://www.tv2.no/
+    - src: logos/tv2.svg
+      title: TV2
+      params:
+        url: https://www.tv2.no/
 #    - src: logos/ulriken.svg
 #      title: Ulriken
 #      params:
