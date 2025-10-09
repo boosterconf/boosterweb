@@ -41,10 +41,10 @@ resources:
 #      title: Fana Sparebank
 #      params:
 #        url: https://www.fanasparebank.no/
-#    - src: logos/frende.png
-#      title: Frende
-#      params:
-#        url: https://www.frende.no
+    - src: logos/frende.svg
+      title: Frende
+      params:
+        url: https://www.frende.no
 #    - src: logos/highsoft.png
 #      title: Highsoft
 #      params:
