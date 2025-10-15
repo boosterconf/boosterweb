@@ -170,10 +170,10 @@ resources:
 #      title: TietoEvry
 #      params:
 #        url: https://www.tietoevry.com/no/
-#    - src: logos/tryg.png
-#      title: Tryg
-#      params:
-#        url: https://www.tryg.no/
+    - src: logos/tryg.svg
+      title: Tryg
+      params:
+        url: https://www.tryg.no/
     - src: logos/tv2.svg
       title: TV2
       params:
