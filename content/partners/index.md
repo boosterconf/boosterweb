@@ -45,10 +45,10 @@ resources:
       title: Frende
       params:
         url: https://www.frende.no
-#    - src: logos/highsoft.png
-#      title: Highsoft
-#      params:
-#        url: https://www.highcharts.com/
+    - src: logos/highsoft.svg
+      title: Highsoft
+      params:
+        url: https://www.highcharts.com/
     - src: logos/instech.png
       title: Instech
       params:
