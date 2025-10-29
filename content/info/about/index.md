@@ -24,7 +24,7 @@ resources:
       title: Tomas Osland
     - src: who-are-we/torjus.jpg
       title: Torjus Eidet
-    - src: who-are-we/birgitte.jpg
+    - src: who-are-we/birgitte.png
       title: Birgitte Strand
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
