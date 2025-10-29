@@ -16,8 +16,8 @@ resources:
       title: Gøran Basso
     - src: who-are-we/hakon.jpg
       title: Håkon Heggernes Lerring
-    - src: who-are-we/KnutAnders.jpg
-      title: Knut Anders Stokke
+    # - src: who-are-we/KnutAnders.jpg
+    #   title: Knut Anders Stokke
     - src: who-are-we/lene.jpg
       title: Lene Skorpen Kavli
     - src: who-are-we/tomas.jpg
