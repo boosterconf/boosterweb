@@ -65,10 +65,10 @@ resources:
       title: Kantega
       params:
         url: http://www.kantega.no
-#    - src: logos/knowit.svg
-#      title: Knowit
-#      params:
-#        url: http://www.knowit.no
+    - src: logos/knowit.svg
+      title: Knowit
+      params:
+        url: http://www.knowit.no
 #    - src: logos/kraftlauget.png
 #      title: Kraftlauget
 #      params:
