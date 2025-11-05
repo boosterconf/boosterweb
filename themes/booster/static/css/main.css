@@ -28,9 +28,10 @@
   --color-rust: #b0583f;
   --color-varmkvit: #fefcf6;
   --color-hav-70: #708389;
+  --color-timian: #59736A;
 
   --link-color: var(--color-rust);
-  --body-font-color: var(--color-salvie);
+  --body-font-color: var(--color-timian);
   --heading-color: var(--color-hav);
   --header-color: var(--color-salvie);
   --header-text-color: var(--color-varmkvit);
