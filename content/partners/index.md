@@ -89,10 +89,10 @@ resources:
       title: Solea
       params:
         url: http://www.solea.no
-#    - src: logos/scaleaq.png
-#      title: ScaleAQ
-#      params:
-#        url: https://www.scaleaq.no/
+    - src: logos/scaleaq.png
+      title: ScaleAQ
+      params:
+        url: https://www.scaleaq.no/
 #    - src: logos/sonat.png
 #      title: Sonat Consulting
 #      params:
