@@ -13,10 +13,10 @@ resources:
 #      title: Bouvet
 #      params:
 #        url: https://www.bouvet.no/
-#    - src: logos/capgemini.svg
-#      title: Capgemini
-#      params:
-#        url: https://www.capgemini.com/
+    - src: logos/capgemini.svg
+      title: Capgemini
+      params:
+        url: https://www.capgemini.com/
 #    - src: logos/casi.png
 #      title: Casi
 #      params:
