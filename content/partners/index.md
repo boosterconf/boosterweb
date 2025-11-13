@@ -69,10 +69,10 @@ resources:
       title: Knowit
       params:
         url: http://www.knowit.no
-#    - src: logos/kraftlauget.png
-#      title: Kraftlauget
-#      params:
-#        url: https://www.kraftlauget.no/
+    - src: logos/kraftlauget.png
+      title: Kraftlauget
+      params:
+        url: https://www.kraftlauget.no/
     - src: logos/miles2.svg
       title: Miles
       params:
