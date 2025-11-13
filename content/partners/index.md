@@ -121,10 +121,10 @@ resources:
 #      title: Visito
 #      params:
 #        url: https://www.visito.no/
-#    - src: logos/skatteetaten.svg
-#      title: Skatteetaten
-#      params:
-#        url: https://www.skatteetaten.no/
+    - src: logos/skatteetaten.svg
+      title: Skatteetaten
+      params:
+        url: https://www.skatteetaten.no/
 #    - src: logos/silverlining.png
 #      title: SilverLining IT
 #      params:
