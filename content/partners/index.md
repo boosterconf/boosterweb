@@ -81,10 +81,10 @@ resources:
 #      title: Nordea
 #      params:
 #        url: https://www.nordea.no/
-#    - src: logos/noria.png
-#      title: Noria
-#      params:
-#        url: https://www.noria.no/
+    - src: logos/noria.png
+      title: Noria
+      params:
+        url: https://www.noria.no/
     - src: logos/solea.png
       title: Solea
       params:
