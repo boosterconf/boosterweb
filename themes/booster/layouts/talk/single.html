@@ -1,16 +1,38 @@
 {{ define "main" }}
-    <div class="header-join">
-      <h1>{{ .Title | markdownify }}</h1>
-    </div>
+<meta property="og:title" content="Booster Conference 2026 - {{ .Title }}">
+<meta property="og:description" content="Booster Conference, The Software Conference for the Whole Team">
+
+{{ if eq .Params.talk_type "Keynote" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/experience_01.jpg">
+{{ end }}
+{{ if eq .Params.talk_type "Lightning Talk" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/lightning_02.jpg">
+{{ end }}
+{{ if eq .Params.talk_type "Experience Report" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/open_01.jpg">
+{{ end }}
+{{ if eq .Params.talk_type "Workshop 1,5h" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/workshop_01.jpg">
+{{ end }}
+{{ if eq .Params.talk_type "Workshop 3h" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/workshop_01.jpg">
+{{ end }}
+{{ if eq .Params.talk_type "Open Spaces" }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/quirky_01.jpg">
+{{ end }}
+
+<div class="header-join">
+    <h1>{{ .Title | markdownify }}</h1>
+</div>
 <article class="inner">
-    {{ range .Params.authors  }}
-        {{ range ( where $.Site.Pages "Params.name" . ) }}
-          {{ if .Params.external_profile }}
-            <h4><a href="{{ .Params.external_profile }}">{{ .Params.name }}</a></h4>
-          {{ else }}
-            <h4><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
-          {{ end }}
-        {{ end }}
+    {{ range .Params.authors }}
+    {{ range ( where $.Site.Pages "Params.name" . ) }}
+    {{ if .Params.external_profile }}
+    <h4><a href="{{ .Params.external_profile }}">{{ .Params.name }}</a></h4>
+    {{ else }}
+    <h4><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
+    {{ end }}
+    {{ end }}
     {{ end }}
 
     <p>
@@ -22,7 +44,7 @@
         {{ if .Param "room" }}
         &mdash;
         <span class="muted">{{ .Param "room" }}</span>
-        
+
         {{ end }}
     </p>
 
@@ -32,18 +54,18 @@
     </p>
     {{ end }}
     <p>
-    {{ $files := .Page.Resources }}
-    {{ if $files }}
-    {{ range $files  }}
-      <a href="{{ .RelPermalink }}"><i class="fa fa-sticky-note" title="{{ .Title }}"></i> {{ .Title }}</a>
-    {{ end }}
-    {{ end }}
+        {{ $files := .Page.Resources }}
+        {{ if $files }}
+        {{ range $files }}
+        <a href="{{ .RelPermalink }}"><i class="fa fa-sticky-note" title="{{ .Title }}"></i> {{ .Title }}</a>
+        {{ end }}
+        {{ end }}
     </p>
-  
+
     <div class="description">
-          {{ .Content }}
+        {{ .Content }}
     </div>
-  
-  
-  </article>
-  {{end}}
+
+
+</article>
+{{end}}
