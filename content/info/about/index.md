@@ -20,7 +20,7 @@ resources:
       title: Tomas Osland
     - src: who-are-we/torjus.jpg
       title: Torjus Eidet
-    - src: who-are-we/birgitte.png
+    - src: who-are-we/birgitte.jpg
       title: Birgitte Strand
     - src: who-are-we/sunniva.jpg
       title: Sunniva Stolt-Nielsen
