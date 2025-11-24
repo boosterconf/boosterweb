@@ -166,10 +166,10 @@ resources:
 #      title: Shortcut
 #      params:
 #        url: https://www.shortcut.no/
-#    - src: logos/tietoevry.png
-#      title: TietoEvry
-#      params:
-#        url: https://www.tietoevry.com/no/
+    - src: logos/tietoevry.svg
+      title: TietoEvry
+      params:
+        url: https://www.tietoevry.com/no/
     - src: logos/tryg.svg
       title: Tryg
       params:
