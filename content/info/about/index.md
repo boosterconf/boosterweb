@@ -10,8 +10,6 @@ menu:
 resources:
     - src: who-are-we/david.jpg
       title: David Mellum
-    - src: who-are-we/guro.jpg
-      title: Guro Sivertsen Prestegard
     - src: who-are-we/goran.jpg
       title: Gøran Basso
     - src: who-are-we/hakon.jpg
@@ -24,6 +22,8 @@ resources:
       title: Torjus Eidet
     - src: who-are-we/birgitte.png
       title: Birgitte Strand
+    - src: who-are-we/sunniva.jpg
+      title: Sunniva Stolt-Nielsen
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
