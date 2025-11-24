@@ -2,9 +2,10 @@
 from pathlib import Path
 import os
 
+sessionize_endpoint_id = "1gnvn8rl"
 
-schedule_url = "https://sessionize.com/api/v2/dblm5kaq/view/GridSmart"
-all_url = "https://sessionize.com/api/v2/dblm5kaq/view/All"
+schedule_url = "https://sessionize.com/api/v2/{id}/view/GridSmart".format(id=sessionize_endpoint_id)
+all_url = "https://sessionize.com/api/v2/{id}/view/All".format(id=sessionize_endpoint_id)
 
 from urllib.request import urlopen 
 from urllib.parse import urlparse
@@ -57,6 +58,10 @@ predefined_slots = {
 
 room_weights = {
 }
+
+def create_slots():
+    for day in data_json:
+        slts
 
 def parse_slot(path):
     fm = frontmatter.load(path)
@@ -143,6 +148,7 @@ weight: {room_weights[room]}
 ---"""
     f.write(template)
     return path + "/" + room_key
+
 def write_session_file(room_path, session, weight):
     sessionize = session['sessionize']
     session_title_key = re.sub("[^a-z0-9æøå]", "-", sessionize['title'].lower())
@@ -150,9 +156,9 @@ def write_session_file(room_path, session, weight):
     session_title_key = re.sub("(^-)*(-$)*", "", session_title_key)
 
     session_path = room_path + "/" + session_title_key + ".md"
-#    if not room_exists:
-#        os.makedirs(path + "/" + room_key)
-#        room_index_path = path + "/" + room_key + "/_index.md"
+    # if not room_exists:
+    #     os.makedirs(path + "/" + room_key)
+    #     room_index_path = path + "/" + room_key + "/_index.md"
     session_data = sessions_map[sessionize['title']]
     if not session_data['isServiceSession']:
         session_format = [session_accepted_as[x] for x in session_data['categoryItems'] if x in session_accepted_as][0]['name']
@@ -262,11 +268,11 @@ title: "{speaker_title}"
     
 # for day in data_json:
 #     day_start = parser.parse(day["date"])
-#     if start_new_slot:
-#         print("" + day_start.strftime("%A"))
+#     # if start_new_slot:
+#     #     print("" + day_start.strftime("%A"))
 #     for slot in day["timeSlots"]:
-#         if start_new_slot:
-#             print("\t" + slot["slotStart"])
+#         # if start_new_slot:
+#         #     print("\t" + slot["slotStart"])
 #         start_new_slot = False
 #         for room in slot["rooms"]:
 #             session = room["session"]
@@ -276,6 +282,6 @@ title: "{speaker_title}"
 #                 start_new_slot = True
 #             print("\t\t" + room["name"])
 #             print("\t\t\t" + session["title"])
-
-#day_dir = Path(x[15].value.strftime("content/program/%A").lower())
-#day_dir.mkdir(parents=True, exist_ok=True)
+#
+# day_dir = Path(x[15].value.strftime("content/program/%A").lower())
+# day_dir.mkdir(parents=True, exist_ok=True)
