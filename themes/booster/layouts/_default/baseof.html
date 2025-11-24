@@ -12,7 +12,25 @@
     <meta property="og:url" content="{{ .Site.BaseURL }}">
     <meta property="og:title" content="Booster Conference 2026">
     <meta property="og:description" content="Booster Conference, The Software Conference for the Whole Team">
-    <meta property="og:image" content="{{ .Site.BaseURL }}images/workshops.jpg">
+
+    {{ if eq .Params.talk_type "Keynote" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/experience_01.jpg">
+    {{ end }}
+    {{ if eq .Params.talk_type "Lightning Talk" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/lightning_02.jpg">
+    {{ end }}
+    {{ if eq .Params.talk_type "Experience Report" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/open_01.jpg">
+    {{ end }}
+    {{ if eq .Params.talk_type "Workshop 1,5h" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/workshop_01.jpg">
+    {{ end }}
+    {{ if eq .Params.talk_type "Workshop 3h" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/workshop_01.jpg">
+    {{ end }}
+    {{ if eq .Params.talk_type "Open Spaces" }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/quirky_01.jpg">
+    {{ end }}
 
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ .Site.BaseURL }}">
