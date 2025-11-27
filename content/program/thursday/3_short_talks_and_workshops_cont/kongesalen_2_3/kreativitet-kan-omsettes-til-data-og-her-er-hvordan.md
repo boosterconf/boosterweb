@@ -6,7 +6,7 @@ starts_at: 2026-03-12T10:50:00Z
 ends_at: 2026-03-12T11:20:00Z
 weight: 4
 authors:
-    - Hanna Sendstad
+    - Hanna Aasen Sendstad
 
 ---
 Har du noen gang hatt en dag hvor alt bare flyter...Idéene strømmer på, og arbeidet føles lekende lett? Eller en dag der det stikk motsatte skjer...hvor alt føles tungt, og motivasjonen er på bunn? Hva er det egentlig som driver disse svingningene?
