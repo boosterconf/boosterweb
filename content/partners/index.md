@@ -77,10 +77,10 @@ resources:
       title: Miles
       params:
         url: http://www.miles.no
-#    - src: logos/nordea.png
-#      title: Nordea
-#      params:
-#        url: https://www.nordea.no/
+    - src: logos/nordea.png
+      title: Nordea
+      params:
+        url: https://www.nordea.no/
     - src: logos/noria.png
       title: Noria
       params:
