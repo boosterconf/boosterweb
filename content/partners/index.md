@@ -29,6 +29,10 @@ resources:
 #      title: Equinor
 #      params:
 #        url: https://www.equinor.com/no
+    - src: logos/el-og-it-forbundet.svg
+      title: El og IT Forbundet
+      params:
+        url: https://elogit.no/
 #    - src: logos/eviny.png
 #      title: Eviny
 #      params:
