@@ -46,7 +46,7 @@ We want to encourage independent individuals to join the conversation. This is a
 
 
 
-### Tickets will go on sale January 10th 12:00!
+### Tickets will go on sale January 14th 10:00!
 
 All tickets grants the attendee access to all three days of the conference and the conference dinner on Wednesday.
 
