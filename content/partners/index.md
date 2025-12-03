@@ -9,10 +9,10 @@ resources:
 #      title: ATEA
 #      params:
 #        url: https://www.atea.no
-#    - src: logos/bouvet.png
-#      title: Bouvet
-#      params:
-#        url: https://www.bouvet.no/
+    - src: logos/bouvet.svg
+      title: Bouvet
+      params:
+        url: https://www.bouvet.no/
     - src: logos/capgemini.svg
       title: Capgemini
       params:
