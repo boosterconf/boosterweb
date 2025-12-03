@@ -55,7 +55,7 @@ All tickets grants the attendee access to all three days of the conference and t
 
 **Price:** NOK 8500 + MVA
 
-Our regular ticket for corporate attendees. You fund a significant part of our non-profit 100% volunteer driven conference.
+Our regular ticket. This is for attendees whose companies or employers are covering the cost of their conference tickets. You fund a significant part of our non-profit 100% volunteer driven conference.
 
 #### Individual Nerd Bird Conference Ticket
 
