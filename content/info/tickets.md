@@ -55,11 +55,10 @@ All tickets grants the attendee access to all three days of the conference and t
 
 **Price:** NOK 8500 + MVA
 
-Our regular tickets. Primarily for attendees whose companies or employers are covering the cost of their conference tickets. So most of you.
+Our regular ticket for corporate attendees. You fund a significant part of our non-profit 100% volunteer driven conference.
 
 #### Individual Nerd Bird Conference Ticket
 
 **Price:**: NOK 2000 + MVA
 
-We want to encourage independent individuals to join the conversation. This is a discounted ticket for students, academics, researchers, and others who are financing their own ticket outside of a corporate or institutional budget.
-Send a mail to [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no?subject=Individual%20conference%20ticket) for more information.
+Are you a student, exploring a new career or independently looking to learn and network? We want to help! A limited amount of discounted tickets are available through an application process. Send your application to [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no?subject=Individual%20conference%20ticket).
