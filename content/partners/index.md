@@ -170,6 +170,10 @@ resources:
 #      title: Shortcut
 #      params:
 #        url: https://www.shortcut.no/
+    - src: logos/statens-vegvesen.svg
+      title: Statens Vegvesen
+      params:
+        url: https://www.vegvesen.no/
     - src: logos/tietoevry.svg
       title: TietoEvry
       params:
