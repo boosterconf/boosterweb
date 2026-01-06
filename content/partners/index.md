@@ -33,10 +33,10 @@ resources:
       title: El og IT Forbundet
       params:
         url: https://elogit.no/
-#    - src: logos/eviny.png
-#      title: Eviny
-#      params:
-#        url: https://www.eviny.no/
+    - src: logos/eviny.svg
+      title: Eviny
+      params:
+        url: https://www.eviny.no/
 #    - src: logos/experis.png
 #      title: Experis
 #      params:
