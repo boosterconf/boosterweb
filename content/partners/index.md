@@ -121,10 +121,10 @@ resources:
       title: REN
       params:
         url: https://www.ren.no/
-#    - src: logos/visito.png
-#      title: Visito
-#      params:
-#        url: https://www.visito.no/
+    - src: logos/visito.svg
+      title: Visito
+      params:
+        url: https://www.visito.no/
     - src: logos/skatteetaten.svg
       title: Skatteetaten
       params:
