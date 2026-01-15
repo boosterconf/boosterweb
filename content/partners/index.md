@@ -5,6 +5,10 @@ resources:
 #      title: ACOS
 #      params:
 #        url: https://www.acos.no/
+    - src: logos/apparat.svg
+      title: Apparat
+      params:
+        url: https://www.apparat.no
 #    - src: logos/atea.svg
 #      title: ATEA
 #      params:
