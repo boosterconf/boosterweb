@@ -5,7 +5,7 @@ draft: false
 type: tickets
 ticket_store_link: https://app.checkin.no/event/92093/booster-2025
 ticket_sale_open: true
-sold_out: false
+sold_out: true
 menu:
   main:
     weight: 19
@@ -17,7 +17,7 @@ menu:
 All tickets grants the attendee access to all three days of the conference and the conference dinner on Wednesday.
 
 
-#### [Conference Ticket](https://event.checkin.no/215920/booster-2026)
+#### [Conference Ticket](https://event.checkin.no/215920/booster-2026) — SOLD OUT
 
 **Price:** NOK 8500 + MVA
 
