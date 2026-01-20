@@ -375,6 +375,14 @@ article .map iframe {
   right: 0;
 }
 
+.call-to-action--primary {
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: 0;
+    right: 0;
+}
+
 .call-to-action__link {
   font-family: var(--header-font);
   font-size: var(--font-size-h1);
