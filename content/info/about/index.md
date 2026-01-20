@@ -24,6 +24,8 @@ resources:
       title: Birgitte Strand
     - src: who-are-we/sunniva.jpg
       title: Sunniva Stolt-Nielsen
+    - src: who-are-we/guro.jpg
+      title: Guro Sivertsen Prestegard
 ---
 Booster is a software conference for the entire team. That means if you’re a developer, project manager, architect, UX professional, tester or security professional, we have something for you!
 
