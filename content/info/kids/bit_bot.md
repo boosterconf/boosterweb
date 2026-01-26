@@ -7,7 +7,7 @@ Dere skal bl.a. lære å bruke sensorene på bilen slik at den selv unngår å k
 
 ***Målgruppe: 12-17 år      Plasser: 20***
 
-***Rom: Kongesalen***
+***Rom: Kongesalen 2***
 
 ***Utstyr: Deltakere må ta med egen PC eller Mac (og lader) de kan koble micro:bit-en til.***
 

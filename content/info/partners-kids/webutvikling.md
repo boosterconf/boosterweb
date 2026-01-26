@@ -7,7 +7,7 @@ Det vil være praktiske oppgaver, eksempler, og live-demo som viser hvor lett de
 Man trenger ingen forkunnskaper for å delta, kun PC og godt humør!
 					
 
-***Målgruppe: 13+ år      Plasser: 20***
+***Målgruppe: 12+ år      Plasser: 20***
 
 ***Rom: Bugaarden***
 
