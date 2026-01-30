@@ -392,7 +392,6 @@ article .map iframe {
     background-color: var(--color-hav);
     border: 4px solid var(--header-text-color);
     border-radius: 2px;
-    padding: 18px 36px;
 }
 
 .call-to-action__link {
