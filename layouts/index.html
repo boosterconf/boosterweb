@@ -26,6 +26,16 @@
           </div>
         {{ end }}
 
+        {{ if .Site.GetPage "/program" }}
+          {{ with .Site.GetPage "/program" }}
+            <div class="call-to-action">
+              <a href="{{ .RelPermalink }}" class="call-to-action__link">
+                Program
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+
         {{ if .Site.GetPage "/info/about" }}
           {{ with .Site.GetPage "/info/about" }}
             {{ if .Param "open_for_volunteers" }}
@@ -40,14 +50,10 @@
 
         {{ if .Site.GetPage "/info/tickets" }}
           {{ with .Site.GetPage "/info/tickets" }}
-            {{ if .Param "ticket_sale_open" }}
+            {{ if and (.Param "ticket_sale_open") (not (.Param "sold_out")) }}
               <div class="call-to-action">
                 <a href="{{ .RelPermalink }}" class="call-to-action__link">
-                  {{ if .Param "sold_out" }}
-                    Sold&nbsp;out!
-                  {{ else }}
-                    Tickets
-                  {{ end }}
+                  Tickets
                 </a>
               </div>
             {{ end }}
