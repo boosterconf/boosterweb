@@ -396,6 +396,11 @@ article .map iframe {
 }
 
 .call-to-action__link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+
     font-family: var(--header-font);
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight);
@@ -405,7 +410,7 @@ article .map iframe {
     color: var(--header-text-color);
 }
 
-.call-to-action__link:hover {
+.call-to-action__link:hover, .call-to-action:hover {
   background-color: var(--color-rust);
 }
 
