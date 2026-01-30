@@ -13,8 +13,8 @@ Vi bruker web-editoren, https://editor.p5js.org, til å kode/skrive egne program
 
 ***Målgruppe: 12+ år      Plasser: 25***
 
-***Rom: Kongesalen 1***
+***Rom: Kongesalen 5***
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
-[Meld på Kreativ Koding med P5 her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2025)
+[Meld på Kreativ Koding med P5 her](https://boosterconf.ticketco.events/no/nb/e/kreativ_koding_med_p5js)

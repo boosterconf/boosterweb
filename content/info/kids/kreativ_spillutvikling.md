@@ -14,4 +14,4 @@ Her blir det rom for å bruke fantasien til å lage mye kul!
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
-[Meld på Kreativ Spillutvikling her](https://boosterconf.ticketco.events/no/nb/e/webutvikling_2025)
+[Meld på Kreativ Spillutvikling her](https://boosterconf.ticketco.events/no/nb/e/bli_en_kreativ_spillutvikler_2026)
