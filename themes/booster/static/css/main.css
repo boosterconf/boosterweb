@@ -18,14 +18,14 @@
   --font-weight: 300;
   --font-weight-thin: 100;
 
-  --color-salvie: #6b8a80;
-  --color-mose: #71926e;
-  --color-hav: #324e56;
+  --color-salvie: #6b8a80; /* experience */
+  --color-mose: #71926e;   /* common */
+  --color-hav: #324e56;    /* workshop */
   --color-hav-dus: #324e5677;
   --color-blurple: #243248;
-  --color-oker: #eda842;
+  --color-oker: #eda842;   /* keynote */
   --color-gamalrosa: #dfaca5;
-  --color-rust: #b0583f;
+  --color-rust: #b0583f;   /* lightning talks */
   --color-varmkvit: #fefcf6;
   --color-hav-70: #708389;
   --color-timian: #59736A;
@@ -643,8 +643,8 @@ article .map iframe {
 }
 
 .program .talk.common {
-  border: 2px solid var(--color-salvie);
-  border-left: 8px solid var(--color-salvie);
+  border: 2px solid var(--color-mose);
+  border-left: 8px solid var(--color-mose);
 }
 .program .talk.Workshop {
   border: 2px solid var(--color-hav);
@@ -653,6 +653,14 @@ article .map iframe {
 .program .talk.continuation {
   border: 2px solid var(--color-hav-dus);
   border-left: 8px solid var(--color-hav-dus);
+}
+.program .talk.Keynote, .program .talk.Plenum {
+  border: 2px solid var(--color-oker);
+  border-left: 8px solid var(--color-oker);
+}
+.program .talk.Experience {
+  border: 2px solid var(--color-salvie);
+  border-left: 8px solid var(--color-salvie);
 }
 .program .talk.cancelled {
   border: 2px solid var(--color-hav-dus);
@@ -691,6 +699,16 @@ a.talk {
 
 .talk.Workshop .description .talk-type {
   background: color-mix(in srgb, var(--color-hav) 70%, #fff);
+  color: var(--color-varmkvit);
+}
+
+.talk.Keynote .description .talk-type, .program .talk.Plenum .talk-type {
+  background: color-mix(in srgb, var(--color-oker) 70%, #fff);
+  color: var(--color-varmkvit);
+}
+
+.talk.Experience .description .talk-type {
+  background: color-mix(in srgb, var(--color-salvie) 70%, #fff);
   color: var(--color-varmkvit);
 }
 
