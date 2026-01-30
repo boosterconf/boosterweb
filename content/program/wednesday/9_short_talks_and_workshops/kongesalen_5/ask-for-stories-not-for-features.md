@@ -6,9 +6,9 @@ starts_at: 2026-03-11T12:35:00Z
 ends_at: 2026-03-11T14:05:00Z
 weight: 4
 authors:
-    - Øyvind Nordseth Westbye
     - Erlend Gram Gjesdal
-    - Kaisa Soleng
+    - Øyvind Nordseth Westbye
+    - Kaisa Kamilla Soleng
 
 ---
 "Everybody lies" goes the famous Dr. House quote. Obviously not true, in general and specifically when we do open-ended discovery work. But psychological biases are at play when users try to answer the questions we ask them. If we ask about the wrong thing, we get the wrong answers, and we build the wrong features. 

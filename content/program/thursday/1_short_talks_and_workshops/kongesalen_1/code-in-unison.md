@@ -7,6 +7,7 @@ ends_at: 2026-03-12T09:30:00Z
 weight: 1
 authors:
     - Daan van Berkel
+    - Rico Huijbers
 
 ---
 Unison, a friendly programming language from the future, offers a few interesting new insights into what programming could be.
