@@ -15,36 +15,45 @@
     {{ with $frontImage }}
         <img src="{{ $frontImage.RelPermalink }}" alt="the conference venue seen from the main stage">
     {{ end }}
-    {{ with .Site.GetPage "/info/cfp" }}
-      <div class="call-to-action">
-          <a href="{{ .RelPermalink }}" class="call-to-action__link">Submit</a>
-      </div>
-    {{ end }}
 
-    {{ if .Site.GetPage "/info/about" }}
-      {{ with .Site.GetPage "/info/about" }}
-        {{ if .Param "open_for_volunteers" }}
-          <div class="call-to-action--primary">
-            <a href="{{ .Params.volunteer_form_link }}" target="_blank" class="call-to-action__link">Want to volunteer?</a>
+    <div class="call-to-action-wrapper">
+      <div class="call-to-action-group">
+        {{ with .Site.GetPage "/info/cfp" }}
+          <div class="call-to-action">
+            <a href="{{ .RelPermalink }}" class="call-to-action__link">
+              Submit
+            </a>
           </div>
         {{ end }}
-      {{ end }}
-    {{ end }}
 
-    {{ if .Site.GetPage "/info/tickets" }}
-      {{ with .Site.GetPage "/info/tickets" }}
-        {{ if .Param "ticket_sale_open" }}
-          {{ if .Param "sold_out" }}
-            <div class="call-to-action">
-                <a href="{{ .RelPermalink }}" class="call-to-action__link">Sold out?</a>
-            </div>
-          {{ else }}
-            <div class="call-to-action">
-                <a href="{{ .RelPermalink }}" class="call-to-action__link">Tickets</a>
-            </div>
+        {{ if .Site.GetPage "/info/about" }}
+          {{ with .Site.GetPage "/info/about" }}
+            {{ if .Param "open_for_volunteers" }}
+              <div class="call-to-action">
+                <a href="{{ .Params.volunteer_form_link }}" target="_blank" class="call-to-action__link">
+                  Want to volunteer?
+                </a>
+              </div>
+            {{ end }}
           {{ end }}
         {{ end }}
-      {{ end }}
-    {{ end }}
+
+        {{ if .Site.GetPage "/info/tickets" }}
+          {{ with .Site.GetPage "/info/tickets" }}
+            {{ if .Param "ticket_sale_open" }}
+              <div class="call-to-action">
+                <a href="{{ .RelPermalink }}" class="call-to-action__link">
+                  {{ if .Param "sold_out" }}
+                    Sold out?
+                  {{ else }}
+                    Tickets
+                  {{ end }}
+                </a>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
 </div>
 {{end}}
