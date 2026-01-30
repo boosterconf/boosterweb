@@ -704,7 +704,7 @@ a.talk {
 
 .talk.Keynote .description .talk-type, .program .talk.Plenum .talk-type {
   background: color-mix(in srgb, var(--color-oker) 70%, #fff);
-  color: var(--color-varmkvit);
+  color: var(--color-blurple);
 }
 
 .talk.Experience .description .talk-type {
