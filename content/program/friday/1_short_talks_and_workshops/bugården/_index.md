@@ -1,6 +1,6 @@
 ---
 title: "Bugården"
 type: room
-language: 
+language: norwegian
 weight: 7
 ---

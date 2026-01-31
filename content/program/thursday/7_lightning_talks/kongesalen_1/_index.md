@@ -1,6 +1,6 @@
 ---
 title: "Kongesalen 1"
 type: room
-language: 
+language: english
 weight: 2
 ---

@@ -134,8 +134,12 @@ def write_room_header(path, session):
     session_data = sessions_map[sessionize['title']]
     language = ""
     for questionAnswers in session_data['questionAnswers']:
-        if questionAnswers['questionId'] == 62991:
-            language = questionAnswers['answerValue']
+        # In english? 114013
+        if questionAnswers['questionId'] == 114013:
+            if questionAnswers['answerValue'] == 'true':
+                language = 'English'
+            else:
+                language = 'Norwegian'
     if not room_exists:
         os.makedirs(path + "/" + room_key)
     room_index_path = path + "/" + room_key + "/_index.md"

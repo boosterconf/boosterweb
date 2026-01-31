@@ -1,6 +1,6 @@
 ---
 title: "Kongesalen plenum"
 type: room
-language: 
+language: english
 weight: 1
 ---
