@@ -1,6 +1,6 @@
 ---
 name: "Kenneth Opheimshaug"
-title: "Seniorutvikler i Solea AS"
+title: "Developer @ Solea"
 # twitter_handle: 
 ---
 Er ikke mye å skrive her. 

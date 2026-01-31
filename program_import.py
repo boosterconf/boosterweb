@@ -223,6 +223,9 @@ for day in predefined_slots:
             if day_predefined_slot['isRoom']:
                 room = session['sessionize']['room']
                 print("Creating session "+ session['sessionize']['title'] +" in room " + room + " weight: (" + str(room_weights[room]) + ")")
+                if session['sessionize']['isServiceSession']:
+                    continue
+
                 room_path = write_room_header(day_predefined_slot['path'], session)
                 
                 if session['continuation']:
