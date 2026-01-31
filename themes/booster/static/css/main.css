@@ -651,14 +651,14 @@ article .map iframe {
   border-left: 8px solid var(--color-hav);
 }
 .program .talk.continuation {
-  border: 2px solid var(--color-hav-dus);
-  border-left: 8px solid var(--color-hav-dus);
+  border: 2px solid var(--color-hav);
+  border-left: 8px solid var(--color-hav);
 }
 .program .talk.Keynote, .program .talk.Plenum {
   border: 2px solid var(--color-oker);
   border-left: 8px solid var(--color-oker);
 }
-.program .talk.Experience {
+.program .talk.Lightning.Talk {
   border: 2px solid var(--color-salvie);
   border-left: 8px solid var(--color-salvie);
 }
@@ -702,23 +702,23 @@ a.talk {
 }
 
 .talk.Workshop .description .talk-type {
-  background: color-mix(in srgb, var(--color-hav) 70%, #fff);
+  background: color-mix(in srgb, var(--color-hav) 70%, var(--color-varmkvit));
   color: var(--color-varmkvit);
 }
 
 .talk.Keynote .description .talk-type, .program .talk.Plenum .talk-type {
-  background: color-mix(in srgb, var(--color-oker) 70%, #fff);
+  background: color-mix(in srgb, var(--color-oker) 70%, var(--color-varmkvit));
   color: var(--color-blurple);
 }
 
-.talk.Experience .description .talk-type {
-  background: color-mix(in srgb, var(--color-salvie) 70%, #fff);
+.talk.Lightning.Talk .description .talk-type {
+  background: color-mix(in srgb, var(--color-salvie) 70%, var(--color-varmkvit));
   color: var(--color-varmkvit);
 }
 
 .talk.Open.Spaces .description .talk-type {
-    background: color-mix(in srgb, var(--color-mose) 70%, #fff);
-    color: var(--color-varmkvit);
+    background: color-mix(in srgb, var(--color-mose) 60%, var(--color-varmkvit));
+    color: var(--color-blurple);
 }
 
 .program .author {
