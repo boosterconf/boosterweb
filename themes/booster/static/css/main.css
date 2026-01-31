@@ -662,6 +662,10 @@ article .map iframe {
   border: 2px solid var(--color-salvie);
   border-left: 8px solid var(--color-salvie);
 }
+.program .talk.Open.Spaces {
+    border: 2px solid var(--color-mose);
+    border-left: 8px solid var(--color-mose);
+}
 .program .talk.cancelled {
   border: 2px solid var(--color-hav-dus);
   border-left: 8px solid var(--color-hav-dus);
@@ -710,6 +714,11 @@ a.talk {
 .talk.Experience .description .talk-type {
   background: color-mix(in srgb, var(--color-salvie) 70%, #fff);
   color: var(--color-varmkvit);
+}
+
+.talk.Open.Spaces .description .talk-type {
+    background: color-mix(in srgb, var(--color-mose) 70%, #fff);
+    color: var(--color-varmkvit);
 }
 
 .program .author {
