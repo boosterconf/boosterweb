@@ -825,6 +825,10 @@ button.toggler.toggled {
 
   letter-spacing: var(--letter-spacing-header);
   font-size: var(--font-size-h2);
+
+  border: 2px solid transparent;
+  border-bottom: none;
+  border-radius: 2px;
 }
 
 .program-header-join ul li.active a {
