@@ -8,8 +8,8 @@
             "color" "#fefcf6"
             "size" 64
             "linespacing" 19
-            "x" 40
-            "y" 40
+            "x" 80
+            "y" 80
             "font" $mediumFont
             ))}}
             {{- $img = $img.Filter $titleFilter}}
@@ -23,15 +23,15 @@
                     "size" $authorFontSize
                     "linespacing" 19
                     "aligny" "bottom"
-                    "x" 40
-                    "y" (math.Sum 588 (math.Mul (math.Sub (math.Sub $authorCount $i) 1) (math.Mul (math.Add $authorFontSize 19) -1)))
+                    "x" 80
+                    "y" (math.Sum 548 (math.Mul (math.Sub (math.Sub $authorCount $i) 1) (math.Mul (math.Add $authorFontSize 19) -1)))
                     "font" $mediumFont
                     ))}}
                     {{ $img = $img.Filter $authorFilter}}
                     
                 {{- end }}
             {{- end }}
-            {{- $img = resources.Copy (path.Join .Page.RelPermalink "og32.png") $img }}
+            {{- $img = resources.Copy (path.Join .Page.RelPermalink "og34.png") $img }}
             <meta property="og:image" content="{{$img.Permalink}}">
             <meta property="og:image:width" content="{{$img.Width}}" />
             <meta property="og:image:height" content="{{$img.Height}}" />
