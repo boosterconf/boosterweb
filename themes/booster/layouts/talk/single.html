@@ -1,4 +1,6 @@
-{{ define "head" }}
+{{ define "og" }}
+    <meta property="og:title" content="{{ .Title | markdownify }} - Booster Conference 2026">
+    <meta property="og:description" content="Booster Conference, The Software Conference for the Whole Team">   
     {{- if .Params.talk_type }}
         {{- $basePath := (print "/og/og_base_" (strings.Replace (strings.ToLower .Params.talk_type) " " "_") ".png" ) }}
         {{- $img := resources.Get $basePath  }}
@@ -32,6 +34,7 @@
                 {{- end }}
             {{- end }}
             {{- $img = resources.Copy (path.Join .Page.RelPermalink "og34.png") $img }}
+            <meta property="og:image" content="{{$img.Permalink}}">
             <meta property="og:image" content="{{$img.Permalink}}">
             <meta property="og:image:width" content="{{$img.Width}}" />
             <meta property="og:image:height" content="{{$img.Height}}" />
