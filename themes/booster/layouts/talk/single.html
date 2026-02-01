@@ -1,17 +1,57 @@
-{{ define "main" }}
+{{ define "head" }}
+    {{- if .Params.talk_type }}
+        {{- $basePath := (print "/og/og_base_" (strings.Replace (strings.ToLower .Params.talk_type) " " "_") ".png" ) }}
+        {{- $img := resources.Get $basePath  }}
+            {{- if $img }}
+            {{- $mediumFont := resources.Get "/RobotoCondensed.ttf"}}
+            {{- $titleFilter := (images.Text (strings.ToUpper .Page.Title) (dict
+            "color" "#fefcf6"
+            "size" 64
+            "linespacing" 19
+            "x" 40
+            "y" 40
+            "font" $mediumFont
+            ))}}
+            {{- $img = $img.Filter $titleFilter}}
+            {{- $authorCount := ((default dict .Params.authors) | len) }}
+            {{- $authorFontSize := 42 }}
+            {{- range $i, $author := .Params.authors }}
+                {{- range ( where $.Site.Pages "Params.name" $author ) }}
+                    
+                    {{ $authorFilter := (images.Text .Params.name (dict
+                    "color" "#fefcf6"
+                    "size" $authorFontSize
+                    "linespacing" 19
+                    "aligny" "bottom"
+                    "x" 40
+                    "y" (math.Sum 588 (math.Mul (math.Sub (math.Sub $authorCount $i) 1) (math.Mul (math.Add $authorFontSize 19) -1)))
+                    "font" $mediumFont
+                    ))}}
+                    {{ $img = $img.Filter $authorFilter}}
+                    
+                {{- end }}
+            {{- end }}
+            {{- $img = resources.Copy (path.Join .Page.RelPermalink "og32.png") $img }}
+            <meta property="og:image" content="{{$img.Permalink}}">
+            <meta property="og:image:width" content="{{$img.Width}}" />
+            <meta property="og:image:height" content="{{$img.Height}}" />
+        {{- end }}
+    {{- end }}
+{{- end }}
+{{- define "main" }}
 <div class="header-join">
     <h1>{{ .Title | markdownify }}</h1>
 </div>
 <article class="inner">
-    {{ range .Params.authors }}
-    {{ range ( where $.Site.Pages "Params.name" . ) }}
-    {{ if .Params.external_profile }}
+    {{- range .Params.authors }}
+    {{- range ( where $.Site.Pages "Params.name" . ) }}
+    {{- if .Params.external_profile }}
     <h4><a href="{{ .Params.external_profile }}">{{ .Params.name }}</a></h4>
-    {{ else }}
+    {{- else }}
     <h4><a href="{{ .RelPermalink }}">{{ .Params.name }}</a></h4>
-    {{ end }}
-    {{ end }}
-    {{ end }}
+    {{- end }}
+    {{- end }}
+    {{- end }}
 
     <p>
         <span class="muted">{{ .Params.talk_type }}</span>
