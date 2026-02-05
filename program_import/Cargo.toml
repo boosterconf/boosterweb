@@ -1,0 +1,22 @@
+[package]
+name = "program_import"
+version = "2.0.0"
+edition = "2024"
+
+[dependencies]
+# Trusted as it's used by crates.io
+reqwest = { version = "0.13.1" }
+# Trusted as it's used by crates.io
+serde = { version = "1.0.228", features = ["derive"] }
+# Trusted as it's used by crates.io
+serde_json = "1.0.149"
+# Trusted as it's used by crates.io
+chrono = { version = "0.4.43", features = ["serde"] }
+# Trusted as it's from the same author as `chrono`
+chrono-tz = "0.10.4"
+# Trusted as it's used by cargo
+itertools = "0.14.0"
+# Trusted as it's used by crates.io
+regex = "1.12.3"
+# Trusted as it's used by crates.io
+tokio = { version = "1.49.0", features = ["full"] }
