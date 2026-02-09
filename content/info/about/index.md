@@ -3,7 +3,7 @@ title: "What makes Booster special?"
 date: 2021-07-17T17:36:23+02:00
 draft: false
 type: about
-open_for_volunteers: true
+open_for_volunteers: false
 volunteer_form_link: https://forms.gle/wuDB4s4wodiJw2mA6
 menu:
     main:
