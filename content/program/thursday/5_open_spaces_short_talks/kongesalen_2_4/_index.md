@@ -1,6 +1,6 @@
 ---
 title: "Kongesalen 2-4"
 type: room
-language: 
+language: norwegian
 weight: 2
 ---
