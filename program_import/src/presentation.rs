@@ -130,7 +130,7 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
         SessionCategory::Registration => ("registration", None),
         SessionCategory::DayEnds => ("period", None),
         SessionCategory::ToBeAnnounced => ("talk", None),
-        SessionCategory::OpenSpaces => ("talk", None),
+        SessionCategory::OpenSpaces => ("talk", Some("Open Spaces")),
         SessionCategory::Dinner => ("period", None),
         SessionCategory::Keynote => ("talk", Some("Keynote")),
         SessionCategory::LightningTalk => ("talk", Some("Lightning Talk")),
@@ -268,6 +268,7 @@ weight: {i}
             .to_rfc3339_opts(chrono::SecondsFormat::Secs, true);
         let authors = match session.category {
             SessionCategory::ToBeAnnounced => "".to_string(),
+            SessionCategory::OpenSpaces => "    - You!".to_string(),
             _ => format!("- {}", session.speakers.join("\n    - ")),
         };
         let description = session
