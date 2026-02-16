@@ -1,6 +1,6 @@
 ---
-time: 09:00 - 09:15
-location: Kongesalen
+time: "09:00 - 09:15"
+location: "Kongesalen 1-4"
 title: "Welcome from the organizers"
 type: period
 weight: 2

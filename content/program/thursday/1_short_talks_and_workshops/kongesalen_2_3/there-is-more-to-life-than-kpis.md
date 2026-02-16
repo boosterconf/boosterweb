@@ -1,10 +1,10 @@
 ---
 title: "There is more to life than KPIs"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T08:00:00Z
 ends_at: 2026-03-12T08:30:00Z
-weight: 2
+weight: 1
 authors:
     - Louis Dieffenthaler
 

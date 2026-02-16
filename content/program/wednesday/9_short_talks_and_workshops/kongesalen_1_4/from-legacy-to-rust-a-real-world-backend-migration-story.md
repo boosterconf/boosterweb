@@ -1,6 +1,6 @@
 ---
 title: "From Legacy to Rust: A Real-World Backend Migration Story"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-11T13:05:00Z
 ends_at: 2026-03-11T13:35:00Z

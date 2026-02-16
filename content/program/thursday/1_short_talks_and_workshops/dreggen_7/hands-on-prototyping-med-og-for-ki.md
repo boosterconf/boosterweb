@@ -4,10 +4,10 @@ talk_type: "Workshop 3h"
 type: talk
 starts_at: 2026-03-12T08:00:00Z
 ends_at: 2026-03-12T11:20:00Z
-weight: 11
+weight: 1
 authors:
     - Mari Selnes
-    - Cathrine  Gubberud
+    - Cathrine Gubberud
 
 ---
 KI har endret spillereglene for hvordan vi jobber. Etter en periode med både hype og skuffelser, begynner vi å forstå hvor teknologien virkelig gir verdi for designere: I prototyping! I denne workshopen får du hands-on erfaring med hvordan du kan bruke KI til å bygge prototyper, og hvordan vi kan lage prototyper av KI tjenester. 

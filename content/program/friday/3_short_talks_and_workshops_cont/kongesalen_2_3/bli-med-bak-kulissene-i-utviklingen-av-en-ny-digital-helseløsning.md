@@ -1,6 +1,6 @@
 ---
 title: "Bli med bak kulissene i utviklingen av en ny digital helseløsning"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-13T10:20:00Z
 ends_at: 2026-03-13T10:50:00Z

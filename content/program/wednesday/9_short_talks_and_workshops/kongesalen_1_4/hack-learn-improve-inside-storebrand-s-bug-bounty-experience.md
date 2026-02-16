@@ -1,6 +1,6 @@
 ---
 title: "Hack, Learn, Improve: Inside Storebrand’s Bug Bounty Experience"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-11T13:35:00Z
 ends_at: 2026-03-11T14:05:00Z

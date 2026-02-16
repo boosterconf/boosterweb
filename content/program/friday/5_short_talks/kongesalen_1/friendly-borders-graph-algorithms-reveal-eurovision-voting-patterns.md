@@ -1,6 +1,6 @@
 ---
 title: "Friendly Borders: Graph algorithms reveal Eurovision voting patterns"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-13T12:30:00Z
 ends_at: 2026-03-13T13:00:00Z

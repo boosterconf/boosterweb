@@ -4,10 +4,10 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T09:45:00Z
 ends_at: 2026-03-11T09:55:00Z
-weight: 6
+weight: 2
 authors:
     - Tuva Langedal Djupvik
-    - Mari  Øvrebø
+    - Mari Øvrebø
 
 ---
 Fonts, line heights and… fewer headaches? Yes, please.

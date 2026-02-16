@@ -1,6 +1,6 @@
 ---
 title: "Final Destination: Hvordan elektriske standarder holder deg i live, men er umulige å finne frem i."
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-13T08:30:00Z
 ends_at: 2026-03-13T09:00:00Z

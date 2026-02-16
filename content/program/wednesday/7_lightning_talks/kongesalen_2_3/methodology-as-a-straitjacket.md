@@ -4,7 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T10:40:00Z
 ends_at: 2026-03-11T10:50:00Z
-weight: 5
+weight: 1
 authors:
     - Nadia Tokerud
 

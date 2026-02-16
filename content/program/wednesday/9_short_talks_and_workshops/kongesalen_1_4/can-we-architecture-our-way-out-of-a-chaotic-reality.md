@@ -1,6 +1,6 @@
 ---
 title: "Can we architecture our way out of a chaotic reality?"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-11T12:35:00Z
 ends_at: 2026-03-11T13:05:00Z

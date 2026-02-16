@@ -1,5 +1,5 @@
 ---
-time: "14:30 - 15:00"
+time: "15:00 - 15:30"
 title: "Break"
 type: break
 weight: 6

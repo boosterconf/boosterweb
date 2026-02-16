@@ -1,6 +1,6 @@
 ---
-time: "15:05"
+time: "15:00"
 title: "Day ends"
 type: period
-weight: 12
+weight: 8
 ---

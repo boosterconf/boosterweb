@@ -4,7 +4,7 @@ talk_type: "Workshop 3h"
 type: talk
 starts_at: 2026-03-12T08:00:00Z
 ends_at: 2026-03-12T11:20:00Z
-weight: 9
+weight: 1
 authors:
     - Kim Feenstra Kuiper
 

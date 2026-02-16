@@ -4,7 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-12T14:50:00Z
 ends_at: 2026-03-12T15:00:00Z
-weight: 11
+weight: 3
 authors:
     - Siri Stølen
     - Sofie Margrethe Bjørnå

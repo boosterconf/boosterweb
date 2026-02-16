@@ -4,7 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T09:45:00Z
 ends_at: 2026-03-11T09:55:00Z
-weight: 10
+weight: 2
 authors:
     - Kenneth Opheimshaug
 

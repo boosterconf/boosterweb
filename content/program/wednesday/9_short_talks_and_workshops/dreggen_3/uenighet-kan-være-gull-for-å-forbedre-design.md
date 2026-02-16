@@ -4,7 +4,7 @@ talk_type: "Workshop 1,5h"
 type: talk
 starts_at: 2026-03-11T12:35:00Z
 ends_at: 2026-03-11T14:05:00Z
-weight: 7
+weight: 1
 authors:
     - Karoline Raudstein
     - June Aarseth

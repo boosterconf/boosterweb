@@ -1,10 +1,10 @@
 ---
 title: "Svarut - en kommunal kjærlighetshistorie"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T13:00:00Z
 ends_at: 2026-03-12T13:30:00Z
-weight: 3
+weight: 2
 authors:
     - Hege Liby Erdal
 

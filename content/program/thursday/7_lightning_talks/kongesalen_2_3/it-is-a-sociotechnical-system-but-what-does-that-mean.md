@@ -4,7 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-12T14:30:00Z
 ends_at: 2026-03-12T14:40:00Z
-weight: 5
+weight: 1
 authors:
     - Kristin Wulff
 

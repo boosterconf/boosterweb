@@ -1,6 +1,6 @@
 ---
 title: "Blue Screen of the Brain – om utbrenthet og veien tilbake"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-13T08:00:00Z
 ends_at: 2026-03-13T08:30:00Z

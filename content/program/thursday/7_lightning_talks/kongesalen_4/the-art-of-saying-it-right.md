@@ -4,7 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-12T15:00:00Z
 ends_at: 2026-03-12T15:10:00Z
-weight: 12
+weight: 4
 authors:
     - Cathrine Fredhøi
 

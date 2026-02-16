@@ -6,5 +6,5 @@ menu:
     main:
         weight: 2
         parent: "program"
-        name: "Thur"
+        name: "Thu"
 ---

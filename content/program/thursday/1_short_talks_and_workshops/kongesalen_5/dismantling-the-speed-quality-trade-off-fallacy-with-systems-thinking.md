@@ -4,7 +4,7 @@ talk_type: "Workshop 1,5h"
 type: talk
 starts_at: 2026-03-12T08:00:00Z
 ends_at: 2026-03-12T09:30:00Z
-weight: 6
+weight: 1
 authors:
     - Chris Simon
 

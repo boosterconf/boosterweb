@@ -4,7 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T11:10:00Z
 ends_at: 2026-03-11T11:20:00Z
-weight: 12
+weight: 4
 authors:
     - Mustafa Al-Obaidi
 

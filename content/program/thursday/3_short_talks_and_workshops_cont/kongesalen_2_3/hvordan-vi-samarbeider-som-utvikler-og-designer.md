@@ -1,10 +1,10 @@
 ---
 title: "Hvordan vi samarbeider som utvikler og designer"
-talk_type: "Experience Report"
+talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T10:20:00Z
 ends_at: 2026-03-12T10:50:00Z
-weight: 3
+weight: 2
 authors:
     - Solveig Myren
     - Jesper Mattsson

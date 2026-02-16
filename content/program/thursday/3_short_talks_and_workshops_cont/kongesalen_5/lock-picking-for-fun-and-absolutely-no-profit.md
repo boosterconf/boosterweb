@@ -4,7 +4,7 @@ talk_type: "Workshop 1,5h"
 type: talk
 starts_at: 2026-03-12T09:50:00Z
 ends_at: 2026-03-12T11:20:00Z
-weight: 6
+weight: 1
 authors:
     - Ricco Førgaard
 
