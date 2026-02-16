@@ -4,7 +4,7 @@ talk_type: "Workshop 3h"
 type: talk
 starts_at: 2026-03-13T08:00:00Z
 ends_at: 2026-03-13T11:20:00Z
-weight: 7
+weight: 6
 authors:
     - Ahmed Saeed
     - Ingrid Marie Sørensen

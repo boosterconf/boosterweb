@@ -4,7 +4,7 @@ talk_type: "Workshop 3h"
 type: talk
 starts_at: 2026-03-13T08:00:00Z
 ends_at: 2026-03-13T11:20:00Z
-weight: 4
+weight: 3
 authors:
     - Siv Holen
     - Nora Gjøen-Gjøsæter
