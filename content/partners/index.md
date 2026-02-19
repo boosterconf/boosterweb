@@ -29,10 +29,10 @@ resources:
       title: DNB
       params:
         url: https://www.dnb.no/
-#    - src: logos/equinor.png
-#      title: Equinor
-#      params:
-#        url: https://www.equinor.com/no
+    - src: logos/equinor.svg
+      title: Equinor
+      params:
+        url: https://www.equinor.com/no
     - src: logos/el-og-it-forbundet.svg
       title: El og IT Forbundet
       params:
@@ -41,10 +41,10 @@ resources:
       title: Eviny
       params:
         url: https://www.eviny.no/
-#    - src: logos/experis.png
-#      title: Experis
-#      params:
-#        url: https://www.experis.no/nb
+    - src: logos/experis.svg
+      title: Experis
+      params:
+        url: https://www.experis.no/nb
 #    - src: logos/fanasparebank.svg
 #      title: Fana Sparebank
 #      params:
