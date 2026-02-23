@@ -1,0 +1,23 @@
+name: auto-import program
+
+on:
+  schedule:
+    - cron: "0 7,8,9,10,12,14,16,20 * * *"
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/download-artifact@v5
+      with:
+        name: program_importer
+    - run: ./program_importer
+    - run: git add program
+    - run: git commit -m "Automatic program import"
+    - run: git push
