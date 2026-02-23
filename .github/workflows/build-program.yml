@@ -1,4 +1,4 @@
-name: Rust
+name: Build program_import
 
 on:
   push:
