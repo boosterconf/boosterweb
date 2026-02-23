@@ -2,9 +2,9 @@
 title: "A close reading of Computer Machinery and Intelligence"
 talk_type: "Lightning Talk"
 type: talk
-starts_at: 2026-03-11T10:05:00Z
-ends_at: 2026-03-11T10:15:00Z
-weight: 4
+starts_at: 2026-03-11T09:45:00Z
+ends_at: 2026-03-11T09:55:00Z
+weight: 2
 authors:
     - Felienne Hermans
 

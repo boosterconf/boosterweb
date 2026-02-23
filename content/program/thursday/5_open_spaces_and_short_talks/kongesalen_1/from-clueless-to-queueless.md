@@ -2,9 +2,9 @@
 title: "From clueless to queueless ⛴️"
 talk_type: "Experience report"
 type: talk
-starts_at: 2026-03-12T09:00:00Z
-ends_at: 2026-03-12T09:30:00Z
-weight: 3
+starts_at: 2026-03-12T13:00:00Z
+ends_at: 2026-03-12T13:30:00Z
+weight: 2
 authors:
     - Abel van Beek
 
