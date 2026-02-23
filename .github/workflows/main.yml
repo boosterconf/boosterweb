@@ -15,9 +15,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/download-artifact@v5
-      with:
-        name: program_import
+    - name: Build
+      working-directory: ./program_import
+      run: cargo run --locked
     - run: ./program_import
     - run: git add program
     - run: git commit -m "Automatic program import"
