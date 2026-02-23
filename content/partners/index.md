@@ -101,10 +101,10 @@ resources:
       title: ScaleAQ
       params:
         url: https://www.scaleaq.no/
-#    - src: logos/sonat.png
-#      title: Sonat Consulting
-#      params:
-#        url: http://www.sonat.no
+    - src: logos/sonat.svg
+      title: Sonat Consulting
+      params:
+        url: http://www.sonat.no
     - src: logos/soprasteria.png
       title: Sopra Steria
       params:
