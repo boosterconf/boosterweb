@@ -17,3 +17,7 @@ Mange av oss er konfliktsky og allergisk mot dårlig stemning, noe som fort kan 
 Vi skal derfor: 
 - Utforske hva som skjer når team tør å være uenige
 - Få konkrete verktøy til å gjøre uenigheter produktive i stede for personlige
+
+Du trenger ikke laptop, det blir ingen rollespill, bare møt opp med deg selv og nysgjerrigheten din. 
+
+Passer for designere, utviklere og produktfolk. 

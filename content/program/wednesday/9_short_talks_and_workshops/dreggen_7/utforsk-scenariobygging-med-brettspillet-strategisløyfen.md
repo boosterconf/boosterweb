@@ -7,6 +7,7 @@ ends_at: 2026-03-11T14:05:00Z
 weight: 1
 authors:
     - Tonje Evanger
+    - Malin C. Karlsen
 
 ---
 Har du hørt andre snakke om scenariobygging, men ikke testet det selv?

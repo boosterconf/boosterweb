@@ -12,3 +12,5 @@ authors:
 Write your own programming language and learn more about how they work behind the scenes.
 
 In this workshop we'll be building an interpreter for a simple programming language. You'll be able to put your own spin on the language as we develop it. This can give you some insight into the different design choices that can be made when developing a language, and why current programming languages look the way they do.
+
+Bring a laptop with Python 3.10 or higher and an IDE. I recommend Visual Studio Code with the Python extension.

@@ -19,6 +19,8 @@ Most notable they are
 
 In this workshop we take you on a journey where we explore the finer details of these promises. You will get to know Unison, its programming model and the ease with which you can describe and deploy distributed programs.
 
-You will walk away with a fresh perspective on what development could entail, with a firm grasp of a particular way of handling effects and fond memories of a thrilling workshop shared among like minded people
+You will walk away with a fresh perspective on what development could entail, with a firm grasp of a particular way of handling effects and fond memories of a thrilling workshop shared among like minded people.
+
+If you want to hit the ground running make sure to install Unison before the workshop
 
 
