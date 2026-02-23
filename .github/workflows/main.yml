@@ -1,6 +1,7 @@
 name: auto-import program
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 7,8,9,10,12,14,16,20 * * *"
 
