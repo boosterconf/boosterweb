@@ -17,8 +17,8 @@ jobs:
     - uses: actions/checkout@v4
     - uses: actions/download-artifact@v5
       with:
-        name: program_importer
-    - run: ./program_importer
+        name: program_import
+    - run: ./program_import
     - run: git add program
     - run: git commit -m "Automatic program import"
     - run: git push
