@@ -18,7 +18,6 @@ jobs:
     - name: Build
       working-directory: ./program_import
       run: cargo run --locked
-    - run: ./program_import
     - run: git add program
     - run: git commit -m "Automatic program import"
     - run: git push
