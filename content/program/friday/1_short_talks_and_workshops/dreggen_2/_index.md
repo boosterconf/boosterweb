@@ -1,6 +1,6 @@
 ---
-title: "Dreggen 8"
+title: "Dreggen 2"
 type: room
 language: 
-weight: 7
+weight: 3
 ---

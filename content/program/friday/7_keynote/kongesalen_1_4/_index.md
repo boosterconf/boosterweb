@@ -1,6 +1,6 @@
 ---
-title: "Kongesalen 4"
+title: "Kongesalen 1-4"
 type: room
 language: english
-weight: 3
+weight: 1
 ---

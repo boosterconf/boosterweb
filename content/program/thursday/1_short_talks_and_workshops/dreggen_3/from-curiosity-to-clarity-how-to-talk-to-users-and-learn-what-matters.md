@@ -9,22 +9,21 @@ authors:
     - Kim Feenstra Kuiper
 
 ---
-Everyone says “talk to your users” but what does that really mean in practice?
+Everyone says “talk to your users”, but what does that actually look like in practice?
 
-In this interactive workshop, we’ll explore the power of UX research through a playful, hands-on experience. Based on the classic “Wallet Project,” you’ll pair up, interview, and design for a partner’s needs, but with a UX researcher’s focus.
+In this interactive workshop, you’ll experience design thinking in action through the classic Wallet Project exercise, while learning how UX research strengthens every step of the process. Working in pairs, you’ll interview, synthesize insights, and rapidly design for a real user need.
 
-We’ll cover:
-
+Along the way, you’ll learn:
 How to plan and run effective user interviews
-The differences between research methodologies (when to use what)
-How to test and interpret what you learn
-How the Double Diamond helps you move from exploration to action
+How design thinking moves from empathy to ideation to action
+When to use different research methods
+How to test ideas and interpret what you learn
 
-You’ll do research, not just hear about it, experiencing how small shifts in curiosity, questioning, and testing lead to better outcomes.
+This is not a lecture. You’ll actively practice research and design thinking, discovering how small shifts in curiosity, questioning, and testing lead to better outcomes.
 
-By the end, you’ll leave with:
-A simple framework for running interviews
-An understanding of how research fits into product work
-Confidence to apply user insights to your next project
+You’ll leave with:
+A simple, practical interview framework
+A clear understanding of how research fits into any product work
+Confidence to apply user insights immediately
 
-This workshop is fun, creative, and designed for everyone who wants to learn how to better learn from your users. Whether you write code, manage products, or test features, you’ll gain a fresh perspective on how to make your work more human-centered.
+Fun, fast-paced, and hands-on: this workshop is for anyone who wants to make their work more human-centered, whether you write code, manage products, or test features.
