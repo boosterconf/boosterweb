@@ -7,6 +7,7 @@ ends_at: 2026-03-12T11:20:00Z
 weight: 1
 authors:
     - André Heie Vik
+    - Anders Rørvik
 
 ---
 There is no better way to attend a conference than being a speaker. You get a free ticket, bragging rights, and best of all, the conference will treat you like royalty. You might even be invited to a fancy speakers' dinner.
