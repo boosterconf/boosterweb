@@ -19,5 +19,9 @@ jobs:
       working-directory: ./program_import
       run: cargo run --locked
     - run: git add content/program
+    - name: setup git config
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
     - run: git commit -m "Automatic program import"
     - run: git push
