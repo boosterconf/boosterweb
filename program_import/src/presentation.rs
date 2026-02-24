@@ -137,6 +137,7 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
         SessionCategory::ExperienceReport => ("talk", Some("Experience report")),
         SessionCategory::Workshop90 => ("talk", Some("Workshop 1,5h")),
         SessionCategory::Workshop180 => ("talk", Some("Workshop 3h")),
+        SessionCategory::SpecialWorkshop => ("talk", Some("Workshop")),
     }
 }
 
@@ -155,6 +156,7 @@ fn session_category_to_dir_names(cat: &SessionCategory) -> &'static str {
         SessionCategory::ExperienceReport => "short_talks",
         SessionCategory::Workshop90 => "workshops",
         SessionCategory::Workshop180 => "workshops",
+        SessionCategory::SpecialWorkshop => "workshops",
     }
 }
 

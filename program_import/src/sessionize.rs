@@ -157,6 +157,7 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
                     "Lightning Talk" => Ok(SessionCategory::LightningTalk),
                     "Workshop 1,5h" => Ok(SessionCategory::Workshop90),
                     "Workshop 3h" => Ok(SessionCategory::Workshop180),
+                    "Special Workshop" => Ok(SessionCategory::SpecialWorkshop),
                     x => Err(format!(
                         "Couldn't figure out category on {}. The 'accepted as' category was: {}",
                         session.title, x
@@ -295,6 +296,7 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
 
                     current_intermediates.append(&mut continuations);
 
+                println!("{:?}", non_content_room.session.starts_at);
                     slots.push(Slot::try_from((
                         metadata,
                         x,
@@ -421,7 +423,7 @@ mod tests {
                             is_plenum_session: false,
                             starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 0, 0).unwrap(),
                             ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 30, 0).unwrap(),
-                            description: Some("During an Open Space discussion at last year`s Booster Conference, we discussed the distance between leaders and teams. The gap is real, but it is not there because of bad intentions. Instead, I think the gap exists because it is difficult to see how leaders achieve control by letting go of it. Over the past year leading an area of highly skilled and diverse teams, I have put this into practice. Some things worked, others didn’t, but the consistent theme is that I, as a leader, must prove myself worthy of the team's trust. Perhaps these insights can provide value to others as well?".to_string()),
+                            description: Some("During an Open Space discussion at last year`s Booster Conference, we discussed the distance between leaders and teams. I think the gap is real, but it is not there because of bad intentions. Instead, I believe the gap exists because it is difficult to see how leaders achieve control by letting go of it. \r\n\r\nOver the past year leading an area of highly skilled and diverse teams, I have put this into practice. Some things worked, others didn’t, but the common thread is that I must prove myself worthy of the team's trust. \r\n\r\nPerhaps some of my experiences make sense to others as well?".to_string()),
                             category: SessionCategory::ExperienceReport,
                             speakers: vec!["Louis Dieffenthaler".to_string()],
                         }]

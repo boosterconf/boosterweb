@@ -70,6 +70,7 @@ pub enum SessionCategory {
     ExperienceReport,
     Workshop90,
     Workshop180,
+    SpecialWorkshop,
 }
 
 pub fn is_session_category_content(session_category: &SessionCategory) -> bool {
@@ -87,6 +88,7 @@ pub fn is_session_category_content(session_category: &SessionCategory) -> bool {
         SessionCategory::ExperienceReport => true,
         SessionCategory::Workshop90 => true,
         SessionCategory::Workshop180 => true,
+        SessionCategory::SpecialWorkshop => true,
     }
 }
 
@@ -105,5 +107,6 @@ pub fn session_has_end(session_category: &SessionCategory) -> bool {
         SessionCategory::ExperienceReport => true,
         SessionCategory::Workshop90 => true,
         SessionCategory::Workshop180 => true,
+        SessionCategory::SpecialWorkshop => true,
     }
 }
