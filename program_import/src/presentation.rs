@@ -224,7 +224,7 @@ menu:
 
 fn room_markdown(i: usize, room: &Room) -> String {
     let title = &room.name;
-    let lang = if room.sessions.iter().any(|x| x.is_english) {
+    let lang = if room.sessions.iter().all(|x| x.is_english) {
         "english"
     } else {
         ""
