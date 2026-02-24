@@ -62,7 +62,7 @@
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": false
+      "isConfirmed": true
     },
     {
       "id": "11f2e279-d8b4-40af-8eb2-aaf6ce8194bd",
@@ -167,7 +167,7 @@
     {
       "id": "1030184",
       "title": "Designing Transparent Tech for Kids: Why Explainability Matters",
-      "description": "Children today use apps that collect health data, monitor behavior, and adapt learning – often without understanding how or why. In this lightning talk, we explore the critical need for explainability in school technology. Why must tech be transparent not just for engineers, but also for students, teachers, and parents? What does it mean to design for understanding – and what are the risks when we don’t?",
+      "description": "Children today use apps that collect health data, monitor behavior, and adapt learning, often without understanding how or why. In this lightning talk, we explore the critical need for explainability in school technology. Why must tech be transparent not just for engineers, but also for students, teachers, and parents? What does it mean to design for understanding, and what are the risks when we don’t?",
       "startsAt": "2026-03-11T09:45:00Z",
       "endsAt": "2026-03-11T09:55:00Z",
       "isServiceSession": false,
@@ -225,25 +225,27 @@
       "isConfirmed": true
     },
     {
-      "id": "1050750",
-      "title": "How to find the \"million in the forest\" using open data and geo-tools",
-      "description": "In recent years, Horde AS has organized a real treasure hunt - a box hidden somewhere in the Norwegian wilderness, streamed live online. The clues were few, but the camera streamed continuously, and the first person to find and reach the location won the prize worth over one million kroner.\r\n\r\nBut how do you even begin to narrow down where the box could be - when all you have is a livestream from an unknown location?\r\n\r\nInspired by this, I`ve developed my own tools to help with the search; called FALKE+BLIKK.\r\n\r\nIn short it`s a \"investigation toolkit\" for combining open data with automated integration into a GIS (Geographic Information System). Bringing both worlds together in one unified solution.\r\n\r\nWelcome down into my rabbit hole. Through some detective work, coding and GIS we`ll take a look at some of my lessons to build a toolbox for a modern day treasure hunt.",
+      "id": "1056559",
+      "title": "A close reading of Computer Machinery and Intelligence",
+      "description": "In the age of the LLM, the Turing Test is more relevant than ever. But what *is* the Turing Test? How did Turing envision the Imitation Game, as he called it, and what does he see as its greatest limitations? \r\n\r\nIn this session, Felienne will take you on wild ride through a seminal paper in computer science, philosophy and computation. ",
       "startsAt": "2026-03-11T09:45:00Z",
       "endsAt": "2026-03-11T09:55:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "c1430751-9df7-4219-82bf-196d22860579"
+        "5c123509-e697-4a72-9d86-244e047dac65"
       ],
       "categoryItems": [
         393656,
-        393659,
         393668,
-        393670,
-        393672,
         393696
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 114013,
+          "answerValue": "true"
+        }
+      ],
       "roomId": 71364,
       "liveUrl": null,
       "recordingUrl": null,
@@ -388,27 +390,25 @@
       "isConfirmed": true
     },
     {
-      "id": "1056559",
-      "title": "A close reading of Computer Machinery and Intelligence",
-      "description": "In the age of the LLM, the Turing Test is more relevant than ever. But what *is* the Turing Test? How did Turing envision the Imitation Game, as he called it, and what does he see as its greatest limitations? \r\n\r\nIn this session, Felienne will take you on wild ride through a seminal paper in computer science, philosophy and computation. ",
+      "id": "1050750",
+      "title": "How to find the \"million in the forest\" using open data and geo-tools",
+      "description": "In recent years, Horde AS has organized a real treasure hunt - a box hidden somewhere in the Norwegian wilderness, streamed live online. The clues were few, but the camera streamed continuously, and the first person to find and reach the location won the prize worth over one million kroner.\r\n\r\nBut how do you even begin to narrow down where the box could be - when all you have is a livestream from an unknown location?\r\n\r\nInspired by this, I`ve developed my own tools to help with the search; called FALKE+BLIKK.\r\n\r\nIn short it`s a \"investigation toolkit\" for combining open data with automated integration into a GIS (Geographic Information System). Bringing both worlds together in one unified solution.\r\n\r\nWelcome down into my rabbit hole. Through some detective work, coding and GIS we`ll take a look at some of my lessons to build a toolbox for a modern day treasure hunt.",
       "startsAt": "2026-03-11T10:05:00Z",
       "endsAt": "2026-03-11T10:15:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "5c123509-e697-4a72-9d86-244e047dac65"
+        "c1430751-9df7-4219-82bf-196d22860579"
       ],
       "categoryItems": [
         393656,
+        393659,
         393668,
+        393670,
+        393672,
         393696
       ],
-      "questionAnswers": [
-        {
-          "questionId": 114013,
-          "answerValue": "true"
-        }
-      ],
+      "questionAnswers": [],
       "roomId": 71364,
       "liveUrl": null,
       "recordingUrl": null,
@@ -826,16 +826,16 @@
     },
     {
       "id": "1055651",
-      "title": "Ask for stories, not for features",
-      "description": "\"Everybody lies\" goes the famous Dr. House quote. Obviously not true, in general and specifically when we do open-ended discovery work. But psychological biases are at play when users try to answer the questions we ask them. If we ask about the wrong thing, we get the wrong answers, and we build the wrong features. \r\n\r\nIn this workshop, we'll explore the art of story-based interviewing and generating opportunities from them. It will be hands-on, fun, and challenging. ",
+      "title": "Be om historier",
+      "description": "Nøkkelen til å bygge gode produkter er god innsikt. Men dersom vi spør brukerne direkte om hva de ønsker seg, får vi ofte svar som egentlig ikke stemmer. I stedet bør vi be brukerne fortelle historier som gir oss innsikt i deres faktiske atferd.\r\n\r\nI denne workshop'en får du hands-on erfaring med historiebasert intervjuteknikk. Du vil lære hvordan du skal stille riktige spørsmål, og hvordan du skal hjelpe brukeren til å huske og fortelle historien du er ute etter.  ",
       "startsAt": "2026-03-11T12:35:00Z",
       "endsAt": "2026-03-11T14:05:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
+        "04d53a21-f952-46c4-bb7b-94551f8658ab",
         "4dd9a28b-2b9c-4b4d-aafa-66932658ea4e",
-        "3e6460a7-f0c3-4615-9ab6-e1446ccfda1a",
-        "04d53a21-f952-46c4-bb7b-94551f8658ab"
+        "3e6460a7-f0c3-4615-9ab6-e1446ccfda1a"
       ],
       "categoryItems": [
         393657,
@@ -858,30 +858,36 @@
       "isConfirmed": true
     },
     {
-      "id": "1030814",
-      "title": "Automatic Accessibility Testing for a Better Future",
-      "description": "Automatic accessibility tests will help us build better, more inclusive applications today and help us ensure that our applications continue to be accessible in the future.\r\n\r\nIn this workshop you'll learn how to set up and write your own automatic accessibility tests using Axe and Playwright. We'll cover how to set up the tests and will look at what we can find with different types of tests. While doing this we'll also cover some of the most common accessibility errors that can be discovered automatically and learn how to fix them.\r\n",
+      "id": "1150696",
+      "title": "Empati-Lab",
+      "description": "Vi er to UX-designere med et sterkt engasjement for empati og menneskesentrert design.\r\n\r\nWorkshopen starter med en kort introduksjon til universell utforming, og hvorfor det er et viktig verktøy for å skape verdi for både mennesker og virksomheter. \r\nDeretter inviterer vi deltakerne inn i Empati-lab, en praktisk workshop der man får erfare, ikke bare forstå, hvordan ulike funksjonsnedsettelser påvirker hverdagen. \r\n\r\nDenne workshopen passer for alle som vil lære mer om universell utforming og oppleve andre type brukerbehov. \r\n\r\nGjennom empati bygger vi bedre produkter, og gjennom universell utforming skaper vi løsninger som gir verdi for flere.",
       "startsAt": "2026-03-11T12:35:00Z",
       "endsAt": "2026-03-11T14:05:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "8ac564e2-b101-43cd-ad7d-f21aa5067f81"
+        "e3635f1a-93d6-4201-809e-8ab8e11e9dd8",
+        "61056dcf-1944-4296-9298-69a6fc3afbce"
       ],
       "categoryItems": [
-        393660,
-        393664,
-        393677,
+        393657,
+        393672,
+        393675,
         393681,
         393698
       ],
-      "questionAnswers": [],
+      "questionAnswers": [
+        {
+          "questionId": 114013,
+          "answerValue": "false"
+        }
+      ],
       "roomId": 71371,
       "liveUrl": null,
       "recordingUrl": null,
       "status": "Accepted",
       "isInformed": true,
-      "isConfirmed": true
+      "isConfirmed": false
     },
     {
       "id": "1051594",
@@ -910,7 +916,7 @@
     {
       "id": "1057179",
       "title": "Uenighet kan være gull for å forbedre design",
-      "description": "I denne workshopen dykker vi ned i hvorfor friksjon og motstand ikke er noe vi skal unngå, men faktisk kan være drivkraften bak bedre idéer, samarbeid og løsninger. \r\n\r\nMange av oss er konfliktsky og allergisk mot dårlig stemning, noe som fort kan stå i veien for ærlig samarbeid og bedre designprosesser. Åpen dialog og forståelse for hverandre, gjør at vi slipper unødvendig drama og kan holde tempoet oppe. \r\n\r\nVi skal derfor: \r\n- Utforske hva som skjer når team tør å være uenige\r\n- Få konkrete verktøy til å gjøre uenigheter produktive i stede for personlige",
+      "description": "I denne workshopen dykker vi ned i hvorfor friksjon og motstand ikke er noe vi skal unngå, men faktisk kan være drivkraften bak bedre idéer, samarbeid og løsninger. \r\n\r\nMange av oss er konfliktsky og allergisk mot dårlig stemning, noe som fort kan stå i veien for ærlig samarbeid og bedre designprosesser. Åpen dialog og forståelse for hverandre, gjør at vi slipper unødvendig drama og kan holde tempoet oppe. \r\n\r\nVi skal derfor: \r\n- Utforske hva som skjer når team tør å være uenige\r\n- Få konkrete verktøy til å gjøre uenigheter produktive i stede for personlige\r\n\r\nDu trenger ikke laptop, det blir ingen rollespill, bare møt opp med deg selv og nysgjerrigheten din. \r\n\r\nPasser for designere, utviklere og produktfolk. ",
       "startsAt": "2026-03-11T12:35:00Z",
       "endsAt": "2026-03-11T14:05:00Z",
       "isServiceSession": false,
@@ -970,7 +976,8 @@
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "9ecd6557-820a-4a14-b9f7-0a99340cd59c"
+        "9ecd6557-820a-4a14-b9f7-0a99340cd59c",
+        "d42c87d6-9ca9-4299-be4e-040f13bd113a"
       ],
       "categoryItems": [
         393657,
@@ -1141,7 +1148,7 @@
     {
       "id": "1047078",
       "title": "code in Unison",
-      "description": "Unison, a friendly programming language from the future, offers a few interesting new insights into what programming could be.\r\n\r\nMost notable they are\r\n* a new way of developing and building code\r\n* seemingly seamless way of distributed programming\r\n* a novel means of managing effects via abilities.\r\n\r\nIn this workshop we take you on a journey where we explore the finer details of these promises. You will get to know Unison, its programming model and the ease with which you can describe and deploy distributed programs.\r\n\r\nYou will walk away with a fresh perspective on what development could entail, with a firm grasp of a particular way of handling effects and fond memories of a thrilling workshop shared among like minded people\r\n\r\n",
+      "description": "Unison, a friendly programming language from the future, offers a few interesting new insights into what programming could be.\r\n\r\nMost notable they are\r\n* a new way of developing and building code\r\n* seemingly seamless way of distributed programming\r\n* a novel means of managing effects via abilities.\r\n\r\nIn this workshop we take you on a journey where we explore the finer details of these promises. You will get to know Unison, its programming model and the ease with which you can describe and deploy distributed programs.\r\n\r\nYou will walk away with a fresh perspective on what development could entail, with a firm grasp of a particular way of handling effects and fond memories of a thrilling workshop shared among like minded people.\r\n\r\nIf you want to hit the ground running make sure to install Unison before the workshop\r\n\r\n",
       "startsAt": "2026-03-12T08:00:00Z",
       "endsAt": "2026-03-12T09:30:00Z",
       "isServiceSession": false,
@@ -1177,7 +1184,7 @@
     {
       "id": "1040371",
       "title": "There is more to life than KPIs",
-      "description": "During an Open Space discussion at last year`s Booster Conference, we discussed the distance between leaders and teams. The gap is real, but it is not there because of bad intentions. Instead, I think the gap exists because it is difficult to see how leaders achieve control by letting go of it. Over the past year leading an area of highly skilled and diverse teams, I have put this into practice. Some things worked, others didn’t, but the consistent theme is that I, as a leader, must prove myself worthy of the team's trust. Perhaps these insights can provide value to others as well?",
+      "description": "During an Open Space discussion at last year`s Booster Conference, we discussed the distance between leaders and teams. I think the gap is real, but it is not there because of bad intentions. Instead, I believe the gap exists because it is difficult to see how leaders achieve control by letting go of it. \r\n\r\nOver the past year leading an area of highly skilled and diverse teams, I have put this into practice. Some things worked, others didn’t, but the common thread is that I must prove myself worthy of the team's trust. \r\n\r\nPerhaps some of my experiences make sense to others as well?",
       "startsAt": "2026-03-12T08:00:00Z",
       "endsAt": "2026-03-12T08:30:00Z",
       "isServiceSession": false,
@@ -1319,7 +1326,7 @@
     {
       "id": "1057523",
       "title": "From Curiosity to Clarity: How to Talk to Users and Learn What Matters",
-      "description": "Everyone says “talk to your users” but what does that really mean in practice?\r\n\r\nIn this interactive workshop, we’ll explore the power of UX research through a playful, hands-on experience. Based on the classic “Wallet Project,” you’ll pair up, interview, and design for a partner’s needs, but with a UX researcher’s focus.\r\n\r\nWe’ll cover:\r\n\r\nHow to plan and run effective user interviews\r\nThe differences between research methodologies (when to use what)\r\nHow to test and interpret what you learn\r\nHow the Double Diamond helps you move from exploration to action\r\n\r\nYou’ll do research, not just hear about it, experiencing how small shifts in curiosity, questioning, and testing lead to better outcomes.\r\n\r\nBy the end, you’ll leave with:\r\nA simple framework for running interviews\r\nAn understanding of how research fits into product work\r\nConfidence to apply user insights to your next project\r\n\r\nThis workshop is fun, creative, and designed for everyone who wants to learn how to better learn from your users. Whether you write code, manage products, or test features, you’ll gain a fresh perspective on how to make your work more human-centered.",
+      "description": "Everyone says “talk to your users”, but what does that actually look like in practice?\r\n\r\nIn this interactive workshop, you’ll experience design thinking in action through the classic Wallet Project exercise, while learning how UX research strengthens every step of the process. Working in pairs, you’ll interview, synthesize insights, and rapidly design for a real user need.\r\n\r\nAlong the way, you’ll learn:\r\nHow to plan and run effective user interviews\r\nHow design thinking moves from empathy to ideation to action\r\nWhen to use different research methods\r\nHow to test ideas and interpret what you learn\r\n\r\nThis is not a lecture. You’ll actively practice research and design thinking, discovering how small shifts in curiosity, questioning, and testing lead to better outcomes.\r\n\r\nYou’ll leave with:\r\nA simple, practical interview framework\r\nA clear understanding of how research fits into any product work\r\nConfidence to apply user insights immediately\r\n\r\nFun, fast-paced, and hands-on: this workshop is for anyone who wants to make their work more human-centered, whether you write code, manage products, or test features.",
       "startsAt": "2026-03-12T08:00:00Z",
       "endsAt": "2026-03-12T11:20:00Z",
       "isServiceSession": false,
@@ -1432,23 +1439,18 @@
       "isConfirmed": true
     },
     {
-      "id": "1051006",
-      "title": "From clueless to queueless ⛴️",
-      "description": "In Northern Norway, you are twice as likely to miss a ferry as anywhere else in the country. Combine that with long round-trip times and a massive summer influx of tourists, and you have a recipe for frustration — and a juicy news headline.\r\n\r\nToday’s “first come, first served” principle does not scale in the north. Through an interdisciplinary design thinking process involving locals, tourists, ferry crews, and domain experts, we aim to reimagine the ferry journey and eliminate queues across the county.\r\n\r\nIn this session, we will pull back the curtain on our innovation process and the technology driving it. You will see real-world results from our peak-season pilot, learn how it captured national interest, and leave with a kickass strategy for turning bold ideas into reality.",
+      "id": "1057540",
+      "title": "Svarut - en kommunal kjærlighetshistorie",
+      "description": "SvarUt er en tjeneste de færreste har hørt om – men som nesten alle innbyggere i Norge usynlig bruker. Får du et brev fra din kommune, går det mest sannsynlig gjennom SvarUt før det havner i din digitale eller fysiske postkasse.\r\n\r\nTjenesten ble opprinnelig utviklet av Bergen kommune, og var blant de første som ble overtatt av KS Digital, da en del av KS, og gjort tilgjengelig for hele kommunesektoren. Det ble et viktig startpunkt for det vi jobber for i dag: Å utvikle og forvalte felles, nasjonale digitale tjenester – både ved å overta og drifte gode løsninger som sektoren har utviklet, og ved å bygge helt nye tjenester fra grunnen av.\r\n\r\nDette foredraget forteller historien om SvarUt – hvordan en lokal løsning ble til en nasjonal fellestjeneste, og hvordan samarbeidet mellom Bergen kommune og KS Digital bidro til å forme et nytt kapittel i historien om digitalt samarbeid i kommunal sektor.\r\n",
       "startsAt": "2026-03-12T09:00:00Z",
       "endsAt": "2026-03-12T09:30:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "f85dd1d7-506c-42ee-b1c9-f0aed4df330e"
+        "0c4f3b79-15ff-4c31-b11a-bcaf71d13bcc"
       ],
       "categoryItems": [
         393659,
-        393675,
-        393673,
-        393677,
-        393678,
-        393686,
         393697
       ],
       "questionAnswers": [
@@ -1509,8 +1511,8 @@
     },
     {
       "id": "1050843",
-      "title": "Baby steps – Making Norwegian bureaucracy run smoother one application at a time",
-      "description": "The Norwegian Labour and Welfare Administration (NAV) is one of Norway’s largest employers and are responsible for upholding the Norwegian welfare state. In this talk I'll share how we used product design methodology to design, deliver and continuously improve a digital application for child benefit in Norway by moving away from a solely paper-based application.\r\n\r\nI’ll talk about how we gathered insight, both qualitative from real users and case managers, as well as quantitative through various different platforms. I'll also talk about the potential benefits that come with digitizing a paper-based form, and how we measured the success of our product. At the end I will show our concrete results, and reflect on how we spend the taxpayers money to make better digital services for the inhabitants of Norway.\r\n\r\nThis session is for designers, product leads and content designers who want to learn about how one of Norway’s largest government agency works to improve its products and services and how digitizing a paper form opens doors to gathering data in a smarter and more efficient ways, as well as how to use quantitative measures both to evaluate the success of your product, and as a tool to help prioritizing and improving your design.",
+      "title": "Effektivisering av velferdstaten - ett skjema om gangen",
+      "description": "NAV er en av Norges største arbeidsgivere og er ansvarlige for å opprettholde mye av den norske velferdsstaten. I dette foredraget vil jeg prate om hvordan vi designet, utviklet og kontinuerlig forbedret den digitale søknaden på barnetrygd fra en tidligere papirbasert løsning. \r\n\r\nForedraget beskriver fordelene og utfordringene vi møtte da vi skulle digitalisere en analog og papirbasert søknadsprosess, hvordan vi samlet både kvalitativ og kvantitativ innsikt som en del av denne prosessen, og hvordan vi målte resultatene av arbeidet. Jeg vil snakke om de konkrete målene vi nådde, hvordan du kan bruke kvantitativ måling både til å måle suksess og som et prioriteringsverktøy, og reflektere over hvordan arbeidet bidro til å gi innbyggerne i Norge bedre digitale tjenester.\r\n\r\nForedraget passer for designere, produktledere, innholdsdesignere og alle som vil lære mer om hvordan NAV jobber med å utvikle og forbedre sine digitale produkter og tjenester, og hvordan det å digitalisere et papirskjema gir muligheter for å hente inn data på smartere og mer effektive måter. \r\n",
       "startsAt": "2026-03-12T09:50:00Z",
       "endsAt": "2026-03-12T10:20:00Z",
       "isServiceSession": false,
@@ -1643,7 +1645,9 @@
       "speakers": [
         "efb202e0-dc24-4632-ade0-1b9eb426186a"
       ],
-      "categoryItems": [],
+      "categoryItems": [
+        447355
+      ],
       "questionAnswers": [
         {
           "questionId": 114013,
@@ -1688,18 +1692,23 @@
       "isConfirmed": true
     },
     {
-      "id": "1057540",
-      "title": "Svarut - en kommunal kjærlighetshistorie",
-      "description": "SvarUt er en tjeneste de færreste har hørt om – men som nesten alle innbyggere i Norge usynlig bruker. Får du et brev fra din kommune, går det mest sannsynlig gjennom SvarUt før det havner i din digitale eller fysiske postkasse.\r\n\r\nTjenesten ble opprinnelig utviklet av Bergen kommune, og var blant de første som ble overtatt av KS Digital, da en del av KS, og gjort tilgjengelig for hele kommunesektoren. Det ble et viktig startpunkt for det vi jobber for i dag: Å utvikle og forvalte felles, nasjonale digitale tjenester – både ved å overta og drifte gode løsninger som sektoren har utviklet, og ved å bygge helt nye tjenester fra grunnen av.\r\n\r\nDette foredraget forteller historien om SvarUt – hvordan en lokal løsning ble til en nasjonal fellestjeneste, og hvordan samarbeidet mellom Bergen kommune og KS Digital bidro til å forme et nytt kapittel i historien om digitalt samarbeid i kommunal sektor.\r\n",
+      "id": "1051006",
+      "title": "From clueless to queueless ⛴️",
+      "description": "In Northern Norway, you are twice as likely to miss a ferry as anywhere else in the country. Combine that with long round-trip times and a massive summer influx of tourists, and you have a recipe for frustration — and a juicy news headline.\r\n\r\nToday’s “first come, first served” principle does not scale in the north. Through an interdisciplinary design thinking process involving locals, tourists, ferry crews, and domain experts, we aim to reimagine the ferry journey and eliminate queues across the county.\r\n\r\nIn this session, we will pull back the curtain on our innovation process and the technology driving it. You will see real-world results from our peak-season pilot, learn how it captured national interest, and leave with a kickass strategy for turning bold ideas into reality.",
       "startsAt": "2026-03-12T13:00:00Z",
       "endsAt": "2026-03-12T13:30:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "0c4f3b79-15ff-4c31-b11a-bcaf71d13bcc"
+        "f85dd1d7-506c-42ee-b1c9-f0aed4df330e"
       ],
       "categoryItems": [
         393659,
+        393675,
+        393673,
+        393677,
+        393678,
+        393686,
         393697
       ],
       "questionAnswers": [
@@ -2283,7 +2292,7 @@
     {
       "id": "1045611",
       "title": "Make a Programming Language!",
-      "description": "Write your own programming language and learn more about how they work behind the scenes.\r\n\r\nIn this workshop we'll be building an interpreter for a simple programming language. You'll be able to put your own spin on the language as we develop it. This can give you some insight into the different design choices that can be made when developing a language, and why current programming languages look the way they do.",
+      "description": "Write your own programming language and learn more about how they work behind the scenes.\r\n\r\nIn this workshop we'll be building an interpreter for a simple programming language. You'll be able to put your own spin on the language as we develop it. This can give you some insight into the different design choices that can be made when developing a language, and why current programming languages look the way they do.\r\n\r\nBring a laptop with Python 3.10 or higher and an IDE. I recommend Visual Studio Code with the Python extension.",
       "startsAt": "2026-03-13T08:00:00Z",
       "endsAt": "2026-03-13T11:20:00Z",
       "isServiceSession": false,
@@ -2339,6 +2348,34 @@
       "status": "Accepted",
       "isInformed": true,
       "isConfirmed": true
+    },
+    {
+      "id": "1057588",
+      "title": "Relax with Pixel Art IRL",
+      "description": "Take a break from your screen and create some Pixel Art for your desk.\r\nMake your favorite character, programming language mascot or whatever you like from iron-fusible beads and take home your very own desk ornament.",
+      "startsAt": "2026-03-13T08:00:00Z",
+      "endsAt": "2026-03-13T13:00:00Z",
+      "isServiceSession": false,
+      "isPlenumSession": false,
+      "speakers": [
+        "ee58f1cd-f099-46db-bd46-5f775b18ceb7"
+      ],
+      "categoryItems": [
+        393660,
+        393701
+      ],
+      "questionAnswers": [
+        {
+          "questionId": 114013,
+          "answerValue": "false"
+        }
+      ],
+      "roomId": 71367,
+      "liveUrl": null,
+      "recordingUrl": null,
+      "status": "Accepted",
+      "isInformed": true,
+      "isConfirmed": false
     },
     {
       "id": "1057353",
@@ -2407,7 +2444,6 @@
         "923a21f8-34f8-4dca-923d-7c4867927d4c"
       ],
       "categoryItems": [
-        393657,
         393658,
         393668,
         393672,
@@ -2684,23 +2720,24 @@
       "isConfirmed": false
     },
     {
-      "id": "1146134",
-      "title": "To be announced",
-      "description": "To be announced",
+      "id": "1166811",
+      "title": "Closing Keynote",
+      "description": "Paris Marx talks about independence from the giant American tech-companies",
       "startsAt": "2026-03-13T13:20:00Z",
       "endsAt": "2026-03-13T14:00:00Z",
       "isServiceSession": false,
       "isPlenumSession": false,
       "speakers": [
-        "9026f739-c60b-411d-90f9-c346a7d88604"
+        "79b48428-2f7a-4c5b-a350-188c9eaaaa31"
       ],
       "categoryItems": [
+        393661,
         393700
       ],
       "questionAnswers": [
         {
           "questionId": 114013,
-          "answerValue": "false"
+          "answerValue": "true"
         }
       ],
       "roomId": 71360,
@@ -2783,7 +2820,7 @@
       "firstName": "Anders",
       "lastName": "Hefre",
       "bio": "Anders har over 20 års erfaring som utvikler og teamleder, og brenner for smidig utvikling, DevOps og mikrotjenester. Han er like opptatt av personlig utvikling og teamdynamikk som av teknologi, og liker å bygger sterke, autonome team gjennom et tillitsbasert og coachende lederskap.",
-      "tagLine": "Avdelingsleder utvikling og arkitektur og utvikler av hjerte",
+      "tagLine": "Teamleader og utvikler av hjerte",
       "profilePicture": "https://sessionize.com/image/d892-400o400o1-7RbxMkWEPyyJ1SjHg4GyK8.jpg",
       "isTopSpeaker": false,
       "links": [],
@@ -2948,8 +2985,7 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1141411,
-        1030814
+        1141411
       ],
       "fullName": "Cecilie Haugstvedt",
       "categoryItems": [],
@@ -3071,8 +3107,8 @@
       "id": "bfe8fb18-a060-40c1-9882-e082073a5e77",
       "firstName": "Einar",
       "lastName": "Høst",
-      "bio": "Einar W. Høst is an architect and developer at Norkart. He enjoys collaborative modelling, API design and computer programming. He has a PhD in Computer Science from the University of Oslo.",
-      "tagLine": "Architect at Norkart",
+      "bio": "Einar W. Høst is a software developer at Norkart. He enjoys collaborative modelling, API design and computer programming. He has a PhD in Computer Science from the University of Oslo.",
+      "tagLine": "Software developer",
       "profilePicture": "https://sessionize.com/image/1269-400o400o1-wzcD9dCq6KY3RLxJbnQ7Hz.jpg",
       "isTopSpeaker": false,
       "links": [],
@@ -3221,8 +3257,7 @@
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1146027,
-        1146134
+        1146027
       ],
       "fullName": "Gøran Basso",
       "categoryItems": [],
@@ -3305,6 +3340,22 @@
         1056779
       ],
       "fullName": "Heidi Mork",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "e3635f1a-93d6-4201-809e-8ab8e11e9dd8",
+      "firstName": "Helene",
+      "lastName": "Høylandskjær",
+      "bio": "Helene er en UX'er som er opptatt at vi setter brukerne i sentrum av designprosessen for å skape gode digitale løsninger. ",
+      "tagLine": "UX Designer i Knowit",
+      "profilePicture": "https://sessionize.com/image/9104-400o400o1-VKYrX6ihxhnRomrKZH8FgQ.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1150696
+      ],
+      "fullName": "Helene Høylandskjær",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -3408,13 +3459,14 @@
       "id": "ee58f1cd-f099-46db-bd46-5f775b18ceb7",
       "firstName": "Julian Philipp Merlin",
       "lastName": "Ertel",
-      "bio": "Julian works as a senior consultant for Miles Bergen.\r\nHis main competence is C++ development, but over the years he has gathered experience in a variety of different languages and technologies.\r\nAs a developer he has mainly worked in the domains of video processing and seismic data acquisition.\r\nWhen given the option Julian's language of choice is Rust.",
-      "tagLine": "Senior Consultant, Miles",
+      "bio": "Julian works as a Senior Software Developer at Mimir.\r\nOver the years he has gathered experience in a variety of different languages and technologies.\r\nAs a professional developer he has mainly worked in the domains of video processing and seismic data acquisition.\r\nWhen given the option Julian's language of choice is Rust.",
+      "tagLine": "Senior Software Developer, Mimir",
       "profilePicture": "https://sessionize.com/image/0ddf-400o400o1-MXSWp7CiCL6J7JZeuzbgFk.png",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
-        1054680
+        1054680,
+        1057588
       ],
       "fullName": "Julian Philipp Merlin Ertel",
       "categoryItems": [],
@@ -3615,6 +3667,22 @@
       "questionAnswers": []
     },
     {
+      "id": "61056dcf-1944-4296-9298-69a6fc3afbce",
+      "firstName": "Liva Snilstveit",
+      "lastName": "Hoem",
+      "bio": "Liva er en UX-designer som er spesielt opptatt av å skape inkluderende, brukersentrerte, bærekraftige og robuste tjenester som står seg over tid. ",
+      "tagLine": "UX-designer i Knowit",
+      "profilePicture": "https://sessionize.com/image/1eda-400o400o1-WUBAFXcUFWQTWrzbhrsKsE.png",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1150696
+      ],
+      "fullName": "Liva Snilstveit Hoem",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "c1cf9a3a-edc8-4aca-8f50-cc474e0b3d7b",
       "firstName": "Louis",
       "lastName": "Dieffenthaler",
@@ -3675,6 +3743,22 @@
         1030184
       ],
       "fullName": "Malin Jakobsen",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
+      "id": "d42c87d6-9ca9-4299-be4e-040f13bd113a",
+      "firstName": "Malin C.",
+      "lastName": "Karlsen",
+      "bio": "Malin Karlsen er seniorrådgiver i Variant. Hun har bred erfaring innen både privat og offentlig sektor, og brenner for å bygge bro mellom folk og ulike fagfelt, oftest gjennom strategi, design og prosessledelse.",
+      "tagLine": "CCPO Variant Trondheim",
+      "profilePicture": "https://sessionize.com/image/d3d1-400o400o1-3mMVBtqpyBShoVxFBhxFSC.jpg",
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1057549
+      ],
+      "fullName": "Malin C. Karlsen",
       "categoryItems": [],
       "questionAnswers": []
     },
@@ -3876,8 +3960,8 @@
       "id": "b1a3c1f3-01af-461e-ad47-4b4b115dd79c",
       "firstName": "Oleksandr",
       "lastName": "Kazymyrov",
-      "bio": "Oleksandr is an experienced cybersecurity professional with a passion for offensive security. He has led numerous engagements across a variety of industries, helping clients identify and address critical security vulnerabilities in their systems and infrastructure. As an Offensive Security Manager at Storebrand, Oleksandr has also been responsible for growing and managing a red team program, which has helped Storebrand enhance its security posture and better understand its risks and vulnerabilities. With a background in software engineering and a deep understanding of offensive tactics, he is uniquely positioned to help organizations adopt modern and effective offensive security practices.",
-      "tagLine": "Storebrand, Offensive Security Manager",
+      "bio": "Oleksandr Kazymyrov is a seasoned cybersecurity professional with a hacker’s mindset and a passion for offensive security. He holds a Ph.D. in cryptography and has over 15 years of experience in information security. As the Security Assurance Manager at Storebrand, Oleksandr leverages his offensive expertise to ensure the company’s security controls are robust and continuously improving. Previously, he built and led Storebrand’s red team program, uncovering critical vulnerabilities and strengthening the organization’s defenses. This unique blend of academic rigor and hands-on offensive experience allows him to bridge the gap between offense and defense, driving a more resilient security posture",
+      "tagLine": "Storebrand, Security Assurance Manager",
       "profilePicture": "https://sessionize.com/image/3549-400o400o1-V1ShZBrwJi6vLKp6Qa2s24.png",
       "isTopSpeaker": false,
       "links": [],
@@ -3921,12 +4005,28 @@
       "questionAnswers": []
     },
     {
+      "id": "79b48428-2f7a-4c5b-a350-188c9eaaaa31",
+      "firstName": "Paris",
+      "lastName": "Marx",
+      "bio": null,
+      "tagLine": null,
+      "profilePicture": null,
+      "isTopSpeaker": false,
+      "links": [],
+      "sessions": [
+        1166811
+      ],
+      "fullName": "Paris Marx",
+      "categoryItems": [],
+      "questionAnswers": []
+    },
+    {
       "id": "e692fc2a-3ebd-4fe4-8575-b621b42ab660",
       "firstName": "Peter",
       "lastName": "Bull",
-      "bio": "Peter er tech lead og data platform engineer som har erfaring fra Equinor, Miljødirektoratet og Politiet. \r\n\r\nHan er en kulturbygger, og har jobbet som scrum master, team leder og er en entusiast for at team skal fungere optimalt og effektivt. \r\n\r\nUtenom jobb er Peter en som elsker variasjon og utfordring. Han er helst å finne i hengende i tynne tau langt oppe i fjellveggen om sommeren eller i bratte fjellsider på vinteren. \r\n\r\nDet han liker best i livet er lære seg nye ting, og vil alltid plassere seg i situasjoner hvor må lære mye, og det fort. ",
-      "tagLine": "Utvikler og kulturbygger, Miles",
-      "profilePicture": "https://sessionize.com/image/909e-400o400o1-XuW8zozSqh1AKMQxnVexPv.jpg",
+      "bio": "Peter er teknisk leder og data platform engineer som har erfaring fra Equinor, Miljødirektoratet og Politiets IT-enhet\r\n\r\nHan er en kulturbygger, og har jobbet som scrum master, team leder og er en entusiast for at team skal fungere optimalt og effektivt. \r\n\r\nUtenom jobb er Peter en som elsker variasjon og utfordring. Han er helst å finne i hengende i tynne tau langt oppe i fjellveggen om sommeren eller i bratte fjellsider på vinteren. \r\n\r\nDet han liker best i livet er lære seg nye ting, og vil alltid plassere seg i situasjoner hvor må lære mye, og det fort. ",
+      "tagLine": "Teknisk leder innen dataplattform, Miles",
+      "profilePicture": "https://sessionize.com/image/853c-400o400o1-aRMbDzevHN69WM6XfS2oAZ.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
@@ -4086,7 +4186,7 @@
       "lastName": "Bjørnå",
       "bio": "Sofie er en UX-designer med lidenskap for å skape brukervennlige og estetiske digitale løsninger. Hun legger stor vekt på tett samarbeid og åpen dialog mellom design og utvikling, fordi gode løsninger oppstår når ulike perspektiver forstår hverandre. ",
       "tagLine": "Senior UX designer i Kantega",
-      "profilePicture": "https://sessionize.com/image/79db-400o400o1-sm9myW8sXm5TTMkaJoxc6x.jpg",
+      "profilePicture": "https://sessionize.com/image/dd56-400o400o1-KhkizFahCGVC7P4phbdUBh.jpg",
       "isTopSpeaker": false,
       "links": [],
       "sessions": [
@@ -4508,6 +4608,11 @@
           "id": 393701,
           "name": "Special Workshop",
           "sort": 6
+        },
+        {
+          "id": 447355,
+          "name": "Open Spaces",
+          "sort": 7
         }
       ],
       "sort": 16,

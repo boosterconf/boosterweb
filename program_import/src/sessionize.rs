@@ -240,13 +240,11 @@ impl
             })
             .sorted()
             .collect::<Vec<_>>();
-
         Ok(Slot {
             starts_at: new_rooms
-                .first()
-                .unwrap()
-                .sessions
-                .first()
+                    .iter()
+                .flat_map(|x| &x.sessions)
+                .find_or_first(|session| !session.is_continuation)
                 .unwrap()
                 .starts_at,
             ends_at: ends_at.unwrap_or_else(|| {
@@ -430,6 +428,20 @@ mod tests {
                     }]
                 }],
             }
+        )
+    }
+
+       #[test]
+    fn test_continuation_end_with_parallel_sessions_parse() {
+        let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
+        let all = fs::read_to_string("test_fixtures/All.json").unwrap();
+
+        let mut days = program_parse(days, all).unwrap();
+
+        assert_eq!(
+            // Test a long continuation at the same time as single-slot sessions
+            days[2].time_slots[4].starts_at,
+            Utc.with_ymd_and_hms(2026, 3, 13, 12, 30, 0).unwrap()
         )
     }
 }
