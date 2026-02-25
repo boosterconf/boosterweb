@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 # Trusted as it's used by crates.io
-reqwest = { version = "0.13.1" }
+reqwest = { version = "0.13.2" }
 # Trusted as it's used by crates.io
 serde = { version = "1.0.228", features = ["derive"] }
 # Trusted as it's used by crates.io
