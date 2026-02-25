@@ -1,5 +1,7 @@
 //! The Booster domain data structures and functions.
 
+use std::cmp::Ordering;
+
 use chrono::{DateTime, NaiveDate, Utc};
 
 #[derive(Debug, PartialEq, Eq)]
@@ -27,13 +29,26 @@ impl PartialOrd for Room {
     }
 }
 
+/// Rooms containing experience reports always come first, thereafter we go
+/// alphabetical by room name
 impl Ord for Room {
     fn cmp(&self, other: &Self) -> std::cmp::Ordering {
-        other
-            .sessions
-            .len()
-            .cmp(&self.sessions.len())
-            .then(self.name.cmp(&other.name))
+        let ordering = match (
+            self.sessions
+                .iter()
+                .any(|x| x.category == SessionCategory::ExperienceReport),
+            other
+                .sessions
+                .iter()
+                .any(|x| x.category == SessionCategory::ExperienceReport),
+        ) {
+            (true, true) => Ordering::Equal,
+            (true, false) => Ordering::Less,
+            (false, true) => Ordering::Greater,
+            (false, false) => Ordering::Equal,
+        };
+
+        ordering.then(self.name.cmp(&other.name))
     }
 }
 
@@ -57,6 +72,10 @@ pub struct Session {
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum SessionCategory {
+    ExperienceReport,
+    LightningTalk,
+    Workshop90,
+    Workshop180,
     Break,
     Keynote,
     Registration,
@@ -66,10 +85,6 @@ pub enum SessionCategory {
     ToBeAnnounced,
     ConferenceIntro,
     OpenSpaces,
-    LightningTalk,
-    ExperienceReport,
-    Workshop90,
-    Workshop180,
     SpecialWorkshop,
 }
 
@@ -108,5 +123,83 @@ pub fn session_has_end(session_category: &SessionCategory) -> bool {
         SessionCategory::Workshop90 => true,
         SessionCategory::Workshop180 => true,
         SessionCategory::SpecialWorkshop => true,
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn room_ordering() {
+        let mut rooms = [
+            Room {
+                name: "C".into(),
+                sessions: vec![Session {
+                    title: "Workshop".into(),
+                    is_service_session: false,
+                    is_plenum_session: false,
+                    is_continuation: false,
+                    is_english: false,
+                    starts_at: DateTime::default(),
+                    ends_at: DateTime::default(),
+                    description: None,
+                    category: SessionCategory::Workshop90,
+                    speakers: Vec::new(),
+                }],
+            },
+            Room {
+                name: "X".into(),
+                sessions: vec![Session {
+                    title: "Experience report".into(),
+                    is_service_session: false,
+                    is_plenum_session: false,
+                    is_continuation: false,
+                    is_english: false,
+                    starts_at: DateTime::default(),
+                    ends_at: DateTime::default(),
+                    description: None,
+                    category: SessionCategory::ExperienceReport,
+                    speakers: Vec::new(),
+                }],
+            },
+            Room {
+                name: "B".into(),
+                sessions: vec![Session {
+                    title: "Workshop".into(),
+                    is_service_session: false,
+                    is_plenum_session: false,
+                    is_continuation: false,
+                    is_english: false,
+                    starts_at: DateTime::default(),
+                    ends_at: DateTime::default(),
+                    description: None,
+                    category: SessionCategory::Workshop90,
+                    speakers: Vec::new(),
+                }],
+            },
+            Room {
+                name: "Y".into(),
+                sessions: vec![Session {
+                    title: "Experience report".into(),
+                    is_service_session: false,
+                    is_plenum_session: false,
+                    is_continuation: false,
+                    is_english: false,
+                    starts_at: DateTime::default(),
+                    ends_at: DateTime::default(),
+                    description: None,
+                    category: SessionCategory::ExperienceReport,
+                    speakers: Vec::new(),
+                }],
+            },
+        ];
+
+        rooms.sort();
+
+        assert_eq!(
+            vec!["X", "Y", "B", "C"],
+            rooms.into_iter().map(|x| x.name).collect::<Vec<_>>()
+        );
     }
 }

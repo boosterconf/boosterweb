@@ -2,5 +2,5 @@
 title: "Dreggen 2"
 type: room
 language: 
-weight: 1
+weight: 4
 ---
