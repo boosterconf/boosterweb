@@ -1,0 +1,10 @@
+{{- define "main" }}
+<div class="header-join">
+    <h1>{{ .Title | markdownify }}</h1>
+</div>
+<article class="inner">
+    <div class="description">
+        {{ .Content }}
+    </div>
+</article>
+{{end}}
