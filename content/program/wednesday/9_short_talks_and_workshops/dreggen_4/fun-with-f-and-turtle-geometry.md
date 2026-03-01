@@ -16,3 +16,5 @@ In this workshop you will learn basic functional programming with F#, while crea
 The geometry in the workshop is based on the first chapters of the classical book "Turtle geometry" by Abelson and diSessa.
 
 No previous experience with turtles or F# is required.
+
+Bring your laptop, and if you have time in advance, check out the "Getting started" section https://github.com/heidisu/turtle-geometry.
