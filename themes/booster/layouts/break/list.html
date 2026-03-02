@@ -1,13 +1,6 @@
 <div class="break">
-        {{ if eq .Title "Lunch" }}
-        <a href={{ .RelPermalink }}>
-                <span class="title">{{ .Title }}</span>
-                <time class="time">{{ .Params.Time }}</time>
-        </a>
-        {{ else }}
-                {{ if .Title }}
-                <span class="title">{{ .Title }}</span>
-                {{ end }}
-                <time class="time">{{ .Params.Time }}</time>
+        {{ if .Title }}
+        <span class="title">{{ .Title }}</span>
         {{ end }}
+        <time class="time">{{ .Params.Time }}</time>
 </div>

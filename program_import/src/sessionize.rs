@@ -128,6 +128,7 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
             "Speaker's dinner" => Ok(SessionCategory::Dinner),
             "To be announced" => Ok(SessionCategory::ToBeAnnounced),
             "Day ends" => Ok(SessionCategory::DayEnds),
+            _ if { session.title.contains("Lunch") } => Ok(SessionCategory::Lunch),
             _ => {
                 let accepted_as = session
                     .categories

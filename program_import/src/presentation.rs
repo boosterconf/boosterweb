@@ -125,7 +125,7 @@ pub fn days_to_markdown(
 fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static str>) {
     match session.category {
         SessionCategory::Break => ("break", None),
-        SessionCategory::Lunch => ("break", None),
+        SessionCategory::Lunch => ("lunch", None),
         SessionCategory::ConferenceIntro => ("welcome", None),
         SessionCategory::Registration => ("registration", None),
         SessionCategory::DayEnds => ("period", None),

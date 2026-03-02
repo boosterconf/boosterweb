@@ -1,7 +1,7 @@
 ---
 time: "12:20 - 13:30"
-title: "Lunch"
-type: break
+title: "Lunch & drop in yoga"
+type: lunch
 weight: 4
 ---
 Time to fill up on energy and discuss the day so far!
