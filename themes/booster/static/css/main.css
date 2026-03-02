@@ -593,6 +593,7 @@ article .map iframe {
   grid-column: 2;
   margin: 0 20px;
   padding: 0 12px;
+  text-align: center;
   font-size: var(--font-size-body);
   font-family: var(--condensed-font);
   letter-spacing: var(--letter-spacing-condensed);
