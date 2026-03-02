@@ -128,7 +128,7 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
         SessionCategory::Lunch => ("lunch", None),
         SessionCategory::ConferenceIntro => ("welcome", None),
         SessionCategory::Registration => ("registration", None),
-        SessionCategory::DayEnds => ("period", None),
+        SessionCategory::DayEnds => ("break", None),
         SessionCategory::ToBeAnnounced => ("talk", None),
         SessionCategory::OpenSpaces => ("talk", Some("Open Spaces")),
         SessionCategory::Dinner => ("period", None),

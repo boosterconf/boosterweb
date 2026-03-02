@@ -1,6 +1,6 @@
 ---
 time: "16:20"
 title: "Day ends"
-type: period
+type: break
 weight: 12
 ---
