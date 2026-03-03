@@ -6,7 +6,7 @@ starts_at: 2026-03-11T14:25:00Z
 ends_at: 2026-03-11T15:20:00Z
 weight: 1
 authors:
-    - Gøran Basso
+    - Martin Larsson
 
 ---
 Two heavyweights, with wildly different and hot takes about our industry, will face off in a battle of wits, guts and glory!

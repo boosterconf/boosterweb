@@ -8,6 +8,7 @@ weight: 1
 authors:
     - Siv Holen
     - Nora Gjøen-Gjøsæter
+    - Brage Breivik
 
 ---
 Siv og Nora leder dere gjennom en utforskende workshop hvor dere jobber i små grupper med utgangspunkt i realistiske case fra næringslivet. Sammen undersøker vi hvordan kunstig intelligens kan løse reelle utfordringer og gi merverdi for produkter, tjenester og sluttbrukere. Med Design Thinking som metode går vi fra problem til idé, og “koker sammen” skisser som kan løse hverdagsproblemer eller gi merverdi for din bedrift og deres kunder. Her får du inspirasjon og konkrete metoder du kan ta med hjem!
