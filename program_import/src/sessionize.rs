@@ -159,6 +159,7 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
                     "Workshop 1,5h" => Ok(SessionCategory::Workshop90),
                     "Workshop 3h" => Ok(SessionCategory::Workshop180),
                     "Special Workshop" => Ok(SessionCategory::SpecialWorkshop),
+                    "Plenum" => Ok(SessionCategory::Plenum),
                     x => Err(format!(
                         "Couldn't figure out category on {}. The 'accepted as' category was: {}",
                         session.title, x
@@ -265,7 +266,7 @@ impl
 /// sets of data for this for the current approach. An alternative would be not
 /// relying on Sessionize slots, but this works without _too much_ awkwardness.
 ///
-/// Single slot single room non content sessions are used to chunk up the
+/// Single slot single room non-content sessions are used to chunk up the
 /// Sessionize slots to match the ones we use. Continuation sessions are also
 /// created here.
 impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {

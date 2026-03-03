@@ -138,6 +138,7 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
         SessionCategory::Workshop90 => ("talk", Some("Workshop 1,5h")),
         SessionCategory::Workshop180 => ("talk", Some("Workshop 3h")),
         SessionCategory::SpecialWorkshop => ("talk", Some("Workshop")),
+        SessionCategory::Plenum => ("talk", Some("Plenum"))
     }
 }
 
@@ -157,6 +158,7 @@ fn session_category_to_dir_names(cat: &SessionCategory) -> &'static str {
         SessionCategory::Workshop90 => "workshops",
         SessionCategory::Workshop180 => "workshops",
         SessionCategory::SpecialWorkshop => "workshops",
+        SessionCategory::Plenum => "plenum",
     }
 }
 
