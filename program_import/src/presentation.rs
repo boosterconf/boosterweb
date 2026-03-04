@@ -358,7 +358,7 @@ weight: {i}
 
 pub fn speakers_to_markdown(
     target_dir: PathBuf,
-    speakers: &Vec<Speaker>,
+    speakers: &[Speaker],
 ) -> Result<(), Box<dyn std::error::Error>> {
     let _ = fs::create_dir_all(&target_dir)?;
 
@@ -382,7 +382,7 @@ title: "{title}"
 "#
         );
 
-        let path = create_speaker_path(&target_dir, &speaker);
+        let path = create_speaker_path(&target_dir, speaker);
         new_speaker_paths.push(path.clone());
         let _ = fs::create_dir_all(&path);
         let _ = fs::write(path.join("index.md"), content);

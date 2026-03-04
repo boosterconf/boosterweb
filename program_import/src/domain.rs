@@ -1,6 +1,6 @@
 //! The Booster domain data structures and functions.
 
-use std::{cmp::Ordering, path::PathBuf};
+use std::{cmp::Ordering, path::{Path, PathBuf}};
 
 use chrono::{DateTime, NaiveDate, Utc};
 
@@ -140,7 +140,7 @@ pub fn session_has_end(session_category: &SessionCategory) -> bool {
 }
 
 pub fn create_speaker_path(
-    parent_dir: &PathBuf,
+    parent_dir: &Path,
     speaker: &Speaker
 ) -> PathBuf {
     parent_dir.join(speaker.name.replace(" ", "-").to_lowercase())

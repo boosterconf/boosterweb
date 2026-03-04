@@ -402,7 +402,7 @@ fn speakers_parse(
     let speakers = all
         .speakers
         .into_iter()
-        .map(|x| Speaker::try_from(x))
+        .map(Speaker::try_from)
         .collect::<Result<Vec<Speaker>, String>>()?;
 
     Ok(speakers)
@@ -445,7 +445,7 @@ pub async fn fetch_speakers() -> Result<Vec<Speaker>, Box<dyn std::error::Error>
 
 pub async fn download_speaker_photos(
     target_dir: PathBuf,
-    speakers: &Vec<Speaker>,
+    speakers: &[Speaker],
 ) -> Result<(), Box<dyn std::error::Error>> {
     println!("Downloading speaker photos...");
     let _ = fs::create_dir_all(&target_dir);
@@ -454,7 +454,7 @@ pub async fn download_speaker_photos(
         if !speaker.profile_picture_url.is_empty() {
             let url = speaker.profile_picture_url.clone();
             let file_name = url.rsplit('/').next().unwrap();
-            let path = create_speaker_path(&target_dir, &speaker);
+            let path = create_speaker_path(&target_dir, speaker);
             let file_path = path.join(file_name);
 
             if !file_path.exists() {
