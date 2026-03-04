@@ -9,7 +9,7 @@ use regex::Regex;
 
 use crate::{
     domain::{
-        Day, Room, Session, SessionCategory, Slot, is_session_category_content, session_has_end,
+        Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content, session_has_end, create_speaker_path,
     },
     utils::{number_ordinal, tree_term},
 };
@@ -354,6 +354,48 @@ weight: {i}
     };
 
     (filename, content)
+}
+
+pub fn speakers_to_markdown(
+    target_dir: PathBuf,
+    speakers: &Vec<Speaker>,
+) -> Result<(), Box<dyn std::error::Error>> {
+    fs::create_dir_all(&target_dir)?;
+
+    let existing_speaker_paths: Vec<PathBuf> = fs::read_dir(&target_dir)?
+        .filter_map(|x| x.ok())
+        .map(|x| x.path())
+        .filter(|x| x.is_dir())
+        .collect();
+    let mut new_speaker_paths: Vec<PathBuf> = Vec::new();
+
+    for speaker in speakers.iter() {
+        let name = speaker.name.clone();
+        let title = speaker.title.clone();
+        let bio = speaker.bio.clone();
+        let content = format!(
+            r#"---
+name: "{name}"
+title: "{title}"
+---
+{bio}
+"#
+        );
+
+        let path = create_speaker_path(&target_dir, &speaker);
+        new_speaker_paths.push(path.clone());
+        let _ = fs::create_dir_all(&path);
+        let _ = fs::write(path.join("index.md"), content);
+    }
+
+    for existing_path in existing_speaker_paths {
+        if !new_speaker_paths.contains(&existing_path) {
+            println!("Removed speaker directory: {}", &existing_path.display());
+            fs::remove_dir_all(&existing_path);
+        }
+    }
+
+    Ok(())
 }
 
 #[cfg(test)]

@@ -1,7 +1,12 @@
 //! Sessionize client, data structures, and conversions to domain data
 //! structures
 
-use crate::domain::*;
+use crate::{
+    constants::*,
+    domain::*,
+};
+
+use std::{fs, path::PathBuf};
 
 use chrono::{DateTime, NaiveTime, Utc};
 use itertools::Itertools;
@@ -66,6 +71,7 @@ pub struct SessionizeDay {
 #[serde(rename_all = "camelCase")]
 pub struct SessionizeAllMetadata {
     sessions: Vec<SessionizeSessionMetadata>,
+    speakers: Vec<SessionizeSpeakerMetadata>,
 }
 
 #[derive(Debug, PartialEq, Eq, Deserialize)]
@@ -73,6 +79,16 @@ pub struct SessionizeAllMetadata {
 pub struct SessionizeSessionMetadata {
     id: String,
     question_answers: Vec<SessionizeQuestionAnswers>,
+}
+
+#[derive(Debug, PartialEq, Eq, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct SessionizeSpeakerMetadata {
+    id: String,
+    full_name: String,
+    bio: Option<String>,
+    tag_line: Option<String>,
+    profile_picture: Option<String>,
 }
 
 #[derive(Debug, PartialEq, Eq, Deserialize)]
@@ -347,6 +363,22 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
     }
 }
 
+impl TryFrom<SessionizeSpeakerMetadata> for Speaker {
+    type Error = String;
+
+    fn try_from(
+        speaker: SessionizeSpeakerMetadata
+    ) -> Result<Self, Self::Error> {
+        Ok(Speaker {
+            id: speaker.id,
+            name: speaker.full_name,
+            title: speaker.tag_line.unwrap_or_default(),
+            bio: speaker.bio.unwrap_or_default(),
+            profile_picture_url: speaker.profile_picture.unwrap_or_default(),
+        })
+    }
+}
+
 /// Parse data from Sessionize into domain data structures
 fn program_parse(
     grid_smart: String,
@@ -362,13 +394,27 @@ fn program_parse(
     Ok(days)
 }
 
+/// Parse speaker data from Sessionize into domain data structure
+fn speakers_parse(
+    all_metadata: String,
+) -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
+    let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
+    let speakers = all
+        .speakers
+        .into_iter()
+        .map(|x| Speaker::try_from(x))
+        .collect::<Result<Vec<Speaker>, String>>()?;
+
+    Ok(speakers)
+}
+
 /// Fetch `GridSmart` and `All` JSONs from Sessionize API, parse them, and
 /// return the result as domain data structures
 pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
     let (grid_smart, all_metadata) = join!(
         async {
             Ok::<_, reqwest::Error>(
-                reqwest::get("https://sessionize.com/api/v2/1gnvn8rl/view/GridSmart")
+                reqwest::get(GRID_SMART_URL)
                     .await?
                     .text()
                     .await?,
@@ -376,7 +422,7 @@ pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
         },
         async {
             Ok::<_, reqwest::Error>(
-                reqwest::get("https://sessionize.com/api/v2/1gnvn8rl/view/All")
+                reqwest::get(ALL_METADATA_URL)
                     .await?
                     .text()
                     .await?,
@@ -385,6 +431,43 @@ pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
     );
 
     program_parse(grid_smart?, all_metadata?)
+}
+
+/// Fetch `All` JSONS from Sessionize API, parse it, and return the speakers as a domain data structure
+pub async fn fetch_speakers() -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
+    let all_metadata = reqwest::get(ALL_METADATA_URL)
+        .await?
+        .text()
+        .await?;
+
+    speakers_parse(all_metadata)
+}
+
+pub async fn download_speaker_photos(
+    target_dir: PathBuf,
+    speakers: &Vec<Speaker>,
+) -> Result<(), Box<dyn std::error::Error>> {
+    println!("Downloading speaker photos...");
+    let _ = fs::create_dir_all(&target_dir);
+
+    for speaker in speakers.iter() {
+        if !speaker.profile_picture_url.is_empty() {
+            let url = speaker.profile_picture_url.clone();
+            let file_name = url.rsplit('/').next().unwrap();
+            let path = create_speaker_path(&target_dir, &speaker);
+            let file_path = path.join(file_name);
+
+            if !file_path.exists() {
+                let bytes = reqwest::get(url.clone())
+                    .await?
+                    .bytes()
+                    .await?;
+
+                let _ = fs::write(file_path, &bytes)?;
+            }
+        }
+    }
+    Ok(())
 }
 
 #[cfg(test)]
@@ -433,7 +516,7 @@ mod tests {
         )
     }
 
-       #[test]
+    #[test]
     fn test_continuation_end_with_parallel_sessions_parse() {
         let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
@@ -444,6 +527,24 @@ mod tests {
             // Test a long continuation at the same time as single-slot sessions
             days[2].time_slots[4].starts_at,
             Utc.with_ymd_and_hms(2026, 3, 13, 12, 30, 0).unwrap()
+        )
+    }
+
+    #[test]
+    fn test_speakers_parse() {
+        let all = fs::read_to_string("test_fixtures/All.json").unwrap();
+
+        let mut speakers = speakers_parse(all).unwrap();
+
+        assert_eq!(
+            speakers[0],
+            Speaker {
+                id: "f85dd1d7-506c-42ee-b1c9-f0aed4df330e",
+                name: "Abel van Beek",
+                title: "I create kick-ass user experiences at Troms Fylkeskommune",
+                bio: "Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.",
+                profile_picture_url: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg",
+            }
         )
     }
 }

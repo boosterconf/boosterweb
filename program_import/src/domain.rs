@@ -1,6 +1,6 @@
 //! The Booster domain data structures and functions.
 
-use std::cmp::Ordering;
+use std::{cmp::Ordering, path::PathBuf};
 
 use chrono::{DateTime, NaiveDate, Utc};
 
@@ -67,6 +67,7 @@ pub struct Session {
     pub category: SessionCategory,
     /// Speakers are assumed to have unique names across the whole site.
     /// Sessionize has IDs for when we need to handle duplicates
+    /// In the future, maybe this should be a pointer to the actual Speaker domain structure instance?
     pub speakers: Vec<String>,
 }
 
@@ -87,6 +88,15 @@ pub enum SessionCategory {
     OpenSpaces,
     SpecialWorkshop,
     Plenum,
+}
+
+#[derive(Debug, PartialEq, Eq)]
+pub struct Speaker {
+    pub id: String,
+    pub name: String,
+    pub title: String,
+    pub bio: String,
+    pub profile_picture_url: String,
 }
 
 pub fn is_session_category_content(session_category: &SessionCategory) -> bool {
@@ -127,6 +137,13 @@ pub fn session_has_end(session_category: &SessionCategory) -> bool {
         SessionCategory::SpecialWorkshop => true,
         SessionCategory::Plenum => true,
     }
+}
+
+pub fn create_speaker_path(
+    parent_dir: &PathBuf,
+    speaker: &Speaker
+) -> PathBuf {
+    parent_dir.join(speaker.name.replace(" ", "-").to_lowercase())
 }
 
 #[cfg(test)]
