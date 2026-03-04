@@ -1,7 +1,6 @@
 ---
 name: "Cecilie Haugstvedt"
 title: "Test lead at Systek"
-# twitter_handle: 
 ---
 Cecilie is a Test Lead at Systek with a technical background. She's been working with test in both the public and private sector for the last decade and likes to share her ideas at conferences.
 

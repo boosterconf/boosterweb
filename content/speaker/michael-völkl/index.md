@@ -1,7 +1,6 @@
 ---
 name: "Michael Völkl"
 title: "Senior Engineer"
-# twitter_handle: 
 ---
 Michael has been writing software for more than 20 years.
 

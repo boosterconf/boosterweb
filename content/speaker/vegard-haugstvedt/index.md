@@ -1,7 +1,6 @@
 ---
 name: "Vegard Haugstvedt"
 title: "Frontend developer at Rubberduck"
-# twitter_handle: 
 ---
 An enthusiastic accessibility advocate, usually talking about WCAG, WAI-ARIA, A11Y and other abbreviations.
 

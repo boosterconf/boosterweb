@@ -1,7 +1,6 @@
 ---
 name: "Mufrid Krilic"
 title: "Domain-Driven Design Coach at CoWork, Norway"
-# twitter_handle: 
 ---
 Mufrid is devoted to leading and coaching product development teams, by cultivating knowledge sharing in the organization and increasing co-developer’s business understanding. His professional philosophy is rooted in Domain-Driven Design and in building agile and technical coaching culture on an organization-wide level. With 20+ years of experience as software architect, developer and technical coach, Mufrid has been deeply involved in developing enterprise-solutions in complex domains, such as healthcare, insurance and telecom.
 

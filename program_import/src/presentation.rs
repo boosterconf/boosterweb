@@ -360,7 +360,7 @@ pub fn speakers_to_markdown(
     target_dir: PathBuf,
     speakers: &Vec<Speaker>,
 ) -> Result<(), Box<dyn std::error::Error>> {
-    fs::create_dir_all(&target_dir)?;
+    let _ = fs::create_dir_all(&target_dir)?;
 
     let existing_speaker_paths: Vec<PathBuf> = fs::read_dir(&target_dir)?
         .filter_map(|x| x.ok())
@@ -391,7 +391,7 @@ title: "{title}"
     for existing_path in existing_speaker_paths {
         if !new_speaker_paths.contains(&existing_path) {
             println!("Removed speaker directory: {}", &existing_path.display());
-            fs::remove_dir_all(&existing_path);
+            let _ = fs::remove_dir_all(&existing_path);
         }
     }
 
