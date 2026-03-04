@@ -9,7 +9,8 @@ use regex::Regex;
 
 use crate::{
     domain::{
-        Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content, session_has_end, create_speaker_path,
+        Day, Room, Session, SessionCategory, Slot, Speaker, create_speaker_path,
+        is_session_category_content, session_has_end,
     },
     utils::{number_ordinal, tree_term},
 };
@@ -138,7 +139,7 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
         SessionCategory::Workshop90 => ("talk", Some("Workshop 1,5h")),
         SessionCategory::Workshop180 => ("talk", Some("Workshop 3h")),
         SessionCategory::SpecialWorkshop => ("talk", Some("Workshop")),
-        SessionCategory::Plenum => ("talk", Some("Plenum"))
+        SessionCategory::Plenum => ("talk", Some("Plenum")),
     }
 }
 
@@ -360,7 +361,7 @@ pub fn speakers_to_markdown(
     target_dir: PathBuf,
     speakers: &[Speaker],
 ) -> Result<(), Box<dyn std::error::Error>> {
-    let _ = fs::create_dir_all(&target_dir)?;
+    fs::create_dir_all(&target_dir)?;
 
     let existing_speaker_paths: Vec<PathBuf> = fs::read_dir(&target_dir)?
         .filter_map(|x| x.ok())

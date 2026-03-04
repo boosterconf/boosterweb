@@ -1,10 +1,7 @@
 //! Sessionize client, data structures, and conversions to domain data
 //! structures
 
-use crate::{
-    constants::*,
-    domain::*,
-};
+use crate::{constants::*, domain::*};
 
 use std::{fs, path::PathBuf};
 
@@ -260,7 +257,7 @@ impl
             .collect::<Vec<_>>();
         Ok(Slot {
             starts_at: new_rooms
-                    .iter()
+                .iter()
                 .flat_map(|x| &x.sessions)
                 .find_or_first(|session| !session.is_continuation)
                 .unwrap()
@@ -312,7 +309,7 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
 
                     current_intermediates.append(&mut continuations);
 
-                println!("{:?}", non_content_room.session.starts_at);
+                    println!("{:?}", non_content_room.session.starts_at);
                     slots.push(Slot::try_from((
                         metadata,
                         x,
@@ -366,9 +363,7 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
 impl TryFrom<SessionizeSpeakerMetadata> for Speaker {
     type Error = String;
 
-    fn try_from(
-        speaker: SessionizeSpeakerMetadata
-    ) -> Result<Self, Self::Error> {
+    fn try_from(speaker: SessionizeSpeakerMetadata) -> Result<Self, Self::Error> {
         Ok(Speaker {
             id: speaker.id,
             name: speaker.full_name,
@@ -395,9 +390,7 @@ fn program_parse(
 }
 
 /// Parse speaker data from Sessionize into domain data structure
-fn speakers_parse(
-    all_metadata: String,
-) -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
+fn speakers_parse(all_metadata: String) -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
     let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
     let speakers = all
         .speakers
@@ -412,22 +405,8 @@ fn speakers_parse(
 /// return the result as domain data structures
 pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
     let (grid_smart, all_metadata) = join!(
-        async {
-            Ok::<_, reqwest::Error>(
-                reqwest::get(GRID_SMART_URL)
-                    .await?
-                    .text()
-                    .await?,
-            )
-        },
-        async {
-            Ok::<_, reqwest::Error>(
-                reqwest::get(ALL_METADATA_URL)
-                    .await?
-                    .text()
-                    .await?,
-            )
-        },
+        async { reqwest::get(GRID_SMART_URL).await?.text().await },
+        async { reqwest::get(ALL_METADATA_URL).await?.text().await },
     );
 
     program_parse(grid_smart?, all_metadata?)
@@ -435,10 +414,7 @@ pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
 
 /// Fetch `All` JSONS from Sessionize API, parse it, and return the speakers as a domain data structure
 pub async fn fetch_speakers() -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
-    let all_metadata = reqwest::get(ALL_METADATA_URL)
-        .await?
-        .text()
-        .await?;
+    let all_metadata = reqwest::get(ALL_METADATA_URL).await?.text().await?;
 
     speakers_parse(all_metadata)
 }
@@ -458,12 +434,9 @@ pub async fn download_speaker_photos(
             let file_path = path.join(file_name);
 
             if !file_path.exists() {
-                let bytes = reqwest::get(url.clone())
-                    .await?
-                    .bytes()
-                    .await?;
+                let bytes = reqwest::get(url.clone()).await?.bytes().await?;
 
-                let _ = fs::write(file_path, &bytes)?;
+                fs::write(file_path, &bytes)?;
             }
         }
     }
@@ -521,7 +494,7 @@ mod tests {
         let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
-        let mut days = program_parse(days, all).unwrap();
+        let days = program_parse(days, all).unwrap();
 
         assert_eq!(
             // Test a long continuation at the same time as single-slot sessions
@@ -534,16 +507,16 @@ mod tests {
     fn test_speakers_parse() {
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
-        let mut speakers = speakers_parse(all).unwrap();
+        let speakers = speakers_parse(all).unwrap();
 
         assert_eq!(
             speakers[0],
             Speaker {
-                id: "f85dd1d7-506c-42ee-b1c9-f0aed4df330e",
-                name: "Abel van Beek",
-                title: "I create kick-ass user experiences at Troms Fylkeskommune",
-                bio: "Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.",
-                profile_picture_url: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg",
+                id: "f85dd1d7-506c-42ee-b1c9-f0aed4df330e".into(),
+                name: "Abel van Beek".into(),
+                title: "I create kick-ass user experiences at Troms Fylkeskommune".into(),
+                bio: "Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.".into(),
+                profile_picture_url: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg".into(),
             }
         )
     }
