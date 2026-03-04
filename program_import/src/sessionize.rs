@@ -375,9 +375,9 @@ impl TryFrom<SessionizeSpeakerMetadata> for Speaker {
 }
 
 /// Parse data from Sessionize into domain data structures
-fn program_parse(
-    grid_smart: String,
-    all_metadata: String,
+pub fn program_parse(
+    grid_smart: &str,
+    all_metadata: &str,
 ) -> Result<Vec<Day>, Box<dyn std::error::Error>> {
     let days: Vec<SessionizeDay> = serde_json::from_str(&grid_smart)?;
     let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
@@ -390,7 +390,7 @@ fn program_parse(
 }
 
 /// Parse speaker data from Sessionize into domain data structure
-fn speakers_parse(all_metadata: String) -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
+pub fn speakers_parse(all_metadata: String) -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
     let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
     let speakers = all
         .speakers
@@ -401,22 +401,14 @@ fn speakers_parse(all_metadata: String) -> Result<Vec<Speaker>, Box<dyn std::err
     Ok(speakers)
 }
 
-/// Fetch `GridSmart` and `All` JSONs from Sessionize API, parse them, and
-/// return the result as domain data structures
-pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
+/// Fetch `GridSmart` and `All` JSONs from Sessionize API in parallel.
+pub async fn fetch_sessionize_data() -> reqwest::Result<(String, String)> {
     let (grid_smart, all_metadata) = join!(
         async { reqwest::get(GRID_SMART_URL).await?.text().await },
         async { reqwest::get(ALL_METADATA_URL).await?.text().await },
     );
 
-    program_parse(grid_smart?, all_metadata?)
-}
-
-/// Fetch `All` JSONS from Sessionize API, parse it, and return the speakers as a domain data structure
-pub async fn fetch_speakers() -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
-    let all_metadata = reqwest::get(ALL_METADATA_URL).await?.text().await?;
-
-    speakers_parse(all_metadata)
+    Ok((grid_smart?, all_metadata?))
 }
 
 pub async fn download_speaker_photos(
@@ -434,9 +426,9 @@ pub async fn download_speaker_photos(
             let file_path = path.join(file_name);
 
             if !file_path.exists() {
-                let bytes = reqwest::get(url.clone()).await?.bytes().await?;
+                let bytes = reqwest::get(url).await?.bytes().await?;
 
-                fs::write(file_path, &bytes)?;
+                fs::write(file_path, bytes)?;
             }
         }
     }
@@ -456,7 +448,7 @@ mod tests {
         let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
-        let mut days = program_parse(days, all).unwrap();
+        let mut days = program_parse(&days, &all).unwrap();
         days[1].time_slots.truncate(1);
         days[1].time_slots[0].rooms.truncate(1);
         days[1].time_slots[0].rooms[0].sessions.truncate(1);
@@ -494,7 +486,7 @@ mod tests {
         let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
-        let days = program_parse(days, all).unwrap();
+        let days = program_parse(&days, &all).unwrap();
 
         assert_eq!(
             // Test a long continuation at the same time as single-slot sessions

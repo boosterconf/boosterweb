@@ -10,8 +10,10 @@ use std::path::Path;
 /// stuff that isn't needed right now
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let days = sessionize::fetch_program().await?;
-    let speakers = sessionize::fetch_speakers().await?;
+    let sessionize_data = sessionize::fetch_sessionize_data().await?;
+    let days = sessionize::program_parse(&sessionize_data.0, &sessionize_data.1)?;
+    let speakers = sessionize::speakers_parse(sessionize_data.1)?;
+
 
     println!("Importing Booster 2026 program");
     let target_dir = Path::new("../content/program");
