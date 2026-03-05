@@ -17,4 +17,5 @@ Vi bruker web-editoren, https://editor.p5js.org, til å kode/skrive egne program
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
+UTSOLGT! 
 [Meld på Kreativ Koding med P5 her](https://boosterconf.ticketco.events/no/nb/e/kreativ_koding_med_p5js)
