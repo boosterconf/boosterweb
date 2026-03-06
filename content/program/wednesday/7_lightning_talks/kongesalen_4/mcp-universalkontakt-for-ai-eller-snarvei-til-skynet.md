@@ -9,8 +9,8 @@ authors:
     - Ekaterina Orlova
 
 ---
-Model Context Protocol (MCP) er i ferd med å bli en kraftig måte å koble AI-modeller med verktøy, data og systemer på — tenk på det som USB-C for AI. Ved å standardisere hvordan modeller samhandler med eksterne tjenester, åpner MCP døren til mer kapable og kontekstsensitive applikasjoner.
+MCP (Model Context Protocol) er i ferd med å bli en kraftig måte å koble AI-modeller til verktøy, data og systemer på en slags universalkontakt for AI. Ved å standardisere hvordan modeller samhandler med eksterne tjenester, åpner MCP for mer kapable, handlende og kontekstsensitive applikasjoner.
 
-I dette foredraget viser jeg hva MCP er, hva det muliggjør, og hvorfor det er viktig. Gjennom et konkret case med en MCP-server bygget for Entur demonstrerer jeg hvordan slike servere fungerer i praksis og hvilke muligheter de gir. Men med stor kraft følger også risiko: jeg utforsker sikkerhetsutfordringer knyttet til å gi AI direkte tilgang til eksterne systemer, og trekker paralleller til reelle hendelser fra plattformer som WhatsApp og GitHub.
+I dette foredraget forklarer jeg hva MCP er, hvordan det fungerer, og hvorfor det har blitt så viktig på kort tid. Jeg viser hvilke nye muligheter protokollen skaper for utviklere og organisasjoner, men også hvorfor dette endrer trusselbildet betydelig. Når modeller ikke bare svarer, men også handler på vegne av brukeren, oppstår nye angrepsflater knyttet til blant annet prompt injection, overdreven tillit til verktøy, datalekkasjer og utilsiktet handling i eksterne systemer. Foredraget trekker også inn ferske eksempler fra 2026 som illustrerer hvor raskt slike risikoer kan materialisere seg i praksis.
 
-Avslutningsvis deler jeg strategier for hvordan utviklere og organisasjoner kan utnytte MCPs potensial på en trygg måte, og unngå de mest kritiske fallgruvene.
+Avslutningsvis deler jeg strategier for hvordan utviklere og organisasjoner kan utnytte MCPs potensial på en tryggere måte - med bedre isolasjon, tydeligere tillitsgrenser og mer bevisste sikkerhetsmekanismer rundt hva modeller faktisk får lov til å se og gjøre.
