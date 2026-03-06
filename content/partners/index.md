@@ -178,8 +178,8 @@ resources:
       title: Statens Vegvesen
       params:
         url: https://www.vegvesen.no/
-    - src: logos/tietoevry.svg
-      title: TietoEvry
+    - src: logos/tieto.svg
+      title: Tieto
       params:
         url: https://www.tietoevry.com/no/
     - src: logos/tryg.svg
