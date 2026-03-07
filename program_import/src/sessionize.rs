@@ -3,8 +3,7 @@
 
 use crate::{constants::*, domain::*};
 
-use std::{fs, path::PathBuf};
-
+use bytes::Bytes;
 use chrono::{DateTime, NaiveTime, Utc};
 use itertools::Itertools;
 use serde::Deserialize;
@@ -365,11 +364,10 @@ impl TryFrom<SessionizeSpeakerMetadata> for Speaker {
 
     fn try_from(speaker: SessionizeSpeakerMetadata) -> Result<Self, Self::Error> {
         Ok(Speaker {
-            id: speaker.id,
             name: speaker.full_name,
-            title: speaker.tag_line.unwrap_or_default(),
-            bio: speaker.bio.unwrap_or_default(),
-            profile_picture_url: speaker.profile_picture.unwrap_or_default(),
+            title: speaker.tag_line,
+            bio: speaker.bio,
+            profile_picture: speaker.profile_picture.map(|x| ProfilePicture { id: x }),
         })
     }
 }
@@ -379,8 +377,8 @@ pub fn program_parse(
     grid_smart: &str,
     all_metadata: &str,
 ) -> Result<Vec<Day>, Box<dyn std::error::Error>> {
-    let days: Vec<SessionizeDay> = serde_json::from_str(&grid_smart)?;
-    let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
+    let days: Vec<SessionizeDay> = serde_json::from_str(grid_smart)?;
+    let all: SessionizeAllMetadata = serde_json::from_str(all_metadata)?;
     let days = days
         .into_iter()
         .map(|x| Day::try_from((x, &all)))
@@ -411,28 +409,11 @@ pub async fn fetch_sessionize_data() -> reqwest::Result<(String, String)> {
     Ok((grid_smart?, all_metadata?))
 }
 
-pub async fn download_speaker_photos(
-    target_dir: PathBuf,
-    speakers: &[Speaker],
-) -> Result<(), Box<dyn std::error::Error>> {
-    println!("Downloading speaker photos...");
-    let _ = fs::create_dir_all(&target_dir);
-
-    for speaker in speakers.iter() {
-        if !speaker.profile_picture_url.is_empty() {
-            let url = speaker.profile_picture_url.clone();
-            let file_name = url.rsplit('/').next().unwrap();
-            let path = create_speaker_path(&target_dir, speaker);
-            let file_path = path.join(file_name);
-
-            if !file_path.exists() {
-                let bytes = reqwest::get(url).await?.bytes().await?;
-
-                fs::write(file_path, bytes)?;
-            }
-        }
-    }
-    Ok(())
+pub async fn fetch_profile_picture(
+    profile_picture: &ProfilePicture,
+) -> Result<Bytes, Box<dyn std::error::Error>> {
+    let url = &profile_picture.id;
+    Ok(reqwest::get(url).await?.bytes().await?)
 }
 
 #[cfg(test)]
@@ -504,11 +485,10 @@ mod tests {
         assert_eq!(
             speakers[0],
             Speaker {
-                id: "f85dd1d7-506c-42ee-b1c9-f0aed4df330e".into(),
                 name: "Abel van Beek".into(),
-                title: "I create kick-ass user experiences at Troms Fylkeskommune".into(),
-                bio: "Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.".into(),
-                profile_picture_url: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg".into(),
+                title: Some("I create kick-ass user experiences at Troms Fylkeskommune".into()),
+                bio: Some("Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.".into()),
+                profile_picture: Some(ProfilePicture {id: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg".into()}),
             }
         )
     }

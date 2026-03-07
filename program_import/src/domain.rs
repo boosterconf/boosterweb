@@ -1,9 +1,6 @@
 //! The Booster domain data structures and functions.
 
-use std::{
-    cmp::Ordering,
-    path::{Path, PathBuf},
-};
+use std::cmp::Ordering;
 
 use chrono::{DateTime, NaiveDate, Utc};
 
@@ -93,13 +90,17 @@ pub enum SessionCategory {
     Plenum,
 }
 
-#[derive(Debug, PartialEq, Eq)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Speaker {
-    pub id: String,
     pub name: String,
-    pub title: String,
-    pub bio: String,
-    pub profile_picture_url: String,
+    pub title: Option<String>,
+    pub bio: Option<String>,
+    pub profile_picture: Option<ProfilePicture>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct ProfilePicture {
+    pub id: String,
 }
 
 pub fn is_session_category_content(session_category: &SessionCategory) -> bool {
@@ -140,10 +141,6 @@ pub fn session_has_end(session_category: &SessionCategory) -> bool {
         SessionCategory::SpecialWorkshop => true,
         SessionCategory::Plenum => true,
     }
-}
-
-pub fn create_speaker_path(parent_dir: &Path, speaker: &Speaker) -> PathBuf {
-    parent_dir.join(speaker.name.replace(" ", "-").to_lowercase())
 }
 
 #[cfg(test)]

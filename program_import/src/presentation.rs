@@ -1,127 +1,15 @@
 //! Presentation layer. Which right now means Markdown for Hugo to consume.
 
-use std::{fs, path::PathBuf};
-
 use chrono::Datelike;
 use chrono_tz::Europe::Oslo;
-use itertools::Itertools;
-use regex::Regex;
 
 use crate::{
     domain::{
-        Day, Room, Session, SessionCategory, Slot, Speaker, create_speaker_path,
-        is_session_category_content, session_has_end,
+        Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content,
+        session_has_end,
     },
-    utils::{number_ordinal, tree_term},
+    utils::number_ordinal,
 };
-
-pub fn days_to_markdown(
-    target_dir: PathBuf,
-    days: Vec<Day>,
-) -> Result<(), Box<dyn std::error::Error>> {
-    fs::create_dir_all(&target_dir)?;
-
-    let mut day_iter = days.iter().enumerate().peekable();
-
-    while let Some((i, day)) = day_iter.next() {
-        let day_name = day.date.format("%A");
-
-        let day_dir = target_dir.join(day_name.to_string().to_lowercase());
-        let _ = fs::remove_dir_all(&day_dir);
-        let _ = fs::create_dir(&day_dir);
-        let day_md = day_markdown(i, day);
-        let _ = fs::write(day_dir.join("_index.md"), day_md);
-
-        let last_day = day_iter.peek().is_none();
-        println!("{}{}", tree_term(vec![last_day]), day.date.format("%A"));
-
-        let mut slot_iter = day.time_slots.iter().enumerate().peekable();
-        while let Some((i, slot)) = slot_iter.next() {
-            let i = i + 1;
-
-            let needs_dir = if let &[room] = &slot.rooms.as_slice()
-                && let &[session] = &room.sessions.as_slice()
-            {
-                is_session_category_content(&session.category)
-            } else {
-                true
-            };
-
-            let last_slot = slot_iter.peek().is_none();
-            println!(
-                "{}{}-{}",
-                tree_term(vec![last_day, last_slot]),
-                slot.starts_at.format("%H:%M"),
-                slot.ends_at.format("%H:%M")
-            );
-
-            if !needs_dir {
-                let (session_filename, md) =
-                    session_markdown(i, &slot.rooms[0].sessions[0], &slot.rooms[0]);
-                let path = day_dir.join(format!("{i}_{session_filename}"));
-
-                fs::write(path, md)?;
-
-                println!(
-                    "{}{}",
-                    tree_term(vec![last_day, last_slot, true]),
-                    slot.rooms[0].name,
-                );
-                println!(
-                    "{}{} - {}",
-                    tree_term(vec![last_day, last_slot, true, true]),
-                    slot.rooms[0].sessions[0].title,
-                    slot.rooms[0].sessions[0].is_plenum_session,
-                );
-            } else {
-                let dir_name = slot_dir_name(slot);
-                let slot_dir = day_dir.join(format!("{}_{}", i, dir_name));
-                let _ = fs::create_dir(&slot_dir);
-
-                let contents = slot_markdown(i, slot);
-                let _ = fs::write(slot_dir.join("_index.md"), contents);
-
-                let mut room_iter = slot.rooms.iter().enumerate().peekable();
-                while let Some((i, room)) = room_iter.next() {
-                    let room_dir = slot_dir.join(
-                        room.name
-                            .to_string()
-                            .to_lowercase()
-                            .replace(" ", "_")
-                            .replace("-", "_"),
-                    );
-                    let _ = fs::create_dir(&room_dir);
-
-                    let room_md = room_markdown(i + 1, room);
-                    let _ = fs::write(room_dir.join("_index.md"), room_md);
-
-                    let last_room = room_iter.peek().is_none();
-                    println!(
-                        "{}{}",
-                        tree_term(vec![last_day, last_slot, last_room]),
-                        room.name,
-                    );
-
-                    let mut sessions_iter = room.sessions.iter().enumerate().peekable();
-                    while let Some((i, session)) = sessions_iter.next() {
-                        let (session_filename, session_md) = session_markdown(i + 1, session, room);
-                        let _ = fs::write(room_dir.join(session_filename), session_md);
-
-                        let last_session = sessions_iter.peek().is_none();
-                        println!(
-                            "{}{} - {}",
-                            tree_term(vec![last_day, last_slot, last_room, last_session]),
-                            session.title,
-                            session.is_plenum_session,
-                        );
-                    }
-                }
-            }
-        }
-    }
-
-    Ok(())
-}
 
 fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static str>) {
     match session.category {
@@ -143,49 +31,7 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
     }
 }
 
-fn session_category_to_dir_names(cat: &SessionCategory) -> &'static str {
-    match cat {
-        SessionCategory::Break => "break",
-        SessionCategory::Lunch => "lunch",
-        SessionCategory::Keynote => "keynote",
-        SessionCategory::Registration => "registration",
-        SessionCategory::DayEnds => "done",
-        SessionCategory::ToBeAnnounced => "to_be_announced",
-        SessionCategory::Dinner => "conference_dinner",
-        SessionCategory::ConferenceIntro => "welcome",
-        SessionCategory::OpenSpaces => "open_spaces",
-        SessionCategory::LightningTalk => "lightning_talks",
-        SessionCategory::ExperienceReport => "short_talks",
-        SessionCategory::Workshop90 => "workshops",
-        SessionCategory::Workshop180 => "workshops",
-        SessionCategory::SpecialWorkshop => "workshops",
-        SessionCategory::Plenum => "plenum",
-    }
-}
-
-fn slot_dir_name(slot: &Slot) -> String {
-    let mut dir_name = slot
-        .rooms
-        .iter()
-        .flat_map(|x| &x.sessions)
-        .map(|x| session_category_to_dir_names(&x.category))
-        .sorted()
-        .dedup()
-        .join("_and_");
-
-    if slot
-        .rooms
-        .iter()
-        .flat_map(|x| &x.sessions)
-        .any(|x| x.is_continuation)
-    {
-        dir_name.push_str("_cont");
-    }
-
-    dir_name
-}
-
-fn slot_markdown(i: usize, slot: &Slot) -> String {
+pub fn slot_markdown(i: usize, slot: &Slot) -> String {
     let starts_at = slot.starts_at.with_timezone(&Oslo).format("%H:%M");
     let ends_at = slot.ends_at.with_timezone(&Oslo).format("%H:%M");
 
@@ -201,7 +47,7 @@ weight: {i}
     content
 }
 
-fn day_markdown(i: usize, day: &Day) -> String {
+pub fn day_markdown(i: usize, day: &Day) -> String {
     let i = i + 1;
     let day_name = day.date.format("%A");
     let day_name_short = day.date.format("%a");
@@ -225,7 +71,7 @@ menu:
     content
 }
 
-fn room_markdown(i: usize, room: &Room) -> String {
+pub fn room_markdown(i: usize, room: &Room) -> String {
     let title = &room.name;
     let lang = if room.sessions.iter().all(|x| x.is_english) {
         "english"
@@ -244,15 +90,15 @@ weight: {i}
     )
 }
 
-fn session_markdown(i: usize, session: &Session, room: &Room) -> (String, String) {
+pub fn session_markdown(i: usize, session: &Session, room: &Room) -> String {
     let title = session.title.replace("\"", "\\\"");
     let md_types = content_session_md_type(session);
     let type_ = md_types.0;
 
-    let (filename, content) = if session.is_continuation {
+    if session.is_continuation {
         let talk_type = md_types.1.unwrap_or("");
 
-        let md = format!(
+        format!(
             r#"---
 title: "Continues: {title}"
 talk_type: "{talk_type}"
@@ -260,9 +106,7 @@ type: {type_}
 weight: {i}
 ---
 "#
-        );
-
-        ("continuation.md".to_string(), md)
+        )
     } else if is_session_category_content(&session.category) {
         let talk_type = md_types.1.unwrap_or("");
         let starts_at = session
@@ -282,7 +126,7 @@ weight: {i}
             .unwrap_or("")
             .replace("\r\n", "\n");
 
-        let md = format!(
+        format!(
             r#"---
 title: "{title}"
 talk_type: "{talk_type}"
@@ -296,18 +140,7 @@ authors:
 ---
 {description}
 "#
-        );
-
-        let only_ascii_norwegian = Regex::new(r"[^a-z0-9æøå]").unwrap();
-        let only_one_dash_in_a_row = Regex::new(r"--*").unwrap();
-        let leading_dash = Regex::new(r"^-").unwrap();
-        let lagging_dash = Regex::new(r"-$").unwrap();
-        let filename = session.title.to_lowercase();
-        let filename = only_ascii_norwegian.replace_all(&filename, "-");
-        let filename = only_one_dash_in_a_row.replace_all(&filename, "-");
-        let filename = leading_dash.replace(&filename, "");
-        let filename = lagging_dash.replace(&filename, "");
-        (format!("{}.md", filename), md)
+        )
     } else {
         let starts_at = session
             .starts_at
@@ -339,9 +172,7 @@ authors:
             _ => type_,
         };
 
-        let filename = session_category_to_dir_names(&session.category);
-
-        let md = format!(
+        format!(
             r#"---
 time: "{time}"{location}
 title: "{title}"
@@ -349,54 +180,26 @@ type: {type_override}
 weight: {i}
 ---{description}
 "#
-        );
-
-        (format!("{}.md", filename), md)
-    };
-
-    (filename, content)
+        )
+    }
 }
 
-pub fn speakers_to_markdown(
-    target_dir: PathBuf,
-    speakers: &[Speaker],
-) -> Result<(), Box<dyn std::error::Error>> {
-    fs::create_dir_all(&target_dir)?;
-
-    let existing_speaker_paths: Vec<PathBuf> = fs::read_dir(&target_dir)?
-        .filter_map(|x| x.ok())
-        .map(|x| x.path())
-        .filter(|x| x.is_dir())
-        .collect();
-    let mut new_speaker_paths: Vec<PathBuf> = Vec::new();
-
-    for speaker in speakers.iter() {
-        let name = speaker.name.clone();
-        let title = speaker.title.clone();
-        let bio = speaker.bio.clone();
-        let content = format!(
-            r#"---
-name: "{name}"
-title: "{title}"
----
-{bio}
+pub fn speaker_markdown(speaker: &Speaker) -> String {
+    let name = &speaker.name;
+    let title = speaker
+        .title
+        .clone()
+        .map_or_else(|| "".to_string(), |x| format!("\ntitle: \"{x}\""));
+    let bio = speaker
+        .bio
+        .clone()
+        .map_or_else(|| "".to_string(), |x| format!("\n{x}"));
+    format!(
+        r#"---
+name: "{name}"{title}
+---{bio}
 "#
-        );
-
-        let path = create_speaker_path(&target_dir, speaker);
-        new_speaker_paths.push(path.clone());
-        let _ = fs::create_dir_all(&path);
-        let _ = fs::write(path.join("index.md"), content);
-    }
-
-    for existing_path in existing_speaker_paths {
-        if !new_speaker_paths.contains(&existing_path) {
-            println!("Removed speaker directory: {}", &existing_path.display());
-            let _ = fs::remove_dir_all(&existing_path);
-        }
-    }
-
-    Ok(())
+    )
 }
 
 #[cfg(test)]
@@ -404,62 +207,6 @@ mod tests {
     use chrono::{NaiveDate, TimeZone, Utc};
 
     use super::*;
-
-    #[test]
-    fn test_slot_dir_name() {
-        let dir_name = slot_dir_name(&Slot {
-            starts_at: Utc.with_ymd_and_hms(2026, 3, 11, 8, 0, 0).unwrap(),
-            ends_at: Utc.with_ymd_and_hms(2026, 3, 11, 9, 0, 0).unwrap(),
-            rooms: vec![
-                Room {
-                    name: "Test room 1".to_string(),
-                    sessions: vec![Session {
-                        title: "Test talk 1".to_string(),
-                        is_english: false,
-                        is_continuation: false,
-                        is_service_session: false,
-                        is_plenum_session: false,
-                        starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 0, 0).unwrap(),
-                        ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 30, 0).unwrap(),
-                        description: Some("A test description".to_string()),
-                        category: SessionCategory::ExperienceReport,
-                        speakers: vec!["Test speaker".to_string()],
-                    }],
-                },
-                Room {
-                    name: "Test room 2".to_string(),
-                    sessions: vec![Session {
-                        title: "Test talk 2".to_string(),
-                        is_english: false,
-                        is_continuation: false,
-                        is_service_session: false,
-                        is_plenum_session: false,
-                        starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 30, 0).unwrap(),
-                        ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 9, 0, 0).unwrap(),
-                        description: Some("A test description".to_string()),
-                        category: SessionCategory::ExperienceReport,
-                        speakers: vec!["Test speaker".to_string()],
-                    }],
-                },
-                Room {
-                    name: "Test room 2".to_string(),
-                    sessions: vec![Session {
-                        title: "Test workshop".to_string(),
-                        is_english: false,
-                        is_continuation: true,
-                        is_service_session: false,
-                        is_plenum_session: false,
-                        starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 9, 0, 0).unwrap(),
-                        ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 9, 30, 0).unwrap(),
-                        description: Some("A test description".to_string()),
-                        category: SessionCategory::Workshop90,
-                        speakers: vec!["Test speaker".to_string()],
-                    }],
-                },
-            ],
-        });
-        assert_eq!(dir_name, "short_talks_and_workshops_cont".to_string());
-    }
 
     #[test]
     fn test_day_markdown() {
@@ -564,11 +311,7 @@ authors:
 A test description
 "#;
 
-        assert_eq!(
-            // We're only testing Thursday as it's the most complex day
-            md,
-            ("test-workshop.md".to_string(), expected_md.to_string())
-        )
+        assert_eq!(md, expected_md.to_string())
     }
 
     #[test]
@@ -608,10 +351,6 @@ weight: 1
 A test description
 "#;
 
-        assert_eq!(
-            // We're only testing Thursday as it's the most complex day
-            md,
-            ("break.md".to_string(), expected_md.to_string())
-        )
+        assert_eq!(md, expected_md.to_string())
     }
 }
