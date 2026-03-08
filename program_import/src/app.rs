@@ -2,8 +2,6 @@
 
 use std::io::{Write, stdout};
 
-use itertools::Itertools;
-
 use crate::{
     domain::{Day, Speaker, is_session_category_content},
     files::{ProgramFiles, SlotOrNot, SpeakerFiles},
@@ -190,10 +188,8 @@ pub async fn speakers_to_profile_pictures(
             }
 
             for existing_pic in &existing_profile_pictures {
-                if existing_pic.1 == speaker.name {
-                    if &existing_pic.0 != pic {
-                        speaker_files.remove_profile_picture(&existing_pic.0, &existing_pic.1).await?;
-                    }
+                if existing_pic.1 == speaker.name && &existing_pic.0 != pic {
+                    speaker_files.remove_profile_picture(&existing_pic.0, &existing_pic.1).await?;
                 }
             }
         }
