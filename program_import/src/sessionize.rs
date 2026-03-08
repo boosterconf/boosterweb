@@ -1,12 +1,27 @@
 //! Sessionize client, data structures, and conversions to domain data
 //! structures
 
-use crate::domain::*;
+use crate::{constants::*, domain::*};
 
+use bytes::Bytes;
 use chrono::{DateTime, NaiveTime, Utc};
 use itertools::Itertools;
 use serde::Deserialize;
 use tokio::join;
+
+/// Serde deserialize bools from strings containing `"true"` or `"false"`
+fn deserialize_bool_from_str<'de, D>(deserializer: D) -> Result<bool, D::Error>
+where
+    D: serde::de::Deserializer<'de>,
+{
+    let s: &str = serde::de::Deserialize::deserialize(deserializer)?;
+
+    match s {
+        "true" => Ok(true),
+        "false" => Ok(false),
+        _ => Err(serde::de::Error::unknown_variant(s, &["true", "false"])),
+    }
+}
 
 #[derive(Debug, Clone, PartialEq, Eq, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -66,6 +81,7 @@ pub struct SessionizeDay {
 #[serde(rename_all = "camelCase")]
 pub struct SessionizeAllMetadata {
     sessions: Vec<SessionizeSessionMetadata>,
+    speakers: Vec<SessionizeSpeakerMetadata>,
 }
 
 #[derive(Debug, PartialEq, Eq, Deserialize)]
@@ -77,9 +93,19 @@ pub struct SessionizeSessionMetadata {
 
 #[derive(Debug, PartialEq, Eq, Deserialize)]
 #[serde(rename_all = "camelCase")]
+pub struct SessionizeSpeakerMetadata {
+    id: String,
+    full_name: String,
+    bio: Option<String>,
+    tag_line: Option<String>,
+    profile_picture: Option<String>,
+}
+
+#[derive(Debug, PartialEq, Eq, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct SessionizeQuestionAnswers {
     question_id: usize,
-    #[serde(deserialize_with = "crate::utils::deserialize_bool_from_str")]
+    #[serde(deserialize_with = "deserialize_bool_from_str")]
     answer_value: bool,
 }
 
@@ -244,7 +270,7 @@ impl
             .collect::<Vec<_>>();
         Ok(Slot {
             starts_at: new_rooms
-                    .iter()
+                .iter()
                 .flat_map(|x| &x.sessions)
                 .find_or_first(|session| !session.is_continuation)
                 .unwrap()
@@ -296,7 +322,7 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
 
                     current_intermediates.append(&mut continuations);
 
-                println!("{:?}", non_content_room.session.starts_at);
+                    println!("{:?}", non_content_room.session.starts_at);
                     slots.push(Slot::try_from((
                         metadata,
                         x,
@@ -347,13 +373,26 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
     }
 }
 
+impl TryFrom<SessionizeSpeakerMetadata> for Speaker {
+    type Error = String;
+
+    fn try_from(speaker: SessionizeSpeakerMetadata) -> Result<Self, Self::Error> {
+        Ok(Speaker {
+            name: speaker.full_name,
+            title: speaker.tag_line,
+            bio: speaker.bio,
+            profile_picture: speaker.profile_picture.map(|x| ProfilePicture { id: x }),
+        })
+    }
+}
+
 /// Parse data from Sessionize into domain data structures
-fn program_parse(
-    grid_smart: String,
-    all_metadata: String,
+pub fn program_parse(
+    grid_smart: &str,
+    all_metadata: &str,
 ) -> Result<Vec<Day>, Box<dyn std::error::Error>> {
-    let days: Vec<SessionizeDay> = serde_json::from_str(&grid_smart)?;
-    let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
+    let days: Vec<SessionizeDay> = serde_json::from_str(grid_smart)?;
+    let all: SessionizeAllMetadata = serde_json::from_str(all_metadata)?;
     let days = days
         .into_iter()
         .map(|x| Day::try_from((x, &all)))
@@ -362,29 +401,33 @@ fn program_parse(
     Ok(days)
 }
 
-/// Fetch `GridSmart` and `All` JSONs from Sessionize API, parse them, and
-/// return the result as domain data structures
-pub async fn fetch_program() -> Result<Vec<Day>, Box<dyn std::error::Error>> {
+/// Parse speaker data from Sessionize into domain data structure
+pub fn speakers_parse(all_metadata: String) -> Result<Vec<Speaker>, Box<dyn std::error::Error>> {
+    let all: SessionizeAllMetadata = serde_json::from_str(&all_metadata)?;
+    let speakers = all
+        .speakers
+        .into_iter()
+        .map(Speaker::try_from)
+        .collect::<Result<Vec<Speaker>, String>>()?;
+
+    Ok(speakers)
+}
+
+/// Fetch `GridSmart` and `All` JSONs from Sessionize API in parallel.
+pub async fn fetch_sessionize_data() -> reqwest::Result<(String, String)> {
     let (grid_smart, all_metadata) = join!(
-        async {
-            Ok::<_, reqwest::Error>(
-                reqwest::get("https://sessionize.com/api/v2/1gnvn8rl/view/GridSmart")
-                    .await?
-                    .text()
-                    .await?,
-            )
-        },
-        async {
-            Ok::<_, reqwest::Error>(
-                reqwest::get("https://sessionize.com/api/v2/1gnvn8rl/view/All")
-                    .await?
-                    .text()
-                    .await?,
-            )
-        },
+        async { reqwest::get(GRID_SMART_URL).await?.text().await },
+        async { reqwest::get(ALL_METADATA_URL).await?.text().await },
     );
 
-    program_parse(grid_smart?, all_metadata?)
+    Ok((grid_smart?, all_metadata?))
+}
+
+pub async fn fetch_profile_picture(
+    profile_picture: &ProfilePicture,
+) -> Result<Bytes, Box<dyn std::error::Error>> {
+    let url = &profile_picture.id;
+    Ok(reqwest::get(url).await?.bytes().await?)
 }
 
 #[cfg(test)]
@@ -400,7 +443,7 @@ mod tests {
         let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
-        let mut days = program_parse(days, all).unwrap();
+        let mut days = program_parse(&days, &all).unwrap();
         days[1].time_slots.truncate(1);
         days[1].time_slots[0].rooms.truncate(1);
         days[1].time_slots[0].rooms[0].sessions.truncate(1);
@@ -433,17 +476,34 @@ mod tests {
         )
     }
 
-       #[test]
+    #[test]
     fn test_continuation_end_with_parallel_sessions_parse() {
         let days = fs::read_to_string("test_fixtures/GridSmart.json").unwrap();
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
-        let mut days = program_parse(days, all).unwrap();
+        let days = program_parse(&days, &all).unwrap();
 
         assert_eq!(
             // Test a long continuation at the same time as single-slot sessions
             days[2].time_slots[4].starts_at,
             Utc.with_ymd_and_hms(2026, 3, 13, 12, 30, 0).unwrap()
+        )
+    }
+
+    #[test]
+    fn test_speakers_parse() {
+        let all = fs::read_to_string("test_fixtures/All.json").unwrap();
+
+        let speakers = speakers_parse(all).unwrap();
+
+        assert_eq!(
+            speakers[0],
+            Speaker {
+                name: "Abel van Beek".into(),
+                title: Some("I create kick-ass user experiences at Troms Fylkeskommune".into()),
+                bio: Some("Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.".into()),
+                profile_picture: Some(ProfilePicture {id: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg".into()}),
+            }
         )
     }
 }

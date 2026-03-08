@@ -67,6 +67,7 @@ pub struct Session {
     pub category: SessionCategory,
     /// Speakers are assumed to have unique names across the whole site.
     /// Sessionize has IDs for when we need to handle duplicates
+    /// In the future, maybe this should be a pointer to the actual Speaker domain structure instance?
     pub speakers: Vec<String>,
 }
 
@@ -87,6 +88,19 @@ pub enum SessionCategory {
     OpenSpaces,
     SpecialWorkshop,
     Plenum,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct Speaker {
+    pub name: String,
+    pub title: Option<String>,
+    pub bio: Option<String>,
+    pub profile_picture: Option<ProfilePicture>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct ProfilePicture {
+    pub id: String,
 }
 
 pub fn is_session_category_content(session_category: &SessionCategory) -> bool {
