@@ -164,22 +164,6 @@ pub async fn speakers_to_profile_pictures(
 
     let existing_profile_pictures = speaker_files.existing_profile_pictures().await?;
 
-    let grouped_existing_profile_pictures = existing_profile_pictures
-        .iter()
-        .into_group_map_by(|x| x.1.clone());
-
-    for pics in grouped_existing_profile_pictures.values() {
-        if pics.len() > 1 {
-            for pic in pics {
-                println!(
-                    "Removing duplicate speaker photo {} for {}",
-                    &pic.0.id, &pic.1
-                );
-                speaker_files.remove_profile_picture(&pic.0, &pic.1).await?;
-            }
-        }
-    }
-
     let speakers_with_pics = speakers
         .iter()
         .filter(|x| {
@@ -204,6 +188,24 @@ pub async fn speakers_to_profile_pictures(
             speaker_files
                 .save_profile_picture(pic, speaker, bytes)
                 .await?;
+        }
+    }
+
+    let existing_profile_pictures = speaker_files.existing_profile_pictures().await?;
+
+    let grouped_existing_profile_pictures = existing_profile_pictures
+        .iter()
+        .into_group_map_by(|x| x.1.clone());
+
+    for pics in grouped_existing_profile_pictures.values() {
+        if pics.len() > 1 {
+            for pic in pics {
+                println!(
+                    "Removing duplicate speaker photo {} for {}",
+                    &pic.0.id, &pic.1
+                );
+                speaker_files.remove_profile_picture(&pic.0, &pic.1).await?;
+            }
         }
     }
 
