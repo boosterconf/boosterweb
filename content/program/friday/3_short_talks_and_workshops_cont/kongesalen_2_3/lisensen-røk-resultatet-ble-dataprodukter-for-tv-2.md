@@ -9,7 +9,7 @@ authors:
     - Karina Øverland Haugen
 
 ---
-Lisensen til TV 2 Play sin sentrale innholdsdatabase (Vimond) nærmet seg slutten. I stedet for å fornye en kostbar og hemmende monolitt, tok vi et strategisk valg: å bygge vår egen, distribuerte arkitektur basert på dataprodukter. Slik ble Vixit-prosjektet født – en ambisiøs transformasjon for å ta tilbake eierskapet til våre data og skape smidighet.
+Lisensen til TV 2 Play sin sentrale innholdsdatabase (Vimond) nærmet seg slutten. I stedet for å fornye en utdatert monolitt, tok vi et strategisk valg: å bygge vår egen, distribuerte arkitektur basert på dataprodukter. Slik ble Vixit-prosjektet født – en ambisiøs transformasjon for å ta tilbake eierskapet til våre data og skape smidighet.
 
 Denne migreringen var en reise i tospann: Den skjedde parallelt med en stor omorganisering av TV 2 Digital og etableringen av ny produktorganisering. Med åtte team involvert over nesten to år, bød prosjektet på betydelige utfordringer. Vi har hatt en bratt læringskurve med Data Mesh-prinsipper, håndtert komplekse forretningsregler spredt i gamle systemer, og navigert både tekniske og kulturelle skifter.
 

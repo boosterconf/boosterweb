@@ -20,3 +20,5 @@ But let's be honest: it's terrifying!
 The purpose of this workshop is to help you get rid of those excuses. It doesn't matter if you've held a talk before, or this will be your very first. You don’t need a to bring a talk idea. If you don't think anyone would want to hear what you have to say, this is very much for you.
 
 When we’re done, you’ll have the start of your talk, and maybe even the spark (or panic) that makes you want to give it.
+
+For attendees: You can work in Norwegian or English in this workshop as you prefer. We don't want language to be an additional hurdle. And we promise you won't have to do a talk in the workshop.

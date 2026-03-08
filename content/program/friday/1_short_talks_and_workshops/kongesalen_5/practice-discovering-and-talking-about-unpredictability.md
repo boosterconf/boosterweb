@@ -1,5 +1,5 @@
 ---
-title: "Tren på å oppdage og snakke om uforutsigbarhet!"
+title: "Practice discovering and talking about unpredictability"
 talk_type: "Workshop 3h"
 type: talk
 starts_at: 2026-03-13T08:00:00Z
@@ -20,6 +20,7 @@ Hva skal vi lære?
 
 Plan for workshop
 Intro til Cynefin (Kunnskap)
-Workshop: setter seg i par/ grupper og prøver å definere noen arbeidsoppgaver innenfor Cynefin-rammeverket (Øvelse)
+Workshop: setter seg i par/ grupper og definerer noen arbeidsoppgaver innenfor Cynefin-rammeverket (Øvelse)
 Deling og refleksjon i plenum (Refleksjon)
 
+In english: Teams that do digital product development can experience being pulled between expectations of predictability and the need for exploration and experiments. We have experienced that using the Cynefin framework helps in finding common ground with the stakeholders.

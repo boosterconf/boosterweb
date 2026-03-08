@@ -1,5 +1,5 @@
 ---
-title: "Continues: Tren på å oppdage og snakke om uforutsigbarhet!"
+title: "Continues: Practice discovering and talking about unpredictability"
 talk_type: "Workshop 3h"
 type: talk
 weight: 1

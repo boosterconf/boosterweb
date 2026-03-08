@@ -2,9 +2,9 @@
 title: "Do You Really Have a Team?"
 talk_type: "Lightning Talk"
 type: talk
-starts_at: 2026-03-11T11:00:00Z
-ends_at: 2026-03-11T11:10:00Z
-weight: 3
+starts_at: 2026-03-11T10:50:00Z
+ends_at: 2026-03-11T11:00:00Z
+weight: 2
 authors:
     - Øivind Heggland
 

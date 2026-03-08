@@ -1,7 +1,6 @@
 ---
 name: "Elise Kristiansen"
 title: "Frontend developer in Variant"
-# twitter_handle: 
 ---
 Elise is a frontend developer in Variant and has been involved in a diverse range of projects for seven years. As a consultant, she has worked in and out of various teams, experiencing a wide range of team compositions.
 
