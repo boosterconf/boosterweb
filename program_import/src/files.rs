@@ -266,6 +266,8 @@ impl SpeakerFiles {
     ) -> Result<Vec<(ProfilePicture, String)>, Box<dyn std::error::Error>> {
         let mut res = Vec::new();
 
+        let name_regex = Regex::new(r#"name: "(.+)""#).unwrap();
+
         let mut speaker_dirs = fs::read_dir(&self.base_dir).await?;
         while let Some(speaker_dir_entry) = speaker_dirs.next_entry().await? {
             if speaker_dir_entry.file_type().await?.is_dir() {
@@ -274,7 +276,6 @@ impl SpeakerFiles {
                     if let Some(ext) = f.path().extension()
                         && ["jpg", "png"].contains(&ext.to_str().unwrap())
                     {
-                        let name_regex = Regex::new(r#"name: "(.+)""#).unwrap();
                         let speaker_file =
                             fs::read_to_string(speaker_dir_entry.path().join("index.md")).await?;
                         let speaker_name = &name_regex.captures(&speaker_file).unwrap()[1];
@@ -313,7 +314,7 @@ impl SpeakerFiles {
         speaker: &Speaker,
         bytes: Bytes,
     ) -> Result<(), Box<dyn std::error::Error>> {
-        let file_path = Self::profile_picture_path(&self, pic, &speaker.name);
+        let file_path = Self::profile_picture_path(self, pic, &speaker.name);
 
         fs::write(file_path, bytes).await?;
 
@@ -325,7 +326,7 @@ impl SpeakerFiles {
         pic: &ProfilePicture,
         speaker_name: &str,
     ) -> Result<(), Box<dyn std::error::Error>> {
-        let file_path = Self::profile_picture_path(&self, pic, speaker_name);
+        let file_path = Self::profile_picture_path(self, pic, speaker_name);
 
         dbg!(&file_path);
         Ok(fs::remove_file(file_path).await?)

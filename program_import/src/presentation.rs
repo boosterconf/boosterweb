@@ -3,11 +3,9 @@
 use chrono::Datelike;
 use chrono_tz::Europe::Oslo;
 
-use crate::{
-    domain::{
-        Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content,
-        session_has_end,
-    }
+use crate::domain::{
+    Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content,
+    session_has_end,
 };
 
 /// English number ordinals

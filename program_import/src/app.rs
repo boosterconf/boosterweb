@@ -171,7 +171,10 @@ pub async fn speakers_to_profile_pictures(
     for pics in grouped_existing_profile_pictures.values() {
         if pics.len() > 1 {
             for pic in pics {
-                println!("Removing duplicate speaker photo {} for {}", &pic.0.id, &pic.1);
+                println!(
+                    "Removing duplicate speaker photo {} for {}",
+                    &pic.0.id, &pic.1
+                );
                 speaker_files.remove_profile_picture(&pic.0, &pic.1).await?;
             }
         }
@@ -191,16 +194,16 @@ pub async fn speakers_to_profile_pictures(
     let total = speakers_with_pics.len();
 
     for (i, speaker) in speakers_with_pics.iter().enumerate() {
-        if let Some(pic) = &speaker.profile_picture {
-            if !existing_profile_pictures.iter().any(|x| &x.0 == pic) {
-                print!("\rDownloading speaker photos ({i:03}/{total:03})");
-                stdout().flush()?;
+        if let Some(pic) = &speaker.profile_picture
+            && !existing_profile_pictures.iter().any(|x| &x.0 == pic)
+        {
+            print!("\rDownloading speaker photos ({i:03}/{total:03})");
+            stdout().flush()?;
 
-                let bytes = sessionize::fetch_profile_picture(pic).await?;
-                speaker_files
-                    .save_profile_picture(pic, speaker, bytes)
-                    .await?;
-            }
+            let bytes = sessionize::fetch_profile_picture(pic).await?;
+            speaker_files
+                .save_profile_picture(pic, speaker, bytes)
+                .await?;
         }
     }
 
