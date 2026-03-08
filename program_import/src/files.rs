@@ -1,6 +1,6 @@
 //! File repository. All file and path handling.
 
-use std::{path::{Path, PathBuf}, time::SystemTime};
+use std::{path::{Path, PathBuf}};
 
 use bytes::Bytes;
 use itertools::Itertools;
