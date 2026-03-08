@@ -178,41 +178,25 @@ pub async fn speakers_to_profile_pictures(
     let total = speakers_with_pics.len();
 
     for (i, speaker) in speakers_with_pics.iter().enumerate() {
-        if let Some(pic) = &speaker.profile_picture
-            && !existing_profile_pictures.iter().any(|x| &x.0 == pic)
-        {
-            print!("\rDownloading speaker photos ({i:03}/{total:03})");
-            stdout().flush()?;
+        if let Some(pic) = &speaker.profile_picture {
+            if !&existing_profile_pictures.iter().any(|x| &x.0 == pic) {
+                print!("\rDownloading speaker photos ({i:03}/{total:03})");
+                stdout().flush()?;
 
-            let bytes = sessionize::fetch_profile_picture(pic).await?;
-            speaker_files
-                .save_profile_picture(pic, speaker, bytes)
-                .await?;
-        }
-    }
+                let bytes = sessionize::fetch_profile_picture(pic).await?;
+                speaker_files
+                    .save_profile_picture(pic, speaker, bytes)
+                    .await?;
+            }
 
-    let existing_profile_pictures = speaker_files.existing_profile_pictures().await?;
-
-    let grouped_existing_profile_pictures = existing_profile_pictures
-        .iter()
-        .into_group_map_by(|x| x.1.clone());
-
-    for pics in grouped_existing_profile_pictures.values() {
-        if pics.len() > 1 {
-            for pic in pics {
-                println!(
-                    "Removing duplicate speaker photo {} for {}",
-                    &pic.0.id, &pic.1
-                );
-                speaker_files.remove_profile_picture(&pic.0, &pic.1).await?;
+            for existing_pic in &existing_profile_pictures {
+                if existing_pic.1 == speaker.name {
+                    if &existing_pic.0 != pic {
+                        speaker_files.remove_profile_picture(&existing_pic.0, &existing_pic.1).await?;
+                    }
+                }
             }
         }
-    }
-
-    if total > 0 {
-        println!();
-    } else {
-        println!("No speaker photos to download");
     }
 
     Ok(())

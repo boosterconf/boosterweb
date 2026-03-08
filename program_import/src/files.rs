@@ -1,6 +1,6 @@
 //! File repository. All file and path handling.
 
-use std::path::{Path, PathBuf};
+use std::{path::{Path, PathBuf}, time::SystemTime};
 
 use bytes::Bytes;
 use itertools::Itertools;
@@ -328,7 +328,6 @@ impl SpeakerFiles {
     ) -> Result<(), Box<dyn std::error::Error>> {
         let file_path = Self::profile_picture_path(self, pic, speaker_name);
 
-        dbg!(&file_path);
         Ok(fs::remove_file(file_path).await?)
     }
 }
