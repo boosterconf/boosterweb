@@ -1,6 +1,7 @@
 ---
 name: "Anna Kvashchuk"
 title: "Software Developer at Equinor"
+# twitter_handle: 
 ---
 With a background in Applied Mathematics (MSc) and Reservoir Simulation (PhD), I'm currently a Principal Software Engineer at Equinor.
 

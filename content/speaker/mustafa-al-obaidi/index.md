@@ -1,6 +1,7 @@
 ---
 name: "Mustafa Al-Obaidi"
 title: "Consultant @ Solea"
+# twitter_handle: 
 ---
 Hi!
 My name is Mustafa and I've been working as a developer for pretty much half my life at this point.

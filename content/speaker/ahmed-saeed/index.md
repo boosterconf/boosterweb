@@ -1,6 +1,7 @@
 ---
 name: "Ahmed Saeed"
 title: "Fullstack Software Engineer and Head of Guild Programming @ Computas"
+# twitter_handle: 
 ---
 Ahmed is a fullstack developer at Computas. He has a M.Sc. in Computer Science: Digital Economy and Management from the University of Oslo. 
 

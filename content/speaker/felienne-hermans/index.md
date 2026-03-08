@@ -1,6 +1,7 @@
 ---
 name: "Felienne Hermans"
 title: "Professor of Computer Science Education"
+# twitter_handle: 
 ---
 Felienne Hermans is a professor of Computer Science Education at the Vrije Universiteit Amsterdam. She also works as a high-school CS teacher one day a week at Open Schoolgemeenschap Bijlmer.
 
