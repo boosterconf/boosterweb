@@ -1,6 +1,5 @@
 ---
 name: "Einar Høst"
-title: "Architect at Norkart"
-# twitter_handle: 
+title: "Software developer"
 ---
-Einar W. Høst is an architect and developer at Norkart. He enjoys collaborative modelling, API design and computer programming. He has a PhD in Computer Science from the University of Oslo.
+Einar W. Høst is a software developer at Norkart. He enjoys collaborative modelling, API design and computer programming. He has a PhD in Computer Science from the University of Oslo.

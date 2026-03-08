@@ -1,6 +1,5 @@
 ---
 name: "Oleksandr Kazymyrov"
-title: "Storebrand, Offensive Security Manager"
-# twitter_handle: 
+title: "Storebrand, Security Assurance Manager"
 ---
-Oleksandr is an experienced cybersecurity professional with a passion for offensive security. He has led numerous engagements across a variety of industries, helping clients identify and address critical security vulnerabilities in their systems and infrastructure. As an Offensive Security Manager at Storebrand, Oleksandr has also been responsible for growing and managing a red team program, which has helped Storebrand enhance its security posture and better understand its risks and vulnerabilities. With a background in software engineering and a deep understanding of offensive tactics, he is uniquely positioned to help organizations adopt modern and effective offensive security practices.
+Oleksandr Kazymyrov is a seasoned cybersecurity professional with a hacker’s mindset and a passion for offensive security. He holds a Ph.D. in cryptography and has over 15 years of experience in information security. As the Security Assurance Manager at Storebrand, Oleksandr leverages his offensive expertise to ensure the company’s security controls are robust and continuously improving. Previously, he built and led Storebrand’s red team program, uncovering critical vulnerabilities and strengthening the organization’s defenses. This unique blend of academic rigor and hands-on offensive experience allows him to bridge the gap between offense and defense, driving a more resilient security posture

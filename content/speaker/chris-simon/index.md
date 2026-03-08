@@ -1,7 +1,6 @@
 ---
 name: "Chris Simon"
 title: "Technology Coach and Advisor"
-# twitter_handle: 
 ---
 Chris is a technology coach and advisor helping technology teams drive business success. His focus is on helping startups realise their vision and new CTOs flourish in their roles. He also supports executives & boards with strategic technology advice, and engineering teams with training, mentoring and consulting in architecture, quality, domain-driven design and test driven development.
 

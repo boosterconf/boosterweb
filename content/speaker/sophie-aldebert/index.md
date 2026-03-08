@@ -1,7 +1,6 @@
 ---
 name: "Sophie Aldebert"
 title: "UX Researcher at Citi"
-# twitter_handle: 
 ---
 Sophie is a UX Researcher at Citi with a background in Chemical Engineering. She has built and scaled research practices in both start-ups and enterprises, embedding human-centred ways of working that drive real business impact.
 

@@ -1,7 +1,6 @@
 ---
-name: "Mari  Øvrebø"
+name: "Mari Øvrebø"
 title: "Designer at Variant Bergen"
-# twitter_handle: 
 ---
 Mari recently graduated with a master’s degree in Interaction Design from NTNU, where she explored how design can help people make more energy-conscious decisions. Through her thesis work, she spent countless hours involving users, testing ideas, and uncovering what actually motivates people to change behavior, and what is just distracting.
 

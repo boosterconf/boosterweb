@@ -1,9 +1,8 @@
 ---
 name: "Peter Bull"
-title: "Utvikler og kulturbygger, Miles"
-# twitter_handle: 
+title: "Teknisk leder innen dataplattform, Miles"
 ---
-Peter er tech lead og data platform engineer som har erfaring fra Equinor, Miljødirektoratet og Politiet. 
+Peter er teknisk leder og data platform engineer som har erfaring fra Equinor, Miljødirektoratet og Politiets IT-enhet
 
 Han er en kulturbygger, og har jobbet som scrum master, team leder og er en entusiast for at team skal fungere optimalt og effektivt. 
 
