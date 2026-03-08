@@ -9,6 +9,20 @@ use itertools::Itertools;
 use serde::Deserialize;
 use tokio::join;
 
+/// Serde deserialize bools from strings containing `"true"` or `"false"`
+fn deserialize_bool_from_str<'de, D>(deserializer: D) -> Result<bool, D::Error>
+where
+    D: serde::de::Deserializer<'de>,
+{
+    let s: &str = serde::de::Deserialize::deserialize(deserializer)?;
+
+    match s {
+        "true" => Ok(true),
+        "false" => Ok(false),
+        _ => Err(serde::de::Error::unknown_variant(s, &["true", "false"])),
+    }
+}
+
 #[derive(Debug, Clone, PartialEq, Eq, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct SessionizeRoom {
@@ -91,7 +105,7 @@ pub struct SessionizeSpeakerMetadata {
 #[serde(rename_all = "camelCase")]
 pub struct SessionizeQuestionAnswers {
     question_id: usize,
-    #[serde(deserialize_with = "crate::utils::deserialize_bool_from_str")]
+    #[serde(deserialize_with = "deserialize_bool_from_str")]
     answer_value: bool,
 }
 

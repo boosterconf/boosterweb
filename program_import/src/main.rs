@@ -4,7 +4,6 @@ mod domain;
 mod files;
 mod presentation;
 mod sessionize;
-mod utils;
 
 use std::path::Path;
 

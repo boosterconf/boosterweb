@@ -7,9 +7,21 @@ use crate::{
     domain::{
         Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content,
         session_has_end,
-    },
-    utils::number_ordinal,
+    }
 };
+
+/// English number ordinals
+fn number_ordinal(num: u32) -> &'static str {
+    match num % 100 {
+        11..=13 => "th",
+        x => match x % 10 {
+            1 => "st",
+            2 => "nd",
+            3 => "rd",
+            _ => "th",
+        },
+    }
+}
 
 fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static str>) {
     match session.category {
@@ -207,6 +219,21 @@ mod tests {
     use chrono::{NaiveDate, TimeZone, Utc};
 
     use super::*;
+
+    #[test]
+    fn test_number_ordinal() {
+        assert_eq!("st".to_string(), number_ordinal(101));
+        assert_eq!("nd".to_string(), number_ordinal(102));
+        assert_eq!("rd".to_string(), number_ordinal(103));
+        assert_eq!("st".to_string(), number_ordinal(1));
+        assert_eq!("nd".to_string(), number_ordinal(2));
+        assert_eq!("rd".to_string(), number_ordinal(3));
+        assert_eq!("th".to_string(), number_ordinal(111));
+        assert_eq!("th".to_string(), number_ordinal(112));
+        assert_eq!("th".to_string(), number_ordinal(113));
+        assert_eq!("th".to_string(), number_ordinal(115));
+        assert_eq!("rd".to_string(), number_ordinal(123));
+    }
 
     #[test]
     fn test_day_markdown() {

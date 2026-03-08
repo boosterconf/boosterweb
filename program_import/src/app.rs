@@ -1,3 +1,5 @@
+//! App layer. Orchestration of repositories and domain layer.
+
 use std::io::{Write, stdout};
 
 use itertools::Itertools;
@@ -9,8 +11,30 @@ use crate::{
         day_markdown, room_markdown, session_markdown, slot_markdown, speaker_markdown,
     },
     sessionize,
-    utils::tree_term,
 };
+
+/// Make a String for displaying trees in the terminal. Takes a `Vec` of bools
+/// where the bool is true if this is the last element.
+fn tree_term(levels: Vec<bool>) -> String {
+    let mut res = "".to_string();
+
+    let mut iter = levels.into_iter().peekable();
+    while let Some(is_last) = iter.next() {
+        if iter.peek().is_some() {
+            if is_last {
+                res.push_str("    ");
+            } else {
+                res.push_str("│   ");
+            }
+        } else if is_last {
+            res.push_str("└── ");
+        } else {
+            res.push_str("├── ");
+        }
+    }
+
+    res
+}
 
 pub async fn days_to_markdown(
     program_files: ProgramFiles,
@@ -147,6 +171,7 @@ pub async fn speakers_to_profile_pictures(
     for pics in grouped_existing_profile_pictures.values() {
         if pics.len() > 1 {
             for pic in pics {
+                println!("Removing duplicate speaker photo {} for {}", &pic.0.id, &pic.1);
                 speaker_files.remove_profile_picture(&pic.0, &pic.1).await?;
             }
         }
@@ -162,6 +187,7 @@ pub async fn speakers_to_profile_pictures(
             }
         })
         .collect::<Vec<_>>();
+
     let total = speakers_with_pics.len();
 
     for (i, speaker) in speakers_with_pics.iter().enumerate() {

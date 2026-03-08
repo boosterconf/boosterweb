@@ -1,3 +1,5 @@
+//! File repository. All file and path handling.
+
 use std::path::{Path, PathBuf};
 
 use bytes::Bytes;
@@ -281,7 +283,7 @@ impl SpeakerFiles {
                             ProfilePicture {
                                 id: format!(
                                     "https://sessionize.com/image/{}",
-                                    f.file_name().into_string().unwrap()
+                                    f.file_name().into_string().unwrap(),
                                 ),
                             },
                             speaker_name.to_string(),
@@ -325,6 +327,7 @@ impl SpeakerFiles {
     ) -> Result<(), Box<dyn std::error::Error>> {
         let file_path = Self::profile_picture_path(&self, pic, speaker_name);
 
+        dbg!(&file_path);
         Ok(fs::remove_file(file_path).await?)
     }
 }
