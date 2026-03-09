@@ -18,5 +18,5 @@ Skal vi lage gode prototyper av KI-tjenester, er det nesten umulig å gjøre det
 
 I denne workshopen får du hands-on erfaring med å bruke KI i prototypingen. Vi jobber med en konkret case og du får prøve selv hvordan man kan gå fra idé til en fungerende prototype som kan testes. 
 
-Ta med egen Mac/pc, vi skal bruke Figma Make.
+Ta med egen laptop, vi skal bruke Figma Make.
 
