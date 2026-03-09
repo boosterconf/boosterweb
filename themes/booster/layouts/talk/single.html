@@ -75,9 +75,9 @@
     <p>
         <span class="muted">{{ .Params.talk_type }}</span>
         &mdash;
-        {{ $starts_at := time.AsTime .Params.starts_at }}
-        {{ $ends_at := time.AsTime .Params.ends_at }}
-        <span class="muted">{{ $starts_at.Format "15:04" }} - {{ $ends_at.Format "15:04" }}</span>
+        {{ $starts_at := time.AsTime .Params.starts_at | time.In "Europe/Oslo" | time.Format "15:04" }}
+        {{ $ends_at := time.AsTime .Params.ends_at | time.In "Europe/Oslo" | time.Format "15:04" }}
+        <span class="muted">{{ $starts_at }} - {{ $ends_at }}</span>
         &mdash;
         <span class="muted">{{ .Parent.Param "title" }}</span>
     </p>
