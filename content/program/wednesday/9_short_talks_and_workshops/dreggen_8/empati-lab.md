@@ -6,7 +6,7 @@ starts_at: 2026-03-11T12:35:00Z
 ends_at: 2026-03-11T14:05:00Z
 weight: 1
 authors:
-    - Helene Høylandskjær
+    - Julian Schlicht
     - Liva Snilstveit Hoem
 
 ---
