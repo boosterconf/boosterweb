@@ -24,7 +24,7 @@ jobs:
         cache-on-failure: true
     - name: Build
       working-directory: ./program_import
-      run: cargo run --locked
+      run: cargo run --locked --verbose
     - run: git add content/program
     - name: setup git config
       run: |
