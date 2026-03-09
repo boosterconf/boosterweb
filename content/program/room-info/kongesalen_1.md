@@ -4,4 +4,5 @@ type: speaker-presentation
 room_names:
     - Kongesalen 1
     - Kongesalen plenum
+    - Kongesalen 1-4
 ---
