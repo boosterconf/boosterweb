@@ -40,11 +40,28 @@
         {{- end }}
     {{- end }}
 {{- end }}
+
 {{- define "main" }}
-<div class="header-join">
-    <h1>{{ .Title | markdownify }}</h1>
+<div class="program-header-join">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        {{ if $currentPage.HasMenuCurrent "main" . }}
+            <h1>Program</h1>
+            <ul>
+            {{ if .HasChildren }}
+                {{ range .Children }}
+                    <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                        <a href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+            {{ end }}
+            </ul>
+        {{ end }}
+    {{ end }}
 </div>
+
 <article class="inner">
+    <h2>{{ .Title | markdownify }}</h2>
     {{- range .Params.authors }}
     {{- range ( where $.Site.Pages "Params.name" . ) }}
     {{- if .Params.external_profile }}
@@ -57,14 +74,13 @@
 
     <p>
         <span class="muted">{{ .Params.talk_type }}</span>
-        {{ if .Param "time_slot" }}
         &mdash;
-        <span class="muted">{{ .Param "time_slot" }}</span>
-        {{ end }}
+        {{ $starts_at := time.AsTime .Params.starts_at }}
+        {{ $ends_at := time.AsTime .Params.ends_at }}
+        <span class="muted">{{ $starts_at.Format "15:04" }} - {{ $ends_at.Format "15:04" }}</span>
         {{ if .Param "room" }}
         &mdash;
         <span class="muted">{{ .Param "room" }}</span>
-
         {{ end }}
     </p>
 
