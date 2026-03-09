@@ -45,9 +45,13 @@
             {{ $partners := .Site.GetPage "/partners" }}
             let inactiveImages = [
             {{ range  $partners.Resources.Match "logos/*"  }}
-                "{{ .RelPermalink }}",
+
+                {{ if isset .Params "url" }}
+                    "{{ .RelPermalink }}",
+                {{ end }}
             {{ end }}
             ];
+            
             let activeImages = []
 
             // randomize
