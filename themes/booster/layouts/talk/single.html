@@ -78,10 +78,8 @@
         {{ $starts_at := time.AsTime .Params.starts_at }}
         {{ $ends_at := time.AsTime .Params.ends_at }}
         <span class="muted">{{ $starts_at.Format "15:04" }} - {{ $ends_at.Format "15:04" }}</span>
-        {{ if .Param "room" }}
         &mdash;
-        <span class="muted">{{ .Param "room" }}</span>
-        {{ end }}
+        <span class="muted">{{ .Parent.Param "title" }}</span>
     </p>
 
     {{ if .Params.recording_url }}
