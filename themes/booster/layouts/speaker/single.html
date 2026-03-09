@@ -1,6 +1,9 @@
 {{ define "main" }}
 {{ $source_image := index (.Page.Resources.ByType "image") 0 }}
 {{ $image := ($source_image.Fill "400x400 smart").Filter images.Grayscale }}
+<div class="header-join">
+    <h1>Program</h1>
+</div>
 <article>
     <div class="speakers-body container">
         <div class="row">
@@ -17,7 +20,7 @@
                 </div>
                 <div class="right">
                     <div class="content">
-                        <h3><a name="{{- .Params.Name -}}">{{- .Params.Name -}}</a></h3>
+                        <h2><a name="{{- .Params.Name -}}">{{- .Params.Name -}}</a></h2>
                         <div class="speaker-meta"><p>
                             <i>{{- .Title -}}</i><br />
                             {{ if .Params.twitter_handle }}
