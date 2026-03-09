@@ -21,6 +21,7 @@ jobs:
       uses: Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5
       with:
         workspaces: program_import
+        cache-on-failure: true
     - name: Build
       working-directory: ./program_import
       run: cargo run --locked
