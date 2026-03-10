@@ -7,6 +7,7 @@ ends_at: 2026-03-12T14:00:00Z
 weight: 3
 authors:
     - Anders Marstrander
+    - Inger Liepelt
 
 ---
 When testing together with other organisations one of the challenges is sharing test data. This has become more complex as the privacy rules have become strickter. We can't share data from production copies any longer, and when everyone can create their own test data the chances that they are coordinated across different organisations will go down.

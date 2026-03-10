@@ -1,5 +1,5 @@
 ---
-title: "Code Battle"
+title: "Booster Battle"
 talk_type: "Plenum"
 type: talk
 starts_at: 2026-03-11T14:25:00Z
@@ -7,6 +7,7 @@ ends_at: 2026-03-11T15:20:00Z
 weight: 1
 authors:
     - Martin Larsson
+    - Gaurav Singh
 
 ---
 Two heavyweights, with wildly different and hot takes about our industry, will face off in a battle of wits, guts and glory!
