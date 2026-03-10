@@ -2,5 +2,5 @@
 title: "Kongesalen 2-3"
 type: room
 language: 
-weight: 1
+weight: 2
 ---
