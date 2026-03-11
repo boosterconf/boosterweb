@@ -19,3 +19,4 @@ Workhoppen er på introduksjonsnivå, og passer for utviklere som vil lære om g
 
 Ta med laptop med Node.js og docker 🐳 installert.
 
+Github url: https://github.com/TechedLemur/Event-Sourcing-Workshop
