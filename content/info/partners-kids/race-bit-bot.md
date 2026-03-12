@@ -9,7 +9,7 @@ Dere skal få lære hvordan dere programmerer den og teste den på baner som der
 
 ***Målgruppe: 10-14 år      Plasser: 20***
 
-***Rom: Dræggen 4***
+***Rom: Kongesalen 1***
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac, som kan kobles micro:bit'en til med USB-A, og tilhørende lader***
 

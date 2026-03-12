@@ -13,7 +13,7 @@ Vi bruker web-editoren, https://editor.p5js.org, til å kode/skrive egne program
 
 ***Målgruppe: 12+ år      Plasser: 25***
 
-***Rom: Kongesalen 5***
+***Rom: Dræggen 4***
 
 ***OBS: Alle deltagere må ha med sin egen PC / Mac og tilhørende lader***
 
