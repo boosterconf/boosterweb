@@ -24,7 +24,7 @@ jobs:
     - name: Build
       working-directory: ./program_import
       run: cargo run --locked --verbose
-    - run: git add content/program
+    - run: git add content/program content/speakers
     - name: setup git config
       run: |
         git config user.name "GitHub Actions Bot"
