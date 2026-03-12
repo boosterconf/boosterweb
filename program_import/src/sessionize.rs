@@ -89,6 +89,7 @@ pub struct SessionizeAllMetadata {
 pub struct SessionizeSessionMetadata {
     id: String,
     question_answers: Vec<SessionizeQuestionAnswers>,
+    recording_url: Option<String>,
 }
 
 #[derive(Debug, PartialEq, Eq, Deserialize)]
@@ -130,6 +131,7 @@ impl TryFrom<(SessionizeSession, &SessionizeSessionMetadata)> for Session {
             starts_at: value.starts_at,
             ends_at: value.ends_at,
             description: value.description,
+            recording_url: metadata.recording_url.clone(),
             category,
             speakers: value
                 .speakers
@@ -202,15 +204,16 @@ impl TryFrom<(&SessionizeAllMetadata, &SessionizeDayToDayIntermediate)> for Sess
     fn try_from(
         (metadata, intermediate): (&SessionizeAllMetadata, &SessionizeDayToDayIntermediate),
     ) -> Result<Self, Self::Error> {
+        let session_metadata = metadata
+                .sessions
+                .iter()
+                .find(|y| y.id == intermediate.room.session.id)
+                .unwrap();
         Ok(Session {
             title: intermediate.room.session.title.clone(),
             is_service_session: intermediate.room.session.is_service_session,
             is_plenum_session: intermediate.room.session.is_plenum_session,
-            is_english: metadata
-                .sessions
-                .iter()
-                .find(|y| y.id == intermediate.room.session.id)
-                .unwrap()
+            is_english: session_metadata
                 .question_answers
                 .iter()
                 .find(|x| x.question_id == 114013)
@@ -218,6 +221,7 @@ impl TryFrom<(&SessionizeAllMetadata, &SessionizeDayToDayIntermediate)> for Sess
             is_continuation: intermediate.continuation,
             starts_at: intermediate.room.session.starts_at,
             ends_at: intermediate.room.session.ends_at,
+            recording_url: session_metadata.recording_url.clone(),
             description: intermediate.room.session.description.clone(),
             category: SessionCategory::try_from(&intermediate.room.session)?,
             speakers: intermediate
@@ -466,6 +470,7 @@ mod tests {
                             is_plenum_session: false,
                             starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 0, 0).unwrap(),
                             ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 30, 0).unwrap(),
+                            recording_url: None,
                             description: Some("During an Open Space discussion at last year`s Booster Conference, we discussed the distance between leaders and teams. I think the gap is real, but it is not there because of bad intentions. Instead, I believe the gap exists because it is difficult to see how leaders achieve control by letting go of it. \r\n\r\nOver the past year leading an area of highly skilled and diverse teams, I have put this into practice. Some things worked, others didn’t, but the common thread is that I must prove myself worthy of the team's trust. \r\n\r\nPerhaps some of my experiences make sense to others as well?".to_string()),
                             category: SessionCategory::ExperienceReport,
                             speakers: vec!["Louis Dieffenthaler".to_string()],

@@ -19,7 +19,7 @@ token_url = 'https://api.vimeo.com/oauth/token'
 redirect_uri = 'http://localhost:5975/callback'
 state = ''
 scope_list = 'upload'
-event_id = '15043'
+event_id = '20902'
 
 webbrowser.open('https://api.vimeo.com/oauth/authorize?response_type=token&response_mode=form_post&client_id={client_id}&redirect_uri={redirect_uri}&state={state}&scope={scope_list}'.format(client_id= client_id,redirect_uri= redirect_uri,state=state,scope_list=scope_list))
 
@@ -73,12 +73,13 @@ class TitleCompleter(Completer):
             self.loading -= 1
 
 def load_sessionize_data():
-    all_url = "https://sessionize.com/api/v2/dblm5kaq/view/All"
+    all_url = "https://sessionize.com/api/v2/1gnvn8rl/view/All"
     all_response = urlopen(all_url) 
     return json.loads(all_response.read())
 sessionize_data = load_sessionize_data()
 
 def upload_file(file_name, title):
+    print('Uploading file {}'.format(filename))
     try:
         # Upload the file and include the video title and description.
         uri = client.upload(file_name, data={

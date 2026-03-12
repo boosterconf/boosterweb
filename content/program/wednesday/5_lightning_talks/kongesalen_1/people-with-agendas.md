@@ -4,6 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T10:05:00Z
 ends_at: 2026-03-11T10:15:00Z
+recording_url: https://vimeo.com/1172868161
 weight: 4
 authors:
     - Kristian Andre Kastet

@@ -4,6 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T09:55:00Z
 ends_at: 2026-03-11T10:05:00Z
+recording_url: https://vimeo.com/1172864741
 weight: 3
 authors:
     - Jørgen Landsnes

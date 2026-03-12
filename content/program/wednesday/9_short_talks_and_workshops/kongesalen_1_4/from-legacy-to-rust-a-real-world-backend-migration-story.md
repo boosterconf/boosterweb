@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-11T13:05:00Z
 ends_at: 2026-03-11T13:35:00Z
+recording_url: https://vimeo.com/1172900863
 weight: 2
 authors:
     - Michael Völkl

@@ -65,6 +65,7 @@ pub struct Session {
     pub ends_at: DateTime<Utc>,
     pub description: Option<String>,
     pub category: SessionCategory,
+    pub recording_url: Option<String>,
     /// Speakers are assumed to have unique names across the whole site.
     /// Sessionize has IDs for when we need to handle duplicates
     /// In the future, maybe this should be a pointer to the actual Speaker domain structure instance?
@@ -160,6 +161,7 @@ mod tests {
                     is_english: false,
                     starts_at: DateTime::default(),
                     ends_at: DateTime::default(),
+                    recording_url: None,
                     description: None,
                     category: SessionCategory::Workshop90,
                     speakers: Vec::new(),
@@ -175,6 +177,7 @@ mod tests {
                     is_english: false,
                     starts_at: DateTime::default(),
                     ends_at: DateTime::default(),
+                    recording_url: None,
                     description: None,
                     category: SessionCategory::ExperienceReport,
                     speakers: Vec::new(),
@@ -190,6 +193,7 @@ mod tests {
                     is_english: false,
                     starts_at: DateTime::default(),
                     ends_at: DateTime::default(),
+                    recording_url: None,
                     description: None,
                     category: SessionCategory::Workshop90,
                     speakers: Vec::new(),
@@ -205,6 +209,7 @@ mod tests {
                     is_english: false,
                     starts_at: DateTime::default(),
                     ends_at: DateTime::default(),
+                    recording_url: None,
                     description: None,
                     category: SessionCategory::ExperienceReport,
                     speakers: Vec::new(),

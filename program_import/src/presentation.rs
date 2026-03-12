@@ -135,14 +135,17 @@ weight: {i}
             .as_deref()
             .unwrap_or("")
             .replace("\r\n", "\n");
-
+        let recording_url_field = match &session.recording_url {
+            Some(url) => format!("\nrecording_url: {url}"),
+            None => "".to_owned(),
+        };
         format!(
             r#"---
 title: "{title}"
 talk_type: "{talk_type}"
 type: {type_}
 starts_at: {starts_at}
-ends_at: {ends_at}
+ends_at: {ends_at}{recording_url_field}
 weight: {i}
 authors:
     {authors}
@@ -274,6 +277,7 @@ menu:
                     is_plenum_session: false,
                     starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 7, 30, 0).unwrap(),
                     ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 9, 0, 0).unwrap(),
+                    recording_url: None,
                     description: Some("A test description".to_string()),
                     category: SessionCategory::Workshop90,
                     speakers: vec!["Test speaker".to_string()],
@@ -304,6 +308,7 @@ weight: 1
             is_plenum_session: false,
             starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 0, 0).unwrap(),
             ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 9, 30, 0).unwrap(),
+            recording_url: Some("https://vimeo.com/123456".to_string()),
             description: Some("A test description".to_string()),
             category: SessionCategory::Workshop90,
             speakers: vec![
@@ -327,6 +332,7 @@ talk_type: "Workshop 1,5h"
 type: talk
 starts_at: 2026-03-12T08:00:00Z
 ends_at: 2026-03-12T09:30:00Z
+recording_url: https://vimeo.com/123456
 weight: 1
 authors:
     - Speaky Speakerson
@@ -349,6 +355,7 @@ A test description
             is_plenum_session: false,
             starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 10, 15, 0).unwrap(),
             ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 10, 35, 0).unwrap(),
+            recording_url: None,
             description: Some("A test description".to_string()),
             category: SessionCategory::Break,
             speakers: vec![
