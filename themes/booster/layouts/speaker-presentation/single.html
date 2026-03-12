@@ -58,9 +58,13 @@
     <script>
 
         document.addEventListener("DOMContentLoaded", function(event) {
-
+            var modifier = 0;
             var current = null;
-            var tick = function() {
+            var running = true;
+            var tick = function(force = false) {
+                if(!force && !running) {
+                    return false;
+                }
                 let now = Temporal.Now.instant();
                 let nodeList = document.querySelectorAll("[data-starts-at]");
                 let nextTalks = Array.from(document.querySelectorAll("[data-starts-at]")).filter(talkInfo => {
@@ -74,7 +78,7 @@
                     var b = Temporal.Instant.from(bNode.getAttribute('data-starts-at'));
                     return Temporal.Instant.compare(a, b);
                 });
-                var nextTalk = nextTalks[0];
+                var nextTalk = nextTalks[Math.min(Math.max(0, 0+modifier), nextTalks.length-1)];
                 if(current != null) {
                     current.classList.remove("current");
                 }
@@ -86,13 +90,17 @@
 
             // Check if we should move to next time slot every 20 sek
             //const timer = setInterval(tick, 20*1000);
-/*
+
             document.addEventListener("keydown", event => {
                 if (event.code == "ArrowUp") {
-                    goToPrev();
+                        console.log("Prev");
+                    modifier--;
+                    tick(true);
                     event.preventDefault()
                 } else if (event.code == "ArrowDown") {
-                    goToNext();
+                    console.log("Next");
+                    modifier++;
+                    tick(true);
                     event.preventDefault()
                 } else if (event.code == "KeyS") {
                     if (running) {
@@ -101,13 +109,10 @@
                     } else {
                         console.log("Automatic scrolling started");
                         running = true;
-                        goToNow()
                     }
                 }
-            });*/
+            });
 
-            // Refresh after a while, in case the program has been updated
-            //setTimeout(() => window.location.reload(true), 1000 * 60 * 10);
         });
     </script>
 </html>
