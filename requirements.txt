@@ -6,5 +6,4 @@ oauthlib
 flask
 prompt_toolkit
 pillow
-pyav
 pyperclip
