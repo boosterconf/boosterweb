@@ -4,6 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-11T10:50:00Z
 ends_at: 2026-03-11T11:00:00Z
+recording_url: https://vimeo.com/1173224066
 weight: 2
 authors:
     - Elias Botterli Sørensen

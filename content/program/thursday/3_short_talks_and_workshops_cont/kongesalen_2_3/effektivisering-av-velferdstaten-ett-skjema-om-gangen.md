@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T09:50:00Z
 ends_at: 2026-03-12T10:20:00Z
+recording_url: https://vimeo.com/1173184997
 weight: 1
 authors:
     - Daniel Hasan

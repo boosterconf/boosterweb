@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T09:00:00Z
 ends_at: 2026-03-12T09:30:00Z
+recording_url: https://vimeo.com/1173185667
 weight: 3
 authors:
     - Hege Liby Erdal

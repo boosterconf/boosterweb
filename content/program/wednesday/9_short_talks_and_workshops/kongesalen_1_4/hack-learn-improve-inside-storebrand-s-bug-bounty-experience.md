@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-11T13:35:00Z
 ends_at: 2026-03-11T14:05:00Z
+recording_url: https://vimeo.com/1173167608
 weight: 3
 authors:
     - Oleksandr Kazymyrov

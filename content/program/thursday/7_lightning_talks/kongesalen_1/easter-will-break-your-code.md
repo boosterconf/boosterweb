@@ -4,6 +4,7 @@ talk_type: "Lightning Talk"
 type: talk
 starts_at: 2026-03-12T14:50:00Z
 ends_at: 2026-03-12T15:00:00Z
+recording_url: https://vimeo.com/1173186227
 weight: 3
 authors:
     - Haakon Stette

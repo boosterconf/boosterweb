@@ -4,6 +4,7 @@ talk_type: "Keynote"
 type: talk
 starts_at: 2026-03-11T08:15:00Z
 ends_at: 2026-03-11T09:15:00Z
+recording_url: https://vimeo.com/1173164544
 weight: 1
 authors:
     - Cecilie Haugstvedt

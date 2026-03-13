@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T10:50:00Z
 ends_at: 2026-03-12T11:20:00Z
+recording_url: https://vimeo.com/1173172944
 weight: 3
 authors:
     - Hanna Aasen Sendstad
