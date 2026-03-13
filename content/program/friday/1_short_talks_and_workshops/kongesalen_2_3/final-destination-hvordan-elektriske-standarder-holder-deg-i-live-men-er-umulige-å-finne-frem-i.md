@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-13T08:30:00Z
 ends_at: 2026-03-13T09:00:00Z
+recording_url: https://vimeo.com/1173290242
 weight: 2
 authors:
     - Dani Marås
