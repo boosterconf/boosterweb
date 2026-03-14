@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-12T13:30:00Z
 ends_at: 2026-03-12T14:00:00Z
+recording_url: https://vimeo.com/1173561195
 weight: 3
 authors:
     - Inger Liepelt

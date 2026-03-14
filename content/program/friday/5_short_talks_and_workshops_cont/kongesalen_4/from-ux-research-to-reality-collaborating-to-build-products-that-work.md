@@ -4,6 +4,7 @@ talk_type: "Experience report"
 type: talk
 starts_at: 2026-03-13T12:30:00Z
 ends_at: 2026-03-13T13:00:00Z
+recording_url: https://vimeo.com/1173558671
 weight: 1
 authors:
     - Sophie Aldebert
