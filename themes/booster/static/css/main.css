@@ -95,6 +95,10 @@ a {
   color: var(--link-color);
 }
 
+ul {
+  padding: 0 0 1rem 1.5rem;
+}
+
 /* Header / Menu */
 
 header#main-header {
@@ -201,6 +205,7 @@ header#main-header {
 #sponsor-area .sponsorlogos {
   width: 80%;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -307,6 +312,7 @@ article .map iframe {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
+  padding: 0;
   list-style: none;
 }
 
@@ -387,7 +393,6 @@ article .map iframe {
     align-self: center;
     text-align: center;
     position: relative;
-    max-width: min-content;
 
     background-color: var(--color-hav);
     border: 4px solid var(--header-text-color);
@@ -831,6 +836,7 @@ button.toggler.toggled {
 
 .program-header-join ul {
   margin: 0 auto;
+  padding: 0;
   max-width: 600px;
   display: flex;
   gap: 36px;
@@ -1132,4 +1138,21 @@ button.toggler.toggled {
   vertical-align:-0.9em;
   margin-right: 1em;
   border-radius: 50%;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 8px;
+    max-width: 1100px;
+    padding: 0;
+}
+.gallery a {
+    display: flex;
+}
+.gallery img {
+    filter: grayscale(1);
+    width: 100%;
+}
+.gallery img:hover {
+    filter: grayscale(0);
 }

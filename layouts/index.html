@@ -30,7 +30,7 @@
           {{ with .Site.GetPage "/program" }}
             <div class="call-to-action">
               <a href="{{ .RelPermalink }}" class="call-to-action__link">
-                Program
+                Program {{if where .Site.Pages "Params.recording_url" "ne" nil}} & videos{{end}}
               </a>
             </div>
           {{ end }}
@@ -54,6 +54,18 @@
               <div class="call-to-action">
                 <a href="{{ .RelPermalink }}" class="call-to-action__link">
                   Tickets
+                </a>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if .Site.GetPage "/retro" }}
+          {{ with .Site.GetPage "/retro" }}
+            {{ if not (.Param "draft") }}
+              <div class="call-to-action">
+                <a href="{{ .RelPermalink }}" class="call-to-action__link">
+                  Retrospective
                 </a>
               </div>
             {{ end }}

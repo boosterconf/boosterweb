@@ -1,0 +1,26 @@
+{{ define "main" }}
+    {{ if .Title }}
+    <div class="header-join">
+        <h1>{{- .Title -}}</h1>
+    </div>
+    {{ end }}
+<article>
+    {{ .Content | safeHTML }}
+    <ul class="gallery">
+    {{range .Page.Resources.ByType "image"}}
+        {{ $opts := dict
+            "method" "ClusteredDotHorizontalLine"
+            "colors" (first 3 .Colors)
+        }}
+        {{ $filters := slice
+            (images.Process "resize 600x")
+        }}
+        {{with . | images.Filter $filters}}
+        <a href="{{.}}">
+            <img src="{{.RelPermalink}}" />
+        </a>
+        {{end}}
+    {{end}}
+    </ul>
+</article>
+{{end}}

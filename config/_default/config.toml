@@ -4,6 +4,9 @@ title = "Booster Conference 2026 Bergen"
 theme = "booster"
 publishDir = "public/2026"
 
+[params]
+  currentYear = "2026"
+
 [module]
   [[module.mounts]]
     source = "static/images"

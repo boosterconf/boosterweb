@@ -1,5 +1,6 @@
 ---
-headless: true
+title: Partners
+type: partners
 resources:
 #    - src: logos/acos.png
 #      title: ACOS
@@ -207,3 +208,5 @@ resources:
 #      params:
 #        url: https://www.vizrt.com/
 ---
+## Our {{<partner_count>}} partners for {{<current_year>}}
+Thank you to all our essential partners. Each one gets among other things co-branding and 3 tickets. Therefore they participate, learn and network on the floor with all the attendees. The conference simply cannot be the same without them! [Become one of our partners.]({{< relref "/info/become-a-partner" >}})
