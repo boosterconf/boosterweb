@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Dreggen 8 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/dreggen_8/</link>
+		<description>Recent content in Dreggen 8 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/dreggen_8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Praktisk Domain-Driven Design - Fokus på modellering</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/dreggen_8/praktisk-domain-driven-design-fokus-p%C3%A5-modellering/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/dreggen_8/praktisk-domain-driven-design-fokus-p%C3%A5-modellering/</guid>
+				<description>&lt;p&gt;Uansett hva slags rolle du har i digitale produktutviklingen er du involvert i modellering. Det går alltid en grense mellom fysiske omgivelser og software produkt and den grensen defineres av modellen som produktet velger til å beskrive virkeligheten.&lt;/p&gt;&#xA;&lt;p&gt;I denne sesjonen vil du øve deg på modellering for å kunne bli bedre til å designe, lede og bygge digitale produkter.&lt;/p&gt;&#xA;&lt;p&gt;Målet er å inspirere deg til å tenke fra ulike perspektive og til å foreslå ulike modeller for samme problemet du skal løse.&#xA;Vi vil gå gjennom 4 forskjellige tilnærminger til modellering, der hvert steg tilfører mer nyanse og detalj i forståelsen av problemområdet:&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

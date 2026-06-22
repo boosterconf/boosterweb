@@ -1,3 +1,0 @@
----
-name: "Lene Kavli"
----

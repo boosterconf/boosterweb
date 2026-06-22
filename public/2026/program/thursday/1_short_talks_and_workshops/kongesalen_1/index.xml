@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 1 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_1/</link>
+		<description>Recent content in Kongesalen 1 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>code in Unison</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_1/code-in-unison/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_1/code-in-unison/</guid>
+				<description>&lt;p&gt;Unison, a friendly programming language from the future, offers a few interesting new insights into what programming could be.&lt;/p&gt;&#xA;&lt;p&gt;Most notable they are&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a new way of developing and building code&lt;/li&gt;&#xA;&lt;li&gt;seemingly seamless way of distributed programming&lt;/li&gt;&#xA;&lt;li&gt;a novel means of managing effects via abilities.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In this workshop we take you on a journey where we explore the finer details of these promises. You will get to know Unison, its programming model and the ease with which you can describe and deploy distributed programs.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

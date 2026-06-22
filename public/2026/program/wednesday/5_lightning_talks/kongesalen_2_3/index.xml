@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 2-3 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/</link>
+		<description>Recent content in Kongesalen 2-3 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Avoid the usability cliff. Create a stairway to heavenly complexity.</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/avoid-the-usability-cliff-create-a-stairway-to-heavenly-complexity/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/avoid-the-usability-cliff-create-a-stairway-to-heavenly-complexity/</guid>
+				<description>&lt;p&gt;“Simple things should be simple, complex things should be possible” – Alan Kay.&lt;/p&gt;&#xA;&lt;p&gt;This is a good rule of thumb for anyone creating digital tools, no matter if you are working on the API-level or with the user interface. But it is only a start. You need to make sure that the path from simple to complex is a good stairway and not a steep cliff, making sure that the increase in user effort matches the increase in perceived value.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Font for thought: set it once, say it well</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/font-for-thought-set-it-once-say-it-well/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/font-for-thought-set-it-once-say-it-well/</guid>
+				<description>&lt;p&gt;Fonts, line heights and… fewer headaches? Yes, please.&lt;/p&gt;&#xA;&lt;p&gt;Join us for a fast-paced dive into how a solid typography system can save time, reduce team debates, and make onboarding a breeze.&lt;/p&gt;&#xA;&lt;p&gt;Because arguing about font sizes isn’t a sprint goal!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>&#34;Im In!&#34;: Why Movies and TV Get Tech So Hilariously Wrong</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/im-in-why-movies-and-tv-get-tech-so-hilariously-wrong/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/im-in-why-movies-and-tv-get-tech-so-hilariously-wrong/</guid>
+				<description>&lt;p&gt;We all love a good movie or TV show, but almost every time technology is involved, something ridiculous happens.&#xA;The hacker cracks government security in 30 seconds, the CCTV cameras zoom in to read license plates and someone types furiously at a keyboard until a satellite is compromised.&#xA;Why do writers keep getting the most basic of tech so wrong?&lt;/p&gt;&#xA;&lt;p&gt;Join me as we dive into some infamous tech tropes from film and television and ask the question: &amp;ldquo;What if these scenes aren’t just a result of bad writing? What if they reflect a deeper truth: that explaining real-world tech is just really hard?&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cognitive load is misunderstood</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/cognitive-load-is-misunderstood/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_2_3/cognitive-load-is-misunderstood/</guid>
+				<description>&lt;p&gt;Is experiencing a high cognitive load always bad? Does it make sense to talk about cognitive load on the team level? Are we better able to think about the big problems if we offload the small ones?&lt;/p&gt;&#xA;&lt;p&gt;Cognitive Load Theory has risen in popularity the last few years, and rightly so! Developers and architects have much to learn from psychology. But with popularity comes misunderstandings, since few ever take the time to read the actual research. To rid us of the misunderstandings I will take you through the concepts you can use to develop a clearer vocabulary when talking about cognitive load.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

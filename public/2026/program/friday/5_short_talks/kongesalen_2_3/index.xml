@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 2-3 on Booster Conference 2026 Bergen</title>
+    <link>http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_2_3/</link>
+    <description>Recent content in Kongesalen 2-3 on Booster Conference 2026 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>På kanten av blackout: Fleksibel strømstyring i sanntid med IoT-enheter</title>
+      <link>http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_2_3/p%C3%A5-kanten-av-blackout-fleksibel-str%C3%B8mstyring-i-sanntid-med-iot-enheter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_2_3/p%C3%A5-kanten-av-blackout-fleksibel-str%C3%B8mstyring-i-sanntid-med-iot-enheter/</guid>
+      <description>&lt;p&gt;Hver gang du skrur på lyset hjemme, må strømforbruk og -produksjon balanseres i sanntid for å unngå strømbrudd. I denne presentasjonen viser jeg hvordan kantprosessering og smarte styringssystemer gjør det mulig for batterier å bidra til å stabilisere strømnettet, og holde lysene på.&lt;/p&gt;&#xA;&lt;p&gt;Jeg vil dele hvordan vi har designet IoT riggen vår på Azure som muliggjør automatisk innrullering av nye kantenheter, datainnsamling fra sensorer, fjernstyring av elektrisk infrastruktur og kjøring av sanntidsalgoritmer for strømstyring på kanten når det er ekstra behov for pålitelighet og rask reaksjonsevne.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

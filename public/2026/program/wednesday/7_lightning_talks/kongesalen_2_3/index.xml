@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 2-3 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/</link>
+		<description>Recent content in Kongesalen 2-3 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Methodology as a Straitjacket</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/methodology-as-a-straitjacket/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/methodology-as-a-straitjacket/</guid>
+				<description>&lt;p&gt;At some point, we started treating methodology like religion. Agile became dogma. Design Thinking turned into ritual. Double Diamond became an icon people worship without fully understanding what it means. Everyone talks about “doing it right”, but very few remember why we are doing any of it in the first place.&lt;/p&gt;&#xA;&lt;p&gt;People fill out canvases like they are sitting an exam, and panic when reality refuses to fit the template. Teams get stuck in ceremonies they actively dislike, but keep doing them because “it says so in the book”. And when someone finally asks, “Does this actually make sense?”, they are labelled difficult.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Do You Really Have a Team?</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/do-you-really-have-a-team/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/do-you-really-have-a-team/</guid>
+				<description>&lt;p&gt;Unpacking the Illusion of Teamwork in Agile Development.&lt;/p&gt;&#xA;&lt;p&gt;Many software teams claim to be “Agile,” but in reality, they operate as loosely connected individuals rather than cohesive, high-performing teams. In this talk, we’ll explore the illusion of teamwork—how daily standups, ticket ownership, and even Agile rituals can mask siloed behavior and developer ego. Drawing from real-world examples and Agile principles, we’ll contrast dysfunctional patterns with the traits of truly collaborative teams. You’ll leave with practical strategies to foster trust, shared ownership, and team-level accountability—whether you’re a developer, Scrum Master, or leader.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Unplug to Recharge: The Hidden Power of Off-Screen Time</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/unplug-to-recharge-the-hidden-power-of-off-screen-time/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/unplug-to-recharge-the-hidden-power-of-off-screen-time/</guid>
+				<description>&lt;p&gt;After years working in PR, IT Operations, and DevOps, and spending time as a Scrum Master along the way, I’ve learned that uptime isn’t everything, especially when it comes to humans. When I started my software engineering studies at 30, I thought the key to catching up was spending more hours in front of the screen. It wasn’t.&#xA;I discovered that my most creative ideas often appeared when I stepped away from the keyboard. In this lightning talk, I’ll show how taking breaks can boost creativity, sharpen focus, and bring clarity to complex problems in the fast-paced day-to-day of a developer. You’ll leave with a few simple, evidence-based habits for building rest into your schedule, because time spent off the screen isn’t lost – it is maintenance.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Enter the gray area</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/enter-the-gray-area/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_2_3/enter-the-gray-area/</guid>
+				<description>&lt;p&gt;Do you want a super power few others have? A power that helps in meetings, discussions and everyday life? Then we have to travel to the gray area together! The mystical area where we together can become super heroes by learning the power of nuance 🦸&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

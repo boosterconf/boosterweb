@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 4 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_4/</link>
+		<description>Recent content in Kongesalen 4 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Frontend frameworks free-for-all!</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_4/frontend-frameworks-free-for-all/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_4/frontend-frameworks-free-for-all/</guid>
+				<description>&lt;p&gt;Bring that shiny frontend framework that you have been wanting to try out. I&amp;rsquo;ll bring some data, an API, and a sketch of what we will be building. Let&amp;rsquo;s try something new!&lt;/p&gt;&#xA;&lt;p&gt;React is everywhere nowadays, but there are so many options that does at least something better, or different. Maybe you want to try out two way data binding in Vue, enterprise frontend in Angular, make something small and fast (and without the VDOM) with svelte, resumable apps on the edge with qwik, islands with deno and fresh, or HTML as it should have been with htmx?&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

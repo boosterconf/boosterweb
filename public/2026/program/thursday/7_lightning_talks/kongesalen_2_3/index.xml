@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 2-3 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/</link>
+		<description>Recent content in Kongesalen 2-3 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>It is a sociotechnical system - but what does that mean?</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/it-is-a-sociotechnical-system-but-what-does-that-mean/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/it-is-a-sociotechnical-system-but-what-does-that-mean/</guid>
+				<description>&lt;p&gt;Sociotechnical systems theory was made based on the discovery that different people use technology different. The first research report was from coalmines where new technology that was introduced made the work go slower. But then, they discovered one mine who managed to use the technology in a more efficient way, and this is an important discovery.&lt;/p&gt;&#xA;&lt;p&gt;Because, if people work differently with the same technology, then we need to understand how to design good work. That means that we need to have design principles, not only for designing technology but for designing work systems consisting of people and technology.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A celebration of Teletext: The first digital information platform</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/a-celebration-of-teletext-the-first-digital-information-platform/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/a-celebration-of-teletext-the-first-digital-information-platform/</guid>
+				<description>&lt;p&gt;Teletext was more than just text and numbers on a TV screen.&#xA;It was an early digital platform that delivered live information directly into people’s living rooms.&lt;/p&gt;&#xA;&lt;p&gt;In this lightning talk, we look at how Teletext worked, from data hidden in the TV signal to the broadcast model that made real time information available decades before the internet.&lt;/p&gt;&#xA;&lt;p&gt;When NRK shut down its Teletext service on 20 August 2025 after 42 years on air, Norway did not just lose a text service. It lost a real time broadcast information platform.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The Coastline Paradox and Software Development</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/the-coastline-paradox-and-software-development/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/the-coastline-paradox-and-software-development/</guid>
+				<description>&lt;p&gt;How long is a country&amp;rsquo;s coastline? It turns out that the more precise you try to measure it, the longer it becomes. But wait a minute, isn&amp;rsquo;t that just like trying to estimate a software development project? Yes, it is, and actually there&amp;rsquo;s a good reason for that too. Join this lightning talk to find out why, and what consequences this has for your next software project!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Tech debt nomads and slash-and-burn development</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/tech-debt-nomads-and-slash-and-burn-development/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_2_3/tech-debt-nomads-and-slash-and-burn-development/</guid>
+				<description>&lt;p&gt;Many developers are tech debt nomads. When starting in a new role, we are righteously indignant about the shortcomings of existing solutions, preferring to burn them to the ground and start anew. A couple of years down the road, when the consequences of our own choices start to make themselves manifest and progress slows down, we find it&amp;rsquo;s time to move on. To replace us come other tech debt nomads, and the process repeats itself. What fuels this process? And what are the effects on the systems we build? On the organizations that own them? On us?&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

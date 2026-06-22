@@ -35,10 +35,10 @@ Our goal is that you come back from the conference with real knowledge you can u
 
 We focus on long breaks for networking, provide excellent coffee and good food.
 
-## Practical information for Booster 2026
+## Practical information for Booster 2027
 
 ### Where and when
-The conference takes place March 11-13 March at [Radisson Blu Bryggen](https://www.radissonhotels.com/en-us/hotels/radisson-blu-bergen) in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). 
+The conference takes place March 17-19 March at [Radisson Blu Bryggen](https://www.radissonhotels.com/en-us/hotels/radisson-blu-bergen) in Bergen, Norway. The closest airport is [Bergen Flesland Airport (BGO)](https://avinor.no/en/airport/bergen-airport/). To get to the conference from the airport, take the [airport express coach](http://flybussen.no/en). 
 
 #### First registration
 
@@ -68,4 +68,4 @@ You can contact us on e-mail: [kontakt@boosterconf.no](mailto:kontakt@boostercon
 We need volunteers to help us organize the conference!
 If you are interested, please apply here: 
 
-[Become a volunteer at Booster 2026!](https://forms.gle/wuDB4s4wodiJw2mA6)
+[Become a volunteer at Booster 2027!](https://forms.gle/wuDB4s4wodiJw2mA6)
