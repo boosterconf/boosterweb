@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 1 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/</link>
+		<description>Recent content in Kongesalen 1 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Same Same, but Sustainably Different: Designing a Ferry-tale</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/same-same-but-sustainably-different-designing-a-ferry-tale/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/same-same-but-sustainably-different-designing-a-ferry-tale/</guid>
+				<description>&lt;p&gt;What happens when you take design lessons from car dashboards and try to steer a ferry toward lower emissions? This talk dives into how familiar eco-feedback principles from driving don’t always sail smoothly into maritime contexts, and what we learn when they don’t. Discover how small contextual shifts can completely change design assumptions, and why crossing domains can spark both creativity and caution. A short story about designing for sustainability, learning from other industries, and knowing when to stop following the map and start reading the sea.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>From clueless to queueless ⛴️</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/from-clueless-to-queueless/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/from-clueless-to-queueless/</guid>
+				<description>&lt;p&gt;In Northern Norway, you are twice as likely to miss a ferry as anywhere else in the country. Combine that with long round-trip times and a massive summer influx of tourists, and you have a recipe for frustration — and a juicy news headline.&lt;/p&gt;&#xA;&lt;p&gt;Today’s “first come, first served” principle does not scale in the north. Through an interdisciplinary design thinking process involving locals, tourists, ferry crews, and domain experts, we aim to reimagine the ferry journey and eliminate queues across the county.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Solving the complexity of sharing test data</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/solving-the-complexity-of-sharing-test-data/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/5_open_spaces_and_short_talks/kongesalen_1/solving-the-complexity-of-sharing-test-data/</guid>
+				<description>&lt;p&gt;When testing together with other organisations one of the challenges is sharing test data. This has become more complex as the privacy rules have become stricter. We can&amp;rsquo;t share data from production copies any longer, and when everyone can create their own test data the chances that they are coordinated across different organisations will go down.&#xA;I will show how we do this at Nav when testing with other government agencies and private companies. I will give an overview of resources that are available and also show one or two examples of what we have done.&#xA;Even though Nav is a large organisation with plenty of resources this can fairly easily be replicated in smaller organisations.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

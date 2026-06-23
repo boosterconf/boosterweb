@@ -1,11 +1,11 @@
-baseURL = "https://www.boosterconf.no/2026"
+baseURL = "https://www.boosterconf.no/2027"
 languageCode = "en-us"
-title = "Booster Conference 2026 Bergen"
+title = "Booster Conference 2027 Bergen"
 theme = "booster"
-publishDir = "public/2026"
+publishDir = "public/2027"
 
 [params]
-  currentYear = "2026"
+  currentYear = "2027"
 
 [module]
   [[module.mounts]]

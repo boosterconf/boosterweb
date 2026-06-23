@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 5 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_5/</link>
+		<description>Recent content in Kongesalen 5 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_5/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Dismantling the Speed/Quality Trade-off Fallacy with Systems Thinking</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_5/dismantling-the-speed-quality-trade-off-fallacy-with-systems-thinking/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/1_short_talks_and_workshops/kongesalen_5/dismantling-the-speed-quality-trade-off-fallacy-with-systems-thinking/</guid>
+				<description>&lt;p&gt;The speed / quality trade-off fallacy gets many teams stuck in negative feedback loops -  sacrificing quality for speed, both are lost.&lt;/p&gt;&#xA;&lt;p&gt;Teams find their backlogs filled with bugs, their stakeholders frustrated by missed deadlines and the teams themselves unhappy and stressed.&lt;/p&gt;&#xA;&lt;p&gt;Systems thinking, and in particular using causal loop diagrams to identify the feedback loops at play can shed light on how and why the fallacy is so tempting yet so destructive.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

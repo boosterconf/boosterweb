@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 2-3 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/</link>
+		<description>Recent content in Kongesalen 2-3 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Fjelltoppjakten - Vedlikeholdsestimering er nøkkelen til hobbyprosjekter</title>
+				<link>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/fjelltoppjakten-vedlikeholdsestimering-er-n%C3%B8kkelen-til-hobbyprosjekter/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/fjelltoppjakten-vedlikeholdsestimering-er-n%C3%B8kkelen-til-hobbyprosjekter/</guid>
+				<description>&lt;p&gt;Fjelltoppjakten er ikke bare en app. Det er en hobby. Det er en livsidentitet. Ja, flere tusen nordmenn planlegger sommerferien hvert år utifra hvilke topper som skal sjekkes av i Fjelltoppjakten.&lt;/p&gt;&#xA;&lt;p&gt;Hvordan kan to bergensere utvikle og vedlikeholde en app med 130 000 brukere og millioninntekt, år etter år, på fritiden?&lt;/p&gt;&#xA;&lt;p&gt;Vi vil gjerne fortelle historien om Fjelltoppjakten, og hvordan vedlikeholdsestimering kan endre hvordan du tenker på produktutvikling.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Bli med bak kulissene i utviklingen av en ny digital helseløsning</title>
+				<link>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/bli-med-bak-kulissene-i-utviklingen-av-en-ny-digital-helsel%C3%B8sning/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/bli-med-bak-kulissene-i-utviklingen-av-en-ny-digital-helsel%C3%B8sning/</guid>
+				<description>&lt;p&gt;Vi har alt man kan ønske seg for å lage et godt digitalt produkt:&lt;/p&gt;&#xA;&lt;p&gt;En tydelig idé, støtte fra Forskningsrådet, engasjerte medisinske forskere, et kompetent utviklingsteam og en kommune som faktisk skal ta det i bruk. God tid, godt grunnlag og et viktig mål:&lt;/p&gt;&#xA;&lt;p&gt;Å gi innbyggere råd ved nyoppstått sykdom og skade, slik at de får hjelp til egenomsorg eller vet når de må kontakte helsetjenesten.&lt;/p&gt;&#xA;&lt;p&gt;Men hvorfor er det da fortsatt så vanskelig?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Lisensen røk – Resultatet ble dataprodukter for TV 2</title>
+				<link>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/lisensen-r%C3%B8k-resultatet-ble-dataprodukter-for-tv-2/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/friday/3_short_talks_and_workshops_cont/kongesalen_2_3/lisensen-r%C3%B8k-resultatet-ble-dataprodukter-for-tv-2/</guid>
+				<description>&lt;p&gt;Lisensen til TV 2 Play sin sentrale innholdsdatabase (Vimond) nærmet seg slutten. I stedet for å fornye en utdatert monolitt, tok vi et strategisk valg: å bygge vår egen, distribuerte arkitektur basert på dataprodukter. Slik ble Vixit-prosjektet født – en ambisiøs transformasjon for å ta tilbake eierskapet til våre data og skape smidighet.&lt;/p&gt;&#xA;&lt;p&gt;Denne migreringen var en reise i tospann: Den skjedde parallelt med en stor omorganisering av TV 2 Digital og etableringen av ny produktorganisering. Med åtte team involvert over nesten to år, bød prosjektet på betydelige utfordringer. Vi har hatt en bratt læringskurve med Data Mesh-prinsipper, håndtert komplekse forretningsregler spredt i gamle systemer, og navigert både tekniske og kulturelle skifter.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

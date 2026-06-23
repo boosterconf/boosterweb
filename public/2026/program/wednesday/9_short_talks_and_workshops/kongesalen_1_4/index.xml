@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 1-4 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/</link>
+		<description>Recent content in Kongesalen 1-4 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Can we architecture our way out of a chaotic reality?</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/can-we-architecture-our-way-out-of-a-chaotic-reality/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/can-we-architecture-our-way-out-of-a-chaotic-reality/</guid>
+				<description>&lt;p&gt;In the IT industry we have this idea that we can remove our systems from the chaos of real life, either through careful consideration of architecture or attention to detail in modelling. Thus we should create simple, or at least maintainable systems.&lt;/p&gt;&#xA;&lt;p&gt;We all know this isn’t what we face in our professional lives, where even the seemingly smallest detail can cause huge delays and complications.&lt;/p&gt;&#xA;&lt;p&gt;Join me in viewing system development and evolving systems through the lens of the chaos of reality and societal development.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>From Legacy to Rust: A Real-World Backend Migration Story</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/from-legacy-to-rust-a-real-world-backend-migration-story/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/from-legacy-to-rust-a-real-world-backend-migration-story/</guid>
+				<description>&lt;p&gt;Rust is the most admired programming language.&#xA;But is it production ready?&#xA;And is it possible to hire developers?&#xA;Can you convince management to use it?&lt;/p&gt;&#xA;&lt;p&gt;This talk will cover our story at Zrch, where we use Rust as the main language in our backend. We will share our learnings, our migration approach and the challenges we overcame along the way.&lt;/p&gt;&#xA;&lt;p&gt;What you&amp;rsquo;ll learn:&#xA;• How our first attempt to rewrite legacy code failed (and why)&#xA;• The strategies that made our Rust migration successful&#xA;• Pain points of Rust&#xA;• Interactions with other languages&#xA;• Building a Rust team: hiring  and onboarding challenges&#xA;• Leveraging AI tools for Rust development&#xA;• If time permits, we will briefly cover frontend aspects&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hack, Learn, Improve: Inside Storebrand’s Bug Bounty Experience</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/hack-learn-improve-inside-storebrand-s-bug-bounty-experience/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/kongesalen_1_4/hack-learn-improve-inside-storebrand-s-bug-bounty-experience/</guid>
+				<description>&lt;p&gt;Over the past years, Storebrand has actively engaged with ethical hackers through its bug bounty program, uncovering and mitigating vulnerabilities across a wide range of systems. In this talk, we’ll share what we’ve learned from real-world reports (from surprising edge cases to recurring patterns) and how these insights have strengthened both our technology and our culture.&lt;/p&gt;&#xA;&lt;p&gt;We’ll highlight some of the most interesting findings, discuss how we improved our detection and response processes, and reflect on what it takes to build genuine collaboration between developers and security researchers. Whether you’re a developer, tester, or security professional, this session offers practical lessons on turning bugs into opportunities for better security.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

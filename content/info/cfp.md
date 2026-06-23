@@ -1,7 +1,7 @@
 ---
 title: "Call for presentations"
-date: 2023-09-19T13:00:00+02:00
-draft: true
+date: 2026-06-22T13:00:00+02:00
+draft: false
 type: article
 menu:
     main:
@@ -9,11 +9,11 @@ menu:
         name: "Call for presentations"
 ---
 
-Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2026 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
+Share with us your ideas, valuable experiences and skills – old and new. Don't hesitate. Be a part of Booster 2027 and submit your contribution now! Or by the submission deadline. Whatever floats your boat.
 
-[Submit your proposal here!](https://sessionize.com/booster-conference-2026)
+[Submit your proposal here!](https://sessionize.com/booster-conference-2027)
 
-#### Submission deadline: October 15th 2025
+#### Submission deadline: October 9th 2026
 
 ## Pick your format!
 
@@ -90,8 +90,8 @@ Please note that if your talk gets accepted we will:
 
 *   Film your talk and publish it to Vimeo, (keynotes, lightning talks and short-talks only)
 *   Publish your name, bio and talk abstract on our website as part of this years program. We will also keep a copy of this information as a part of the Booster history.
-*   Keep your e-mail address, in order to be able to contact you while working on Booster 2026.
+*   Keep your e-mail address, in order to be able to contact you while working on Booster 2027.
 
 If you have any questions about your data and how and why we keep it, please reach out to us at [kontakt@boosterconf.no](mailto:kontakt@boosterconf.no).
 
-[Submit your proposal here!](https://sessionize.com/booster-conference-2026)
+[Submit your proposal here!](https://sessionize.com/booster-conference-2027)

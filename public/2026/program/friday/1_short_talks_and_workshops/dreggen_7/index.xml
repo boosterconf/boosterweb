@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Dreggen 7 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_7/</link>
+		<description>Recent content in Dreggen 7 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Red light, Green light!</title>
+				<link>https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_7/red-light-green-light/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_7/red-light-green-light/</guid>
+				<description>&lt;p&gt;Join our workshop where we dive into cutting edge computer vision models and how they can be used to create your very own rendition of the classic schoolyard game &amp;ldquo;Red light, Green light&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Participants will learn how to harness a smartphone&amp;rsquo;s camera, process a live video feed, and use a pre-trained pose estimation model to detect movement.&lt;/p&gt;&#xA;&lt;p&gt;Prerequisites:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A laptop&lt;/li&gt;&#xA;&lt;li&gt;A smartphone with cable that connects to your laptop.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To make the initial setup more smooth it is also advised to go through the setup guide for Flutter.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

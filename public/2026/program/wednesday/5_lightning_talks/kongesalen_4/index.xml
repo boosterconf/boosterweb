@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 4 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/</link>
+		<description>Recent content in Kongesalen 4 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>You too can build you own smart mirror!</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/you-too-can-build-you-own-smart-mirror/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/you-too-can-build-you-own-smart-mirror/</guid>
+				<description>&lt;p&gt;A few years ago some people at work built a smart mirror for use at a conference. Maybe you&amp;rsquo;ve seen it? It had face recognition, personalized content, weather forecast, bus schedule, and so on.&lt;/p&gt;&#xA;&lt;p&gt;Since there was nothing stopping us, we followed up by building smaller versions to bring home with us, and mine quickly became a popular &amp;ldquo;member of the family&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Now I will show you how easily you too can build your own smart mirror!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>A close reading of Computer Machinery and Intelligence</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/a-close-reading-of-computer-machinery-and-intelligence/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/a-close-reading-of-computer-machinery-and-intelligence/</guid>
+				<description>&lt;p&gt;In the age of the LLM, the Turing Test is more relevant than ever. But what &lt;em&gt;is&lt;/em&gt; the Turing Test? How did Turing envision the Imitation Game, as he called it, and what does he see as its greatest limitations?&lt;/p&gt;&#xA;&lt;p&gt;In this session, Felienne will take you on wild ride through a seminal paper in computer science, philosophy and computation.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Du er ikke Dum - En Forskningsbasert Metode for å Lære Alt Mulig</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/du-er-ikke-dum-en-forskningsbasert-metode-for-%C3%A5-l%C3%A6re-alt-mulig/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_4/du-er-ikke-dum-en-forskningsbasert-metode-for-%C3%A5-l%C3%A6re-alt-mulig/</guid>
+				<description>&lt;p&gt;Er du lei av å lese ting igjen og igjen, og én uke senere har du glemt alt sammen?  Da gjør du én eller to vanlige feil som motvirker diin evne til å huske det du lærer.&lt;/p&gt;&#xA;&lt;p&gt;I denne morsomme, jordnære og konkrete presentasjonen vil Peter gå gjennom de to vanligste, men dårligste metodene folk bruker når de skal lære seg ting, og forklare hvorfor de fungerer så dårlig.&lt;/p&gt;&#xA;&lt;p&gt;I tillegg vil Peter gå gjennom fire enkle metoder som forskning har funnet er mest effektivt for å lære nye konsepter, og hvordan enkelt integrere de i en arbeidshverdag.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

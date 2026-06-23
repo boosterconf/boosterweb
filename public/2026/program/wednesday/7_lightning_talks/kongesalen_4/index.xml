@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 4 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/</link>
+		<description>Recent content in Kongesalen 4 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>MCP: USB-C for AI or a Shortcut to Skynet?</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/mcp-usb-c-for-ai-or-a-shortcut-to-skynet/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/mcp-usb-c-for-ai-or-a-shortcut-to-skynet/</guid>
+				<description>&lt;p&gt;MCP (Model Context Protocol) is often described as USB-C for AI: a standard way to connect models to tools, data, and systems. As language models become more capable and more connected, MCP makes it easier to build systems that can do much more than just generate text.&lt;/p&gt;&#xA;&lt;p&gt;That shift is exciting, but it also raises difficult questions about security, safety, and trust. In this talk, I’ll use MCP as a lens to explore what changes when AI systems start acting beyond the chat window, and why that should make us think harder about control, authority and what we’re actually willing to trust these systems with.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Oops, my agent did it again</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/oops-my-agent-did-it-again/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/oops-my-agent-did-it-again/</guid>
+				<description>&lt;p&gt;Our industry is currently excited to put large language models into everything, everywhere, all at once. As the big headline of 2025, we have put LLMs into a looping program and called them AI agents. These agents can autonomously do stuff in our environment, without human involvement, and use the model context protocol (MCP) to access tools. This development has some serious implications for security and safety, and we have some work to do to avoid a future where hackers are the ones laughing. Get an overview of how some of this technology actually works, how it fails and why it&amp;rsquo;s a big challenge to secure it.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Luksusfellen for software team: Hvordan håndterer vi teknisk gjeld?</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/luksusfellen-for-software-team-hvordan-h%C3%A5ndterer-vi-teknisk-gjeld/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/luksusfellen-for-software-team-hvordan-h%C3%A5ndterer-vi-teknisk-gjeld/</guid>
+				<description>&lt;p&gt;Teknisk gjeld oppstår av mange forskjellige årsaker. Noen ganger er vi selv skyldige, andre ganger er det organisasjonen vi jobber i eller rett og slett den evige tekniske utviklingen rundt oss som fører oss ut i ulykka. Når det er forskjellige årsaker til teknisk gjeld, må vi også håndtere disse på forskjellige måter. I dette foredraget vil jeg dele erfaringer og noen verktøy og metoder som teamet ditt kan bruke for å få et mer bevisst forhold til sin egen tekniske gjeld, og hvordan man kan begynne å jobbe med den. På samme måte som i Luksusfellen handler det om å se realiteten i øynene og begynne å lage en plan!&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Frå kontor til kjøkkenbord: fjernarbeid og arbeidsmiljø</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/fr%C3%A5-kontor-til-kj%C3%B8kkenbord-fjernarbeid-og-arbeidsmilj%C3%B8/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/7_lightning_talks/kongesalen_4/fr%C3%A5-kontor-til-kj%C3%B8kkenbord-fjernarbeid-og-arbeidsmilj%C3%B8/</guid>
+				<description>&lt;p&gt;Fjernarbeid har blitt ein stor del av kvardagen for oss som jobbar i IT. Fjenarbeid stiller nye krav til korleis ein organiserer arbeidet, og det påverker arbeidsmiljøet på godt og på vondt. Kva seier forskinga om fjernarbeid, og korleis kan ein få fjernarbeid til å fungere godt i praksis?&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

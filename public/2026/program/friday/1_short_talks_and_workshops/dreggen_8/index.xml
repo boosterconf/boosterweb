@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Dreggen 8 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_8/</link>
+		<description>Recent content in Dreggen 8 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Make a Programming Language!</title>
+				<link>https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_8/make-a-programming-language/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/friday/1_short_talks_and_workshops/dreggen_8/make-a-programming-language/</guid>
+				<description>&lt;p&gt;Write your own programming language and learn more about how they work behind the scenes.&lt;/p&gt;&#xA;&lt;p&gt;In this workshop we&amp;rsquo;ll be building an interpreter for a simple programming language. You&amp;rsquo;ll be able to put your own spin on the language as we develop it. This can give you some insight into the different design choices that can be made when developing a language, and why current programming languages look the way they do.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

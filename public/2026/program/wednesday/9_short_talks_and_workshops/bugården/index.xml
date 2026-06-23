@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bugården on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/bug%C3%A5rden/</link>
+		<description>Recent content in Bugården on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/bug%C3%A5rden/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bygg en tilbakemeldingskultur – fra teori til praksis</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/bug%C3%A5rden/bygg-en-tilbakemeldingskultur-fra-teori-til-praksis/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/9_short_talks_and_workshops/bug%C3%A5rden/bygg-en-tilbakemeldingskultur-fra-teori-til-praksis/</guid>
+				<description>&lt;p&gt;I denne interaktive workshopen utforsker vi hvordan tilbakemeldinger kan bli en naturlig og verdifull del av hverdagen i teknologimiljøer. Mange utviklere og konsulenter er sterke på fag, men mangler verktøy og trygghet når det kommer til kommunikasjon og personlig utvikling. Vi tar for oss hvorfor tilbakemeldinger er en kritisk soft skill, og hvordan man kan trene på å både gi og motta dem – på en måte som bygger relasjoner og fremmer læring.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

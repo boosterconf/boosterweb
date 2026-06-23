@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 1 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/</link>
+		<description>Recent content in Kongesalen 1 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>When the cloud came home, rethinking code and consequences</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/when-the-cloud-came-home-rethinking-code-and-consequences/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/when-the-cloud-came-home-rethinking-code-and-consequences/</guid>
+				<description>&lt;p&gt;After years of focusing on clean architecture and efficient code, I had an eye-opening moment when plans emerged to build a massive data center down my street. It made me realize that, despite working in tech for over a decade, I had rarely questioned the environmental or societal impact of the systems I help create. Like many, I was a skilled builder but also a passive consumer of infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I will explore how everyday choices in code, cloud infrastructure, and system design affect far more than we realize, from security and GDPR risks to energy consumption and environmental impact. I’ll share why developers must take an active role in questioning cloud defaults, promoting sovereignty, and building greener, more responsible digital systems.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Reckless use of AI is unethical</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/reckless-use-of-ai-is-unethical/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/reckless-use-of-ai-is-unethical/</guid>
+				<description>&lt;p&gt;AI technology is being used for everything from helping people with meal planning to programming. However, if we are not conscious of what AI is and its limitations, it could have significant consequences for our future. If we blindly trust that AI data is neutral, we risk developing products and solutions that discriminate.&lt;/p&gt;&#xA;&lt;p&gt;This talk is not a doomsday warning, but rather a reminder of the potential consequences of using AI, along with a gentle nudge to get ahead of AI&amp;rsquo;s biases.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Easter will break your code</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/easter-will-break-your-code/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/easter-will-break-your-code/</guid>
+				<description>&lt;p&gt;Developers understand that dates can be tricky, but you might not realise how much havoc a moving holiday can wreak. Easter doesn&amp;rsquo;t have a date at all. It moves based on astronomical rules, and drags a bunch of other holidays around in its wake. That will wreck your schedules, payroll systems, and calendar apps if you mess up.&lt;/p&gt;&#xA;&lt;p&gt;Together we will unpack the Easter algorithm, look at how it shows up in modern software, and why a 4th century decision keeps throwing curveballs at our code. You&amp;rsquo;ll walk away knowing how to calculate it and a renewed respect for how dangerous &amp;ldquo;simple&amp;rdquo; date logic really is.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Developer Community at a Non-Dev Company: a How-to Guide</title>
+				<link>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/developer-community-at-a-non-dev-company-a-how-to-guide/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/thursday/7_lightning_talks/kongesalen_1/developer-community-at-a-non-dev-company-a-how-to-guide/</guid>
+				<description>&lt;p&gt;Creating a thriving professional community is essential for every workplace. It can be particularly challenging for groups outside a company&amp;rsquo;s core business areas.&#xA;I am a software developer passionate about community building who works at an energy company.&#xA;In this talk, I will reflect on what makes a workplace feel welcoming and inclusive. We will dive into good practices for establishing a dev community within a non-dev company.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

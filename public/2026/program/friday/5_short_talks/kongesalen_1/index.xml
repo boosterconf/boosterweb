@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kongesalen 1 on Booster Conference 2026 Bergen</title>
+    <link>http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_1/</link>
+    <description>Recent content in Kongesalen 1 on Booster Conference 2026 Bergen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Friendly Borders: Graph algorithms reveal Eurovision voting patterns</title>
+      <link>http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_1/friendly-borders-graph-algorithms-reveal-eurovision-voting-patterns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2026/program/friday/5_short_talks/kongesalen_1/friendly-borders-graph-algorithms-reveal-eurovision-voting-patterns/</guid>
+      <description>&lt;p&gt;Graphs offer a powerful tool for uncovering relationships and hidden patterns between entities. This presentation provides an introduction to graph theory, and demonstrates how graphs are applied across various business domains - from social network analysis and recommendation systems to fraud detection and supply chain optimization. Through an overview of core concepts and algorithmic approaches, the goal is to show how graphs can reveal underlying structures in complex systems.&lt;/p&gt;&#xA;&lt;p&gt;As a real-world case study, the presentation focuses on Eurovision voting - an area long suspected of regional bias and neighbourly favoritism. Using graph-based analysis and community detection techniques, we explore voting patterns between countries to better understand how geography, history, and politics influence the distribution of points. Through visualizations and data-driven insights, the talk demonstrates how graph theory uncovers hidden alliances and behavioral trends within the seemingly light-hearted spectacle of a music contest.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

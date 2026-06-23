@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Kongesalen 1 on Booster Conference 2026 Bergen</title>
+		<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/</link>
+		<description>Recent content in Kongesalen 1 on Booster Conference 2026 Bergen</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Robust and idempotent build pipelines using nix</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/robust-and-idempotent-build-pipelines-using-nix/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/robust-and-idempotent-build-pipelines-using-nix/</guid>
+				<description>&lt;p&gt;Build pipelines can be challenging to get right, they can be brittle and hard to debug, often suffering from &amp;lsquo;work on my machine&amp;rsquo; syndrome. We can eliminate most of this headache by adding nix to the mix&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Designing Transparent Tech for Kids: Why Explainability Matters</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/designing-transparent-tech-for-kids-why-explainability-matters/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/designing-transparent-tech-for-kids-why-explainability-matters/</guid>
+				<description>&lt;p&gt;Children today use apps that collect health data, monitor behavior, and adapt learning, often without understanding how or why. In this lightning talk, we explore the critical need for explainability in school technology. Why must tech be transparent not just for engineers, but also for students, teachers, and parents? What does it mean to design for understanding, and what are the risks when we don’t?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Going Old School - Moving from the cloud to my own server</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/going-old-school-moving-from-the-cloud-to-my-own-server/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/going-old-school-moving-from-the-cloud-to-my-own-server/</guid>
+				<description>&lt;p&gt;How is it like going back to the good old days of early 2000, where anything ran on it&amp;rsquo;s own server?&lt;/p&gt;&#xA;&lt;p&gt;I will share my experience of moving away from the cloud and back to a virtual private server. What can you get, and what do you lose? What does it mean in terms of deployment processes, security, robustness, scalability, privacy and compliance and performance?&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;and the big question of course: Would I do it again?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>People with agendas</title>
+				<link>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/people-with-agendas/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://www.boosterconf.no/2026/program/wednesday/5_lightning_talks/kongesalen_1/people-with-agendas/</guid>
+				<description>&lt;p&gt;Alexander Hamilton wrote a warning in 1787, that looking for peace and harmony among neighbouring states is to disregard the uniform course of human events.&#xA;There is a war in Europe, we are in a still escalating hybrid situation with Russia and we know our code and data can and will be weaponized if the powers that be decide to do so.&#xA;Moreover, big tech are pushing their own agenda, they do not like EU regulations that hit them in the pocket but they do love our money. At the same time they hold incredible power in terms of technology that cannot be easily replaced and enormous amounts of our data that cannot be easily moved.&#xA;What the f &amp;hellip; do we do?&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

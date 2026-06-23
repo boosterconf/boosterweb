@@ -2,7 +2,7 @@
 <div class="rocket">
     <div class="middle-of-image">
         <div class="dates-location">
-            <span class="font-page-conference-dates">March 11-13 2026</span>
+            <span class="font-page-conference-dates">March 17-19 2027</span>
             <span class="front-page-slogan">The Software Conference For The Whole Team</span>
         </div>
     </div>
@@ -21,18 +21,20 @@
         {{ with .Site.GetPage "/info/cfp" }}
           <div class="call-to-action">
             <a href="{{ .RelPermalink }}" class="call-to-action__link">
-              Submit
+              Submit your proposal
             </a>
           </div>
         {{ end }}
 
         {{ if .Site.GetPage "/program" }}
           {{ with .Site.GetPage "/program" }}
-            <div class="call-to-action">
-              <a href="{{ .RelPermalink }}" class="call-to-action__link">
-                Program {{if where .Site.Pages "Params.recording_url" "ne" nil}} & videos{{end}}
-              </a>
-            </div>
+            {{ if not (.Param "draft") }}
+              <div class="call-to-action">
+                <a href="{{ .RelPermalink }}" class="call-to-action__link">
+                  Program {{if where .Site.Pages "Params.recording_url" "ne" nil}} & videos{{end}}
+                </a>
+              </div>
+            {{ end }}
           {{ end }}
         {{ end }}
 
