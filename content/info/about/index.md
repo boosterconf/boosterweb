@@ -68,4 +68,4 @@ You can contact us on e-mail: [kontakt@boosterconf.no](mailto:kontakt@boostercon
 We need volunteers to help us organize the conference!
 If you are interested, please apply here: 
 
-[Become a volunteer at Booster 2027!](https://forms.gle/wuDB4s4wodiJw2mA6)
+[Become a volunteer at Booster 2027!](https://forms.gle/w3x1FkDusfRn2GZo6)
