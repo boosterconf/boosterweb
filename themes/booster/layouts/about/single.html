@@ -7,7 +7,7 @@
     {{- .Content -}}
     
     <h2 id="who-are-we">Who are we?</h2>
-    <ul id="organizers">
+    <ul id="organizers" class="gallery">
       {{ range  .Resources.Match "who-are-we/*"  }}  
       <li class="organizer">
         {{ $image := (.Fill "200x220 smart").Filter images.Grayscale }}
@@ -15,7 +15,7 @@
         <img class="organizer-image"
           srcset="{{ $double.RelPermalink }} 2x,
           {{ $image.RelPermalink }} 1x"
-          src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+          src="{{ $image.RelPermalink }}">
         
         <div class="organizer-meta">
           <span class="name">{{ .Title }}</span>

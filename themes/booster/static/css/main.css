@@ -308,28 +308,8 @@ article .map iframe {
 }
 /* Organizers styling */
 #organizers {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 0;
-  list-style: none;
-}
-
-#organizers .organizer {
-  flex-basis: 33%;
-  margin-bottom: 1rem;
-}
-#organizers .organizer img {
-  max-width: 200px;
-}
-#organizers .organizer .name {
-  display: block;
-  font-weight: 400;
-}
-#organizers .organizer .twitter-handle {
-  display: block;
-  font-weight: 400;
+  max-width: 600px;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
 }
 /* Front styling */
 .rocket,
@@ -1146,6 +1126,10 @@ button.toggler.toggled {
     gap: 8px;
     max-width: 1100px;
     padding: 0;
+    text-align: center;
+}
+.gallery > li {
+    list-style: none;
 }
 .gallery a {
     display: flex;
