@@ -34,10 +34,10 @@ resources:
 #      title: Equinor
 #      params:
 #        url: https://www.equinor.com/no
-#    - src: logos/el-og-it-forbundet.svg
-#      title: El og IT Forbundet
-#      params:
-#        url: https://elogit.no/
+    - src: logos/el-og-it-forbundet.svg
+      title: El og IT Forbundet
+      params:
+        url: https://elogit.no/
 #    - src: logos/eviny.svg
 #      title: Eviny
 #      params:
@@ -90,10 +90,10 @@ resources:
 #      title: Nordea
 #      params:
 #        url: https://www.nordea.no/
-#    - src: logos/noria.png
-#      title: Noria
-#      params:
-#        url: https://www.noria.no/
+    - src: logos/noria.png
+      title: Noria
+      params:
+        url: https://www.noria.no/
 #    - src: logos/solea.png
 #      title: Solea
 #      params:
@@ -114,10 +114,10 @@ resources:
 #      title: Sparebanken Norge
 #      params:
 #        url: https://www.spv.no/
-#    - src: logos/stacc.svg
-#      title: Stacc
-#      params:
-#        url: https://stacc.com/
+    - src: logos/stacc.svg
+      title: Stacc
+      params:
+        url: https://stacc.com/
 #    - src: logos/webstep.svg
 #      title: Webstep
 #      params:
