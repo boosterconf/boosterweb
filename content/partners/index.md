@@ -82,10 +82,10 @@ resources:
 #      title: Kraftlauget
 #      params:
 #        url: https://www.kraftlauget.no/
-#    - src: logos/miles2.svg
-#      title: Miles
-#      params:
-#        url: http://www.miles.no
+    - src: logos/miles2.svg
+      title: Miles
+      params:
+        url: http://www.miles.no
 #    - src: logos/nordea.png
 #      title: Nordea
 #      params:
