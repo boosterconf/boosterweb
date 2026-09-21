@@ -106,10 +106,10 @@ resources:
 #      title: Sonat Consulting
 #      params:
 #        url: http://www.sonat.no
-#    - src: logos/soprasteria.png
-#      title: Sopra Steria
-#      params:
-#        url: https://www.soprasteria.no/
+    - src: logos/soprasteria.svg
+      title: Sopra Steria
+      params:
+        url: https://www.soprasteria.no/
 #    - src: logos/sparebanken-norge.svg
 #      title: Sparebanken Norge
 #      params:
