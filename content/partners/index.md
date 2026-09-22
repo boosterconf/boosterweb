@@ -70,10 +70,10 @@ resources:
 #      title: Itslearning
 #      params:
 #        url: https://itslearning.com/
-#    - src: logos/kantega.svg
-#      title: Kantega
-#      params:
-#        url: http://www.kantega.no
+    - src: logos/kantega.svg
+      title: Kantega
+      params:
+        url: http://www.kantega.no
 #    - src: logos/knowit.svg
 #      title: Knowit
 #      params:
