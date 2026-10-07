@@ -118,10 +118,10 @@ resources:
       title: Stacc
       params:
         url: https://stacc.com/
-#    - src: logos/webstep.svg
-#      title: Webstep
-#      params:
-#        url: https://www.webstep.no/
+    - src: logos/webstep.svg
+      title: Webstep
+      params:
+        url: https://www.webstep.no/
 #    - src: logos/ren.svg
 #      title: REN
 #      params:
