@@ -58,10 +58,10 @@ resources:
 #      title: Highsoft
 #      params:
 #        url: https://www.highcharts.com/
-#    - src: logos/instech.png
-#      title: Instech
-#      params:
-#        url: https://www.instech.no/
+    - src: logos/instech.png
+      title: Instech
+      params:
+        url: https://www.instech.no/
 #    - src: logos/Itera-logo-lobster.png
 #      title: Itera
 #      params:
