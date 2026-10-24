@@ -161,12 +161,12 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
                 let accepted_as = session
                     .categories
                     .iter()
-                    .filter(|x| x.name == "Akseptert som")
+                    .filter(|x| x.name == "Session accepted as format")
                     .collect::<Vec<_>>();
 
                 if accepted_as.len() != 1 {
                     return Err(format!(
-                        "All session categories that are not based on title name must have one single \"Akseptert som\" category, {}, does not",
+                        "All session categories that are not based on title name must have one single \"Session accepted as format\" category, {}, does not",
                         session.title
                     ));
                 }
@@ -175,7 +175,7 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
 
                 if category_items.len() != 1 {
                     return Err(format!(
-                        "All \"Akseptert som\" categories must have one single category item, {}, does not",
+                        "All \"Session accepted as format\" categories must have one single category item, {}, does not",
                         session.title
                     ));
                 }
@@ -216,6 +216,7 @@ impl TryFrom<(&SessionizeAllMetadata, &SessionizeDayToDayIntermediate)> for Sess
             is_english: session_metadata
                 .question_answers
                 .iter()
+                // TODO: We need to find the question_id for "Session accepted as language"
                 .find(|x| x.question_id == 114013)
                 .is_some_and(|x| x.answer_value),
             is_continuation: intermediate.continuation,
