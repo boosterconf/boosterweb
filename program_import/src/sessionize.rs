@@ -4,7 +4,7 @@
 use crate::{constants::*, domain::*};
 
 use bytes::Bytes;
-use chrono::{DateTime, NaiveTime, Utc};
+use chrono::{NaiveDateTime, NaiveTime};
 use itertools::Itertools;
 use serde::Deserialize;
 use tokio::join;
@@ -43,8 +43,8 @@ pub struct SessionizeSession {
     title: String,
     is_service_session: bool,
     is_plenum_session: bool,
-    starts_at: DateTime<Utc>,
-    ends_at: DateTime<Utc>,
+    starts_at: NaiveDateTime,
+    ends_at: NaiveDateTime,
     description: Option<String>,
     categories: Vec<SessionizeCategory>,
     speakers: Vec<SessionizeSpeaker>,
@@ -73,7 +73,7 @@ pub struct SessionizeSlot {
 #[derive(Debug, PartialEq, Eq, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct SessionizeDay {
-    date: DateTime<Utc>,
+    date: NaiveDateTime,
     time_slots: Vec<SessionizeSlot>,
 }
 
@@ -128,8 +128,8 @@ impl TryFrom<(SessionizeSession, &SessionizeSessionMetadata)> for Session {
                 .find(|x| x.question_id == 114013)
                 .is_some_and(|x| x.answer_value),
             is_continuation: false,
-            starts_at: value.starts_at,
-            ends_at: value.ends_at,
+            starts_at: value.starts_at.and_utc(),
+            ends_at: value.ends_at.and_utc(),
             description: value.description,
             recording_url: metadata.recording_url.clone(),
             category,
@@ -161,12 +161,12 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
                 let accepted_as = session
                     .categories
                     .iter()
-                    .filter(|x| x.name == "Akseptert som")
+                    .filter(|x| x.name == "Session accepted as format")
                     .collect::<Vec<_>>();
 
                 if accepted_as.len() != 1 {
                     return Err(format!(
-                        "All session categories that are not based on title name must have one single \"Akseptert som\" category, {}, does not",
+                        "All session categories that are not based on title name must have one single \"Session accepted as format\" category, {}, does not",
                         session.title
                     ));
                 }
@@ -175,7 +175,7 @@ impl TryFrom<&SessionizeSession> for SessionCategory {
 
                 if category_items.len() != 1 {
                     return Err(format!(
-                        "All \"Akseptert som\" categories must have one single category item, {}, does not",
+                        "All \"Session accepted as format\" categories must have one single category item, {}, does not",
                         session.title
                     ));
                 }
@@ -205,10 +205,10 @@ impl TryFrom<(&SessionizeAllMetadata, &SessionizeDayToDayIntermediate)> for Sess
         (metadata, intermediate): (&SessionizeAllMetadata, &SessionizeDayToDayIntermediate),
     ) -> Result<Self, Self::Error> {
         let session_metadata = metadata
-                .sessions
-                .iter()
-                .find(|y| y.id == intermediate.room.session.id)
-                .unwrap();
+            .sessions
+            .iter()
+            .find(|y| y.id == intermediate.room.session.id)
+            .unwrap_or_else(|| panic!("Couldn't find session metadata for session ID: {}", intermediate.room.session.id));
         Ok(Session {
             title: intermediate.room.session.title.clone(),
             is_service_session: intermediate.room.session.is_service_session,
@@ -219,8 +219,8 @@ impl TryFrom<(&SessionizeAllMetadata, &SessionizeDayToDayIntermediate)> for Sess
                 .find(|x| x.question_id == 114013)
                 .is_some_and(|x| x.answer_value),
             is_continuation: intermediate.continuation,
-            starts_at: intermediate.room.session.starts_at,
-            ends_at: intermediate.room.session.ends_at,
+            starts_at: intermediate.room.session.starts_at.and_utc(),
+            ends_at: intermediate.room.session.ends_at.and_utc(),
             recording_url: session_metadata.recording_url.clone(),
             description: intermediate.room.session.description.clone(),
             category: SessionCategory::try_from(&intermediate.room.session)?,
@@ -246,7 +246,7 @@ impl
     TryFrom<(
         &SessionizeAllMetadata,
         Vec<SessionizeDayToDayIntermediate>,
-        Option<DateTime<Utc>>,
+        Option<NaiveDateTime>,
     )> for Slot
 {
     type Error = String;
@@ -255,7 +255,7 @@ impl
         (metadata, intermediates, ends_at): (
             &SessionizeAllMetadata,
             Vec<SessionizeDayToDayIntermediate>,
-            Option<DateTime<Utc>>,
+            Option<NaiveDateTime>,
         ),
     ) -> Result<Self, Self::Error> {
         let new_rooms = intermediates
@@ -279,14 +279,17 @@ impl
                 .find_or_first(|session| !session.is_continuation)
                 .unwrap()
                 .starts_at,
-            ends_at: ends_at.unwrap_or_else(|| {
-                new_rooms
-                    .iter()
-                    .flat_map(|x| &x.sessions)
-                    .map(|x| x.ends_at)
-                    .max()
-                    .unwrap()
-            }),
+            ends_at: ends_at
+                .unwrap_or_else(|| {
+                    new_rooms
+                        .iter()
+                        .flat_map(|x| &x.sessions)
+                        .map(|x| x.ends_at)
+                        .max()
+                        .unwrap()
+                        .naive_utc()
+                })
+                .and_utc(),
             rooms: new_rooms,
         })
     }
@@ -335,8 +338,8 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
                 };
 
                 slots.push(Slot {
-                    starts_at: day.date.with_time(slot.slot_start).unwrap(),
-                    ends_at: non_content_room.session.ends_at,
+                    starts_at: day.date.and_utc().with_time(slot.slot_start).unwrap(),
+                    ends_at: non_content_room.session.ends_at.and_utc(),
                     rooms: vec![Room {
                         name: non_content_room.name.clone(),
                         sessions: vec![Session::try_from((
@@ -371,7 +374,7 @@ impl TryFrom<(SessionizeDay, &SessionizeAllMetadata)> for Day {
         }
 
         Ok(Day {
-            date: day.date.date_naive(),
+            date: day.date.date(),
             time_slots: slots,
         })
     }
@@ -438,7 +441,7 @@ pub async fn fetch_profile_picture(
 mod tests {
     use std::fs;
 
-    use chrono::{NaiveDate, TimeZone};
+    use chrono::{NaiveDate, TimeZone, Utc};
 
     use super::*;
 
@@ -448,32 +451,31 @@ mod tests {
         let all = fs::read_to_string("test_fixtures/All.json").unwrap();
 
         let mut days = program_parse(&days, &all).unwrap();
-        days[1].time_slots.truncate(1);
-        days[1].time_slots[0].rooms.truncate(1);
-        days[1].time_slots[0].rooms[0].sessions.truncate(1);
+        days[0].time_slots.truncate(1);
+        days[0].time_slots[0].rooms.truncate(1);
+        days[0].time_slots[0].rooms[0].sessions.truncate(1);
 
         assert_eq!(
-            // We're only testing Thursday as it's the most complex day
-            days[1],
+            days[0],
             Day {
-                date: NaiveDate::from_ymd_opt(2026, 3, 12).unwrap(),
+                date: NaiveDate::from_ymd_opt(2027, 3, 17).unwrap(),
                 time_slots: vec![Slot {
-                    starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 0, 0).unwrap(),
-                    ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 9, 30, 0).unwrap(),
+                    starts_at: Utc.with_ymd_and_hms(2027, 3, 17, 8, 0, 0).unwrap(),
+                    ends_at: Utc.with_ymd_and_hms(2027, 3, 17, 9, 0, 0).unwrap(),
                     rooms: vec![Room {
-                        name: "Kongesalen 2-3".to_string(),
+                        name: "Reception area".to_string(),
                         sessions: vec![Session {
-                            title: "There is more to life than KPIs".to_string(),
-                            is_english: true,
+                            title: "Registration".to_string(),
+                            is_english: false,
                             is_continuation: false,
-                            is_service_session: false,
+                            is_service_session: true,
                             is_plenum_session: false,
-                            starts_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 0, 0).unwrap(),
-                            ends_at: Utc.with_ymd_and_hms(2026, 3, 12, 8, 30, 0).unwrap(),
+                            starts_at: Utc.with_ymd_and_hms(2027, 3, 17, 8, 0, 0).unwrap(),
+                            ends_at: Utc.with_ymd_and_hms(2027, 3, 17, 9, 0, 0).unwrap(),
                             recording_url: None,
-                            description: Some("During an Open Space discussion at last year`s Booster Conference, we discussed the distance between leaders and teams. I think the gap is real, but it is not there because of bad intentions. Instead, I believe the gap exists because it is difficult to see how leaders achieve control by letting go of it. \r\n\r\nOver the past year leading an area of highly skilled and diverse teams, I have put this into practice. Some things worked, others didn’t, but the common thread is that I must prove myself worthy of the team's trust. \r\n\r\nPerhaps some of my experiences make sense to others as well?".to_string()),
-                            category: SessionCategory::ExperienceReport,
-                            speakers: vec!["Louis Dieffenthaler".to_string()],
+                            description: None,
+                            category: SessionCategory::Registration,
+                            speakers: vec![],
                         }]
                     }]
                 }],
@@ -490,8 +492,8 @@ mod tests {
 
         assert_eq!(
             // Test a long continuation at the same time as single-slot sessions
-            days[2].time_slots[4].starts_at,
-            Utc.with_ymd_and_hms(2026, 3, 13, 12, 30, 0).unwrap()
+            days[0].time_slots[0].starts_at,
+            Utc.with_ymd_and_hms(2027, 3, 17, 8, 0, 0).unwrap()
         )
     }
 
@@ -504,10 +506,10 @@ mod tests {
         assert_eq!(
             speakers[0],
             Speaker {
-                name: "Abel van Beek".into(),
-                title: Some("I create kick-ass user experiences at Troms Fylkeskommune".into()),
-                bio: Some("Abel is a software developer turned UX designer to create kick-ass user experiences at Troms County. He has a passion for innovation, collaboration, and design systems, bridging the gap between design and development to bring his creations to life.".into()),
-                profile_picture: Some(ProfilePicture {id: "https://sessionize.com/image/785e-400o400o1-BERedexdRfdPHXmVdTL8WW.jpg".into()}),
+                name: "Test Tester".into(),
+                title: Some("Some tester".into()),
+                bio: Some("Test bio".into()),
+                profile_picture: Some(ProfilePicture {id: "https://cdn.sessionize.com/image/3fb0ef72-6ac0-42a6-a4ad-39dfa97d75f7.jpg".into()}),
             }
         )
     }

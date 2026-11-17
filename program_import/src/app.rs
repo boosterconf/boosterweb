@@ -147,7 +147,7 @@ pub async fn speakers_to_markdown(
     }
 
     for speaker in removed_speakers {
-        println!("Removed speaker: {}", &speaker.name);
+        println!("Removed speaker: {}", speaker.name);
         speaker_files.remove_speaker(speaker.name).await?;
     }
 

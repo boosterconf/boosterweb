@@ -283,7 +283,7 @@ impl SpeakerFiles {
                         res.push((
                             ProfilePicture {
                                 id: format!(
-                                    "https://sessionize.com/image/{}",
+                                    "https://cdn.sessionize.com/image/{}",
                                     f.file_name().into_string().unwrap(),
                                 ),
                             },

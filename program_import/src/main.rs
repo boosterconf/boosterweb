@@ -18,13 +18,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("Parsing days and speakers");
     let days = sessionize::program_parse(&sessionize_data.0, &sessionize_data.1)?;
-    let speakers = sessionize::speakers_parse(sessionize_data.1)?;
 
     println!("Writing Booster 2026 program");
     let program_files = ProgramFiles::new(Path::new("../content/program").into());
     app::days_to_markdown(program_files, days).await?;
 
     println!("Writing Booster 2026 speakers");
+    let speakers = sessionize::speakers_parse(sessionize_data.1)?;
     let speaker_files = SpeakerFiles::new(Path::new("../content/speaker").into());
     app::speakers_to_markdown(&speaker_files, &speakers).await?;
     app::speakers_to_profile_pictures(&speaker_files, &speakers).await?;

@@ -1,7 +1,6 @@
 //! Presentation layer. Which right now means Markdown for Hugo to consume.
 
 use chrono::Datelike;
-use chrono_tz::Europe::Oslo;
 
 use crate::domain::{
     Day, Room, Session, SessionCategory, Slot, Speaker, is_session_category_content,
@@ -42,8 +41,8 @@ fn content_session_md_type(session: &Session) -> (&'static str, Option<&'static 
 }
 
 pub fn slot_markdown(i: usize, slot: &Slot) -> String {
-    let starts_at = slot.starts_at.with_timezone(&Oslo).format("%H:%M");
-    let ends_at = slot.ends_at.with_timezone(&Oslo).format("%H:%M");
+    let starts_at = slot.starts_at.format("%H:%M");
+    let ends_at = slot.ends_at.format("%H:%M");
 
     let content = format!(
         r#"---
@@ -157,10 +156,9 @@ authors:
     } else {
         let starts_at = session
             .starts_at
-            .with_timezone(&Oslo)
             .time()
             .format("%H:%M");
-        let ends_at = session.ends_at.with_timezone(&Oslo).time().format("%H:%M");
+        let ends_at = session.ends_at.time().format("%H:%M");
         let time = if session_has_end(&session.category) {
             format!("{starts_at} - {ends_at}")
         } else {
@@ -199,10 +197,10 @@ weight: {i}
 
 pub fn speaker_markdown(speaker: &Speaker) -> String {
     let name = &speaker.name;
-    let title = speaker
-        .title
-        .clone()
-        .map_or_else(|| "".to_string(), |x| format!("\ntitle: \"{x}\""));
+    let title = speaker.title.clone().map_or_else(
+        || "".to_string(),
+        |x| format!("\ntitle: \"{}\"", x.replace("\"", "\\\"")),
+    );
     let bio = speaker
         .bio
         .clone()
@@ -374,7 +372,7 @@ A test description
         );
 
         let expected_md = r#"---
-time: "11:15 - 11:35"
+time: "10:15 - 10:35"
 location: "Test room"
 title: "Break"
 type: break
