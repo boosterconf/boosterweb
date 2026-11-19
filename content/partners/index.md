@@ -118,6 +118,10 @@ resources:
       title: Stacc
       params:
         url: https://stacc.com/
+    - src: logos/tet.svg
+      title: Tet Digital
+      params:
+        url: https://tetdigital.com/
     - src: logos/webstep.svg
       title: Webstep
       params:
