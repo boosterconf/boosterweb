@@ -121,7 +121,7 @@ resources:
     - src: logos/tet.svg
       title: Tet Digital
       params:
-        url: https://tetdigital.com/
+        url: https://tetdigital.no/
     - src: logos/webstep.svg
       title: Webstep
       params:
