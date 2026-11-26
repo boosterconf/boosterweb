@@ -50,6 +50,10 @@ resources:
 #      title: Fana Sparebank
 #      params:
 #        url: https://www.fanasparebank.no/
+    - src: logos/fonn.svg
+      title: Fonn Group
+      params:
+        url: https://fonngroup.com/
     - src: logos/frende.svg
       title: Frende
       params:
