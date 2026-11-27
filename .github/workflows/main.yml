@@ -20,6 +20,7 @@ jobs:
       uses: actions/cache@v4
       with:
         path: program_import/target
+        key: ${{ runner.os }}-build-${{ env.cache-name }}
     - name: Build
       working-directory: ./program_import
       run: cargo run --locked
