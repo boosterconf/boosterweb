@@ -17,15 +17,17 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Cache program_import compiles
+      env:
+        cache-name: cache-binary
       uses: actions/cache@v4
       with:
         path: program_import/target/debug/program_import
         key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('program_import/**/*', '!program_import/target') }}
-    - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+    - if: ${{ steps.cache-binary.outputs.cache-hit != 'true' }}
       name: Build
       working-directory: ./program_import
       run: cargo run --locked
-    - if: ${{ steps.cache-npm.outputs.cache-hit == 'true' }}
+    - if: ${{ steps.cache-binary.outputs.cache-hit == 'true' }}
       name: Run already built binary
       working-directory: ./program_import
       run: ./target/debug/program_import
