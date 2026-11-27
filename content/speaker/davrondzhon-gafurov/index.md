@@ -1,0 +1,5 @@
+---
+name: "Davrondzhon Gafurov"
+title: "Statens vegvesen "
+---
+Davrondzhon is a quality professional at the Norwegian Public Roads Administration (Statens vegvesen), focusing on security testing and test automation, with a strong interest in user experience (UX). He is passionate about improving critical, socially impactful systems by strengthening user trust and ensuring both their security and usability. His work with large-scale public solutions has sharpened his ability to uncover both critical and subtle defects and challenge established assumptions. He has a broad technical foundation supported by multiple ISTQB certifications, including Technical Test Analyst, Security Tester and Test Automation Engineer. Davrondzhon enjoys contributing to the software and security community and sharing insights at conferences. He has previously presented at several well-known industry events, including NDC Oslo, Sikkerhetsfestivalen (2024), EuroSTAR, Test Automation Days and IEEE Automated Software Engineering, among others.
