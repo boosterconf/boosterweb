@@ -3,9 +3,7 @@ name: auto-import program
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 12,20 * 02 *"
-    - cron: "0 12,20 1-11 03 *"
-    - cron: "45 06-15 11,12,13 03 *"
+    - cron: "*/5 * * * *"
 
 env:
   CARGO_TERM_COLOR: always
