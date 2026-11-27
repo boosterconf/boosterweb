@@ -19,11 +19,16 @@ jobs:
     - name: Cache program_import compiles
       uses: actions/cache@v4
       with:
-        path: program_import/target
+        path: program_import/target/debug/program_import
         key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('program_import/**/*', '!program_import/target') }}
-    - name: Build
+    - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
+      name: Build
       working-directory: ./program_import
       run: cargo run --locked
+    - if: ${{ steps.cache-npm.outputs.cache-hit == 'true' }}
+      name: Run already built binary
+      working-directory: ./program_import
+      run: ./target/debug/program_import
     - run: git add content
     - name: setup git config
       run: |
