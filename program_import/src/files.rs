@@ -87,7 +87,8 @@ impl ProgramFiles {
     ) -> Result<(), Box<dyn std::error::Error>> {
         let day_dir = Self::day_dir(self, day);
 
-        fs::remove_dir_all(&day_dir).await?;
+        // This will error if the dir doesn't already exist, which is fine.
+        let _ = fs::remove_dir_all(&day_dir).await;
         fs::create_dir(&day_dir).await?;
         fs::write(day_dir.join("_index.md"), contents).await?;
 
