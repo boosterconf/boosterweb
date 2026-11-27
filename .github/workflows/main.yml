@@ -16,14 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: "Cache dependencies"
-      uses: Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5
+    - name: Cache program_import compiles
+      uses: actions/cache@v4
       with:
-        workspaces: program_import
-        cache-on-failure: true
+        path: program_import/target
     - name: Build
       working-directory: ./program_import
-      run: cargo run --locked --verbose
+      run: cargo run --locked
     - run: git add content
     - name: setup git config
       run: |
