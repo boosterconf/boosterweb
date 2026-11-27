@@ -18,10 +18,12 @@ jobs:
     - uses: actions/checkout@v4
     - name: Cache program_import compiles
       id: cache-binary
+      env:
+        cache-name: cache-binary
       uses: actions/cache@v4
       with:
         path: program_import/target/debug/program_import
-        key: ${{ runner.os }}-build-${{ id }}-${{ hashFiles('program_import/**/*', '!program_import/target') }}
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('program_import/**/*', '!program_import/target') }}
     - if: ${{ steps.cache-binary.outputs.cache-hit != 'true' }}
       name: Build
       working-directory: ./program_import
